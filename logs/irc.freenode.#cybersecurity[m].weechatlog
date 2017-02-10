@@ -3,3 +3,7 @@
 2017-02-09 20:09:44	--	Topic set by fractal (fractal@unaffiliated/scounder) on Wed, 28 Dec 2016 11:42:51
 2017-02-09 20:09:44	--	Channel #cybersecurity[m]: 377 nicks (2 ops, 6 voices, 369 normals)
 2017-02-09 20:09:44	--	Channel created on Sat, 26 Nov 2016 11:40:12
+2017-02-09 20:31:03	interfect[m]	How is a key file good? Can't people just try all the files they find in your house?
+2017-02-09 20:35:22	--	Notice(RSSBot[Cibliamat): Ubuntu Security Notices posted a new article: USN-3195-1: Nova-LXD vulnerability ( http://www.ubuntu.com/usn/usn-3195-1/ )
+2017-02-09 21:24:01	xloem[m]	@interfect often it is encrypted with a passphrase, and kept in a secure location.  memorable strings are often guessable with today's hardware, and advertise themselves when enter them via eg keystroke noise
+2017-02-09 21:25:08	◀▬▬	R1ckROSS (~8adboyKAS@37.0.122.232) has quit (Ping timeout: 255 seconds)

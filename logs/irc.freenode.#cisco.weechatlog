@@ -35,3 +35,33 @@
 2017-02-09 20:06:53	◀▬▬	BH_Anonymous (~textual@93.188.192.122) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
 2017-02-09 20:07:00	◀▬▬	caseih (caseih@LFbn-1-7942-109.w90-112.abo.wanadoo.fr) has quit (Ping timeout: 240 seconds)
 2017-02-09 20:10:07	▬▬▶	nighty (~nighty@d246113.ppp.asahi-net.or.jp) has joined #cisco
+2017-02-09 20:17:17	◀▬▬	dark_15 (~Adium@8.25.197.24) has quit (Quit: Leaving.)
+2017-02-09 20:18:00	◀▬▬	harukomoto (~harukomot@93-41-20-224.ip79.fastwebnet.it) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:18:13	◀▬▬	fatdragon (~fatdragon@cpe-107-184-105-188.socal.res.rr.com) has quit (Remote host closed the connection)
+2017-02-09 20:18:35	◀▬▬	neotic (~neotic@d074.broadband.quicknet.se) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:19:23	▬▬▶	neotic (~neotic@d074.broadband.quicknet.se) has joined #cisco
+2017-02-09 20:20:06	▬▬▶	vonsyd0w (~vonsyd0w@unaffiliated/vonsyd0w) has joined #cisco
+2017-02-09 20:28:22	▬▬▶	goldstar (~chatzilla@217.138.9.21) has joined #cisco
+2017-02-09 20:30:39	▬▬▶	zman099 (~zzzz_@ip68-96-83-80.oc.oc.cox.net) has joined #cisco
+2017-02-09 20:32:54	◀▬▬	toastr (~toastr@pdpc/supporter/active/toastr) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-02-09 20:40:29	◀▬▬	ghostboarder (~ghostboar@162.219.176.20) has quit
+2017-02-09 20:46:02	◀▬▬	crayon (~realname@unaffiliated/crayon) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:46:16	▬▬▶	es1 (~es1@unaffiliated/es1) has joined #cisco
+2017-02-09 20:51:53	◀▬▬	marie1972 (~marie1972@179.43.147.28) has quit
+2017-02-09 20:54:04	▬▬▶	marie1972 (marie1972@cpe-75-81-138-153.kc.res.rr.com) has joined #cisco
+2017-02-09 21:00:31	◀▬▬	lroe (~roe@unaffiliated/roe) has quit (Ping timeout: 258 seconds)
+2017-02-09 21:01:31	◀▬▬	mroe (~roe@unaffiliated/roe) has quit (Remote host closed the connection)
+2017-02-09 21:02:06	▬▬▶	mroe (~roe@unaffiliated/roe) has joined #cisco
+2017-02-09 21:02:19	▬▬▶	goldstar_ (~chatzilla@192.71.244.42) has joined #cisco
+2017-02-09 21:03:28	▬▬▶	lroe (~roe@unaffiliated/roe) has joined #cisco
+2017-02-09 21:03:51	▬▬▶	goldstar__ (~chatzilla@217.138.9.21) has joined #cisco
+2017-02-09 21:05:30	◀▬▬	goldstar (~chatzilla@217.138.9.21) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:06:36	◀▬▬	kolko_ (~kolko@ppp109-252-90-178.pppoe.spdop.ru) has quit (Quit: ZNC - http://znc.in)
+2017-02-09 21:06:52	◀▬▬	mroe (~roe@unaffiliated/roe) has quit (Ping timeout: 260 seconds)
+2017-02-09 21:07:00	◀▬▬	goldstar_ (~chatzilla@192.71.244.42) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:07:52	▬▬▶	jge_ (~textual@99-157-198-180.lightspeed.miamfl.sbcglobal.net) has joined #cisco
+2017-02-09 21:08:27	◀▬▬	Cheeze_It (ae10b9ec@gateway/web/freenode/ip.174.16.185.236) has quit (Quit: Page closed)
+2017-02-09 21:10:24	▬▬▶	kolko (~kolko@ppp109-252-90-178.pppoe.spdop.ru) has joined #cisco
+2017-02-09 21:19:18	◀▬▬	ServChan (403cc612@gateway/web/cgi-irc/kiwiirc.com/ip.64.60.198.18) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2017-02-09 21:19:41	◀▬▬	Brandon (~textual@2a00:23c4:3e64:e300:44e6:30d9:b1d4:4faf) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-02-09 21:26:22	▬▬▶	goldstar (~chatzilla@192.71.244.42) has joined #cisco

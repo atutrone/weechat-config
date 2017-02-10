@@ -288,3 +288,358 @@
 2017-02-09 20:13:02	▬▬▶	Synergiance (~syn@lsv1.synerfiles.info) has joined ##linux
 2017-02-09 20:13:32	tammy_	Walex: I just adds more spaces after configfile
 2017-02-09 20:13:44	◀▬▬	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has quit
+2017-02-09 20:14:13	Walex	tammy_: it should also list devices
+2017-02-09 20:14:18	tammy_	nope
+2017-02-09 20:14:29	▬▬▶	macskay (~macskay@luna232.startdedicated.de) has joined ##linux
+2017-02-09 20:14:30	Walex	tammy_: tryu 'configfile hd<TAB>'
+2017-02-09 20:14:44	tammy_	ah, added a /
+2017-02-09 20:14:47	◀▬▬	Jason_ (~Jason@unaffiliated/Jason) has quit (Ping timeout: 252 seconds)
+2017-02-09 20:14:49	◀▬▬	WKNiGHT (uid41664@gateway/web/irccloud.com/x-kpopoxsdgdvfwuum) has quit (Quit: Connection closed for inactivity)
+2017-02-09 20:14:49	Walex	tammy_: or 'configfile (<TAB>'
+2017-02-09 20:15:04	tammy_	hd/efi with options of ubuntu/ and debian/
+2017-02-09 20:15:22	◀▬▬	chomwitt (~chomwitt@athedsl-352128.home.otenet.gr) has quit (Ping timeout: 264 seconds)
+2017-02-09 20:15:33	Walex	tammy_: well, dig deeper.
+2017-02-09 20:15:38	▬▬▶	wulfgarpro (~wulfgarpr@138.44.192.14) has joined ##linux
+2017-02-09 20:15:52	◀▬▬	S1GSEGV (~S1GSEGV@gateway/tor-sasl/s1gsegv) has quit (Changing host)
+2017-02-09 20:15:52	▬▬▶	S1GSEGV (~S1GSEGV@unaffiliated/s1gsegv) has joined ##linux
+2017-02-09 20:15:52	◀▬▬	S1GSEGV (~S1GSEGV@unaffiliated/s1gsegv) has quit (Changing host)
+2017-02-09 20:15:52	▬▬▶	S1GSEGV (~S1GSEGV@gateway/tor-sasl/s1gsegv) has joined ##linux
+2017-02-09 20:15:54	Walex	tammy_: BTW I don't use EFI boot so I don't know how to proceed further there
+2017-02-09 20:15:57	◀▬▬	jathan (~jathan@arcmty01.izabc.com) has quit (Quit: Saliendo)
+2017-02-09 20:15:58	tammy_	debian/grubx64.efi
+2017-02-09 20:16:07	tammy_	awwwww
+2017-02-09 20:16:09	tammy_	:(
+2017-02-09 20:16:11	tammy_	lol
+2017-02-09 20:16:51	tammy_	I wonder if it's as easy as hitting enter....
+2017-02-09 20:16:59	◀▬▬	IFightForTheUser (~IFightFor@unaffiliated/ifightfortheuser) has quit (Ping timeout: 252 seconds)
+2017-02-09 20:17:07	markasoftware	my install isn't detecting flash drives anymore...
+2017-02-09 20:17:11	◀▬▬	S1GSEGV (~S1GSEGV@gateway/tor-sasl/s1gsegv) has quit (Quit: S1GSEGV)
+2017-02-09 20:17:12	markasoftware	i see them in dmesg log but not in lsblk
+2017-02-09 20:17:15	markasoftware	or nautilus
+2017-02-09 20:17:16	▬▬▶	skweek (~skweek@68-200-146-225.res.bhn.net) has joined ##linux
+2017-02-09 20:17:29	▬▬▶	S1GSEGV (~S1GSEGV@gateway/tor-sasl/s1gsegv) has joined ##linux
+2017-02-09 20:17:58	◀▬▬	degantyll (~randres@201.123.152.210) has quit (Quit: WeeChat 1.5)
+2017-02-09 20:18:00	◀▬▬	harukomoto (~harukomot@93-41-20-224.ip79.fastwebnet.it) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:18:07	▬▬▶	rotah (rotah@agmc6.neoplus.adsl.tpnet.pl) has joined ##linux
+2017-02-09 20:18:16	Walex	tammy_: from the little I know 'grubx64.efi' should be booted by EFI, and is the shell you are using.
+2017-02-09 20:18:43	▬▬▶	forgotmynick (uid24625@gateway/web/irccloud.com/x-mthqtasisgfogcwc) has joined ##linux
+2017-02-09 20:18:58	Walex	tammy_: you need to find the '/boot/' directory partition with GRUB, presumably thatr would be in partition 2.
+2017-02-09 20:19:07	◀▬▬	D-rex (~derek@c-73-195-178-75.hsd1.nj.comcast.net) has quit (Quit: Konversation terminated!)
+2017-02-09 20:19:16	◀▬▬	Chinggis6 (~chinggis@unaffiliated/chinggis6) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:19:50	◀▬▬	gry (~svetlana@fsf/member/svetlana) has quit (Quit: heading out..)
+2017-02-09 20:19:52	◀▬▬	neonpastor (~neonPasto@67.205.129.250) has quit (Quit: Adios!)
+2017-02-09 20:19:54	◀▬▬	gzuh (~chip@172.56.6.13) has quit (Ping timeout: 245 seconds)
+2017-02-09 20:20:07	▬▬▶	vonsyd0w (~vonsyd0w@unaffiliated/vonsyd0w) has joined ##linux
+2017-02-09 20:20:38	▬▬▶	Chinggis6 (~chinggis@unaffiliated/chinggis6) has joined ##linux
+2017-02-09 20:20:54	◀▬▬	wigums (~wigums@unaffiliated/wigums) has quit (Read error: Connection reset by peer)
+2017-02-09 20:21:06	Walex	tammy_: http://askubuntu.com/questions/142300/how-to-fix-error-unknown-filesystem-grub-rescue
+2017-02-09 20:21:14	◀▬▬	TwistedFate (~TwistedFa@unaffiliated/twistedfate) has quit (Quit: Leaving)
+2017-02-09 20:21:34	◀▬▬	fluter (~fluter@fedora/fluter) has quit (Ping timeout: 245 seconds)
+2017-02-09 20:22:23	▬▬▶	mystickle (~nathan@cpe-76-170-57-22.socal.res.rr.com) has joined ##linux
+2017-02-09 20:22:26	▬▬▶	jnewt1 (~jnewt@136.61.159.189) has joined ##linux
+2017-02-09 20:22:56	▬▬▶	kristian_on_linu (~kristian@0170201069.0.fullrate.ninja) has joined ##linux
+2017-02-09 20:23:01	Walex	ooopps it is quite late, got to disappear...
+2017-02-09 20:23:29	◀▬▬	JeanCarloMachado (~jean@177.79.70.113) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:23:51	▬▬▶	Beginner_Guy (~don@24-206-182-226.res.dyn.suddenlink.net) has joined ##linux
+2017-02-09 20:23:52	◀▬▬	Combined2857 (~Combined2@unaffiliated/combined2857) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:24:38	▬▬▶	poop (~wigums@unaffiliated/wigums) has joined ##linux
+2017-02-09 20:24:44	▬▬▶	monoxane (~monoxane@unaffiliated/monoxane) has joined ##linux
+2017-02-09 20:24:53	◀▬▬	l2esonance (~l2esonanc@c-73-223-132-245.hsd1.ca.comcast.net) has quit (Quit: l2esonance)
+2017-02-09 20:25:28	▬▬▶	JeanCarloMachado (~jean@177.79.70.14) has joined ##linux
+2017-02-09 20:25:41	◀▬▬	pandabearit_ (~pandabear@c-73-229-212-108.hsd1.co.comcast.net) has quit (Quit: Leaving)
+2017-02-09 20:25:42	◀▬▬	pandbearit (~pandabear@c-73-229-212-108.hsd1.co.comcast.net) has quit (Quit: Leaving)
+2017-02-09 20:25:50	▬▬▶	reverse_light (~reverse_l@ntszok051203.szok.nt.adsl.ppp.infoweb.ne.jp) has joined ##linux
+2017-02-09 20:26:04	▬▬▶	ciphersson (~ciphersso@pdpc/supporter/active/ciphersson) has joined ##linux
+2017-02-09 20:26:04	▬▬▶	gkdeb (~gkdeb@r186-54-144-134.dialup.adsl.anteldata.net.uy) has joined ##linux
+2017-02-09 20:26:06	▬▬▶	minimalism (~none@unaffiliated/minimalism) has joined ##linux
+2017-02-09 20:26:11	monoxane	I need data for school, anyone care to do a brief survey on ipv6 adoption in consumer internet? https://monoxane.com/school/itcsurvey/
+2017-02-09 20:26:38	bazhang	homework?
+2017-02-09 20:26:40	◀▬▬	SteveGriff (~SteveGrif@88.96.227.110) has quit (Remote host closed the connection)
+2017-02-09 20:26:50	◀▬▬	clemf (~textual@50-252-15-145-static.hfc.comcastbusiness.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2017-02-09 20:27:30	◀▬▬	Fliegenpilzmann (~thomas@ip-109-47-2-42.web.vodafone.de) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:28:10	◀▬▬	AtumT (~IRC@179.187.109.233.dynamic.adsl.gvt.net.br) has quit (Remote host closed the connection)
+2017-02-09 20:28:11	monoxane	bazhang, kinda, i need to collect primary data on something IT related
+2017-02-09 20:28:27	▬▬▶	clemf (~textual@50-252-15-145-static.hfc.comcastbusiness.net) has joined ##linux
+2017-02-09 20:28:28	▬▬▶	goldstar (~chatzilla@217.138.9.21) has joined ##linux
+2017-02-09 20:28:43	▬▬▶	mikkqu (~mikkqu@2604:2000:1304:4071:2d4c:66bb:4fb8:472) has joined ##linux
+2017-02-09 20:28:44	Walex	monoxane: ask also in #networking
+2017-02-09 20:28:55	--	mikkqu is now known as mqu
+2017-02-09 20:29:00	bazhang	##networking
+2017-02-09 20:29:11	◀▬▬	clemf (~textual@50-252-15-145-static.hfc.comcastbusiness.net) has quit (Client Quit)
+2017-02-09 20:29:38	monoxane	okay, thanks guys
+2017-02-09 20:29:40	ciphersson	ipv4 address are all gone so... ipv6 adoption is going well.
+2017-02-09 20:29:43	◀▬▬	Premislaus (~quassel@91-233-157-147.interkonekt.pl) has quit (Remote host closed the connection)
+2017-02-09 20:29:44	ciphersson	https://ipv6.he.net/statistics/
+2017-02-09 20:29:46	◀▬▬	Retr0id (~null@31.205.174.14) has quit (Ping timeout: 264 seconds)
+2017-02-09 20:29:54	arvut	Walex: that channel is invite only though afaik
+2017-02-09 20:30:04	▬▬▶	delafai (~delafai@unaffiliated/delafai) has joined ##linux
+2017-02-09 20:30:12	monoxane	ciphersson, i know but i have to actually collect the data myself because of stupid govt course outlines
+2017-02-09 20:30:12	◀▬▬	MarcoP (~MarcoP@gateway/tor-sasl/marcop) has quit (Remote host closed the connection)
+2017-02-09 20:30:24	◀▬▬	brokensyntax (~quassel@45.62.240.131) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2017-02-09 20:30:38	Loshki	arvut: not unless it's changed very recently
+2017-02-09 20:30:43	▬▬▶	James0r2 (~james@113.22.190.107) has joined ##linux
+2017-02-09 20:30:48	ananke	hah. and i'm sure that survey has been approved by your IBRRB
+2017-02-09 20:31:09	◀▬▬	k1ng_schm0e (~k1ng_schm@104.156.228.192) has quit (Ping timeout: 245 seconds)
+2017-02-09 20:31:43	arvut	Loshki: I am probably not up to date on that though, been years since I was there
+2017-02-09 20:31:52	◀▬▬	JeanCarloMachado (~jean@177.79.70.14) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:32:01	ananke	oops, connection went out. IRB
+2017-02-09 20:32:10	◀▬▬	James0r (~james@42.116.190.122) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:32:40	▬▬▶	MarcoP (~MarcoP@gateway/tor-sasl/marcop) has joined ##linux
+2017-02-09 20:32:41	▬▬▶	fluter (~fluter@fedora/fluter) has joined ##linux
+2017-02-09 20:32:42	▬▬▶	shantorn (~shantorn@97-120-236-210.ptld.qwest.net) has joined ##linux
+2017-02-09 20:32:50	▬▬▶	JeanCarloMachado (~jean@177.79.66.198) has joined ##linux
+2017-02-09 20:33:19	ciphersson	Monoxane, did you see that Hurricane Electric counter off to the right on the link i sent/
+2017-02-09 20:33:20	◀▬▬	cdown (~cdown@82-132-227-151.dab.02.net) has quit (Remote host closed the connection)
+2017-02-09 20:33:30	▬▬▶	cdown (~cdown@82-132-227-151.dab.02.net) has joined ##linux
+2017-02-09 20:34:12	ciphersson	http://bgp.he.net/ipv6-progress-report.cgi
+2017-02-09 20:34:44	◀▬▬	POJO (~quassel@unaffiliated/pojo) has quit (Remote host closed the connection)
+2017-02-09 20:35:09	▬▬▶	HiWEB (~HiWEB@c-73-140-92-122.hsd1.wa.comcast.net) has joined ##linux
+2017-02-09 20:35:20	◀▬▬	mystickle (~nathan@cpe-76-170-57-22.socal.res.rr.com) has quit (Quit: leaving)
+2017-02-09 20:35:28	▬▬▶	ccyw9LmF5IC2KnsU (~root@209.95.50.163) has joined ##linux
+2017-02-09 20:35:50	◀▬▬	skypce (~udn@pc-85-174-46-190.cm.vtr.net) has quit (Remote host closed the connection)
+2017-02-09 20:35:53	ciphersson	https://www.google.com/intl/en/ipv6/statistics.html
+2017-02-09 20:35:55	◀▬▬	S1GSEGV (~S1GSEGV@gateway/tor-sasl/s1gsegv) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:36:12	▬▬▶	gevans (~gevans@2600:8801:2b00:4bd:527:f821:7b86:2835) has joined ##linux
+2017-02-09 20:36:35	◀▬▬	macskay (~macskay@luna232.startdedicated.de) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:37:40	◀▬▬	quickquestion (c7f62836@gateway/web/freenode/ip.199.246.40.54) has quit (Ping timeout: 260 seconds)
+2017-02-09 20:37:56	◀▬▬	cdown (~cdown@82-132-227-151.dab.02.net) has quit (Remote host closed the connection)
+2017-02-09 20:38:19	◀▬▬	delafai (~delafai@unaffiliated/delafai) has left ##linux ("leaving")
+2017-02-09 20:38:30	◀▬▬	Pegasus_RPG (~Icedove@cpe-172-89-67-189.socal.res.rr.com) has left ##linux
+2017-02-09 20:38:53	▬▬▶	macskay (~macskay@luna232.startdedicated.de) has joined ##linux
+2017-02-09 20:40:40	◀▬▬	H0m3YC7au5 (~H0m3YC7au@172.98.78.34) has quit (Quit: Leaving)
+2017-02-09 20:40:49	▬▬▶	revoltingPeasant (~joe@unaffiliated/th3-g0d5) has joined ##linux
+2017-02-09 20:40:52	◀▬▬	gevans (~gevans@2600:8801:2b00:4bd:527:f821:7b86:2835) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:40:52	◀▬▬	comingsoontm (~comingsoo@mtrlpq4135w-lp140-02-70-51-47-41.dsl.bell.ca) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:40:55	▬▬▶	dnsfbkjndsfkbjn (~GenericWh@203-113-215-25-static.TCS.netspace.net.au) has joined ##linux
+2017-02-09 20:41:00	▬▬▶	pierreqi (~pierreqi@45.32.55.227) has joined ##linux
+2017-02-09 20:41:00	▬▬▶	S1GSEGV (~S1GSEGV@gateway/tor-sasl/s1gsegv) has joined ##linux
+2017-02-09 20:41:05	▬▬▶	H0m3YC7au5 (~H0m3YC7au@172.98.78.34) has joined ##linux
+2017-02-09 20:41:30	◀▬▬	dnsfbkjndsfkbjn (~GenericWh@203-113-215-25-static.TCS.netspace.net.au) has left ##linux
+2017-02-09 20:41:30	◀▬▬	swift110 (~swift110@unaffiliated/swift110) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:41:38	◀▬▬	therecluse26 (~root@cpe-107-9-209-162.neo.res.rr.com) has left ##linux
+2017-02-09 20:41:48	◀▬▬	HiWEB (~HiWEB@c-73-140-92-122.hsd1.wa.comcast.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:41:55	◀▬▬	Noldorin (~noldorin@unaffiliated/noldorin) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:42:05	▬▬▶	HiWEB (~HiWEB@73.109.62.3) has joined ##linux
+2017-02-09 20:42:13	◀▬▬	Wulf (~Wulf@unaffiliated/wulf) has quit (Ping timeout: 252 seconds)
+2017-02-09 20:42:32	▬▬▶	dj_pi (~dj@c-68-43-191-59.hsd1.mi.comcast.net) has joined ##linux
+2017-02-09 20:42:38	◀▬▬	[n1x] (~me@c-76-107-26-16.hsd1.la.comcast.net) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:42:48	◀▬▬	Salladino (~mathias@2804:d41:db6:d100:1872:c6ef:9f8e:c194) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:43:45	◀▬▬	mackal (~mike@pool-96-237-144-12.bstnma.fios.verizon.net) has quit (Quit: BE VIGILANT.)
+2017-02-09 20:44:02	nine_milli	does linux support filesystems or is everything on the cloud?
+2017-02-09 20:44:11	◀▬▬	hutch34 (~hutch34@h125.241.138.40.static.ip.windstream.net) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:44:15	tx	Trolling suxks
+2017-02-09 20:44:22	tx	especially when it's as lame as that nine_milli.
+2017-02-09 20:44:36	▬▬▶	pionen (~porfirio@fedora/porfiriopaiz) has joined ##linux
+2017-02-09 20:44:38	Pentode	theres a lot of it tonight too
+2017-02-09 20:44:41	Pentode	sup w that
+2017-02-09 20:44:49	◀▬▬	rotah (rotah@agmc6.neoplus.adsl.tpnet.pl) has quit (Quit: Lost terminal)
+2017-02-09 20:44:52	◀▬▬	pionen (~porfirio@fedora/porfiriopaiz) has quit (Client Quit)
+2017-02-09 20:44:58	▬▬▶	[n1x] (~me@c-76-107-26-16.hsd1.la.comcast.net) has joined ##linux
+2017-02-09 20:45:01	▬▬▶	pionen (~porfirio@fedora/porfiriopaiz) has joined ##linux
+2017-02-09 20:45:09	▬▬▶	Gwayne (~Gwayne@opensuse/member/gwayne) has joined ##linux
+2017-02-09 20:45:25	markasoftware	nine_milli: you are a smart alec hooligan
+2017-02-09 20:45:53	bazhang	s/smart//
+2017-02-09 20:46:02	◀▬▬	Chinggis6 (~chinggis@unaffiliated/chinggis6) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:46:02	◀▬▬	crayon (~realname@unaffiliated/crayon) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:46:05	◀▬▬	macskay (~macskay@luna232.startdedicated.de) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:46:07	▬▬▶	pierreqi_ (~pierreqi@45.32.55.227) has joined ##linux
+2017-02-09 20:46:14	markasoftware	d/smart/
+2017-02-09 20:46:16	◀▬▬	pierreqi (~pierreqi@45.32.55.227) has quit (Remote host closed the connection)
+2017-02-09 20:46:18	markasoftware	but that might remove the whole line
+2017-02-09 20:46:40	bazhang	thus the second /
+2017-02-09 20:46:41	markasoftware	and i don't think i did that right anyways
+2017-02-09 20:46:56	▬▬▶	the8thbit (~eightbit@173-28-158-95.client.mchsi.com) has joined ##linux
+2017-02-09 20:46:57	markasoftware	well the d command is different i think
+2017-02-09 20:47:33	▬▬▶	macskay (~macskay@luna232.startdedicated.de) has joined ##linux
+2017-02-09 20:47:39	▬▬▶	Chinggis6 (~chinggis@unaffiliated/chinggis6) has joined ##linux
+2017-02-09 20:48:13	jim	nine_milli, I think you'd know the answer to that... if you ever actually -ran- linux...
+2017-02-09 20:48:27	rascul	does linux support facebook?
+2017-02-09 20:48:31	◀▬▬	Meisterbrau (~Meisterbr@unaffiliated/meisterbrau) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:48:45	nine_milli	just instagram
+2017-02-09 20:48:48	markasoftware	rascul: you have to enable it in the kernel
+2017-02-09 20:48:49	nine_milli	from what i heard
+2017-02-09 20:49:22	◀▬▬	HiWEB (~HiWEB@73.109.62.3) has quit (Quit: Sleeping - g33k Mode on idle)
+2017-02-09 20:49:25	◀▬▬	_w1n64 (~user@92.127.155.54) has quit (Remote host closed the connection)
+2017-02-09 20:49:28	rascul	i don't even know what an instagram is
+2017-02-09 20:49:37	▬▬▶	[n1x]_ (~me@c-76-107-26-16.hsd1.la.comcast.net) has joined ##linux
+2017-02-09 20:49:40	◀▬▬	[n1x] (~me@c-76-107-26-16.hsd1.la.comcast.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:49:44	rascul	but i guess if i have to make popcorn to use facebook on linux, i can handle that
+2017-02-09 20:49:46	jim	you'll never know for sure, ultimately, unless you boot it
+2017-02-09 20:49:52	◀▬▬	olbat (~olbat@unaffiliated/olbat) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:50:03	▬▬▶	whiteveil (~adam@pool-96-244-56-251.bltmmd.fios.verizon.net) has joined ##linux
+2017-02-09 20:50:03	◀▬▬	gkdeb (~gkdeb@r186-54-144-134.dialup.adsl.anteldata.net.uy) has quit (Quit: Leaving.)
+2017-02-09 20:50:25	▬▬▶	enterprisey (~enterpris@wikipedia/enterprisey) has joined ##linux
+2017-02-09 20:50:30	◀▬▬	wonko7 (~wonko7@neu67-1-82-231-74-44.fbx.proxad.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:50:32	▬▬▶	_w1n64 (~user@92.127.155.54) has joined ##linux
+2017-02-09 20:50:34	◀▬▬	sbine (~sbine@unaffiliated/sbine) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:50:35	◀▬▬	Guest23954 (~mike@blk-222-160-12.eastlink.ca) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:50:45	▬▬▶	simon987 (~simon@69-65.cablevision.qc.ca) has joined ##linux
+2017-02-09 20:50:54	◀▬▬	_w1n64 (~user@92.127.155.54) has quit (Max SendQ exceeded)
+2017-02-09 20:50:57	◀▬▬	brent__ (~brent@209-234-137-222.static.twtelecom.net) has quit (Remote host closed the connection)
+2017-02-09 20:51:29	simon987	Hey, I'm a bit new to linux. Here's my question: what is the name of the default GUI utility to manage network connections in Kubuntu ?
+2017-02-09 20:51:53	◀▬▬	marie1972 (~marie1972@179.43.147.28) has quit
+2017-02-09 20:52:00	◀▬▬	Bob8989 (~bobby12@185.67.177.203) has quit (Quit: KVIrc 4.0.4 Insomnia http://www.kvirc.net/)
+2017-02-09 20:52:00	▬▬▶	_w1n64 (~user@92.127.155.54) has joined ##linux
+2017-02-09 20:52:05	◀▬▬	serdar (~serdar@pD9E6F108.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:52:16	rascul	probably some applet for network manager
+2017-02-09 20:52:31	◀▬▬	_w1n64 (~user@92.127.155.54) has quit (Max SendQ exceeded)
+2017-02-09 20:52:40	◀▬▬	notebox (~textual@host81-151-91-252.range81-151.btcentralplus.com) has quit (Quit: My Mac Pro has gone to sleep. ZZZzzz…)
+2017-02-09 20:53:08	◀▬▬	monoxane (~monoxane@unaffiliated/monoxane) has left ##linux ("418 - I'm a teapot (RFC 2324)")
+2017-02-09 20:53:26	▬▬▶	wonko7 (~wonko7@2a01:e35:2e74:a2c0:31b8:1bd3:6c84:bb58) has joined ##linux
+2017-02-09 20:53:36	jim	simon987, there are wicd and network-manager... also you have the choice of managing static connections by editing the text file /etc/network/interfaces.... what kind of machine is it, and what are your network interfaces?
+2017-02-09 20:53:38	rascul	it might be called plasma-nm
+2017-02-09 20:53:50	◀▬▬	Chinggis6 (~chinggis@unaffiliated/chinggis6) has quit (Ping timeout: 252 seconds)
+2017-02-09 20:54:03	▬▬▶	marie1972 (marie1972@cpe-75-81-138-153.kc.res.rr.com) has joined ##linux
+2017-02-09 20:54:23	▬▬▶	_w1n64 (~user@92.127.155.54) has joined ##linux
+2017-02-09 20:54:25	▬▬▶	kaiten02 (~kaiten02@FL9-119-243-99-97.tky.mesh.ad.jp) has joined ##linux
+2017-02-09 20:54:32	▬▬▶	harai (~b@24.244.32.180) has joined ##linux
+2017-02-09 20:54:33	◀▬▬	_w1n64 (~user@92.127.155.54) has quit (Max SendQ exceeded)
+2017-02-09 20:54:35	◀▬▬	kaiten02 (~kaiten02@FL9-119-243-99-97.tky.mesh.ad.jp) has quit (Remote host closed the connection)
+2017-02-09 20:54:36	◀▬▬	whiteveil (~adam@pool-96-244-56-251.bltmmd.fios.verizon.net) has quit (Client Quit)
+2017-02-09 20:54:50	simon987	I switched from KDE to i3 and I can't find the execytable name for the network manager applet thing
+2017-02-09 20:54:58	◀▬▬	lefoot_ (~lefoot@cpc96072-bolt17-2-0-cust431.10-3.cable.virginm.net) has quit (Ping timeout: 264 seconds)
+2017-02-09 20:54:59	◀▬▬	pierreqi_ (~pierreqi@45.32.55.227) has quit (Remote host closed the connection)
+2017-02-09 20:55:02	▬▬▶	whiteveil (~adam@pool-96-244-56-251.bltmmd.fios.verizon.net) has joined ##linux
+2017-02-09 20:55:02	▬▬▶	olbat (~olbat@unaffiliated/olbat) has joined ##linux
+2017-02-09 20:55:05	▬▬▶	Zren_ (~Zren@bas3-guelph22-174-88-82-175.dsl.bell.ca) has joined ##linux
+2017-02-09 20:55:06	▬▬▶	Zren__ (~Zren@bas3-guelph22-174-88-82-175.dsl.bell.ca) has joined ##linux
+2017-02-09 20:55:08	▬▬▶	Chinggis6 (~chinggis@unaffiliated/chinggis6) has joined ##linux
+2017-02-09 20:55:13	◀▬▬	Zren (~Zren@bas3-guelph22-174-88-82-175.dsl.bell.ca) has quit (Read error: Connection reset by peer)
+2017-02-09 20:55:51	◀▬▬	Zren__ (~Zren@bas3-guelph22-174-88-82-175.dsl.bell.ca) has quit (Read error: Connection reset by peer)
+2017-02-09 20:56:48	◀▬▬	pity (~pity@183.62.194.82) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:56:54	▬▬▶	sbine (~sbine@unaffiliated/sbine) has joined ##linux
+2017-02-09 20:57:03	tortal	how can for instance gpg2 read mouse input (when trying get a seed of the PRNG) - while if i want to read the device file ill need root priv. ?
+2017-02-09 20:57:30	◀▬▬	wulfgarpro (~wulfgarpr@138.44.192.14) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:57:42	kishore96	simon987: kde5-nm-connection-editor
+2017-02-09 20:58:12	◀▬▬	hj0x3 (~hj0x3@gateway/vpn/privateinternetaccess/hj3) has quit (Remote host closed the connection)
+2017-02-09 20:58:14	▬▬▶	pity (~pity@183.62.194.82) has joined ##linux
+2017-02-09 20:58:15	tortal	i know that i could write a program that would read mouse input.. im just wondering how priveliges are working here
+2017-02-09 20:58:21	▬▬▶	hj0x3 (~hj0x3@46.166.190.166) has joined ##linux
+2017-02-09 20:58:38	▬▬▶	ToBeCloud (uid51591@wikimedia/ToBeFree) has joined ##linux
+2017-02-09 20:58:58	▬▬▶	comingsoontm (~comingsoo@mtrlpq4135w-lp140-02-70-51-47-41.dsl.bell.ca) has joined ##linux
+2017-02-09 20:59:09	rascul	tortal you could give the user access to the device
+2017-02-09 20:59:41	simon987	Thanks a lot kishore96 !
+2017-02-09 20:59:53	▬▬▶	TwistedFate (~TwistedFa@unaffiliated/twistedfate) has joined ##linux
+2017-02-09 20:59:55	◀▬▬	whiteveil (~adam@pool-96-244-56-251.bltmmd.fios.verizon.net) has quit (Ping timeout: 255 seconds)
+2017-02-09 21:00:08	◀▬▬	harai (~b@24.244.32.180) has quit (Read error: Connection reset by peer)
+2017-02-09 21:00:19	tortal	rascul: obviously binaries that are run under the same shell env will have access to the device. but why will the same shell ask me for root when accessing the device file ?
+2017-02-09 21:00:41	rascul	the shell doesn't ask for root
+2017-02-09 21:00:48	rascul	it's not clear what you're doing or what your issue is
+2017-02-09 21:01:34	▬▬▶	Meisterbrau (~Meisterbr@unaffiliated/meisterbrau) has joined ##linux
+2017-02-09 21:01:46	◀▬▬	mikeymop (~mikey@ool-2f122cf2.dyn.optonline.net) has left ##linux ("WeeChat 1.4")
+2017-02-09 21:01:54	▬▬▶	harai (~b@24.244.32.180) has joined ##linux
+2017-02-09 21:02:20	▬▬▶	Deryco (~dcostroff@c-73-195-178-75.hsd1.nj.comcast.net) has joined ##linux
+2017-02-09 21:02:23	tortal	dont have an issue here.. just $ cat /dev/input/mice; will complain if not on root since the "file" has restricted read access on file-system basis
+2017-02-09 21:02:24	▬▬▶	goldstar_ (~chatzilla@192.71.244.42) has joined ##linux
+2017-02-09 21:02:29	◀▬▬	frostschutz (~frostschu@x2f65da3.dyn.telefonica.de) has quit (Remote host closed the connection)
+2017-02-09 21:02:31	tortal	just playing around
+2017-02-09 21:02:45	◀▬▬	harai (~b@24.244.32.180) has quit (Client Quit)
+2017-02-09 21:02:48	◀▬▬	Raineer (~textual@69.197.19.37) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:03:04	tortal	and thought about that applications cant be using the file system to interact with the mouse obviously..
+2017-02-09 21:03:13	◀▬▬	simon987 (~simon@69-65.cablevision.qc.ca) has quit (Quit: Leaving)
+2017-02-09 21:03:17	tortal	at least not programs such as gpg
+2017-02-09 21:03:18	rascul	it's a permissions thing, if you want the user to have access you'll need to use chown and possibly add said user to the relevant group
+2017-02-09 21:03:48	◀▬▬	ciphersson (~ciphersso@pdpc/supporter/active/ciphersson) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:03:50	◀▬▬	redblade (~redblade7@unaffiliated/redblade7) has quit (Quit: Later...)
+2017-02-09 21:03:56	▬▬▶	goldstar__ (~chatzilla@217.138.9.21) has joined ##linux
+2017-02-09 21:04:05	◀▬▬	Sonolin (~michael@wsip-184-178-115-131.sd.sd.cox.net) has quit (Quit: Lost terminal)
+2017-02-09 21:04:11	rascul	gpg doesn't interact with the mouse directly
+2017-02-09 21:04:14	spareproject	dev/random blocks when its empty and things like wiggling the mouse fill it none root users shouldnt be allowed to read or write to keyboard / mouse
+2017-02-09 21:04:16	◀▬▬	webguynow (~webguynow@c-73-22-239-213.hsd1.il.comcast.net) has quit (Ping timeout: 255 seconds)
+2017-02-09 21:04:51	rascul	the pinentry dialog might interact with the mouse though, i'm not sure how it does that
+2017-02-09 21:04:53	▬▬▶	webguynow (~webguynow@c-73-22-239-213.hsd1.il.comcast.net) has joined ##linux
+2017-02-09 21:05:01	▬▬▶	redblade7 (~redblade7@unaffiliated/redblade7) has joined ##linux
+2017-02-09 21:05:30	◀▬▬	goldstar (~chatzilla@217.138.9.21) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:05:36	--	aleph- is now known as TheNihilist
+2017-02-09 21:05:37	tortal	spareproject: oh right. that makes snse
+2017-02-09 21:06:05	◀▬▬	miruoy (~miruoy@unaffiliated/miruoy) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:06:50	◀▬▬	wiesel (~wiesel@14.177.224.22) has quit (Ping timeout: 276 seconds)
+2017-02-09 21:06:59	▬▬▶	miruoy (~miruoy@unaffiliated/miruoy) has joined ##linux
+2017-02-09 21:07:00	◀▬▬	goldstar_ (~chatzilla@192.71.244.42) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:07:27	tortal	rascul: was thinking it was a x-server related thing mayb
+2017-02-09 21:07:46	▬▬▶	ciphersson (~ciphersso@pdpc/supporter/active/ciphersson) has joined ##linux
+2017-02-09 21:07:49	◀▬▬	outofsorts (~outofsort@104.254.90.195) has quit (Ping timeout: 245 seconds)
+2017-02-09 21:08:02	▬▬▶	lnbf (~lnbf@r180-216-14-221.cpe.vividwireless.net.au) has joined ##linux
+2017-02-09 21:08:06	--	TheNihilist is now known as aleph-
+2017-02-09 21:08:46	◀▬▬	vodcod (~swamp1t@fl-76-5-55-172.dhcp.embarqhsd.net) has quit (Ping timeout: 264 seconds)
+2017-02-09 21:08:46	◀▬▬	Chinggis6 (~chinggis@unaffiliated/chinggis6) has quit (Ping timeout: 255 seconds)
+2017-02-09 21:09:18	◀▬▬	Gwayne (~Gwayne@opensuse/member/gwayne) has quit (Remote host closed the connection)
+2017-02-09 21:09:31	▬▬▶	outofsorts (~outofsort@104.254.90.195) has joined ##linux
+2017-02-09 21:09:39	◀▬▬	Markow (~ejm@176.122.215.103) has quit (Quit: Leaving)
+2017-02-09 21:09:43	▬▬▶	hutch34 (~hutch34@h125.241.138.40.static.ip.windstream.net) has joined ##linux
+2017-02-09 21:09:56	rascul	i can't help but notice that /usr/bin/X is suid root here
+2017-02-09 21:10:03	▬▬▶	rocktop__ (~rocktop@41.251.92.102) has joined ##linux
+2017-02-09 21:10:12	▬▬▶	Chinggis6 (~chinggis@unaffiliated/chinggis6) has joined ##linux
+2017-02-09 21:11:04	▬▬▶	aBound (~aBound@unaffiliated/abound) has joined ##linux
+2017-02-09 21:11:46	◀▬▬	pionen (~porfirio@fedora/porfiriopaiz) has quit (Quit: leaving)
+2017-02-09 21:12:03	▬▬▶	_w1n64 (~user@92.127.155.54) has joined ##linux
+2017-02-09 21:12:05	▬▬▶	dfcnvt (~tagraf@unaffiliated/dfcnvt) has joined ##linux
+2017-02-09 21:12:06	◀▬▬	_w1n64 (~user@92.127.155.54) has quit (Max SendQ exceeded)
+2017-02-09 21:12:29	dfcnvt	which log file should I check if I want to learn any activities on ports?
+2017-02-09 21:12:31	◀▬▬	SwiftMatt (~Objective@162.242.95.136) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2017-02-09 21:12:46	rascul	what does "any activities on ports" mean?
+2017-02-09 21:12:56	◀▬▬	Gnukleaarh (~Thunderbi@58-7-154-138.dyn.iinet.net.au) has quit (Remote host closed the connection)
+2017-02-09 21:13:08	▬▬▶	_w1n64 (~user@92.127.155.54) has joined ##linux
+2017-02-09 21:13:11	▬▬▶	Gnukleaarh (~Thunderbi@58-7-154-138.dyn.iinet.net.au) has joined ##linux
+2017-02-09 21:13:15	◀▬▬	_w1n64 (~user@92.127.155.54) has quit (Max SendQ exceeded)
+2017-02-09 21:13:17	◀▬▬	rocktop_ (~rocktop@41.141.152.246) has quit (Ping timeout: 260 seconds)
+2017-02-09 21:13:41	◀▬▬	Rightling (~Rightling@node-1w7jr9qjj8ukrhgieqcydsyoq.ipv6.telus.net) has quit (Quit: Leaving)
+2017-02-09 21:13:45	dfcnvt	My friend tried to telnet to specific port and learned that it doesn't connect but -- he claim that he already set up the firewall to permit it and he's able to telnet to different port on same machine except the specific port he tried on won't work.
+2017-02-09 21:14:01	◀▬▬	Penthode (~triode@ALyon-655-1-498-158.w90-15.abo.wanadoo.fr) has quit (Quit: Leaving)
+2017-02-09 21:14:08	dfcnvt	So, I was thinking, maybe by checking the log -- he should learn what goes wrong on the server side.
+2017-02-09 21:14:38	▬▬▶	_w1n64 (~user@92.127.155.54) has joined ##linux
+2017-02-09 21:14:49	dfcnvt	Therefore, my asking question -- which log file in /var/log/*** is related to any issues with port.
+2017-02-09 21:15:01	◀▬▬	_w1n64 (~user@92.127.155.54) has quit (Max SendQ exceeded)
+2017-02-09 21:15:02	rascul	is something listening on said port?
+2017-02-09 21:15:10	▬▬▶	Kinky_Kitty (~Art@71.95.83.195) has joined ##linux
+2017-02-09 21:15:12	◀▬▬	bls (~bls@unaffiliated/bls) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:15:19	▬▬▶	andydufresne (~andydufre@c-98-245-169-208.hsd1.co.comcast.net) has joined ##linux
+2017-02-09 21:15:21	▬▬▶	miliarch (~miliarch@unaffiliated/miliarch) has joined ##linux
+2017-02-09 21:15:38	rascul	you would have to setup iptables to monitor these things and log them, there are plenty of tutorials about how to do it with a google search
+2017-02-09 21:15:38	◀▬▬	ccyw9LmF5IC2KnsU (~root@209.95.50.163) has quit (Quit: leaving)
+2017-02-09 21:15:52	dfcnvt	I did recommended him to check # netstat -tulpn
+2017-02-09 21:15:56	▬▬▶	_w1n64 (~user@92.127.155.54) has joined ##linux
+2017-02-09 21:16:04	◀▬▬	_w1n64 (~user@92.127.155.54) has quit (Max SendQ exceeded)
+2017-02-09 21:16:31	rascul	if nothing is listening, then opening that port in the firewall isn't going to do much
+2017-02-09 21:16:34	◀▬▬	Cloudish (~Cloudish@unaffiliated/cloudish) has quit (Ping timeout: 264 seconds)
+2017-02-09 21:16:52	◀▬▬	psyb0t (~psyb0t@5-13-204-207.residential.rdsnet.ro) has quit (Ping timeout: 255 seconds)
+2017-02-09 21:17:02	▬▬▶	_w1n64 (~user@92.127.155.54) has joined ##linux
+2017-02-09 21:17:17	◀▬▬	_w1n64 (~user@92.127.155.54) has quit (Max SendQ exceeded)
+2017-02-09 21:17:42	dfcnvt	rascul: Right, and if that condition is ture (port is listening, firewall rule already open and set) then where do we find the "log" in /var/log/* that is related to any incoming activity to said port.
+2017-02-09 21:17:43	▬▬▶	cyphase (~cyphase@unaffiliated/cyphase) has joined ##linux
+2017-02-09 21:17:54	dfcnvt	true***
+2017-02-09 21:18:08	rascul	there is none, that would have to be setup
+2017-02-09 21:18:09	▬▬▶	psyb0t (~psyb0t@5-13-204-207.residential.rdsnet.ro) has joined ##linux
+2017-02-09 21:18:14	tammy_	Walex: Thank you very much for your help today, I am back and stable now :)
+2017-02-09 21:18:18	▬▬▶	_w1n64 (~user@92.127.155.54) has joined ##linux
+2017-02-09 21:18:23	dfcnvt	Aye, okay.
+2017-02-09 21:18:25	tammy_	bad sata cable.
+2017-02-09 21:19:07	◀▬▬	Chinggis6 (~chinggis@unaffiliated/chinggis6) has quit (Ping timeout: 260 seconds)
+2017-02-09 21:19:11	▬▬▶	internauto (~Thunderbi@187.36.216.237) has joined ##linux
+2017-02-09 21:19:18	◀▬▬	ServChan (403cc612@gateway/web/cgi-irc/kiwiirc.com/ip.64.60.198.18) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2017-02-09 21:19:54	tammy_	what's odd is that that caused my system to change my os disk to (hd0,gpt2) AND change it's uuid in grub. Where as it used to be (hd8,gpt2)
+2017-02-09 21:19:59	◀▬▬	dj_pi (~dj@c-68-43-191-59.hsd1.mi.comcast.net) has quit (Quit: Leaving)
+2017-02-09 21:20:10	▬▬▶	Chinggis6 (~chinggis@unaffiliated/chinggis6) has joined ##linux
+2017-02-09 21:20:24	▬▬▶	yourname2 (~yourname@ec2-54-166-37-25.compute-1.amazonaws.com) has joined ##linux
+2017-02-09 21:20:35	▬▬▶	k1ng_schm0e (~k1ng_schm@104.156.228.197) has joined ##linux
+2017-02-09 21:20:35	◀▬▬	gdonald (~gdonald@96.32.232.125) has quit (Read error: Connection reset by peer)
+2017-02-09 21:20:41	◀▬▬	Pentode (~Joseph@c-73-215-217-241.hsd1.nj.comcast.net) has quit (Quit: Leaving)
+2017-02-09 21:21:00	▬▬▶	gdonald (~gdonald@96.32.232.125) has joined ##linux
+2017-02-09 21:21:16	tammy_	once I got past grub and into the OS, modified grub.conf to point to the new uuid and hd, I still got strange ata1 errors on console. That's when I replaced thje sata cable and have not seen issue since :)
+2017-02-09 21:21:51	tammy_	Walex: so again, thanks. You were a big help. :)
+2017-02-09 21:22:02	▬▬▶	jakogut (~jakogut@64.185.125.150) has joined ##linux
+2017-02-09 21:22:16	▬▬▶	vodcod (~swamp1t@fl-76-5-55-172.dhcp.embarqhsd.net) has joined ##linux
+2017-02-09 21:22:23	▬▬▶	rasknikoff (rasknikoff@charger.kire.net) has joined ##linux
+2017-02-09 21:22:26	◀▬▬	GreeningGalaxy (~ellie@2620:0:2250:101c:56a:a376:7163:50ff) has quit (Ping timeout: 255 seconds)
+2017-02-09 21:22:38	rasknikoff	999
+2017-02-09 21:24:09	▬▬▶	QuintilianoB (~Thunderbi@rj1.convidado.alog.com.br) has joined ##linux
+2017-02-09 21:24:22	◀▬▬	QuintilianoB (~Thunderbi@rj1.convidado.alog.com.br) has quit (Client Quit)
+2017-02-09 21:24:24	▬▬▶	SwiftMatt (~Objective@162.242.95.136) has joined ##linux
+2017-02-09 21:25:03	▬▬▶	Pentode (~Joseph@c-73-215-217-241.hsd1.nj.comcast.net) has joined ##linux
+2017-02-09 21:26:06	▬▬▶	HiWEB (~HiWEB@c-71-197-230-219.hsd1.wa.comcast.net) has joined ##linux
+2017-02-09 21:26:27	▬▬▶	goldstar (~chatzilla@192.71.244.42) has joined ##linux
+2017-02-09 21:26:28	◀▬▬	redj2 (~redj2@rrcs-67-78-97-71.sw.biz.rr.com) has quit
+2017-02-09 21:27:06	◀▬▬	SwiftMatt (~Objective@162.242.95.136) has quit (Client Quit)
+2017-02-09 21:27:16	▬▬▶	Wizek (~Wizek@catv-89-132-132-110.catv.broadband.hu) has joined ##linux
+2017-02-09 21:27:20	◀▬▬	yourname2 (~yourname@ec2-54-166-37-25.compute-1.amazonaws.com) has quit (Quit: leaving)
+2017-02-09 21:27:22	◀▬▬	k1ng_schm0e (~k1ng_schm@104.156.228.197) has quit (Ping timeout: 264 seconds)

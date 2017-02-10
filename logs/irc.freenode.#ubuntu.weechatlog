@@ -239,3 +239,319 @@
 2017-02-09 20:13:54	▬▬▶	blob (~aj@aj-reitin.kortex.jyu.fi) has joined #ubuntu
 2017-02-09 20:14:06	▬▬▶	neildugan (~neil@123.185.168.125.sta.wbroadband.net.au) has joined #ubuntu
 2017-02-09 20:14:07	k1l_	dorkmafia: is that a known issue for that laptop?
+2017-02-09 20:14:29	▬▬▶	macskay (~macskay@luna232.startdedicated.de) has joined #ubuntu
+2017-02-09 20:14:29	◀▬▬	CHBMB (~CHBMB@unaffiliated/chbmb) has quit (Ping timeout: 245 seconds)
+2017-02-09 20:14:33	◀▬▬	jarkom (~jarkom@118.97.23.179) has quit (Client Quit)
+2017-02-09 20:14:37	◀▬▬	ced_ (51f2b54c@gateway/web/freenode/ip.81.242.181.76) has quit (Quit: Page closed)
+2017-02-09 20:15:22	◀▬▬	chomwitt (~chomwitt@athedsl-352128.home.otenet.gr) has quit (Ping timeout: 264 seconds)
+2017-02-09 20:15:23	▬▬▶	CHBMB (~CHBMB@unaffiliated/chbmb) has joined #ubuntu
+2017-02-09 20:15:31	▬▬▶	aruns (~suresh@176.24.38.154) has joined #ubuntu
+2017-02-09 20:15:37	dorkmafia	its a dual xenon work station
+2017-02-09 20:15:48	◀▬▬	metachr0n (~nobody@gateway/vpn/privateinternetaccess/metachr0n) has quit (Remote host closed the connection)
+2017-02-09 20:15:49	◀▬▬	adalbert (~adalbert@d8d87b939.access.telenet.be) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:15:52	◀▬▬	S1GSEGV (~S1GSEGV@gateway/tor-sasl/s1gsegv) has quit (Changing host)
+2017-02-09 20:15:52	▬▬▶	S1GSEGV (~S1GSEGV@unaffiliated/s1gsegv) has joined #ubuntu
+2017-02-09 20:15:52	◀▬▬	S1GSEGV (~S1GSEGV@unaffiliated/s1gsegv) has quit (Changing host)
+2017-02-09 20:15:52	▬▬▶	S1GSEGV (~S1GSEGV@gateway/tor-sasl/s1gsegv) has joined #ubuntu
+2017-02-09 20:15:55	dorkmafia	hp z820 with two xenon cpus
+2017-02-09 20:15:57	◀▬▬	jathan (~jathan@arcmty01.izabc.com) has quit (Quit: Saliendo)
+2017-02-09 20:16:02	▬▬▶	PwrSurge (~nrg@100.43.101.153) has joined #ubuntu
+2017-02-09 20:16:52	◀▬▬	lexileo (~lexii@103.8.148.248) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:16:52	▬▬▶	Beginner_Guy (~don@24-206-182-226.res.dyn.suddenlink.net) has joined #ubuntu
+2017-02-09 20:16:54	▬▬▶	metachr0n (~nobody@gateway/vpn/privateinternetaccess/metachr0n) has joined #ubuntu
+2017-02-09 20:17:09	dorkmafia	im using this usb stick https://www.newegg.com/Product/Product.aspx?Item=N82E16820227331
+2017-02-09 20:17:11	◀▬▬	S1GSEGV (~S1GSEGV@gateway/tor-sasl/s1gsegv) has quit (Quit: S1GSEGV)
+2017-02-09 20:17:16	▬▬▶	skweek (~skweek@68-200-146-225.res.bhn.net) has joined #ubuntu
+2017-02-09 20:17:18	k1l_	dorkmafia: the hardware is fine as such? other OS do run there?
+2017-02-09 20:17:33	▬▬▶	S1GSEGV (~S1GSEGV@gateway/tor-sasl/s1gsegv) has joined #ubuntu
+2017-02-09 20:17:33	dorkmafia	yup win blows was
+2017-02-09 20:18:20	k1l_	how did you create that ubuntu usb?
+2017-02-09 20:18:23	▬▬▶	evade (~quassel@c-73-65-238-158.hsd1.ut.comcast.net) has joined #ubuntu
+2017-02-09 20:18:28	▬▬▶	tami (~smuxi@96-39-186-91.dhcp.mdfd.or.charter.com) has joined #ubuntu
+2017-02-09 20:18:44	dorkmafia	unetbootin on osx selected an img
+2017-02-09 20:18:47	k1l_	i only find people fighting with uefi on that machine, but that works when you can see the boot
+2017-02-09 20:18:56	k1l_	ah, unetbootin is known to have issues
+2017-02-09 20:19:26	◀▬▬	fraggle_ (~fraggle@2a02-8429-803d-d401-0227-0eff-fe0f-1727.rev.sfr.net) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:19:32	◀▬▬	neildugan (~neil@123.185.168.125.sta.wbroadband.net.au) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:19:42	k1l_	can you use "dd" there to "burn" the image?
+2017-02-09 20:19:55	▬▬▶	neildugan (~neil@123.185.168.125.sta.wbroadband.net.au) has joined #ubuntu
+2017-02-09 20:20:06	dorkmafia	sure can u help me w/ the dd cmd again pls
+2017-02-09 20:20:07	▬▬▶	vonsyd0w (~vonsyd0w@unaffiliated/vonsyd0w) has joined #ubuntu
+2017-02-09 20:20:26	Generic	Is anybody have Exp in Python?
+2017-02-09 20:20:44	dorkmafia	Generic: try #python?
+2017-02-09 20:20:54	◀▬▬	bisch (~bob@70-59-84-215.mpls.qwest.net) has quit (Quit: Ex-Chat)
+2017-02-09 20:21:08	k1l_	dorkmafia: sudo dd if=hybrid_iso_image.iso of=/dev/sdx bs=1M && sync
+2017-02-09 20:22:10	Generic	got it bruh
+2017-02-09 20:22:23	▬▬▶	Squishy_ (~textual@162-223-221-68.cpe.ngl.ninja) has joined #ubuntu
+2017-02-09 20:22:26	▬▬▶	jnewt1 (~jnewt@136.61.159.189) has joined #ubuntu
+2017-02-09 20:22:39	▬▬▶	fishcooker (~chika@202.148.7.34) has joined #ubuntu
+2017-02-09 20:23:06	◀▬▬	floown (~quassel@unaffiliated/fanchon) has quit (Quit: No Ping reply in 180 seconds.)
+2017-02-09 20:23:09	▬▬▶	kokonoula (~kokonoula@2a02:582:1911:f900:225:22ff:fe7e:7437) has joined #ubuntu
+2017-02-09 20:23:14	--	miczac\away is now known as miczac
+2017-02-09 20:24:04	▬▬▶	lysa (~lisa@c-73-86-107-71.hsd1.md.comcast.net) has joined #ubuntu
+2017-02-09 20:24:06	Generic	Yea, i need to be register to talk there
+2017-02-09 20:24:07	Generic	lol
+2017-02-09 20:24:10	◀▬▬	Curry (~argraeg@c-73-160-197-178.hsd1.nj.comcast.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:24:12	▬▬▶	fraggle_ (~fraggle@2a02-8429-803d-d401-0227-0eff-fe0f-1727.rev.sfr.net) has joined #ubuntu
+2017-02-09 20:24:22	▬▬▶	floown (~quassel@2a02-8420-5a09-be00-14a6-9b44-c2a4-dcf3.rev.sfr.net) has joined #ubuntu
+2017-02-09 20:24:23	◀▬▬	floown (~quassel@2a02-8420-5a09-be00-14a6-9b44-c2a4-dcf3.rev.sfr.net) has quit (Changing host)
+2017-02-09 20:24:23	▬▬▶	floown (~quassel@unaffiliated/fanchon) has joined #ubuntu
+2017-02-09 20:24:34	▬▬▶	gerald (~gerald@175.41.48.77) has joined #ubuntu
+2017-02-09 20:24:36	OerHeks	dorkmafia, seems like your issue too .. https://www.reddit.com/r/linuxquestions/comments/5q8upe/hp_z820_install_linux_woes/ with directions to setting option rom > efi http://h20564.www2.hp.com/hpsc/doc/public/display?docId=emr_na-c03266085
+2017-02-09 20:24:44	▬▬▶	Curry (~argraeg@c-73-160-197-178.hsd1.nj.comcast.net) has joined #ubuntu
+2017-02-09 20:25:09	▬▬▶	irishfromua (~irish@193.108.249.183) has joined #ubuntu
+2017-02-09 20:25:37	▬▬▶	zerous (~theartist@unaffiliated/naveens) has joined #ubuntu
+2017-02-09 20:25:41	◀▬▬	pandabearit_ (~pandabear@c-73-229-212-108.hsd1.co.comcast.net) has quit (Quit: Leaving)
+2017-02-09 20:25:42	◀▬▬	pandbearit (~pandabear@c-73-229-212-108.hsd1.co.comcast.net) has quit (Quit: Leaving)
+2017-02-09 20:27:10	◀▬▬	ilfantomas (~chatzilla@ool-457a3c53.dyn.optonline.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:27:54	▬▬▶	lu (~smuxi@236.88.224.49.dyn.cust.vf.net.nz) has joined #ubuntu
+2017-02-09 20:28:10	◀▬▬	hwang4 (~hwang4@114.253.254.102) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:28:15	◀▬▬	beantaxi (~beantaxi@unaffiliated/beantaxi) has quit (Quit: leaving)
+2017-02-09 20:28:16	--	lu is now known as Guest12999
+2017-02-09 20:28:32	▬▬▶	adalbert (~adalbert@d8D87B939.access.telenet.be) has joined #ubuntu
+2017-02-09 20:28:39	▬▬▶	mda1 (~mda1@254C6DA8.nat.pool.telekom.hu) has joined #ubuntu
+2017-02-09 20:28:50	▬▬▶	texla (~ray@h152.202.20.98.dynamic.ip.windstream.net) has joined #ubuntu
+2017-02-09 20:28:52	◀▬▬	asdfasdf (~Barones@2804:7f3:8981:73f1::3) has quit (Remote host closed the connection)
+2017-02-09 20:29:04	▬▬▶	ErrlBDabawax (~mintjawn@73.112.80.104) has joined #ubuntu
+2017-02-09 20:29:12	▬▬▶	asdfasdf (~Barones@2804:7f3:8981:73f1::3) has joined #ubuntu
+2017-02-09 20:29:19	--	asdfasdf is now known as Barones
+2017-02-09 20:29:40	dorkmafia	OerHeks: lol yes i posted that!
+2017-02-09 20:29:57	▬▬▶	nomic (~nomic4@host31-50-143-3.range31-50.btcentralplus.com) has joined #ubuntu
+2017-02-09 20:30:11	ErrlBDabawax	hi all, i just downloaded ubuntu make through the package manager on linux mint serena but can't figure out how to launch it.
+2017-02-09 20:30:12	◀▬▬	MarcoP (~MarcoP@gateway/tor-sasl/marcop) has quit (Remote host closed the connection)
+2017-02-09 20:30:23	dorkmafia	"SCU RAID Option ROM Download" I don't have this option in my bios
+2017-02-09 20:30:30	◀▬▬	PwrSurge (~nrg@100.43.101.153) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:30:35	◀▬▬	FunnyLookinHat (~funnylook@ubuntu/member/funnylookinhat) has quit (Remote host closed the connection)
+2017-02-09 20:30:37	dorkmafia	I have the mass storage option which i changed to EFI though
+2017-02-09 20:30:45	▬▬▶	cocamo (~cocamo@adsl-74-178-190-7.pns.bellsouth.net) has joined #ubuntu
+2017-02-09 20:30:48	◀▬▬	mda1_ (~mda1@254C54A1.nat.pool.telekom.hu) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:31:12	◀▬▬	VadER (~dARtH@192.red-88-18-34.staticip.rima-tde.net) has quit (Remote host closed the connection)
+2017-02-09 20:31:17	◀▬▬	cocamo (~cocamo@adsl-74-178-190-7.pns.bellsouth.net) has quit (Client Quit)
+2017-02-09 20:31:20	◀▬▬	irishfromua (~irish@193.108.249.183) has quit (Read error: Connection reset by peer)
+2017-02-09 20:31:34	ErrlBDabawax	when i type "umate android" (because i want to work on an android apk) it gives me the error: ERROR: A default framework for category Android was requested where there is none
+2017-02-09 20:31:47	ErrlBDabawax	usage: umake android [-h] {android-ndk} ...
+2017-02-09 20:32:40	▬▬▶	MarcoP (~MarcoP@gateway/tor-sasl/marcop) has joined #ubuntu
+2017-02-09 20:32:58	ErrlBDabawax	umake web tells me ERROR: A default framework for category Web was requested where there is none
+2017-02-09 20:32:58	ErrlBDabawax	usage: umake web [-h] {visual-studio-code,firefox-dev} ...
+2017-02-09 20:33:23	▬▬▶	omar_ (~omar@156.201.113.57) has joined #ubuntu
+2017-02-09 20:33:23	◀▬▬	Damnit__ (~chatzilla@2602:306:330e:4a50::41) has left #ubuntu
+2017-02-09 20:34:36	texla	Wanting to remove excessive kernels listed during start up of 16.04 I used autoremove --purge it removed intries in synaptic what am I missing in my command
+2017-02-09 20:34:48	▬▬▶	Kurt_ (4c0e5a25@gateway/web/freenode/ip.76.14.90.37) has joined #ubuntu
+2017-02-09 20:35:31	OerHeks	ErrlBDabawax, sounds like a mint serena issue, we don't support mint and derivates here
+2017-02-09 20:35:31	Kurt_	is there an Ubuntu repository to find out which version is best for my notebook and printer?
+2017-02-09 20:35:35	OerHeks	!mint
+2017-02-09 20:35:35	ubottu	Linux Mint is not a supported derivative of Ubuntu. Please seek support in #linuxmint-help on irc.spotchat.org
+2017-02-09 20:35:55	◀▬▬	S1GSEGV (~S1GSEGV@gateway/tor-sasl/s1gsegv) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:36:16	Kurt_	using 16.4.1 without issue; but am having difficulty setting up my hp printer
+2017-02-09 20:36:35	◀▬▬	macskay (~macskay@luna232.startdedicated.de) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:36:41	Bashing-om	texla: If the package manager is in a consistent state then ' sudo apt autoremove ' should have removed old kernels also .
+2017-02-09 20:36:49	▬▬▶	msmith (~msmith@c-73-249-245-231.hsd1.nh.comcast.net) has joined #ubuntu
+2017-02-09 20:38:15	◀▬▬	andyhuzhill (~Thunderbi@14.23.45.178) has quit (Remote host closed the connection)
+2017-02-09 20:38:20	xangua	Kurt_: did you install HP lip?
+2017-02-09 20:38:30	OerHeks	Kurt_, you can run '  /usr/lib/nux/unity_support_test -p  ' to see if graphical things are oke
+2017-02-09 20:38:53	▬▬▶	macskay (~macskay@luna232.startdedicated.de) has joined #ubuntu
+2017-02-09 20:39:05	Kurt_	Hello MsSmith--any suggestions about how to install an HP Officejet 4635 in a perfect installation of Ubuntu 16.04.1 LTS xenial?
+2017-02-09 20:39:27	◀▬▬	omar_ (~omar@156.201.113.57) has left #ubuntu ("Ex-Chat")
+2017-02-09 20:39:29	▬▬▶	FunnyLookinHat (~funnylook@c-24-17-226-60.hsd1.wa.comcast.net) has joined #ubuntu
+2017-02-09 20:39:29	◀▬▬	FunnyLookinHat (~funnylook@c-24-17-226-60.hsd1.wa.comcast.net) has quit (Changing host)
+2017-02-09 20:39:29	▬▬▶	FunnyLookinHat (~funnylook@ubuntu/member/funnylookinhat) has joined #ubuntu
+2017-02-09 20:39:36	xangua	!info printer-driver-all | you can also try (it will save time looking drivers for other printers)
+2017-02-09 20:39:39	ubottu	you can also try (it will save time looking drivers for other printers): printer-driver-all (source: printing-metas): printer drivers metapackage. In component universe, is optional. Version 0.20140714build1 (yakkety), package size 2 kB, installed size 8 kB
+2017-02-09 20:39:45	bazhang	Kurt_, check the linuxprinting.org database first
+2017-02-09 20:39:57	▬▬▶	james0r (~james@171.255.163.137) has joined #ubuntu
+2017-02-09 20:40:10	▬▬▶	chaff (~chaff@99-181-162-198.lightspeed.cicril.sbcglobal.net) has joined #ubuntu
+2017-02-09 20:40:17	james0r	how would i go about moving the snap dir out of my home dir?
+2017-02-09 20:40:30	◀▬▬	orlan (~orlan@107.13.75.67) has quit (Quit: leaving)
+2017-02-09 20:40:30	james0r	i like to keep ~/ tidy
+2017-02-09 20:40:33	bazhang	james0r, as in snappy?
+2017-02-09 20:40:44	james0r	bazhang, sure
+2017-02-09 20:40:52	ErrlBDabawax	linuxmint-help sent me here :'(
+2017-02-09 20:40:54	▬▬▶	S1GSEGV (~S1GSEGV@gateway/tor-sasl/s1gsegv) has joined #ubuntu
+2017-02-09 20:40:54	bazhang	#snappy for that james0r
+2017-02-09 20:41:05	▬▬▶	H0m3YC7au5 (~H0m3YC7au@172.98.78.34) has joined #ubuntu
+2017-02-09 20:41:21	bazhang	ErrlBDabawax, mint support is not on freenode
+2017-02-09 20:41:21	james0r	bazhang, k thx
+2017-02-09 20:41:31	▬▬▶	hwang4 (~hwang4@123.123.255.130) has joined #ubuntu
+2017-02-09 20:41:37	bazhang	ErrlBDabawax, and MINT is simply not supported here
+2017-02-09 20:42:04	OerHeks	mint serena has its own issues
+2017-02-09 20:42:13	Kurt_	Xangua: do I type that "info printer-driver-all" at the terminal command?
+2017-02-09 20:42:13	◀▬▬	Wulf (~Wulf@unaffiliated/wulf) has quit (Ping timeout: 252 seconds)
+2017-02-09 20:42:24	bazhang	!mintsupport | ErrlBDabawax
+2017-02-09 20:42:24	ubottu	ErrlBDabawax: Linux Mint is not a supported derivative of Ubuntu. Please seek support in #linuxmint-help on irc.spotchat.org
+2017-02-09 20:42:39	bazhang	spotchat ErrlBDabawax  not here
+2017-02-09 20:42:41	◀▬▬	io_____ (uid4598@gateway/web/irccloud.com/x-eurfchuvwyhjwdjn) has quit (Quit: Connection closed for inactivity)
+2017-02-09 20:42:48	◀▬▬	Salladino (~mathias@2804:d41:db6:d100:1872:c6ef:9f8e:c194) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:43:12	rizonz	what do you guys mostly use now the ens naming or still the ethX ?
+2017-02-09 20:43:30	◀▬▬	dnb_ (48b66d1d@gateway/web/freenode/ip.72.182.109.29) has quit (Ping timeout: 260 seconds)
+2017-02-09 20:44:11	OerHeks	rizonz, basicly we answer: get used to the new naming
+2017-02-09 20:44:19	▬▬▶	manish_ (~manish@27.34.78.163) has joined #ubuntu
+2017-02-09 20:44:20	◀▬▬	aruns (~suresh@176.24.38.154) has quit (Quit: leaving)
+2017-02-09 20:44:21	OerHeks	but you can turn it off.
+2017-02-09 20:44:30	◀▬▬	talonz (~talonz@180-150-105-159.cust.aussiebb.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:44:47	◀▬▬	texla (~ray@h152.202.20.98.dynamic.ip.windstream.net) has quit (Quit: Leaving)
+2017-02-09 20:45:04	◀▬▬	gardar (~gardar@bnc.giraffi.net) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:45:11	◀▬▬	nolash (~nolash@2a01:cb1c:812:ec00:88bb:9a90:9d83:6222) has quit (Remote host closed the connection)
+2017-02-09 20:45:23	◀▬▬	brybeecher_ (~bryan@75-166-123-91.hlrn.qwest.net) has quit (Ping timeout: 276 seconds)
+2017-02-09 20:45:35	xangua	!info printer-driver-all | Kurt_
+2017-02-09 20:45:35	ubottu	Kurt_: printer-driver-all (source: printing-metas): printer drivers metapackage. In component universe, is optional. Version 0.20140714build1 (yakkety), package size 2 kB, installed size 8 kB
+2017-02-09 20:45:37	dorkmafia	k1l_: should I use of=/dev/disk2 I see these: GUID_partition_scheme disk2, EFI disk2s1, UNTITLED disk2s2
+2017-02-09 20:45:51	dorkmafia	or should i do of=/dev/disk2s2
+2017-02-09 20:45:54	rizonz	OerHeks: true but for auto deploys it's kinda odd
+2017-02-09 20:46:00	dorkmafia	i'm not sure what the EFI diks2s1 is to be honest
+2017-02-09 20:46:02	◀▬▬	crayon (~realname@unaffiliated/crayon) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:46:05	◀▬▬	macskay (~macskay@luna232.startdedicated.de) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:46:13	rizonz	OerHeks: I have 2 of the same nics, one is ens3 and one is ens9 :S
+2017-02-09 20:46:17	OerHeks	rizonz, for autodeploy it should be a breeze
+2017-02-09 20:46:30	rizonz	OerHeks: it's not, why do you think that ?
+2017-02-09 20:46:39	k1l_	dorkmafia: i dont know the naming scheme from macos but on ubuntu you need to dd to /dev/sdb and not /dev/sdb1 since sdb1 is the partition but you need to dd to the bare metal
+2017-02-09 20:46:39	rizonz	I can't guess the numbersit gets
+2017-02-09 20:46:52	▬▬▶	Vampire0_ (~Vampire@jEdit/Vampire) has joined #ubuntu
+2017-02-09 20:46:53	▬▬▶	icedhell (~icedhell@105.152.30.15) has joined #ubuntu
+2017-02-09 20:46:56	◀▬▬	Revo (~Revo@136.32.160.129) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2017-02-09 20:47:14	◀▬▬	Curry (~argraeg@c-73-160-197-178.hsd1.nj.comcast.net) has quit (Ping timeout: 252 seconds)
+2017-02-09 20:47:26	▬▬▶	talonz (~talonz@180-150-105-159.cust.aussiebb.net) has joined #ubuntu
+2017-02-09 20:47:28	▬▬▶	andyhuzhill (~Thunderbi@14.23.45.178) has joined #ubuntu
+2017-02-09 20:47:32	◀▬▬	Vampire0 (~Vampire@jEdit/Vampire) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:47:33	▬▬▶	macskay (~macskay@luna232.startdedicated.de) has joined #ubuntu
+2017-02-09 20:47:36	◀▬▬	james0r (~james@171.255.163.137) has quit (Remote host closed the connection)
+2017-02-09 20:47:39	▬▬▶	Manusia (~kalimbu4y@180.248.130.97) has joined #ubuntu
+2017-02-09 20:48:29	▬▬▶	gavin__ (~gavin@27-242-72-157.adsl.fetnet.net) has joined #ubuntu
+2017-02-09 20:49:07	◀▬▬	br34l (~br34l@unaffiliated/br34l) has quit (Read error: Connection reset by peer)
+2017-02-09 20:50:00	dorkmafia	i should follow htis https://help.ubuntu.com/community/Installation/FromImgFiles/#Command_Line_Interface-2
+2017-02-09 20:50:28	▬▬▶	ilfantomas (~chatzilla@ool-457a3c53.dyn.optonline.net) has joined #ubuntu
+2017-02-09 20:50:34	◀▬▬	sbine (~sbine@unaffiliated/sbine) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:50:44	▬▬▶	silencecm (188a49e6@gateway/web/freenode/ip.24.138.73.230) has joined #ubuntu
+2017-02-09 20:50:46	◀▬▬	Nyxus (~Nyxus@cpc99306-croy26-2-0-cust20.19-2.cable.virginm.net) has quit (Ping timeout: 264 seconds)
+2017-02-09 20:51:09	silencecm	Can someone help me with a systemd service question?
+2017-02-09 20:51:19	◀▬▬	Frickelpit (~pit@ubuntuusers/serverteam/frickelpit) has quit (Ping timeout: 258 seconds)
+2017-02-09 20:51:42	silencecm	I'm just struggling with a dependency issue
+2017-02-09 20:51:53	◀▬▬	marie1972 (~marie1972@179.43.147.28) has quit
+2017-02-09 20:52:00	◀▬▬	Bob8989 (~bobby12@185.67.177.203) has quit (Quit: KVIrc 4.0.4 Insomnia http://www.kvirc.net/)
+2017-02-09 20:52:05	◀▬▬	wliu (~wliu@112.98.233.249) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:52:16	◀▬▬	Manusia (~kalimbu4y@180.248.130.97) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:52:24	▬▬▶	gelei007 (~gelei007@112.198.69.92) has joined #ubuntu
+2017-02-09 20:52:28	▬▬▶	wliu (~wliu@112.98.233.249) has joined #ubuntu
+2017-02-09 20:52:30	dorkmafia	k1l_: is the sync nesc? it doesn't suggest sync in the doc
+2017-02-09 20:52:40	◀▬▬	notebox (~textual@host81-151-91-252.range81-151.btcentralplus.com) has quit (Quit: My Mac Pro has gone to sleep. ZZZzzz…)
+2017-02-09 20:53:18	OerHeks	after dd, sync is recommended
+2017-02-09 20:53:21	▬▬▶	UNIcodeX (~UNIcodeX@c-76-107-65-250.hsd1.la.comcast.net) has joined #ubuntu
+2017-02-09 20:53:33	silencecm	I have two custom `systemd.service` services and I need one to run after the other.
+2017-02-09 20:53:39	▬▬▶	Finetundra (~quassel@107-130-112-19.lightspeed.tukrga.sbcglobal.net) has joined #ubuntu
+2017-02-09 20:53:47	silencecm	I've tried using After, RequiredBy, etc
+2017-02-09 20:54:04	▬▬▶	marie1972 (marie1972@cpe-75-81-138-153.kc.res.rr.com) has joined #ubuntu
+2017-02-09 20:54:09	k1l_	dorkmafia: the sync is there to make sure the usb is done writing and not just faked that its done and in reality is still writing from the cache to the usb
+2017-02-09 20:54:49	▬▬▶	gerald_cb (~gerald@175.41.48.77) has joined #ubuntu
+2017-02-09 20:55:05	▬▬▶	Zren_ (~Zren@bas3-guelph22-174-88-82-175.dsl.bell.ca) has joined #ubuntu
+2017-02-09 20:55:06	▬▬▶	Zren__ (~Zren@bas3-guelph22-174-88-82-175.dsl.bell.ca) has joined #ubuntu
+2017-02-09 20:55:06	◀▬▬	manish_ (~manish@27.34.78.163) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:55:07	▬▬▶	jpmh (~jpmh@129.82.198.37) has joined #ubuntu
+2017-02-09 20:55:13	◀▬▬	Zren (~Zren@bas3-guelph22-174-88-82-175.dsl.bell.ca) has quit (Read error: Connection reset by peer)
+2017-02-09 20:55:20	◀▬▬	ErrlBDabawax (~mintjawn@73.112.80.104) has left #ubuntu ("Leaving")
+2017-02-09 20:55:36	◀▬▬	gerald (~gerald@175.41.48.77) has quit (Quit: Ex-Chat)
+2017-02-09 20:55:47	▬▬▶	gerald (~gerald@175.41.48.77) has joined #ubuntu
+2017-02-09 20:55:51	◀▬▬	Zren__ (~Zren@bas3-guelph22-174-88-82-175.dsl.bell.ca) has quit (Read error: Connection reset by peer)
+2017-02-09 20:55:56	◀▬▬	gerald (~gerald@175.41.48.77) has quit (Client Quit)
+2017-02-09 20:55:57	◀▬▬	Generic (~generic@c-73-223-168-226.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2017-02-09 20:56:04	▬▬▶	br34l (~br34l@unaffiliated/br34l) has joined #ubuntu
+2017-02-09 20:56:25	▬▬▶	omar_ (~omar@156.201.113.57) has joined #ubuntu
+2017-02-09 20:56:27	▬▬▶	Frickelpit (~pit@ubuntuusers/serverteam/frickelpit) has joined #ubuntu
+2017-02-09 20:56:31	▬▬▶	PwrSurge (~nrg@100.43.101.153) has joined #ubuntu
+2017-02-09 20:56:32	▬▬▶	jje (~quassel@unaffiliated/jje) has joined #ubuntu
+2017-02-09 20:56:48	◀▬▬	mbenz (~mbenz@cpe-71-70-149-30.nc.res.rr.com) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:57:12	▬▬▶	sbine (~sbine@unaffiliated/sbine) has joined #ubuntu
+2017-02-09 20:57:37	◀▬▬	omar_ (~omar@156.201.113.57) has quit (Client Quit)
+2017-02-09 20:57:47	▬▬▶	ChrisOei (~Thunderbi@ec2-35-165-219-180.us-west-2.compute.amazonaws.com) has joined #ubuntu
+2017-02-09 20:57:56	▬▬▶	omar_ (~omar@156.201.113.57) has joined #ubuntu
+2017-02-09 20:58:42	▬▬▶	ToBeCloud (uid51591@wikimedia/ToBeFree) has joined #ubuntu
+2017-02-09 20:58:43	◀▬▬	omar_ (~omar@156.201.113.57) has quit (Client Quit)
+2017-02-09 20:58:47	◀▬▬	jamisnemo (~jamisnemo@38.98.1.228) has quit (Ping timeout: 252 seconds)
+2017-02-09 20:59:10	◀▬▬	ph8 (~ph8@cpc15-slam6-2-0-cust437.2-4.cable.virginm.net) has quit (Ping timeout: 264 seconds)
+2017-02-09 20:59:10	▬▬▶	omar_ (~omar@156.201.113.57) has joined #ubuntu
+2017-02-09 20:59:37	▬▬▶	dementius (~dementius@2602:306:31b8:8f80:81c9:6585:c06a:b6f9) has joined #ubuntu
+2017-02-09 20:59:44	◀▬▬	dementius (~dementius@2602:306:31b8:8f80:81c9:6585:c06a:b6f9) has left #ubuntu
+2017-02-09 21:00:37	◀▬▬	Kurt_ (4c0e5a25@gateway/web/freenode/ip.76.14.90.37) has quit (Quit: Page closed)
+2017-02-09 21:01:33	◀▬▬	ajdonnison (~adam@180.181.94.72) has quit (Read error: Connection reset by peer)
+2017-02-09 21:01:59	▬▬▶	ajdonnison (~adam@180.181.94.72) has joined #ubuntu
+2017-02-09 21:02:29	◀▬▬	frostschutz (~frostschu@x2f65da3.dyn.telefonica.de) has quit (Remote host closed the connection)
+2017-02-09 21:02:49	◀▬▬	hspcd (~hspcd@cpe-173-95-187-19.nc.res.rr.com) has quit (Ping timeout: 245 seconds)
+2017-02-09 21:02:55	▬▬▶	accessun (~accessun@159.226.181.69) has joined #ubuntu
+2017-02-09 21:03:25	▬▬▶	ph8 (~ph8@cpc15-slam6-2-0-cust437.2-4.cable.virginm.net) has joined #ubuntu
+2017-02-09 21:03:26	◀▬▬	gelei007 (~gelei007@112.198.69.92) has quit (Read error: Connection reset by peer)
+2017-02-09 21:04:33	--	omar_ is now known as omelgazzar
+2017-02-09 21:04:35	◀▬▬	Edgan (~edgan@96-95-217-146-static.hfc.comcastbusiness.net) has quit (Quit: Client exiting)
+2017-02-09 21:04:42	--	omelgazzar is now known as omer
+2017-02-09 21:05:18	--	omer is now known as omar_
+2017-02-09 21:05:44	◀▬▬	neildugan (~neil@123.185.168.125.sta.wbroadband.net.au) has quit (Ping timeout: 245 seconds)
+2017-02-09 21:06:27	▬▬▶	al2o3-cr (~al2o3-cr@unaffiliated/gr33n7007h) has joined #ubuntu
+2017-02-09 21:08:05	◀▬▬	omar_ (~omar@156.201.113.57) has quit (Quit: Ex-Chat)
+2017-02-09 21:11:26	◀▬▬	stryx` (~stryx@unaffiliated/stryx/x-3871776) has quit (Ping timeout: 252 seconds)
+2017-02-09 21:11:31	▬▬▶	rocket__ (~rocket__@unaffiliated/rocket--/x-6233973) has joined #ubuntu
+2017-02-09 21:11:48	rocket__	hi
+2017-02-09 21:12:07	▬▬▶	stryx` (~stryx@unaffiliated/stryx/x-3871776) has joined #ubuntu
+2017-02-09 21:12:18	rocket__	i have a question - i have debian installed - in general how secure are routers?
+2017-02-09 21:12:22	◀▬▬	anewman (~anewman@50-90-158-54.res.bhn.net) has quit (Ping timeout: 264 seconds)
+2017-02-09 21:12:37	rocket__	should i also use the iptables to restrict services to the lan?
+2017-02-09 21:12:46	rocket__	samba for example
+2017-02-09 21:12:49	LjL	so you are running debian and you have a question about routers, hence you ask #ubuntu
+2017-02-09 21:12:56	▬▬▶	manish_ (~manish@27.34.78.163) has joined #ubuntu
+2017-02-09 21:13:11	rocket__	?
+2017-02-09 21:13:29	rocket__	whats the problem?
+2017-02-09 21:13:49	LjL	i don't know, what's your problem with ubuntu?
+2017-02-09 21:13:53	◀▬▬	lucido-cl (~chris@xd932130b.dyn.telefonica.de) has quit (Ping timeout: 255 seconds)
+2017-02-09 21:14:11	rocket__	ah wrong channel sorry
+2017-02-09 21:14:14	▬▬▶	mks-rom (~mks-rom@103.242.15.202) has joined #ubuntu
+2017-02-09 21:14:19	rocket__	but anyway its the same for ubuntu
+2017-02-09 21:14:26	rocket__	since ubuntu is based upon debian
+2017-02-09 21:14:45	◀▬▬	dbclk (~dbclk@190.213.205.178) has quit (Remote host closed the connection)
+2017-02-09 21:15:25	LjL	which is based on linux which is inspired by unix and a type of unix is bsd, so might as well ask in the freebsd channel
+2017-02-09 21:15:40	◀▬▬	evade (~quassel@c-73-65-238-158.hsd1.ut.comcast.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:15:47	▬▬▶	nhandler (~nhandler@freenode/staff/ubuntu.member.nhandler) has joined #ubuntu
+2017-02-09 21:15:50	◀▬▬	ilfantomas (~chatzilla@ool-457a3c53.dyn.optonline.net) has quit (Ping timeout: 252 seconds)
+2017-02-09 21:16:00	rocket__	LjL, why do u waste your time with trolling?
+2017-02-09 21:16:23	LjL	why don't you go to the correct channel and also speak English using full words?
+2017-02-09 21:17:06	LjL	i've spent more than a decade seeing people having the rather obvious concept that question about a thing belong in the channel for the given thing fly right over people's head
+2017-02-09 21:17:20	LjL	and that whole part of "support" taking up, at a guess, almost half of total support time
+2017-02-09 21:17:38	rocket__	LjL, get a life i have no time to waste it with idiots like you seem to be ;)
+2017-02-09 21:17:40	◀▬▬	TheIliad (uid108572@gateway/web/irccloud.com/x-pvcjzwphcfkegjqh) has quit
+2017-02-09 21:17:44	▬▬▶	cyphase (~cyphase@unaffiliated/cyphase) has joined #ubuntu
+2017-02-09 21:18:00	◀▬▬	kw21 (~kw21@D978E830.cm-3-1d.dynamic.ziggo.nl) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:18:09	◀▬▬	miczac (~miczac@213-147-162-146.nat.highway.bob.at) has quit (Ping timeout: 258 seconds)
+2017-02-09 21:19:06	sponix	Wow
+2017-02-09 21:19:30	bazhang	rocket__, take debian questions to their channel
+2017-02-09 21:20:10	rocket__	its not a debian question, but i autojoined the wrong channel but still its no reason to start trolling
+2017-02-09 21:20:32	rocket__	they already answered my question on debian
+2017-02-09 21:20:35	bazhang	rocket__, that's enough
+2017-02-09 21:20:47	▬▬▶	svm_invictvs (~patrick@unaffiliated/svminvictvs/x-938456) has joined #ubuntu
+2017-02-09 21:20:48	◀▬▬	PwrSurge (~nrg@100.43.101.153) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:20:57	▬▬▶	abhishek (~abhigenie@dyn-160-39-40-211.dyn.columbia.edu) has joined #ubuntu
+2017-02-09 21:21:04	k1l_	rocket__: you see that you are still waisting this channel with non ubuntu support and insulting others? what about you stop that rude behavior
+2017-02-09 21:21:25	rocket__	im not insulting anyone
+2017-02-09 21:21:27	▬▬▶	jamie_1 (~Thunderbi@rrcs-50-84-166-42.sw.biz.rr.com) has joined #ubuntu
+2017-02-09 21:22:21	sponix	"idiots like you seem to be" -- Quote rocket__
+2017-02-09 21:22:53	▬▬▶	Sekreta (~Thunderbi@12.216.73.116) has joined #ubuntu
+2017-02-09 21:22:56	sponix	I personally find that a bit insulting
+2017-02-09 21:22:58	rocket__	well but this question is not about debian or ubuntu its about services and linux and routers
+2017-02-09 21:23:13	rocket__	i hate to get troll answers and i didnt see that im on the wrong channel
+2017-02-09 21:23:21	sponix	rocket__: If it is a "General" Linux question then ask in ##Linux
+2017-02-09 21:23:23	bazhang	##networking then rocket__
+2017-02-09 21:23:30	rocket__	sure thanks
+2017-02-09 21:23:35	bazhang	np
+2017-02-09 21:23:40	rocket__	like i said i was thinking i was on debian
+2017-02-09 21:23:50	▬▬▶	neildugan (~neil@123.185.168.125.sta.wbroadband.net.au) has joined #ubuntu
+2017-02-09 21:23:57	bazhang	thats fine, lets get back on topic please
+2017-02-09 21:24:05	sponix	rocket__: Asking in the wrong channel can happen from time to time. But it seems everyone is getting carried away
+2017-02-09 21:24:35	▬▬▶	stv (~stv@HSI-KBW-109-193-039-031.hsi7.kabel-badenwuerttemberg.de) has joined #ubuntu
+2017-02-09 21:25:04	stv	hello anybody out there
+2017-02-09 21:25:05	◀▬▬	Sekreta (~Thunderbi@12.216.73.116) has quit (Client Quit)
+2017-02-09 21:25:33	k1l_	stv: yes, just ask :)
+2017-02-09 21:25:38	stv	I am having trouble with unbunta
+2017-02-09 21:25:50	▬▬▶	batteronizer (~abhishek@182.68.229.122) has joined #ubuntu
+2017-02-09 21:25:59	stv	upgrade not working
+2017-02-09 21:26:02	◀▬▬	msmith (~msmith@c-73-249-245-231.hsd1.nh.comcast.net) has quit (Remote host closed the connection)
+2017-02-09 21:26:08	k1l_	which upgrade?
+2017-02-09 21:26:31	k1l_	can you show the output of "lsb_release -sd" in here?
+2017-02-09 21:26:39	stv	one min please
+2017-02-09 21:26:51	sponix	How likely are backports to wreck my box stability wise ?
+2017-02-09 21:26:56	◀▬▬	Ilyas (uid43013@gateway/web/irccloud.com/x-zgtrubkvbnubkvzl) has quit (Quit: Connection closed for inactivity)
+2017-02-09 21:27:24	stv	xbunta I have 14.0 and want 16
+2017-02-09 21:27:25	◀▬▬	rocket__ (~rocket__@unaffiliated/rocket--/x-6233973) has quit (Quit: Leaving)

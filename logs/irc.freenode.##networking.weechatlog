@@ -26,3 +26,141 @@
 2017-02-09 20:13:16	▬▬▶	detha (~detha@unaffiliated/detha) has joined ##networking
 2017-02-09 20:13:24	▬▬▶	sdfgsdfg (~sdfgsdfg@unaffiliated/sdfgsdfg) has joined ##networking
 2017-02-09 20:13:43	▬▬▶	Hello71 (~Hello71@wikipedia/Hello71) has joined ##networking
+2017-02-09 20:15:32	◀▬▬	kuko (~kuko@2a02:8388:2000:9b00:f069:28b8:b57b:9ca4) has left ##networking
+2017-02-09 20:15:48	◀▬▬	metachr0n (~nobody@gateway/vpn/privateinternetaccess/metachr0n) has quit (Remote host closed the connection)
+2017-02-09 20:15:57	◀▬▬	jathan (~jathan@arcmty01.izabc.com) has quit (Quit: Saliendo)
+2017-02-09 20:17:17	◀▬▬	dark_15 (~Adium@8.25.197.24) has quit (Quit: Leaving.)
+2017-02-09 20:17:34	◀▬▬	artgoeshere (~artgoeshe@104.236.10.154) has quit (Quit: I'll see myself out...)
+2017-02-09 20:17:52	▬▬▶	metachr0n (~nobody@gateway/vpn/privateinternetaccess/metachr0n) has joined ##networking
+2017-02-09 20:17:58	◀▬▬	degantyll (~randres@201.123.152.210) has quit (Quit: WeeChat 1.5)
+2017-02-09 20:18:00	◀▬▬	harukomoto (~harukomot@93-41-20-224.ip79.fastwebnet.it) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:18:42	▬▬▶	forgotmynick (uid24625@gateway/web/irccloud.com/x-mthqtasisgfogcwc) has joined ##networking
+2017-02-09 20:20:06	▬▬▶	vonsyd0w (~vonsyd0w@unaffiliated/vonsyd0w) has joined ##networking
+2017-02-09 20:20:33	▬▬▶	artgoeshere (~artgoeshe@104.236.10.154) has joined ##networking
+2017-02-09 20:20:46	▬▬▶	mad_enz (~mad_enz@2607:f090:488d:7ab:2477:a55b:ec49:256e) has joined ##networking
+2017-02-09 20:21:34	◀▬▬	fluter (~fluter@fedora/fluter) has quit (Ping timeout: 245 seconds)
+2017-02-09 20:23:06	◀▬▬	floown (~quassel@unaffiliated/fanchon) has quit (Quit: No Ping reply in 180 seconds.)
+2017-02-09 20:24:23	▬▬▶	floown (~quassel@2a02-8420-5a09-be00-14a6-9b44-c2a4-dcf3.rev.sfr.net) has joined ##networking
+2017-02-09 20:24:23	◀▬▬	floown (~quassel@2a02-8420-5a09-be00-14a6-9b44-c2a4-dcf3.rev.sfr.net) has quit (Changing host)
+2017-02-09 20:24:23	▬▬▶	floown (~quassel@unaffiliated/fanchon) has joined ##networking
+2017-02-09 20:24:53	◀▬▬	l2esonance (~l2esonanc@c-73-223-132-245.hsd1.ca.comcast.net) has quit (Quit: l2esonance)
+2017-02-09 20:24:58	▬▬▶	monoxane (~monoxane@unaffiliated/monoxane) has joined ##networking
+2017-02-09 20:25:27	◀▬▬	aborazmeh (~aborazmeh@unaffiliated/aborazmeh) has quit (Quit: Bye!)
+2017-02-09 20:25:41	◀▬▬	pandabearit_ (~pandabear@c-73-229-212-108.hsd1.co.comcast.net) has quit (Quit: Leaving)
+2017-02-09 20:25:42	◀▬▬	pandbearit (~pandabear@c-73-229-212-108.hsd1.co.comcast.net) has quit (Quit: Leaving)
+2017-02-09 20:25:50	▬▬▶	reverse_light (~reverse_l@ntszok051203.szok.nt.adsl.ppp.infoweb.ne.jp) has joined ##networking
+2017-02-09 20:26:01	monoxane	I need data for school, anyone care to do a brief survey on ipv6 adoption in consumer internet? https://monoxane.com/school/itcsurvey/
+2017-02-09 20:27:01	◀▬▬	deadserf (~deadserf@unaffiliated/deadserf) has quit (Quit: leaving)
+2017-02-09 20:27:10	◀▬▬	ilfantomas (~chatzilla@ool-457a3c53.dyn.optonline.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:28:10	◀▬▬	AtumT (~IRC@179.187.109.233.dynamic.adsl.gvt.net.br) has quit (Remote host closed the connection)
+2017-02-09 20:28:22	▬▬▶	goldstar (~chatzilla@217.138.9.21) has joined ##networking
+2017-02-09 20:28:52	◀▬▬	asdfasdf (~Barones@2804:7f3:8981:73f1::3) has quit (Remote host closed the connection)
+2017-02-09 20:29:12	▬▬▶	asdfasdf (~Barones@2804:7f3:8981:73f1::3) has joined ##networking
+2017-02-09 20:29:19	--	asdfasdf is now known as Barones
+2017-02-09 20:30:24	◀▬▬	brokensyntax (~quassel@45.62.240.131) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2017-02-09 20:31:46	rjsalts	monoxane: https://stats.labs.apnic.net/ipv6/ https://www.akamai.com/uk/en/our-thinking/state-of-the-internet-report/state-of-the-internet-ipv6-adoption-visualization.jsp helpful?
+2017-02-09 20:32:15	monoxane	rjsalts, i need to collect the data myself because of stupid govt course outlines
+2017-02-09 20:32:27	◀▬▬	PiXEL8 (~PiXEL8@162.250.132.4) has quit (Quit: Going offline, see ya! (www.adiirc.com))
+2017-02-09 20:32:43	▬▬▶	fluter (~fluter@fedora/fluter) has joined ##networking
+2017-02-09 20:33:20	◀▬▬	cdown (~cdown@82-132-227-151.dab.02.net) has quit (Remote host closed the connection)
+2017-02-09 20:33:30	▬▬▶	cdown (~cdown@82-132-227-151.dab.02.net) has joined ##networking
+2017-02-09 20:35:17	◀▬▬	catpiggest (~catpig@p54BD76C8.dip0.t-ipconnect.de) has quit (Quit: Leaving)
+2017-02-09 20:37:56	◀▬▬	cdown (~cdown@82-132-227-151.dab.02.net) has quit (Remote host closed the connection)
+2017-02-09 20:40:19	▬▬▶	jameser (~textual@122.14.44.253) has joined ##networking
+2017-02-09 20:41:43	▬▬▶	mines5_ (~mines5@pool-96-230-221-30.bstnma.fios.verizon.net) has joined ##networking
+2017-02-09 20:41:55	◀▬▬	Noldorin (~noldorin@unaffiliated/noldorin) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:41:58	◀▬▬	Mike11 (~Mike@unaffiliated/mike11) has quit (Quit: Leaving.)
+2017-02-09 20:42:13	◀▬▬	Wulf (~Wulf@unaffiliated/wulf) has quit (Ping timeout: 252 seconds)
+2017-02-09 20:44:25	◀▬▬	jlf (~user@pdpc/supporter/active/jlf) has quit (Ping timeout: 258 seconds)
+2017-02-09 20:44:41	mystica555	y
+2017-02-09 20:45:00	◀▬▬	mines5 (~mines5@pool-96-230-221-30.bstnma.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:45:08	--	mines5_ is now known as mines5
+2017-02-09 20:46:02	◀▬▬	crayon (~realname@unaffiliated/crayon) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:46:16	▬▬▶	es1 (~es1@unaffiliated/es1) has joined ##networking
+2017-02-09 20:46:56	◀▬▬	Revo (~Revo@136.32.160.129) has quit (Quit: My MacBook Air has gone to sleep. ZZZzzz…)
+2017-02-09 20:48:42	▬▬▶	Gustavo6046 (~Gustavo60@unaffiliated/gustavo6046) has joined ##networking
+2017-02-09 20:49:25	◀▬▬	_w1n64 (~user@92.127.155.54) has quit (Remote host closed the connection)
+2017-02-09 20:49:35	◀▬▬	baldpope (~baldpope@unaffiliated/baldpope) has quit (Quit: Leaving)
+2017-02-09 20:50:28	▬▬▶	ilfantomas (~chatzilla@ool-457a3c53.dyn.optonline.net) has joined ##networking
+2017-02-09 20:50:32	▬▬▶	_w1n64 (~user@92.127.155.54) has joined ##networking
+2017-02-09 20:50:34	◀▬▬	sbine (~sbine@unaffiliated/sbine) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:50:54	◀▬▬	_w1n64 (~user@92.127.155.54) has quit (Max SendQ exceeded)
+2017-02-09 20:51:34	▬▬▶	hyphenated (~hyphenate@103.26.17.55) has joined ##networking
+2017-02-09 20:51:53	◀▬▬	Rodya_ (~Rodya_@2601:46:4001:e0b4:f895:559b:6e9b:46c) has quit (Quit: Leaving...)
+2017-02-09 20:51:53	◀▬▬	marie1972 (~marie1972@179.43.147.28) has quit
+2017-02-09 20:51:54	▬▬▶	arescorpio (~arescorpi@184-205-17-190.fibertel.com.ar) has joined ##networking
+2017-02-09 20:52:00	◀▬▬	Bob8989|2 (~kvirc@185.67.177.203) has quit (Quit: KVIrc 4.0.4 Insomnia http://www.kvirc.net/)
+2017-02-09 20:52:00	◀▬▬	Bob8989 (~bobby12@185.67.177.203) has quit (Quit: KVIrc 4.0.4 Insomnia http://www.kvirc.net/)
+2017-02-09 20:52:00	▬▬▶	_w1n64 (~user@92.127.155.54) has joined ##networking
+2017-02-09 20:52:12	▬▬▶	bugzc (~1@unaffiliated/bugzc) has joined ##networking
+2017-02-09 20:52:31	◀▬▬	_w1n64 (~user@92.127.155.54) has quit (Max SendQ exceeded)
+2017-02-09 20:54:04	▬▬▶	marie1972 (marie1972@cpe-75-81-138-153.kc.res.rr.com) has joined ##networking
+2017-02-09 20:54:18	◀▬▬	swest1 (~southwest@2a02:2b88:2:1::3e3a:1) has quit (Quit: swest1)
+2017-02-09 20:54:23	▬▬▶	_w1n64 (~user@92.127.155.54) has joined ##networking
+2017-02-09 20:54:25	▬▬▶	kaiten02 (~kaiten02@FL9-119-243-99-97.tky.mesh.ad.jp) has joined ##networking
+2017-02-09 20:54:33	◀▬▬	_w1n64 (~user@92.127.155.54) has quit (Max SendQ exceeded)
+2017-02-09 20:54:35	◀▬▬	kaiten02 (~kaiten02@FL9-119-243-99-97.tky.mesh.ad.jp) has quit (Remote host closed the connection)
+2017-02-09 20:55:16	◀▬▬	rossome (~indieross@ip70-162-243-125.ph.ph.cox.net) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:56:58	▬▬▶	sbine (~sbine@unaffiliated/sbine) has joined ##networking
+2017-02-09 20:58:52	▬▬▶	ToBeCloud (uid51591@wikimedia/ToBeFree) has joined ##networking
+2017-02-09 21:02:13	◀▬▬	bradfordli123 (~bradfordl@cowboy.intuit.com) has quit (Remote host closed the connection)
+2017-02-09 21:02:18	▬▬▶	goldstar_ (~chatzilla@192.71.244.42) has joined ##networking
+2017-02-09 21:02:39	◀▬▬	S_SubZero (~ssz@about/windows/regular/s-subzero) has quit (Quit: S_SubZero)
+2017-02-09 21:02:49	◀▬▬	hspcd (~hspcd@cpe-173-95-187-19.nc.res.rr.com) has quit (Ping timeout: 245 seconds)
+2017-02-09 21:03:49	▬▬▶	goldstar__ (~chatzilla@217.138.9.21) has joined ##networking
+2017-02-09 21:04:01	◀▬▬	pitoow (~charles@189.113.93.38) has quit (Remote host closed the connection)
+2017-02-09 21:04:55	▬▬▶	rossome (~indieross@ip70-162-243-125.ph.ph.cox.net) has joined ##networking
+2017-02-09 21:05:30	◀▬▬	goldstar (~chatzilla@217.138.9.21) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:05:36	--	aleph- is now known as TheNihilist
+2017-02-09 21:06:05	◀▬▬	miruoy (~miruoy@unaffiliated/miruoy) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:06:13	◀▬▬	jameser (~textual@122.14.44.253) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-02-09 21:06:28	◀▬▬	w1cked (~w1cked@rrcs-74-142-147-224.central.biz.rr.com) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:06:50	◀▬▬	wiesel (~wiesel@14.177.224.22) has quit (Ping timeout: 276 seconds)
+2017-02-09 21:06:58	▬▬▶	miruoy (~miruoy@unaffiliated/miruoy) has joined ##networking
+2017-02-09 21:07:00	◀▬▬	goldstar_ (~chatzilla@192.71.244.42) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:07:00	▬▬▶	w1cked (~w1cked@rrcs-74-142-147-224.central.biz.rr.com) has joined ##networking
+2017-02-09 21:07:29	▬▬▶	magic_ninja (~sparie1@ip72-209-163-132.ks.ks.cox.net) has joined ##networking
+2017-02-09 21:07:29	◀▬▬	magic_ninja (~sparie1@ip72-209-163-132.ks.ks.cox.net) has quit (Changing host)
+2017-02-09 21:07:29	▬▬▶	magic_ninja (~sparie1@unaffiliated/magic-ninja/x-4708782) has joined ##networking
+2017-02-09 21:07:33	▬▬▶	QoQOoO (~qoqooo@223-140-211-12.EMOME-IP.hinet.net) has joined ##networking
+2017-02-09 21:07:53	▬▬▶	jge_ (~textual@99-157-198-180.lightspeed.miamfl.sbcglobal.net) has joined ##networking
+2017-02-09 21:08:06	--	TheNihilist is now known as aleph-
+2017-02-09 21:09:06	◀▬▬	rombus (~rombus@iceland.sdf.org) has quit (Remote host closed the connection)
+2017-02-09 21:12:03	▬▬▶	_w1n64 (~user@92.127.155.54) has joined ##networking
+2017-02-09 21:12:06	◀▬▬	_w1n64 (~user@92.127.155.54) has quit (Max SendQ exceeded)
+2017-02-09 21:12:27	▬▬▶	yuta (~ippan@PPPa125.e3.eacc.dti.ne.jp) has joined ##networking
+2017-02-09 21:12:31	◀▬▬	SwiftMatt (~Objective@162.242.95.136) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2017-02-09 21:12:45	jge_	Hey all, got a question. Lets say you have a front end server connected to the internet but also to a backend network through another interface. How would you protect traffic coming in through the front end so in case the server gets owned they wont have access to the backend?
+2017-02-09 21:13:08	▬▬▶	_w1n64 (~user@92.127.155.54) has joined ##networking
+2017-02-09 21:13:15	◀▬▬	_w1n64 (~user@92.127.155.54) has quit (Max SendQ exceeded)
+2017-02-09 21:14:38	▬▬▶	_w1n64 (~user@92.127.155.54) has joined ##networking
+2017-02-09 21:14:56	◀▬▬	y3k (~k3y@unaffiliated/k3y) has quit (Ping timeout: 256 seconds)
+2017-02-09 21:15:01	◀▬▬	_w1n64 (~user@92.127.155.54) has quit (Max SendQ exceeded)
+2017-02-09 21:15:10	▬▬▶	Kinky_Kitty (~Art@71.95.83.195) has joined ##networking
+2017-02-09 21:15:21	▬▬▶	miliarch (~miliarch@unaffiliated/miliarch) has joined ##networking
+2017-02-09 21:15:50	◀▬▬	ilfantomas (~chatzilla@ool-457a3c53.dyn.optonline.net) has quit (Ping timeout: 252 seconds)
+2017-02-09 21:15:56	▬▬▶	_w1n64 (~user@92.127.155.54) has joined ##networking
+2017-02-09 21:16:04	◀▬▬	_w1n64 (~user@92.127.155.54) has quit (Max SendQ exceeded)
+2017-02-09 21:16:34	◀▬▬	Cloudish (~Cloudish@unaffiliated/cloudish) has quit (Ping timeout: 264 seconds)
+2017-02-09 21:16:52	◀▬▬	psyb0t (~psyb0t@5-13-204-207.residential.rdsnet.ro) has quit (Ping timeout: 255 seconds)
+2017-02-09 21:17:02	▬▬▶	_w1n64 (~user@92.127.155.54) has joined ##networking
+2017-02-09 21:17:11	zapotah	jge_: by not having a second interface and instead running your frontend-backend connections through a firewall
+2017-02-09 21:17:17	◀▬▬	_w1n64 (~user@92.127.155.54) has quit (Max SendQ exceeded)
+2017-02-09 21:17:19	zapotah	like a sane person
+2017-02-09 21:17:40	◀▬▬	TheIliad (uid108572@gateway/web/irccloud.com/x-pvcjzwphcfkegjqh) has quit
+2017-02-09 21:18:09	▬▬▶	psyb0t (~psyb0t@5-13-204-207.residential.rdsnet.ro) has joined ##networking
+2017-02-09 21:18:18	▬▬▶	_w1n64 (~user@92.127.155.54) has joined ##networking
+2017-02-09 21:19:18	◀▬▬	ServChan (403cc612@gateway/web/cgi-irc/kiwiirc.com/ip.64.60.198.18) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2017-02-09 21:21:21	◀▬▬	hyphenated (~hyphenate@103.26.17.55) has quit (Quit: hyphenated)
+2017-02-09 21:21:40	--	chenuki is now known as chen
+2017-02-09 21:23:20	▬▬▶	SwiftMatt (~Objective@162.242.95.136) has joined ##networking
+2017-02-09 21:24:29	genec	jge_: 1) don't run a second interface.  different firewall zones and inspect traffic from front to back servers.  2) run yet another firewall in between.  just don't run a L2 filter.  quite PITA to deal with, especially as you try to determine which side you're on
+2017-02-09 21:24:30	nikivi	can someone recommend a good book to understand various transport protocols
+2017-02-09 21:24:45	nikivi	I want to really get how the web stack works but reading wiki is not enough
+2017-02-09 21:25:08	◀▬▬	R1ckROSS (~8adboyKAS@37.0.122.232) has quit (Ping timeout: 255 seconds)
+2017-02-09 21:25:38	▬▬▶	jameser (~textual@122.14.44.253) has joined ##networking
+2017-02-09 21:25:48	◀▬▬	tocka (~tocka@78-56-107-170.static.zebra.lt) has quit
+2017-02-09 21:26:16	genec	Entrymsg   : Introductory text: "Computer Networks" by Andrew Tanenbaum.
+2017-02-09 21:26:22	▬▬▶	goldstar (~chatzilla@192.71.244.42) has joined ##networking
+2017-02-09 21:27:02	▬▬▶	k3y (~k3y@unaffiliated/k3y) has joined ##networking
+2017-02-09 21:27:06	◀▬▬	SwiftMatt (~Objective@162.242.95.136) has quit (Client Quit)
