@@ -1,0 +1,120 @@
+2017-02-09 19:30:21	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined ##linux
+2017-02-09 19:30:21	--	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-02-09 19:30:21	--	Topic set by bocaneri (~bocaneri@about/linux/staff/sauvin) on Sun, 04 Dec 2016 02:21:22
+2017-02-09 19:30:21	--	Channel ##linux: 1760 nicks (0 ops, 0 voices, 1760 normals)
+2017-02-09 19:30:21	***	Buffer Playback...
+2017-02-09 19:30:21	gry	[19:30:17] arvut: no, i ordered milk, it was intentional 9i don't drink coffee
+2017-02-09 19:30:21	***	Playback Complete.
+2017-02-09 19:30:22	arvut	oh
+2017-02-09 19:30:23	▬▬▶	Chinggis6 (~chinggis@unaffiliated/chinggis6) has joined ##linux
+2017-02-09 19:30:26	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-02-09 19:30:30	arvut	would have been humorous otherwise
+2017-02-09 19:30:34	▬▬▶	mdarse (~mdarse@80.215.234.89) has joined ##linux
+2017-02-09 19:30:34	gry	ya
+2017-02-09 19:30:39	▬▬▶	darkseid4nk (~darkseid@54.201.209.31) has joined ##linux
+2017-02-09 19:30:41	◀▬▬	mathieudarse (~mdarse@80.215.234.89) has quit (Read error: Connection reset by peer)
+2017-02-09 19:31:00	▬▬▶	piggah (~nick@dt0c0n96.tampabay.res.rr.com) has joined ##linux
+2017-02-09 19:31:02	Walex	pocketprotector: are you getting a shell prompt? 'expect' should expect that and then issue the command.
+2017-02-09 19:31:27	Walex	pocketprotector: here an example: http://www.journaldev.com/1405/expect-script-example-ssh-running-command
+2017-02-09 19:32:01	◀▬▬	Guest95221 (~quassel@85-124-51-57.static.upcbusiness.at) has quit (Ping timeout: 255 seconds)
+2017-02-09 19:32:07	◀▬▬	darkseid4nk (~darkseid@54.201.209.31) has left ##linux
+2017-02-09 19:32:39	pocketprotector	walex, let me read that and i will get back to you
+2017-02-09 19:32:47	pocketprotector	i will need to modify a few things for it to work
+2017-02-09 19:32:48	pocketprotector	thanks
+2017-02-09 19:33:08	◀▬▬	daedreth (~dave@x4db4cc98.dyn.telefonica.de) has quit (Quit: WeeChat 1.4)
+2017-02-09 19:33:10	◀▬▬	ibouvousaime (~ibouvousa@unaffiliated/ibouvousaime) has quit (Ping timeout: 240 seconds)
+2017-02-09 19:33:42	Walex	pocketprotector: http://linuxaria.com/howto/2-practical-examples-of-expect-on-the-linux-cli
+2017-02-09 19:33:45	▬▬▶	AkshayG (~akshayg@125.16.97.122) has joined ##linux
+2017-02-09 19:33:55	Walex	pocketprotector: the second example changes a password
+2017-02-09 19:35:19	◀▬▬	rulezzz (~user1@201.151.138.33) has quit (Ping timeout: 245 seconds)
+2017-02-09 19:35:22	▬▬▶	pandbearit (~pandabear@c-73-229-212-108.hsd1.co.comcast.net) has joined ##linux
+2017-02-09 19:35:25	▬▬▶	pandabearit_ (~pandabear@2601:280:4700:84f0:f060:8816:8142:e1cf) has joined ##linux
+2017-02-09 19:35:42	▬▬▶	Haudegen_ (~quassel@85-124-51-57.static.upcbusiness.at) has joined ##linux
+2017-02-09 19:36:04	◀▬▬	internauto (~Thunderbi@187.36.216.237) has quit (Ping timeout: 255 seconds)
+2017-02-09 19:36:11	▬▬▶	markasoftware (~markasoft@2601:601:8c00:f808::c02e) has joined ##linux
+2017-02-09 19:36:18	◀▬▬	markasoftware (~markasoft@2601:601:8c00:f808::c02e) has quit (Remote host closed the connection)
+2017-02-09 19:36:34	▬▬▶	Bob8989 (~bobby12@185.67.177.203) has joined ##linux
+2017-02-09 19:37:16	▬▬▶	HiWEB (~HiWEB@c-71-197-230-219.hsd1.wa.comcast.net) has joined ##linux
+2017-02-09 19:37:55	▬▬▶	nando293921 (~Nando15@64.189.57.226) has joined ##linux
+2017-02-09 19:38:20	▬▬▶	serdar (~serdar@pD9E6F108.dip0.t-ipconnect.de) has joined ##linux
+2017-02-09 19:38:25	▬▬▶	kishore96 (~kishore@103.225.103.68) has joined ##linux
+2017-02-09 19:39:09	▬▬▶	tefter (~bmaxa@c-bg-d-p1-76.bvcom.net) has joined ##linux
+2017-02-09 19:39:09	◀▬▬	minimalism (~none@unaffiliated/minimalism) has quit (Quit: minimalism)
+2017-02-09 19:39:18	▬▬▶	Pegasus_RPG (~Icedove@cpe-172-89-67-189.socal.res.rr.com) has joined ##linux
+2017-02-09 19:39:48	◀▬▬	oajs (~quassel@c-73-153-30-183.hsd1.co.comcast.net) has quit (Read error: Connection reset by peer)
+2017-02-09 19:40:07	Pegasus_RPG	Hello. How could I find out if there are Linux drivers for the Plantronics Blackwire headset series? (They have class-compliant audio but include a sensor and buttons to answer and hang up a call.)
+2017-02-09 19:40:15	▬▬▶	pepee (~pepee@unaffiliated/pepee) has joined ##linux
+2017-02-09 19:40:31	Pegasus_RPG	No idea how they preset those to the system since the company has Windows and Mac software to control those functions.
+2017-02-09 19:40:35	Pegasus_RPG	I suspect HID though
+2017-02-09 19:40:49	▬▬▶	rulezzz (~user1@201.151.138.33) has joined ##linux
+2017-02-09 19:41:10	▬▬▶	lometur (~lometur@47-37-110-59.dhcp.ftwo.tx.charter.com) has joined ##linux
+2017-02-09 19:41:28	◀▬▬	boingolov (~nastynate@c-67-187-127-204.hsd1.tn.comcast.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 19:42:19	▬▬▶	rrick (cb56cce3@gateway/web/cgi-irc/kiwiirc.com/ip.203.86.204.227) has joined ##linux
+2017-02-09 19:42:22	◀▬▬	harai (~b@node-1w7jr9srv59tllny8kfzgds6t.ipv6.telus.net) has quit (Ping timeout: 264 seconds)
+2017-02-09 19:43:09	▬▬▶	Rightling (~Rightling@node-1w7jr9qjj8ukrhgieqcydsyoq.ipv6.telus.net) has joined ##linux
+2017-02-09 19:43:41	◀▬▬	Pegasus_RPG (~Icedove@cpe-172-89-67-189.socal.res.rr.com) has quit (Remote host closed the connection)
+2017-02-09 19:43:46	◀▬▬	rrick (cb56cce3@gateway/web/cgi-irc/kiwiirc.com/ip.203.86.204.227) has quit (Client Quit)
+2017-02-09 19:43:58	▬▬▶	Pegasus_RPG (~Icedove@cpe-172-89-67-189.socal.res.rr.com) has joined ##linux
+2017-02-09 19:44:05	◀▬▬	JeanCarloMachado (~jean@177.79.68.145) has quit (Ping timeout: 240 seconds)
+2017-02-09 19:45:08	▬▬▶	Levex (~levex@fedora/Levex) has joined ##linux
+2017-02-09 19:45:09	tammy_	Walex: http://i.imgur.com/UxZp3GX.jpg
+2017-02-09 19:45:13	◀▬▬	Chinggis6 (~chinggis@unaffiliated/chinggis6) has quit (Ping timeout: 255 seconds)
+2017-02-09 19:45:20	tammy_	not sure what's going on there...
+2017-02-09 19:45:32	▬▬▶	Ridout (~glen@unaffiliated/ridout) has joined ##linux
+2017-02-09 19:45:34	◀▬▬	galgamach (~galg@178-231-50.dynamic.cyta.gr) has quit (Quit: left to space)
+2017-02-09 19:45:42	tammy_	will -f force it to check?
+2017-02-09 19:45:56	Pegasus_RPG	tammy_: are you sure /dev/sda1 has an ext fs on it?
+2017-02-09 19:45:56	▬▬▶	GreeningGalaxy (~ellie@2620:0:2250:101c:56a:a376:7163:50ff) has joined ##linux
+2017-02-09 19:46:01	Walex	tammy_: '-n' means check but don't modify
+2017-02-09 19:46:13	tammy_	ahhh
+2017-02-09 19:46:15	Pegasus_RPG	just try fsck /dev/sda1 and see if it's something else
+2017-02-09 19:46:15	▬▬▶	JeanCarloMachado (~jean@177.79.70.113) has joined ##linux
+2017-02-09 19:46:15	▬▬▶	polll (~polll@69.50.161.108) has joined ##linux
+2017-02-09 19:46:20	▬▬▶	miliarch (~miliarch@unaffiliated/miliarch) has joined ##linux
+2017-02-09 19:46:24	▬▬▶	Chinggis6 (~chinggis@unaffiliated/chinggis6) has joined ##linux
+2017-02-09 19:46:26	◀▬▬	polll (~polll@69.50.161.108) has quit (Client Quit)
+2017-02-09 19:46:28	◀▬▬	A124 (~Username@unaffiliated/a124) has quit (Ping timeout: 240 seconds)
+2017-02-09 19:46:35	tammy_	sda1 is normally mounted to /boot/efi and sda2 is /
+2017-02-09 19:46:36	Walex	tammy_: do 'blkid /dev/sda*'
+2017-02-09 19:46:46	Walex	tammy_: so fine
+2017-02-09 19:47:10	Walex	tammy_: 'e2fsck' is specifically for 'ext[234]' so obviously it won't work on EFI filesystems
+2017-02-09 19:47:28	Walex	tammy_: instead '/dev/sda2' checks fine
+2017-02-09 19:47:37	tammy_	what are you looking for in that output Walex
+2017-02-09 19:47:50	▬▬▶	HEXIS_ (~hexis@173.227.194.162) has joined ##linux
+2017-02-09 19:47:54	Walex	tammy_: just rerun with '-f' on '/dev/sda2'
+2017-02-09 19:47:58	tammy_	for sda2 I have a UUID a type of ext4 and a partuuid
+2017-02-09 19:48:04	Walex	tammy_: in that output it tells you the type.
+2017-02-09 19:48:10	◀▬▬	benlieb (~benlieb@45.72.161.119) has quit (Quit: benlieb)
+2017-02-09 19:48:24	Walex	tammy_: you can use 'e2fsck' on any type 'ext[234]'
+2017-02-09 19:48:32	▬▬▶	quickquestion (c7f62836@gateway/web/freenode/ip.199.246.40.54) has joined ##linux
+2017-02-09 19:48:43	◀▬▬	Burrito (~Burrito@unaffiliated/burrito) has quit (Quit: Leaving)
+2017-02-09 19:48:47	▬▬▶	boingolov (~nastynate@c-67-187-127-204.hsd1.tn.comcast.net) has joined ##linux
+2017-02-09 19:48:53	▬▬▶	SwiftMatt (~Objective@162.242.95.136) has joined ##linux
+2017-02-09 19:48:56	◀▬▬	waveclaw (~quassel@ip98-162-235-192.ok.ok.cox.net) has quit (Ping timeout: 252 seconds)
+2017-02-09 19:48:57	▬▬▶	zBrute (~D2@63.249.94.142) has joined ##linux
+2017-02-09 19:49:00	tammy_	wait, you said a lot at once, I don't know what you are asking me to try next.
+2017-02-09 19:49:13	◀▬▬	blackgoat (~blackgoat@221.157.123.150) has quit (Quit: WeeChat 1.5)
+2017-02-09 19:49:17	▬▬▶	hoverfly (hoverfly@host-53.56-14-119.dynamic.totalbb.net.tw) has joined ##linux
+2017-02-09 19:49:22	quickquestion	hi... i was wondering, find . -type f -exec cp {} $TRN/$(echo {} | sed -e 's#en#TEST#g' ) \; <- this doesn't seem to run the sed properly?
+2017-02-09 19:49:23	Walex	tammy_: the next thing is 'e2fsck -f /dev/sda2'
+2017-02-09 19:49:28	◀▬▬	iGotYourPistola (~Illya@131.151.252.141) has quit (Ping timeout: 240 seconds)
+2017-02-09 19:49:30	▬▬▶	A124 (~Username@unaffiliated/a124) has joined ##linux
+2017-02-09 19:49:32	tammy_	k
+2017-02-09 19:49:34	◀▬▬	HEXIS__ (~hexis@107-192-182-69.lightspeed.milwwi.sbcglobal.net) has quit (Ping timeout: 264 seconds)
+2017-02-09 19:50:05	▬▬▶	MC_saban (saban@2a02:c200:0:10:2:3:1933:1337) has joined ##linux
+2017-02-09 19:50:05	Walex	quickquestion: never use '-exec' always use 'xargs'
+2017-02-09 19:50:14	◀▬▬	mdarse (~mdarse@80.215.234.89) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-02-09 19:50:18	quickquestion	oh.. ok
+2017-02-09 19:50:26	◀▬▬	j7k6 (~j7k6@unaffiliated/j7k6) has quit (Remote host closed the connection)
+2017-02-09 19:50:27	tammy_	Walex: that finished really fast
+2017-02-09 19:50:32	◀▬▬	nina_dez (~nina_dez@2607:fcc8:aed8:3300:825:8788:ad45:e98f) has quit (Quit: Leaving)
+2017-02-09 19:50:33	Walex	quickquestion: alternatively '| while read F; do ....; done'
+2017-02-09 19:50:40	tammy_	no errors or inodes broken though
+2017-02-09 19:50:46	Walex	tammy_: that's good that filesystem was not damaged.
+2017-02-09 19:50:54	zBrute	When I excute this command "watch -n 1 -d top" I can watch the top with highlightig changed, how do I give the top command options without conflicting with watch ?
+2017-02-09 19:51:13	Walex	which other 'ext[234]' filesystems did 'blkid' report?
+2017-02-09 19:51:23	◀▬▬	Moxxy177 (~toastrr@ip24-251-84-186.ph.ph.cox.net) has quit (Quit: WeeChat 1.7)
+2017-02-09 19:51:29	▬▬▶	kb2tfa (~ron@pool-71-185-183-147.phlapa.fios.verizon.net) has joined ##linux
+2017-02-09 19:51:48	◀▬▬	kb2tfa (~ron@pool-71-185-183-147.phlapa.fios.verizon.net) has quit (Client Quit)
+2017-02-09 19:51:48	tammy_	Walex: none, sda1 is vfat and sda3 is swap
+2017-02-09 19:52:11	▬▬▶	greatwhitehat3 (~greatwhit@ua-85-226-111-2.cust.bredbandsbolaget.se) has joined ##linux

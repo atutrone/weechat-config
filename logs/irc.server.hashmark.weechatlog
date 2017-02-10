@@ -1,0 +1,88 @@
+2016-08-14 09:45:33	--	irc: connecting to server irc.hashmark.net/6667...
+2016-08-14 09:45:33	--	irc: connected to irc.hashmark.net/6667 (64.79.98.4)
+2016-08-14 09:45:33	--	*** Looking up your hostname
+2016-08-14 09:45:33	--	*** Checking Ident
+2016-08-14 09:45:33	--	*** Found your hostname
+2016-08-14 09:45:42	--	*** No ident response
+2016-08-14 09:45:42	--	Welcome to the hashmark IRC Network, toby
+2016-08-14 09:45:42	--	Your host is irc.hashmark.net, running version u2.10.11.06.GS(32)
+2016-08-14 09:45:42	--	This server was created Mon Jul 6 2009 at 17:29:58 CDT
+2016-08-14 09:45:42	--	irc.hashmark.net u2.10.11.06.GS(32) dioswkgxnI biklmnopstvrczCD bklov
+2016-08-14 09:45:42	--	ANNOUNCE WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE SILENCE=15 MODES=6 MAXCHANNELS=10 MAXBANS=45 NICKLEN=30 MAXNICKLEN=30 :are supported by this server
+2016-08-14 09:45:42	--	TOPICLEN=300 AWAYLEN=200 KICKLEN=300 CHANTYPES=#& PREFIX=(ov)@+ CHANMODES=b,k,l,imnpstrDcC CASEMAPPING=rfc1459 NETWORK=hashmark :are supported by this server
+2016-08-14 09:45:42	--	There are 1 users and 49 invisible on 3 servers
+2016-08-14 09:45:42	--	5 :operator(s) online
+2016-08-14 09:45:42	--	40 :channels formed
+2016-08-14 09:45:42	--	I have 21 clients and 1 servers
+2016-08-14 09:45:42	--	irc.hashmark.net: Highest connection count: 63 (62 clients)
+2016-08-14 09:45:42	--	MOTD File is missing
+2016-08-14 09:45:42	--	irc.hashmark.net: on 1 ca 1(4) ft 10(10)
+2016-08-14 09:45:42	--	User mode [+iwx] by toby
+2016-08-14 09:50:03	--	You are now known as Lordx_
+2016-08-14 09:52:16	--	irc: disconnected from server
+2016-08-14 09:52:18	--	irc: connecting to server irc.hashmark.net/6667...
+2016-08-14 09:52:18	--	irc: connected to irc.hashmark.net/6667 (192.208.183.252)
+2016-08-14 09:52:18	--	*** Looking up your hostname
+2016-08-14 09:52:18	--	*** Checking Ident
+2016-08-14 09:52:18	--	*** Found your hostname
+2016-08-14 09:52:27	--	*** No ident response
+2016-08-14 09:52:27	--	Welcome to the hashmark IRC Network, toby
+2016-08-14 09:52:27	--	Your host is irc.hagabard.com, running version u2.10.11.06.GS(32)
+2016-08-14 09:52:27	--	This server was created Mon Jul 6 2009 at 17:29:58 CDT
+2016-08-14 09:52:27	--	irc.hagabard.com u2.10.11.06.GS(32) dioswkgxnI biklmnopstvrczCD bklov
+2016-08-14 09:52:27	--	ANNOUNCE WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE SILENCE=15 MODES=6 MAXCHANNELS=10 MAXBANS=45 NICKLEN=30 MAXNICKLEN=30 :are supported by this server
+2016-08-14 09:52:27	--	TOPICLEN=300 AWAYLEN=200 KICKLEN=300 CHANTYPES=#& PREFIX=(ov)@+ CHANMODES=b,k,l,imnpstrDcC CASEMAPPING=rfc1459 NETWORK=hashmark :are supported by this server
+2016-08-14 09:52:27	--	There are 1 users and 50 invisible on 3 servers
+2016-08-14 09:52:27	--	5 :operator(s) online
+2016-08-14 09:52:27	--	40 :channels formed
+2016-08-14 09:52:27	--	I have 24 clients and 2 servers
+2016-08-14 09:52:27	--	irc.hagabard.com: Highest connection count: 62 (60 clients)
+2016-08-14 09:52:27	--	MOTD File is missing
+2016-08-14 09:52:27	--	irc.hagabard.com: on 1 ca 1(4) ft 10(10)
+2016-08-14 09:52:27	--	User mode [+iwx] by toby
+2016-08-14 09:53:22	--	irc: disconnected from server
+2016-08-14 09:53:24	--	irc: connecting to server irc.hashmark.net/6667...
+2016-08-14 09:53:24	--	irc: connected to irc.hashmark.net/6667 (192.208.183.252)
+2016-08-14 09:53:24	--	*** Looking up your hostname
+2016-08-14 09:53:24	--	*** Found your hostname, cached
+2016-08-14 09:53:24	--	*** Checking Ident
+2016-08-14 09:53:33	--	*** No ident response
+2016-08-14 09:53:33	--	Welcome to the hashmark IRC Network, Lordx_
+2016-08-14 09:53:33	--	Your host is irc.hagabard.com, running version u2.10.11.06.GS(32)
+2016-08-14 09:53:33	--	This server was created Mon Jul 6 2009 at 17:29:58 CDT
+2016-08-14 09:53:33	--	irc.hagabard.com u2.10.11.06.GS(32) dioswkgxnI biklmnopstvrczCD bklov
+2016-08-14 09:53:33	--	ANNOUNCE WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE SILENCE=15 MODES=6 MAXCHANNELS=10 MAXBANS=45 NICKLEN=30 MAXNICKLEN=30 :are supported by this server
+2016-08-14 09:53:33	--	TOPICLEN=300 AWAYLEN=200 KICKLEN=300 CHANTYPES=#& PREFIX=(ov)@+ CHANMODES=b,k,l,imnpstrDcC CASEMAPPING=rfc1459 NETWORK=hashmark :are supported by this server
+2016-08-14 09:53:33	--	There are 1 users and 50 invisible on 3 servers
+2016-08-14 09:53:33	--	5 :operator(s) online
+2016-08-14 09:53:33	--	40 :channels formed
+2016-08-14 09:53:33	--	I have 24 clients and 2 servers
+2016-08-14 09:53:33	--	irc.hagabard.com: Highest connection count: 62 (60 clients)
+2016-08-14 09:53:33	--	MOTD File is missing
+2016-08-14 09:53:33	--	irc.hagabard.com: on 1 ca 2(4) ft 10(10) tr
+2016-08-14 09:53:33	--	User mode [+iwx] by Lordx_
+2016-08-14 10:00:24	--	irc: disconnected from server
+2017-02-09 19:30:20	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 19:30:20	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 19:30:20	--	gnutls: receiving 1 certificate
+2017-02-09 19:30:20	--	 - certificate[1] info:
+2017-02-09 19:30:20	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 19:30:20	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 19:30:20	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 19:30:20	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 19:30:20	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 19:30:20	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 19:30:20	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 19:30:20	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 19:30:20	--	Welcome to the hashmark IRC Network, Lordx_
+2017-02-09 19:30:20	--	Your host is irc.hashmark.net, running version u2.10.11.06.GS(32)
+2017-02-09 19:30:20	--	This server was created Mon Jul 6 2009 at 17:29:58 CDT
+2017-02-09 19:30:20	--	irc.hashmark.net u2.10.11.06.GS(32) dioswkgxnI biklmnopstvrczCD bklov
+2017-02-09 19:30:20	--	ANNOUNCE WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE SILENCE=15 MODES=6 MAXCHANNELS=10 MAXBANS=45 NICKLEN=30 MAXNICKLEN=30 :are supported by this server
+2017-02-09 19:30:20	--	TOPICLEN=300 AWAYLEN=200 KICKLEN=300 CHANTYPES=#& PREFIX=(ov)@+ CHANMODES=b,k,l,imnpstrDcC CASEMAPPING=rfc1459 NETWORK=hashmark :are supported by this server
+2017-02-09 19:30:20	--	There are 1 users and 49 invisible on 3 servers
+2017-02-09 19:30:20	--	5 :operator(s) online
+2017-02-09 19:30:20	--	33 :channels formed
+2017-02-09 19:30:20	--	I have 19 clients and 1 servers
+2017-02-09 19:30:20	--	MOTD File is missing
+2017-02-09 19:30:20	--	User mode [+iwx] by Lordx_

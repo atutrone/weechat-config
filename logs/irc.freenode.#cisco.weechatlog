@@ -1,0 +1,17 @@
+2017-02-09 19:30:21	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #cisco
+2017-02-09 19:30:21	--	Topic for #cisco is "|.:.|.:.| #Cisco |.:.|.:.| Unofficial support/general discussion for Cisco stuff - Wireless, nexus, storage, ucs, voip, routers, switches, come by and chat! +v to CCIEs (#cciestudy plug)"
+2017-02-09 19:30:21	--	Topic set by CuriosTiger (~stian@terex.bigrig.org) on Sat, 21 Jan 2017 14:06:11
+2017-02-09 19:30:21	--	Channel #cisco: 693 nicks (2 ops, 16 voices, 675 normals)
+2017-02-09 19:30:22	--	Channel created on Sun, 26 Nov 2006 01:42:42
+2017-02-09 19:34:29	◀▬▬	jonaspaulo (~jonaspaul@168.233.62.94.rev.vodafone.pt) has quit (Quit: Leaving)
+2017-02-09 19:36:33	bmoraca_work	sanity check...jumbo frames on a point-to-point serial link shouldn't be an issue, right?
+2017-02-09 19:37:55	▬▬▶	nando293921 (~Nando15@64.189.57.226) has joined #cisco
+2017-02-09 19:38:34	MadClown	depends on the transport
+2017-02-09 19:39:19	MadClown	I've seen issues with T-1 having problems with frames above 1550
+2017-02-09 19:39:28	MadClown	on much older equipment though
+2017-02-09 19:41:09	bmoraca_work	this is newer stuff, ASR1006
+2017-02-09 19:41:31	bmoraca_work	transport is private, though over a microwave-based solution
+2017-02-09 19:41:40	bmoraca_work	not 100% sure it's supported, but i'm going to have someone find out
+2017-02-09 19:42:04	◀▬▬	leprechau (tsopzxq5eh@c-67-187-127-110.hsd1.tn.comcast.net) has quit (Ping timeout: 255 seconds)
+2017-02-09 19:46:46	MadClown	ping dnf check?
+2017-02-09 19:47:05	▬▬▶	leprechau (e6bwhstbd9@c-67-187-127-110.hsd1.tn.comcast.net) has joined #cisco

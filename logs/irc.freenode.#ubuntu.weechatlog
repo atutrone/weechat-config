@@ -1,0 +1,94 @@
+2017-02-09 19:30:21	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #ubuntu
+2017-02-09 19:30:21	--	Topic for #ubuntu is "Official Ubuntu Support Channel | IRC Guidelines: http://ubottu.com/y/gl | This channel supports: Ubuntu and its official flavors, versions 12.04, 14.04, 16.04, 16.10 | Unofficial derivatives: use your distro's support channel, not here. | IRC info: http://ubottu.com/y/irc | Pastes to http://paste.ubuntu.com/ | Download: http://ubottu.com/y/dl | PM spam? /mode yournickhere +R"
+2017-02-09 19:30:21	--	Topic set by dax (~dax@freenode/staff/dax) on Mon, 09 Jan 2017 16:03:45
+2017-02-09 19:30:21	--	Channel #ubuntu: 1809 nicks (1 op, 0 voices, 1808 normals)
+2017-02-09 19:30:21	***	Buffer Playback...
+2017-02-09 19:30:21	teli_	[19:30:20] what does ctrl+alt+f2 do?
+2017-02-09 19:30:21	***	Playback Complete.
+2017-02-09 19:30:24	--	Channel created on Sun, 26 Nov 2006 01:42:41
+2017-02-09 19:30:26	◀▬▬	cigumo (~cigumo@r190-134-105-165.dialup.adsl.anteldata.net.uy) has quit (Ping timeout: 258 seconds)
+2017-02-09 19:30:28	wedgie	teli_: takes you to a tty
+2017-02-09 19:30:30	◀▬▬	vivid (~vivid@unaffiliated/vivid) has quit (Quit: Leaving)
+2017-02-09 19:30:34	◀▬▬	JackH (~laptop@79-73-188-131.dynamic.dsl.as9105.com) has quit (Remote host closed the connection)
+2017-02-09 19:30:36	teli_	do i put in my username?
+2017-02-09 19:30:51	wedgie	teli_: and to get back to graphical desktop, ctrl+alt+f7
+2017-02-09 19:30:51	▬▬▶	vivid (~vivid@unaffiliated/vivid) has joined #ubuntu
+2017-02-09 19:30:57	wedgie	teli_: yes, username and password
+2017-02-09 19:31:00	k1l_	yes, that is a cli login. like a fullscreen terminal
+2017-02-09 19:31:05	▬▬▶	cigumo (~cigumo@r190-134-168-150.dialup.adsl.anteldata.net.uy) has joined #ubuntu
+2017-02-09 19:31:06	wedgie	then, at least, you can see what commands you run and their output
+2017-02-09 19:31:13	teli_	ohhh
+2017-02-09 19:31:14	◀▬▬	cahoots (~J@rrcs-108-178-177-210.west.biz.rr.com) has quit (Ping timeout: 256 seconds)
+2017-02-09 19:31:22	◀▬▬	ChrisOei (~Thunderbi@ec2-35-165-219-180.us-west-2.compute.amazonaws.com) has quit (Quit: ChrisOei)
+2017-02-09 19:31:30	teli_	can anyone give me a command to fix this?
+2017-02-09 19:32:04	▬▬▶	MarkB2 (~pirch@c-73-119-18-133.hsd1.ma.comcast.net) has joined #ubuntu
+2017-02-09 19:32:28	◀▬▬	jamie_1 (~Thunderbi@rrcs-50-84-166-42.sw.biz.rr.com) has quit (Ping timeout: 240 seconds)
+2017-02-09 19:32:36	▬▬▶	lucido-cl (~chris@xd932130b.dyn.telefonica.de) has joined #ubuntu
+2017-02-09 19:32:41	teli_	what command do i put in to purge the ppa?
+2017-02-09 19:32:59	OerHeks	sudo ppa-purge ppa:paulo-miguel-dias/mesa
+2017-02-09 19:33:05	◀▬▬	hackour (~hackour@185.116.116.61) has left #ubuntu ("Leaving")
+2017-02-09 19:33:14	teli_	thanks ill try it mow
+2017-02-09 19:33:16	teli_	now
+2017-02-09 19:33:57	MarkB2	I just loaded ubuntu core into an Intel Joule.. and I'm supposed to log into it over an ssh connection.
+2017-02-09 19:34:09	dorkmafia	Bashing-om: how do i do that again?
+2017-02-09 19:34:29	◀▬▬	yulius (~yulius@189.223.143.120.dsl.dyn.telnor.net) has quit (Ping timeout: 245 seconds)
+2017-02-09 19:35:07	MarkB2	Oh wait..
+2017-02-09 19:35:08	MarkB2	Hmm.
+2017-02-09 19:35:22	▬▬▶	pandbearit (~pandabear@c-73-229-212-108.hsd1.co.comcast.net) has joined #ubuntu
+2017-02-09 19:35:25	▬▬▶	pandabearit_ (~pandabear@2601:280:4700:84f0:f060:8816:8142:e1cf) has joined #ubuntu
+2017-02-09 19:36:34	▬▬▶	Bob8989 (~bobby12@185.67.177.203) has joined #ubuntu
+2017-02-09 19:37:08	◀▬▬	Guest21558 (~pouet@128-79-39-30.hfc.dyn.abo.bbox.fr) has quit (Read error: Connection reset by peer)
+2017-02-09 19:37:53	▬▬▶	Guest21558 (~pouet@128-79-39-30.hfc.dyn.abo.bbox.fr) has joined #ubuntu
+2017-02-09 19:38:10	◀▬▬	teli_ (bccf4503@gateway/web/freenode/ip.188.207.69.3) has quit (Ping timeout: 260 seconds)
+2017-02-09 19:38:35	Bashing-om	dorkmafia: Is this in the installer or attempting to boot an installed system ?
+2017-02-09 19:38:48	▬▬▶	defaultnick (~irc@163.172.161.58) has joined #ubuntu
+2017-02-09 19:39:42	◀▬▬	jje (~quassel@unaffiliated/jje) has quit (Remote host closed the connection)
+2017-02-09 19:40:12	◀▬▬	camako (~camako@74.197.64.13) has quit (Quit: Ex-Chat)
+2017-02-09 19:40:30	dorkmafia	the installer
+2017-02-09 19:40:38	dorkmafia	I am able to boot to the grub menu
+2017-02-09 19:40:51	◀▬▬	jaebird (~jaebird@unaffiliated/jaebird) has quit (Read error: Connection reset by peer)
+2017-02-09 19:41:11	▬▬▶	mr (~mr@aafg243.neoplus.adsl.tpnet.pl) has joined #ubuntu
+2017-02-09 19:41:40	dorkmafia	then I select "install ubuntu" or "try ubuntu" and the machine tries to load the installer but just reboots (kernel panics?)
+2017-02-09 19:41:55	◀▬▬	MarkB2 (~pirch@c-73-119-18-133.hsd1.ma.comcast.net) has quit (Remote host closed the connection)
+2017-02-09 19:42:01	◀▬▬	foka (~foka@198-48-139-42.cpe.pppoe.ca) has quit (Quit: ZNC 1.6.2+deb2~bpo8+1 - http://znc.in)
+2017-02-09 19:42:26	k1l_	just reboots? are you sure the hardware works (like with another version or OS)
+2017-02-09 19:42:38	▬▬▶	ced_ (51f2b54c@gateway/web/freenode/ip.81.242.181.76) has joined #ubuntu
+2017-02-09 19:43:06	▬▬▶	Rightling (~Rightling@node-1w7jr9qjj8ukrhgieqcydsyoq.ipv6.telus.net) has joined #ubuntu
+2017-02-09 19:43:12	◀▬▬	al2o3-cr (~al2o3-cr@unaffiliated/gr33n7007h) has quit (Ping timeout: 240 seconds)
+2017-02-09 19:43:13	◀▬▬	Rightling (~Rightling@node-1w7jr9qjj8ukrhgieqcydsyoq.ipv6.telus.net) has left #ubuntu
+2017-02-09 19:43:15	ced_	hello, I just installed ubuntu but I cannot install anything because the single sign on to ubuntu one says my password or email is invalid
+2017-02-09 19:43:29	ced_	even tho I'm connected on the web and my email and passwords are valid
+2017-02-09 19:43:51	▬▬▶	scooter1 (~scott@50-126-57-16.athn.oh.frontiernet.net) has joined #ubuntu
+2017-02-09 19:43:56	ced_	I've found this is a bug but it is marked as resolved here https://bugs.launchpad.net/ubuntu/+source/gnome-software/+bug/1616943
+2017-02-09 19:43:57	ubottu	Launchpad bug 1616943 in gnome-software (Ubuntu Yakkety) "Can't auth against U1 in g-s" [Critical,Fix released]
+2017-02-09 19:44:07	◀▬▬	mr (~mr@aafg243.neoplus.adsl.tpnet.pl) has quit (Client Quit)
+2017-02-09 19:44:31	◀▬▬	svm_invictvs (~patrick@unaffiliated/svminvictvs/x-938456) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-02-09 19:44:36	◀▬▬	Gaxpaxxo (~Gazpacho@60.red-79-151-213.dynamicip.rima-tde.net) has quit (Quit: Leaving)
+2017-02-09 19:44:48	▬▬▶	d3fc0n (~forsaken@50-81-193-12.client.mchsi.com) has joined #ubuntu
+2017-02-09 19:45:01	◀▬▬	altbashi (~altbashi@p4917205-ipngn25401marunouchi.tokyo.ocn.ne.jp) has quit (Quit: WeeChat 1.7)
+2017-02-09 19:45:08	ced_	anyone ?
+2017-02-09 19:45:14	▬▬▶	jje (~quassel@unaffiliated/jje) has joined #ubuntu
+2017-02-09 19:45:18	▬▬▶	altbashi (~altbashi@p4917205-ipngn25401marunouchi.tokyo.ocn.ne.jp) has joined #ubuntu
+2017-02-09 19:45:19	minimec	ced_: I would first try to update/upgrade your installation within a terminal.
+2017-02-09 19:45:32	▬▬▶	Ridout (~glen@unaffiliated/ridout) has joined #ubuntu
+2017-02-09 19:45:32	k1l_	ced_: open a terminal an run "sudo apt update && sudo apt full-upgrade" to get all updates first
+2017-02-09 19:45:44	minimec	ced_: like 'sudo apt update', then 'sudo apt upgrade'
+2017-02-09 19:45:48	◀▬▬	pauljw (~pauljw@104.200.154.35) has quit (Quit: Leaving)
+2017-02-09 19:46:37	◀▬▬	scooter1 (~scott@50-126-57-16.athn.oh.frontiernet.net) has quit (Client Quit)
+2017-02-09 19:46:50	▬▬▶	scooter1 (~scott@50-126-57-16.athn.oh.frontiernet.net) has joined #ubuntu
+2017-02-09 19:47:06	◀▬▬	scooter1 (~scott@50-126-57-16.athn.oh.frontiernet.net) has quit (Client Quit)
+2017-02-09 19:47:08	▬▬▶	camako (~camako@74.197.64.13) has joined #ubuntu
+2017-02-09 19:47:47	Bashing-om	dorkmafia: reboot and as soon as the bios screen clears hold a shift key ( EFI spam the escape key) -> language screen, escape key to accept the default -> boot options screen -> F6 key -> drop down : select nomodeset .
+2017-02-09 19:47:57	ced_	Thanks it's gonna take a while apparently. I don't think new users should be asked to do that tho.
+2017-02-09 19:48:04	◀▬▬	per_sonne (~per_sonne@c-0955e555.020-254-73746f39.cust.bredbandsbolaget.se) has quit (Ping timeout: 258 seconds)
+2017-02-09 19:48:22	▬▬▶	orlan (~orlan@107.13.75.67) has joined #ubuntu
+2017-02-09 19:49:34	◀▬▬	PwrSurge (~nrg@100.43.101.153) has quit (Ping timeout: 264 seconds)
+2017-02-09 19:49:59	◀▬▬	BonKurei (~BonKurei@72.34.133.249) has quit (Read error: Connection reset by peer)
+2017-02-09 19:51:01	dorkmafia	Bashing-om: are these bios options you want me to set? or flags to pass grub ?
+2017-02-09 19:51:22	◀▬▬	Era (~Era@120.56.34.101) has quit (Ping timeout: 264 seconds)
+2017-02-09 19:51:28	▬▬▶	kb2tfa (~ron@pool-71-185-183-147.phlapa.fios.verizon.net) has joined #ubuntu
+2017-02-09 19:51:30	◀▬▬	Frickelpit (~pit@ubuntuusers/serverteam/frickelpit) has quit (Ping timeout: 240 seconds)
+2017-02-09 19:51:48	◀▬▬	kb2tfa (~ron@pool-71-185-183-147.phlapa.fios.verizon.net) has quit (Client Quit)
+2017-02-09 19:51:49	◀▬▬	plgos (~androirc@2601:201:200:ad44:9ea:5ae0:66d6:ddf7) has quit (Ping timeout: 255 seconds)
+2017-02-09 19:51:49	▬▬▶	pauljw (~pauljw@104.200.154.35) has joined #ubuntu
+2017-02-09 19:52:18	Bashing-om	dorkmafia: No, that is the means to get to the boot options screen in the installer and set ' nomodeset' ( or some other boot options ) .

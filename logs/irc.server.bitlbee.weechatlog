@@ -1,0 +1,39 @@
+2017-02-09 19:30:20	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 19:30:20	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 19:30:20	--	gnutls: receiving 1 certificate
+2017-02-09 19:30:20	--	 - certificate[1] info:
+2017-02-09 19:30:20	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 19:30:20	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 19:30:20	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 19:30:20	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 19:30:20	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 19:30:20	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 19:30:20	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 19:30:20	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 19:30:20	--	Welcome to the BitlBee-LIBPURPLE gateway, toby
+2017-02-09 19:30:20	--	MSG(&bitlbee): identify
+2017-02-09 19:30:20	--	Host localhost is running BitlBee-LIBPURPLE 3.4.2-0ubuntu1 Linux/x86_64.
+2017-02-09 19:30:20	--	BitlBee-LIBPURPLE <http://www.bitlbee.org/>
+2017-02-09 19:30:20	--	localhost 3.4.2-0ubuntu1 abiswRo ntC
+2017-02-09 19:30:20	--	PREFIX=(ohv)@%+ CHANTYPES=&# CHANMODES=,,,ntC NICKLEN=23 CHANNELLEN=23 NETWORK=BitlBee SAFELIST CASEMAPPING=rfc1459 MAXTARGETS=1 WATCH=128 FLOOD=0/9999 :are supported by this server
+2017-02-09 19:30:20	--	You are now known as toby
+2017-02-09 19:30:20	--	- localhost Message Of The Day -
+2017-02-09 19:30:20	--	- Welcome to the BitlBee server at localhost.
+2017-02-09 19:30:20	--	-
+2017-02-09 19:30:20	--	- This server is running BitlBee version 3.4.2-0ubuntu1.
+2017-02-09 19:30:20	--	- The newest version can be found on http://www.bitlbee.org/
+2017-02-09 19:30:20	--	-
+2017-02-09 19:30:20	--	- You are getting this message because the server administrator has not
+2017-02-09 19:30:20	--	- yet had the time (or need) to change it.
+2017-02-09 19:30:20	--	-
+2017-02-09 19:30:20	--	- For those who don't know it yet, this is not quite a regular Internet
+2017-02-09 19:30:20	--	- Relay Chat server. Please see the site mentioned above for more
+2017-02-09 19:30:20	--	- information.
+2017-02-09 19:30:20	--	-
+2017-02-09 19:30:20	--	- The developers of the Bee hope you have a buzzing time.
+2017-02-09 19:30:20	--	- -- BitlBee development team.
+2017-02-09 19:30:20	--	-
+2017-02-09 19:30:20	--	- ... Buzzing, haha, get it?
+2017-02-09 19:30:20	--	End of MOTD
+2017-02-09 19:30:20	--	User mode [+Rs] by toby
+2017-02-09 19:30:22	--	Incorrect password

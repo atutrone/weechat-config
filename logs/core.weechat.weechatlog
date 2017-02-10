@@ -1,0 +1,205 @@
+2016-08-14 09:43:46		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-08-14 09:44:01	=!=	irc: unable to add temporary server "irc.hashmark.net" because the addition of temporary servers with command /connect is currently disabled
+2016-08-14 09:44:01	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2016-08-14 09:44:14	=!=	Too few arguments for command "/server add" (help on command: /help server)
+2016-08-14 09:44:18		irc: server irc.hashmark.net added
+2016-08-14 09:44:29		[irc]  /server  list|listfull [<server>]
+2016-08-14 09:44:29		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2016-08-14 09:44:29		                copy|rename <server> <new_name>
+2016-08-14 09:44:29		                reorder <server> [<server>...]
+2016-08-14 09:44:29		                del|keep <server>
+2016-08-14 09:44:29		                deloutq|jump|raw
+2016-08-14 09:44:29		list, add or remove IRC servers
+2016-08-14 09:44:29		    list: list servers (without argument, this list is displayed)
+2016-08-14 09:44:29		listfull: list servers with detailed info for each server
+2016-08-14 09:44:29		     add: add a new server
+2016-08-14 09:44:29		  server: server name, for internal and display use
+2016-08-14 09:44:29		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2016-08-14 09:44:29		    temp: add a temporary server (not saved)
+2016-08-14 09:44:29		  option: set option for server (for boolean option, value can be omitted)
+2016-08-14 09:44:29		nooption: set boolean option to 'off' (for example: -nossl)
+2016-08-14 09:44:29		    copy: duplicate a server
+2016-08-14 09:44:29		  rename: rename a server
+2016-08-14 09:44:29		 reorder: reorder list of servers
+2016-08-14 09:44:29		    keep: keep server in config file (for temporary servers only)
+2016-08-14 09:44:29		     del: delete a server
+2016-08-14 09:44:29		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2016-08-14 09:44:29		    jump: jump to server buffer
+2016-08-14 09:44:29		     raw: open buffer with raw IRC data
+2016-08-14 09:44:29		Examples:
+2016-08-14 09:44:29		  /server listfull
+2016-08-14 09:44:29		  /server add freenode chat.freenode.net
+2016-08-14 09:44:29		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2016-08-14 09:44:29		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2016-08-14 09:44:29		  /server copy freenode freenode-test
+2016-08-14 09:44:29		  /server rename freenode-test freenode2
+2016-08-14 09:44:29		  /server reorder freenode2 freenode
+2016-08-14 09:44:29		  /server del freenode
+2016-08-14 09:44:29		  /server deloutq
+2016-08-14 09:44:47	=!=	Error with command "/server delete irc.hashmark.net" (help on command: /help server)
+2016-08-14 09:44:53		irc: server irc.hashmark.net has been deleted
+2016-08-14 09:45:07		irc: server hashmark added
+2016-08-14 09:45:33		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-08-14 09:52:06		Mouse enabled
+2016-08-14 09:52:18		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-08-14 09:52:33		Option changed: irc.server_default.nicks = "Lordx_"  (default: "")
+2016-08-14 09:53:08		Option changed: irc.server.hashmark.autojoin = "#macn"  (default if null: "")
+2016-08-14 09:53:12		Option changed: irc.server.hashmark.autojoin = "#macnn"  (default if null: "")
+2016-08-14 09:53:24		Plugins loaded: alias, aspell, charset, exec, fifo, guile, irc, javascript, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2016-08-14 09:54:28		Option changed: weechat.plugin.autoload = "*,!lua,!tcl,!ruby,!fifo,!logger,!xfer"  (default: "*")
+2016-08-14 09:54:42		Option changed: aspell.check.default_dict = "en"  (default: "")
+2016-08-14 09:54:45	=!=	Error: unknown command "/win" (type /help for help)
+2016-08-14 09:55:35		Buffers list:
+2016-08-14 09:55:35		  [1] core.weechat (notify: all)
+2016-08-14 09:55:35		  [1] irc.server.hashmark (notify: all)
+2016-08-14 09:55:35		  [2] irc.hashmark.#macnn (notify: all)
+2016-08-14 09:55:55		Option changed: aspell.check.suggestions = 3  (default: -1)
+2016-08-14 09:56:05		Option changed: aspell.color.suggestions = *green  (default: default)
+2016-08-14 09:56:20		aspell: warning: dictionary "on" is not available on your system
+2016-08-14 09:56:20		aspell: "irc.hashmark.#macnn" => on
+2016-08-14 09:56:34		aspell: "irc.hashmark.#macnn" => en
+2016-08-14 09:56:44		Aspell enabled
+2016-08-14 09:56:54		script: downloading list of scripts...
+2016-08-14 09:56:55		script: 310 scripts for WeeChat 1.4
+2016-08-14 09:56:56		perl: loading script "/home/toby/.weechat/perl/buffers.pl"
+2016-08-14 09:56:56		perl: registered script "buffers", version 5.4 (Sidebar with list of buffers)
+2016-08-14 09:56:56		New key binding (context "mouse"): @bar(buffers):ctrl-wheeldown => hsignal:buffers_mouse
+2016-08-14 09:56:56		New key binding (context "mouse"): @bar(buffers):ctrl-wheelup => hsignal:buffers_mouse
+2016-08-14 09:56:56		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2016-08-14 09:56:56		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2016-08-14 09:56:57		perl: loading script "/home/toby/.weechat/perl/highmon.pl"
+2016-08-14 09:56:57		perl: registered script "highmon", version 2.5 (Highlight Monitor)
+2016-08-14 09:56:57		This appears to be the first time highmon has been run. For help and common set up hints see /highmon help
+2016-08-14 09:56:58		python: loading script "/home/toby/.weechat/python/buffer_autoset.py"
+2016-08-14 09:56:58		python: registered script "buffer_autoset", version 0.9 (Auto-set buffer properties when a buffer is opened)
+2016-08-14 09:56:59		python: loading script "/home/toby/.weechat/python/urlserver.py"
+2016-08-14 09:56:59		python: registered script "urlserver", version 2.0 (Shorten URLs with own HTTP server)
+2016-08-14 09:56:59		URL server listening on ('208.113.133.27', 33037)
+2016-08-14 09:57:00		perl: loading script "/home/toby/.weechat/perl/iset.pl"
+2016-08-14 09:57:00		perl: registered script "iset", version 4.2 (Interactive Set for configuration options)
+2016-08-14 09:57:00		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2016-08-14 09:57:00		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2016-08-14 09:57:00		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2016-08-14 09:57:00		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2016-08-14 09:57:01		perl: loading script "/home/toby/.weechat/perl/perlexec.pl"
+2016-08-14 09:57:01		perl: registered script "perlexec", version 0.1 (Execute perl code)
+2016-08-14 09:57:02		python: loading script "/home/toby/.weechat/python/autosort.py"
+2016-08-14 09:57:02		python: registered script "autosort", version 2.6 (Automatically or manually keep your buffers sorted and grouped by server.)
+2016-08-14 09:57:03		python: loading script "/home/toby/.weechat/python/grep.py"
+2016-08-14 09:57:03		python: registered script "grep", version 0.7.6 (Search in buffers and logs)
+2016-08-14 09:57:51		Option changed: plugins.var.perl.highmon.alignment = "nchannel"
+2016-08-14 09:58:54		Option changed: plugins.var.perl.highmon.alignment = "Lordx_"
+2016-08-14 09:59:50		perl: loading script "/home/toby/.weechat/perl/beep.pl"
+2016-08-14 09:59:50		perl: registered script "beep", version 1.1 (Beep (terminal bell) and/or run command on highlight/private message or new DCC)
+2016-08-14 10:00:22		Options saved to sec.conf
+2016-08-14 10:00:22		Options saved to weechat.conf
+2016-08-14 10:00:22		Options saved to plugins.conf
+2016-08-14 10:00:22		Options saved to charset.conf
+2016-08-14 10:00:22		Options saved to logger.conf
+2016-08-14 10:00:22		Options saved to exec.conf
+2016-08-14 10:00:22		Options saved to trigger.conf
+2016-08-14 10:00:22		Options saved to aspell.conf
+2016-08-14 10:00:22		Options saved to alias.conf
+2016-08-14 10:00:22		Options saved to xfer.conf
+2016-08-14 10:00:22		Options saved to irc.conf
+2016-08-14 10:00:22		Options saved to relay.conf
+2016-08-14 10:00:22		Options saved to script.conf
+2016-08-14 10:00:22		Options saved to buffers.conf
+2016-08-14 10:00:22		Options saved to buffer_autoset.conf
+2016-08-14 10:00:22		Options saved to iset.conf
+2016-08-14 10:00:22		Options saved to autosort.conf
+2016-08-14 10:00:24		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2016-08-14 10:00:24		perl: scripts unloaded
+2017-02-09 19:30:20		perl scripts loaded: beep, buffers, highmon, iset, perlexec, pushover
+2017-02-09 19:30:20	=!=	Bind error: [Errno 49] Can't assign requested address
+2017-02-09 19:30:20		URL server not running
+2017-02-09 19:30:20		python scripts loaded: autosort, bitlbee_completion, bitlbee_typing_notice, buffer_autoset, grep, text_item, urlbuf, urlgrab, urlserver
+2017-02-09 19:30:20		script: 331 scripts for WeeChat 1.7
+2017-02-09 19:30:20		Plugins loaded: alias, aspell, charset, exec, irc, logger, perl, python, relay, script, trigger
+2017-02-09 19:38:45	=!=	Error with command "/quote znc detach all" (help on command: /help quote)
+2017-02-09 19:38:48	=!=	Error with command "/quote znc detach *" (help on command: /help quote)
+2017-02-09 19:38:50	=!=	Error with command "/quote znc detach" (help on command: /help quote)
+2017-02-09 19:39:06	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2017-02-09 19:42:12	=!=	Bind error: [Errno 49] Can't assign requested address
+2017-02-09 19:42:12		URL server not running
+2017-02-09 19:42:27		[python/urlserver]  /urlserver  start|restart|stop|status
+2017-02-09 19:42:27		                                clear
+2017-02-09 19:42:27		Shorten URLs with own HTTP server
+2017-02-09 19:42:27		  start: start server
+2017-02-09 19:42:27		restart: restart server
+2017-02-09 19:42:27		   stop: stop server
+2017-02-09 19:42:27		 status: display status of server
+2017-02-09 19:42:27		  clear: remove all URLs from list
+2017-02-09 19:42:27		Without argument, this command opens new buffer with list of URLs.
+2017-02-09 19:42:27		Initial setup:
+2017-02-09 19:42:27		  - by default, script will listen on a random free port, you can force a port with:
+2017-02-09 19:42:27		      /set plugins.var.python.urlserver.http_port "1234"
+2017-02-09 19:42:27		  - you can force an IP or custom hostname with:
+2017-02-09 19:42:27		      /set plugins.var.python.urlserver.http_hostname "111.22.33.44"
+2017-02-09 19:42:27		  - it is strongly recommended to restrict IPs allowed and/or use auth, for example:
+2017-02-09 19:42:27		      /set plugins.var.python.urlserver.http_allowed_ips "^(123.45.67.89|192.160.*)$"
+2017-02-09 19:42:27		      /set plugins.var.python.urlserver.http_auth "user:password"
+2017-02-09 19:42:27		  - if you do not like the default HTML formatting, you can override the CSS:
+2017-02-09 19:42:27		      /set plugins.var.python.urlserver.http_css_url "http://example.com/sample.css"
+2017-02-09 19:42:27		      See https://raw.github.com/FiXato/weechat_scripts/master/urlserver/sample.css
+2017-02-09 19:42:27		  - don't like the built-in HTTP server to start automatically? Disable it:
+2017-02-09 19:42:27		      /set plugins.var.python.urlserver.http_autostart "off"
+2017-02-09 19:42:27		  - have external port 80 or 443 (https) forwarded to your internal server port? Remove :port with:
+2017-02-09 19:42:27		      /set plugins.var.python.urlserver.http_port_display "80" or "443" respectively
+2017-02-09 19:42:27		Tip: use URL without key at the end to display list of all URLs in your browser.
+2017-02-09 19:42:37		URL server not running
+2017-02-09 19:42:40	=!=	Bind error: [Errno 49] Can't assign requested address
+2017-02-09 19:42:40		URL server not running
+2017-02-09 19:43:33	=!=	Bind error: [Errno 49] Can't assign requested address
+2017-02-09 19:43:33		URL server not running
+2017-02-09 19:43:33		Option changed: plugins.var.python.urlserver.http_port = "8888"
+2017-02-09 19:43:36	=!=	Bind error: [Errno 49] Can't assign requested address
+2017-02-09 19:43:36		URL server not running
+2017-02-09 19:44:09		[var] (plugins.conf)
+2017-02-09 19:44:09		  plugins.var.python.urlserver.buffer_short_name = "off"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.color = "darkgray"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.color_in_msg = ""
+2017-02-09 19:44:09		  plugins.var.python.urlserver.debug = "off"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.display_urls = "on"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.display_urls_in_msg = "off"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_allowed_ips = ""
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_auth = ""
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_auth_redirect = "on"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_autostart = "on"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_bg_color = "#f4f4f4"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_css_url = ""
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_embed_image = "off"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_embed_youtube = "on"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_embed_youtube_size = "480*350"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_fg_color = "#000"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_hostname = "tobsteri.us"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_hostname_display = ""
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_open_in_new_page = "on"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_port = "8888"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_port_display = ""
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_prefix_suffix = " "
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_scheme_display = "http"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_time_format = "%d/%m/%y %H:%M:%S"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_title = "WeeChat URLs"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.http_url_prefix = "xox"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.msg_filtered = "off"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.msg_ignore_buffers = "core.weechat,python.grep,irc.BitlBee,perl.highmon"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.msg_ignore_dup_urls = "off"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.msg_ignore_regex = ""
+2017-02-09 19:44:09		  plugins.var.python.urlserver.msg_ignore_tags = "irc_quit,irc_part,notify_none"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.msg_require_tags = "nick_"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.separators = "[|]"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.url_min_length = "0"
+2017-02-09 19:44:09		  plugins.var.python.urlserver.urls_amount = "100"
+2017-02-09 19:44:09		35 options (matching with "plugins.var.python.urlserver.*")
+2017-02-09 19:44:38	=!=	Bind error: [Errno 48] Address already in use
+2017-02-09 19:44:38		URL server not running
+2017-02-09 19:44:38		Option changed: plugins.var.python.urlserver.http_hostname = ""
+2017-02-09 19:44:48	=!=	Bind error: [Errno 48] Address already in use
+2017-02-09 19:44:48		URL server not running
+2017-02-09 19:45:01		URL server listening on ('10.20.22.181', 3300)
+2017-02-09 19:45:01		Option changed: plugins.var.python.urlserver.http_port = "3300"
+2017-02-09 19:45:02		URL server already running
+2017-02-09 19:46:43		URL server stopped
+2017-02-09 19:46:43		URL server listening on ('10.20.22.181', 3300)
+2017-02-09 19:47:17		Option changed: plugins.var.python.urlserver.http_fg_color = "white"
