@@ -643,3 +643,438 @@
 2017-02-09 21:27:16	▬▬▶	Wizek (~Wizek@catv-89-132-132-110.catv.broadband.hu) has joined ##linux
 2017-02-09 21:27:20	◀▬▬	yourname2 (~yourname@ec2-54-166-37-25.compute-1.amazonaws.com) has quit (Quit: leaving)
 2017-02-09 21:27:22	◀▬▬	k1ng_schm0e (~k1ng_schm@104.156.228.197) has quit (Ping timeout: 264 seconds)
+2017-02-09 21:28:11	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined ##linux
+2017-02-09 21:28:11	--	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-02-09 21:28:11	--	Topic set by bocaneri (~bocaneri@about/linux/staff/sauvin) on Sun, 04 Dec 2016 02:21:22
+2017-02-09 21:28:11	--	Channel ##linux: 1733 nicks (0 ops, 0 voices, 1733 normals)
+2017-02-09 21:28:18	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-02-09 21:28:28	◀▬▬	internauto (~Thunderbi@187.36.216.237) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:28:30	◀▬▬	goldstar__ (~chatzilla@217.138.9.21) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:29:04	▬▬▶	newcoder (~newcoder@unaffiliated/newcoder) has joined ##linux
+2017-02-09 21:29:11	◀▬▬	newcoder (~newcoder@unaffiliated/newcoder) has left ##linux
+2017-02-09 21:29:19	▬▬▶	Zren (~Zren@bas3-guelph22-174-88-82-175.dsl.bell.ca) has joined ##linux
+2017-02-09 21:29:26	◀▬▬	lasdam (~lasdam@unaffiliated/lasdam) has quit (Remote host closed the connection)
+2017-02-09 21:29:39	◀▬▬	Zren_ (~Zren@bas3-guelph22-174-88-82-175.dsl.bell.ca) has quit (Read error: Connection reset by peer)
+2017-02-09 21:29:59	▬▬▶	FreeBirdLjj (~freebirdl@202.119.41.179) has joined ##linux
+2017-02-09 21:31:40	▬▬▶	k1ng_schm0e (~k1ng_schm@104.156.228.116) has joined ##linux
+2017-02-09 21:31:52	▬▬▶	victoroux (~victoroux@c-68-49-145-235.hsd1.mi.comcast.net) has joined ##linux
+2017-02-09 21:31:56	◀▬▬	Chinggis6 (~chinggis@unaffiliated/chinggis6) has quit (Ping timeout: 256 seconds)
+2017-02-09 21:32:09	▬▬▶	newcoder (~newcoder@unaffiliated/newcoder) has joined ##linux
+2017-02-09 21:32:57	▬▬▶	Chinggis6 (~chinggis@unaffiliated/chinggis6) has joined ##linux
+2017-02-09 21:33:52	◀▬▬	ciphersson (~ciphersso@pdpc/supporter/active/ciphersson) has quit (Ping timeout: 258 seconds)
+2017-02-09 21:34:08	◀▬▬	Grapes (~greatgrap@gateway/vpn/privateinternetaccess/greatgrapes) has quit (Quit: My MacBook has gone to sleep.)
+2017-02-09 21:34:22	▬▬▶	SmashingX (~smashingx@gateway/vpn/privateinternetaccess/smashingx) has joined ##linux
+2017-02-09 21:34:32	▬▬▶	michaelrose (~michael@174-24-209-181.tukw.qwest.net) has joined ##linux
+2017-02-09 21:34:34	▬▬▶	knatter (~moritz@50-1-51-216.dsl.dynamic.fusionbroadband.com) has joined ##linux
+2017-02-09 21:34:47	▬▬▶	Prof_Sassafras (~Prof_Sass@unaffiliated/prof-sassafras/x-5984203) has joined ##linux
+2017-02-09 21:35:26	◀▬▬	Dimik (~Dimik@pool-100-2-225-123.nycmny.fios.verizon.net) has quit (Ping timeout: 276 seconds)
+2017-02-09 21:35:29	notmike	999
+2017-02-09 21:35:33	▬▬▶	IFightForTheUser (~IFightFor@unaffiliated/ifightfortheuser) has joined ##linux
+2017-02-09 21:35:57	arvut	000
+2017-02-09 21:36:10	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined ##linux
+2017-02-09 21:36:10	--	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-02-09 21:36:10	--	Topic set by bocaneri (~bocaneri@about/linux/staff/sauvin) on Sun, 04 Dec 2016 02:21:22
+2017-02-09 21:36:10	--	Channel ##linux: 1736 nicks (0 ops, 0 voices, 1736 normals)
+2017-02-09 21:36:13	◀▬▬	jnewt1 (~jnewt@136.61.159.189) has quit (Ping timeout: 255 seconds)
+2017-02-09 21:36:18	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-02-09 21:36:44	◀▬▬	piggah (~nick@dt0c0n96.tampabay.res.rr.com) has quit (Ping timeout: 276 seconds)
+2017-02-09 21:36:44	◀▬▬	pity (~pity@183.62.194.82) has quit (Ping timeout: 252 seconds)
+2017-02-09 21:36:57	▬▬▶	socket- (~socket-@ec2-54-166-37-25.compute-1.amazonaws.com) has joined ##linux
+2017-02-09 21:37:19	markasoftware	696
+2017-02-09 21:37:20	▬▬▶	skrb_ (~skrb@p5B0F1322.dip0.t-ipconnect.de) has joined ##linux
+2017-02-09 21:37:43	◀▬▬	plastico (~plastico@a213-22-7-184.cpe.netcabo.pt) has quit (Quit: WeeChat 1.7)
+2017-02-09 21:38:35	▬▬▶	SuperficialyLost (~Superfici@120.18.74.161) has joined ##linux
+2017-02-09 21:38:41	▬▬▶	pity (~pity@183.62.194.82) has joined ##linux
+2017-02-09 21:39:22	◀▬▬	H0m3YC7au5 (~H0m3YC7au@172.98.78.34) has quit (Ping timeout: 264 seconds)
+2017-02-09 21:39:40	▬▬▶	FreeBird_ (~freebirdl@221.6.40.190) has joined ##linux
+2017-02-09 21:40:18	 *	Pentode quarentines gtk3 applications from his system out of spite
+2017-02-09 21:40:30	◀▬▬	skrb (~skrb@p5B0F0B33.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:40:36	▬▬▶	sandal_maker_ (~sandal_ma@118.136.151.238) has joined ##linux
+2017-02-09 21:40:38	◀▬▬	BlueShark (~BlueShark@april-fools/2014/sixth/BlueShark) has quit (Ping timeout: 276 seconds)
+2017-02-09 21:41:03	◀▬▬	newcoder (~newcoder@unaffiliated/newcoder) has left ##linux
+2017-02-09 21:41:18	▬▬▶	PityDaFool (~Thunderbi@c-73-39-115-171.hsd1.md.comcast.net) has joined ##linux
+2017-02-09 21:41:25	◀▬▬	knatter (~moritz@50-1-51-216.dsl.dynamic.fusionbroadband.com) has left ##linux
+2017-02-09 21:41:40	◀▬▬	SmashingX (~smashingx@gateway/vpn/privateinternetaccess/smashingx) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:41:56	◀▬▬	Prof_Sassafras (~Prof_Sass@unaffiliated/prof-sassafras/x-5984203) has quit (Ping timeout: 276 seconds)
+2017-02-09 21:42:00	◀▬▬	FreeBirdLjj (~freebirdl@202.119.41.179) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:42:58	◀▬▬	jameshy (~jameshy@2.27.208.138) has quit (Ping timeout: 264 seconds)
+2017-02-09 21:42:59	▬▬▶	H0m3YC7au5 (~H0m3YC7au@70.44.113.158.res-cmts.sefg.ptd.net) has joined ##linux
+2017-02-09 21:43:01	[thor]	 0118 999 881 999 119 7253
+2017-02-09 21:43:16	◀▬▬	PCLine__ (~PCLine_@98.29.181.95) has quit (Quit: Leaving)
+2017-02-09 21:43:39	rascul	no
+2017-02-09 21:43:42	dfcnvt	Wow, check this out.   telnet nyancat.dakko.us
+2017-02-09 21:44:21	[thor]	dfcnvt: bitsunrise.com is a better telnet experience :D
+2017-02-09 21:44:32	◀▬▬	Chinggis6 (~chinggis@unaffiliated/chinggis6) has quit (Ping timeout: 276 seconds)
+2017-02-09 21:44:37	▬▬▶	I2ory (~l2ory@unaffiliated/l2ory) has joined ##linux
+2017-02-09 21:44:51	◀▬▬	millerti (~millerti@cpe-66-24-91-119.stny.res.rr.com) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2017-02-09 21:45:27	▬▬▶	Chinggis6 (~chinggis@unaffiliated/chinggis6) has joined ##linux
+2017-02-09 21:45:38	--	puff` is now known as puff
+2017-02-09 21:45:38	▬▬▶	dj_pi (~dj@c-68-43-191-59.hsd1.mi.comcast.net) has joined ##linux
+2017-02-09 21:46:07	rascul	neither of those are mud games
+2017-02-09 21:46:14	rascul	but bitsunrise gets points for having lord
+2017-02-09 21:46:37	▬▬▶	bls (~bls@unaffiliated/bls) has joined ##linux
+2017-02-09 21:46:44	rascul	unfortunately it loses those same points for running on wildcat
+2017-02-09 21:46:53	▬▬▶	piggah (~nick@dt0c0n96.tampabay.res.rr.com) has joined ##linux
+2017-02-09 21:47:01	◀▬▬	desti (~desti@dslb-178-001-037-132.178.001.pools.vodafone-ip.de) has quit (Quit: Leaving)
+2017-02-09 21:47:46	◀▬▬	l2ory (~l2ory@unaffiliated/l2ory) has quit (Ping timeout: 264 seconds)
+2017-02-09 21:48:15	◀▬▬	erasmus (~erasmus@unaffiliated/erasmus) has quit (Quit: Namaste)
+2017-02-09 21:49:12	▬▬▶	cmj (~c@c-24-21-106-131.hsd1.or.comcast.net) has joined ##linux
+2017-02-09 21:49:35	▬▬▶	s3nd1v0g1us (~weechat@unaffiliated/patr0clus) has joined ##linux
+2017-02-09 21:49:39	▬▬▶	desti (~desti@dslb-178-001-037-132.178.001.pools.vodafone-ip.de) has joined ##linux
+2017-02-09 21:49:47	toothe	I am running Mint (Ubuntu) with OpenOffice. Is there a way to upgrade to the latest version? I am a few versions behind.
+2017-02-09 21:49:51	toothe	I want to get that nice Ribbon feature.
+2017-02-09 21:51:28	aBound	toothe: That's LibreOffice that has that feature. It's a fork of OpenOffice.
+2017-02-09 21:51:37	toothe	I'm sorry, I meant that!
+2017-02-09 21:51:56	toothe	man, if Libre can get Office right, I have literally no reason to ever run Windows again.
+2017-02-09 21:52:02	toothe	well....99.9999% no reason
+2017-02-09 21:52:25	rascul	windows is just a pane in the glass
+2017-02-09 21:52:35	aBound	toothe: Simply go to the LibreOffice and retrieve the .deb file. It has instructions on how to install all the required debs using 'dpkg'.
+2017-02-09 21:52:46	aBound	Oops, LibreOffice website.
+2017-02-09 21:52:49	rascul	does mint have backports? maybe the latest is in there
+2017-02-09 21:52:57	◀▬▬	somis (~somis@149.56.153.179) has quit (Quit: WeeChat 1.7)
+2017-02-09 21:53:07	toothe	Mint = Ubuntu, so I'm sure it does.
+2017-02-09 21:53:09	dfcnvt	I see you there Thor, (TEST)
+2017-02-09 21:53:18	▬▬▶	Noldorin (~noldorin@unaffiliated/noldorin) has joined ##linux
+2017-02-09 21:53:30	▬▬▶	lgc (~lgc@silicio.qteorica.cinvestav.mx) has joined ##linux
+2017-02-09 21:53:33	▬▬▶	MageJames (~james@cpe-172-73-69-42.carolina.res.rr.com) has joined ##linux
+2017-02-09 21:53:36	toothe	I only use Mint because I like Cinnamon - but I might switch to Elementary the next time a distro reinstall is in order.
+2017-02-09 21:53:39	rascul	what version has the ribbon?
+2017-02-09 21:53:53	toothe	I forgot...I saw it on one of those Linux shows. I think 5.5?
+2017-02-09 21:53:53	aBound	5.3 I believe.
+2017-02-09 21:54:05	rascul	you can run cinnamon on any distro
+2017-02-09 21:54:07	toothe	excuse me.
+2017-02-09 21:54:13	toothe	rascul: yes yes...but I didn't want to configure anything.
+2017-02-09 21:54:34	aBound	http://www.omgubuntu.co.uk/2017/02/libreoffice-5-3-released-billed-feature-rich-release-ever
+2017-02-09 21:54:35	toothe	I've been using Linux since kernel 2.0. I am done with installing stuff. Just work!
+2017-02-09 21:54:36	◀▬▬	tobsterius (~Tobsteriu@tobsteri.us) has left ##linux
+2017-02-09 22:04:12	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined ##linux
+2017-02-09 22:04:12	--	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-02-09 22:04:12	--	Topic set by bocaneri (~bocaneri@about/linux/staff/sauvin) on Sun, 04 Dec 2016 02:21:22
+2017-02-09 22:04:12	--	Channel ##linux: 1730 nicks (0 ops, 0 voices, 1730 normals)
+2017-02-09 22:04:12	***	Buffer Playback...
+2017-02-09 22:04:12	toothe	[22:04:09] I've heard good things about zones.
+2017-02-09 22:04:12	***	Playback Complete.
+2017-02-09 22:04:13	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-02-09 22:04:15	▬▬▶	basiclaser (uid10861@gateway/web/irccloud.com/x-kpvyqecuarefngoq) has joined ##linux
+2017-02-09 22:04:15	▬▬▶	Levex (~levex@fedora/Levex) has joined ##linux
+2017-02-09 22:04:17	◀▬▬	hucksy (~hucksy@p4FC0DE20.dip0.t-ipconnect.de) has quit (Ping timeout: 255 seconds)
+2017-02-09 22:04:18	toothe	I mean, FreeBSD jails are roughly equivalent I suppose.
+2017-02-09 22:04:36	◀▬▬	rasknikoff (rasknikoff@charger.kire.net) has quit (Quit: Lost terminal)
+2017-02-09 22:04:37	aBound	How is Debian pronounced? Deb bi an or De bi an.
+2017-02-09 22:04:41	aBound	:P
+2017-02-09 22:05:28	◀▬▬	comjf_ (~comjf@c-69-251-179-173.hsd1.md.comcast.net) has quit (Ping timeout: 255 seconds)
+2017-02-09 22:05:42	▬▬▶	cmj_ (~c@2601:1c2:302:ff50:223:8bff:fe4c:1843) has joined ##linux
+2017-02-09 22:05:44	◀▬▬	JeanCarloMachado (~jean@177.79.66.198) has quit (Ping timeout: 245 seconds)
+2017-02-09 22:05:51	◀▬▬	cmj_ (~c@2601:1c2:302:ff50:223:8bff:fe4c:1843) has quit (Client Quit)
+2017-02-09 22:05:56	rascul	Deb'-ee-en, with a short e in Deb, and emphasis on the first syllable https://www.debian.org/doc/manuals/debian-faq/ch-basic_defs.en.html#s-pronunciation
+2017-02-09 22:06:27	bls	it's a compound of Deb (short for Debbie/Debra) and Ian
+2017-02-09 22:06:32	aBound	Deb as in Debra I see thankies.
+2017-02-09 22:06:50	▬▬▶	miliarch (~miliarch@unaffiliated/miliarch) has joined ##linux
+2017-02-09 22:06:57	aBound	I always called it: De bi an.
+2017-02-09 22:06:59	▬▬▶	JeanCarloMachado (~jean@177.79.70.141) has joined ##linux
+2017-02-09 22:06:59	◀▬▬	Chinggis6 (~chinggis@unaffiliated/chinggis6) has quit (Ping timeout: 252 seconds)
+2017-02-09 22:07:11	OerHeks	deb-i-an
+2017-02-09 22:07:17	aBound	Instead of using the female version of Deb.
+2017-02-09 22:07:26	rascul	i used to, until i watched a video of a linus talk at a debian conference and i was enlightened
+2017-02-09 22:07:29	◀▬▬	jeordie (~jeordie@73.98.161.220) has quit (Remote host closed the connection)
+2017-02-09 22:07:37	aBound	Whereas the 'e' is silent.
+2017-02-09 22:08:05	aBound	Hahaha enlightened.
+2017-02-09 22:08:10	toothe	Think ElementaryOS is here to stay?
+2017-02-09 22:08:16	▬▬▶	Chinggis6 (~chinggis@unaffiliated/chinggis6) has joined ##linux
+2017-02-09 22:08:23	▬▬▶	shangul (~shangul@unaffiliated/shangul) has joined ##linux
+2017-02-09 22:08:27	rascul	until it isn't
+2017-02-09 22:08:29	◀▬▬	tbsf (~tbsf@8.37.102.34) has quit (Remote host closed the connection)
+2017-02-09 22:08:39	◀▬▬	lnbf (~lnbf@r180-216-14-221.cpe.vividwireless.net.au) has quit (Ping timeout: 245 seconds)
+2017-02-09 22:08:47	◀▬▬	Levex (~levex@fedora/Levex) has quit (Ping timeout: 255 seconds)
+2017-02-09 22:08:57	▬▬▶	tbsf (~tbsf@8.37.102.34) has joined ##linux
+2017-02-09 22:09:00	aBound	Unless one of graphics stacks kills one or the other.
+2017-02-09 22:09:01	▬▬▶	codcodog (~even@119.139.197.8) has joined ##linux
+2017-02-09 22:09:08	rascul	it's five years old though, so it has that going for it
+2017-02-09 22:09:15	aBound	ElementaryOS may disappear.
+2017-02-09 22:09:17	rascul	but then, that's not a whole lot going for it
+2017-02-09 22:09:25	--	codcodog is now known as Guest45700
+2017-02-09 22:10:00	◀▬▬	k1ng_schm0e (~k1ng_schm@104.156.228.116) has quit (Quit: WeeChat 1.0.1)
+2017-02-09 22:15:52	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined ##linux
+2017-02-09 22:15:52	--	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-02-09 22:15:52	--	Topic set by bocaneri (~bocaneri@about/linux/staff/sauvin) on Sun, 04 Dec 2016 02:21:22
+2017-02-09 22:15:52	--	Channel ##linux: 1730 nicks (0 ops, 0 voices, 1730 normals)
+2017-02-09 22:15:52	***	Buffer Playback...
+2017-02-09 22:15:52	aBound	[22:11:22] Woo, woo: http://www.phoronix.com/scan.php?page=news_item&px=Ubuntu-16.04.2-LTS-LM-Delay
+2017-02-09 22:15:53	Blendify	[22:11:32] I am on elementary
+2017-02-09 22:15:53	SimpleName	[22:12:16] how to test SMTP port is open, use telnet?
+2017-02-09 22:15:53	aBound	[22:12:33] http://www.phoronix.com/scan.php?page=news_item&px=Weston-2.0-Beta
+2017-02-09 22:15:53	aBound	[22:12:49] Wayland ^^
+2017-02-09 22:15:53	aBound	[22:13:13] Hurry kill X. :P
+2017-02-09 22:15:53	aBound	[22:15:11] I can only imagine how much better 'Gaming' would be on Linux. If it garnered more support from the AAA gaming industry.
+2017-02-09 22:15:53	***	Playback Complete.
+2017-02-09 22:15:54	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-02-09 22:16:16	◀▬▬	H0m3YC7au5 (~H0m3YC7au@70.44.113.158.res-cmts.sefg.ptd.net) has quit (Ping timeout: 255 seconds)
+2017-02-09 22:16:54	Blendify	I am having issue having a thumb drive (micro usb adapter) to be picked up by fdisk -l
+2017-02-09 22:17:08	Blendify	any tips?
+2017-02-09 22:17:20	markasoftware	aBound: yep
+2017-02-09 22:17:30	◀▬▬	NullableTruth (~JSharpe@104.238.169.4) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:17:57	▬▬▶	m2_teknix (~mayank@45.117.46.190) has joined ##linux
+2017-02-09 22:17:58	▬▬▶	jnewt1 (~jnewt@136.61.159.189) has joined ##linux
+2017-02-09 22:18:02	aBound	markasoftware: :P
+2017-02-09 22:18:16	▬▬▶	greatwhitehat (~greatwhit@ua-85-226-111-2.cust.bredbandsbolaget.se) has joined ##linux
+2017-02-09 22:19:37	--	irc: disconnected from server
+2017-02-09 22:19:51	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined ##linux
+2017-02-09 22:19:51	--	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-02-09 22:19:51	--	Topic set by bocaneri (~bocaneri@about/linux/staff/sauvin) on Sun, 04 Dec 2016 02:21:22
+2017-02-09 22:19:51	--	Channel ##linux: 1732 nicks (0 ops, 0 voices, 1732 normals)
+2017-02-09 22:19:59	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-02-09 22:20:22	◀▬▬	enterprisey (~enterpris@wikipedia/enterprisey) has quit (Ping timeout: 260 seconds)
+2017-02-09 22:20:40	▬▬▶	rsty (~nreese@c-73-73-255-107.hsd1.il.comcast.net) has joined ##linux
+2017-02-09 22:20:42	▬▬▶	wmoh (~wmo@66-191-57-203.dhcp.stpt.wi.charter.com) has joined ##linux
+2017-02-09 22:21:00	◀▬▬	greatwhitehat3 (~greatwhit@ua-85-226-111-2.cust.bredbandsbolaget.se) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:21:04	▬▬▶	NullableTruth (~JSharpe@31.205.112.57) has joined ##linux
+2017-02-09 22:22:08	▬▬▶	goldstar_ (~chatzilla@217.138.9.21) has joined ##linux
+2017-02-09 22:22:44	▬▬▶	te_lanus (~te_lanus@154.66.195.97) has joined ##linux
+2017-02-09 22:23:19	▬▬▶	goldstar__ (~chatzilla@192.71.244.42) has joined ##linux
+2017-02-09 22:23:30	◀▬▬	goldstar (~chatzilla@192.71.244.42) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:24:17	▬▬▶	Guest23954 (~mike@blk-222-160-12.eastlink.ca) has joined ##linux
+2017-02-09 22:24:50	▬▬▶	enterprisey (~enterpris@wikipedia/enterprisey) has joined ##linux
+2017-02-09 22:25:03	▬▬▶	gevans (~gevans@2600:8801:2b00:4bd:25d6:7693:d90f:faa9) has joined ##linux
+2017-02-09 22:25:12	◀▬▬	wmoh (~wmo@66-191-57-203.dhcp.stpt.wi.charter.com) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:25:26	▬▬▶	adhocadhoc_ (~adhocadho@unaffiliated/adhocadhoc) has joined ##linux
+2017-02-09 22:25:34	◀▬▬	rsty (~nreese@c-73-73-255-107.hsd1.il.comcast.net) has quit (Ping timeout: 264 seconds)
+2017-02-09 22:25:36	▬▬▶	nuew (~nuew@2601:547:900:7280:eade:27ff:fe64:3a6a) has joined ##linux
+2017-02-09 22:25:43	◀▬▬	andydufresne (~andydufre@c-98-245-169-208.hsd1.co.comcast.net) has quit (Quit: Leaving)
+2017-02-09 22:26:12	▬▬▶	rsty (~nreese@192.80.206.206) has joined ##linux
+2017-02-09 22:26:30	◀▬▬	goldstar_ (~chatzilla@217.138.9.21) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:27:01	◀▬▬	G33kGurl (~GeekGurl@modemcable078.207-202-24.mc.videotron.ca) has quit (Remote host closed the connection)
+2017-02-09 22:27:13	▬▬▶	goldstar (~chatzilla@217.138.9.21) has joined ##linux
+2017-02-09 22:27:20	▬▬▶	G33kGurl (~GeekGurl@modemcable078.207-202-24.mc.videotron.ca) has joined ##linux
+2017-02-09 22:27:44	◀▬▬	noneed4nam (~Evanlec@2001:4802:7800:1:be76:4eff:fe21:b34) has quit (Quit: WeeChat 1.6)
+2017-02-09 22:28:00	◀▬▬	goldstar__ (~chatzilla@192.71.244.42) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:28:08	◀▬▬	Chinggis6 (~chinggis@unaffiliated/chinggis6) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:28:47	--	irc: disconnected from server
+2017-02-09 22:31:21	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined ##linux
+2017-02-09 22:31:21	--	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-02-09 22:31:21	--	Topic set by bocaneri (~bocaneri@about/linux/staff/sauvin) on Sun, 04 Dec 2016 02:21:22
+2017-02-09 22:31:21	--	Channel ##linux: 1732 nicks (0 ops, 0 voices, 1732 normals)
+2017-02-09 22:31:21	***	Buffer Playback...
+2017-02-09 22:31:21	aBound	[22:31:09] https://arstechnica.com/security/2017/02/newly-discovered-flaw-undermines-https-connections-for-almost-1000-sites/
+2017-02-09 22:31:22	***	Playback Complete.
+2017-02-09 22:31:25	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-02-09 22:31:31	▬▬▶	ledeni (~ledeni@c49-177-40-65.dandn3.vic.optusnet.com.au) has joined ##linux
+2017-02-09 22:31:51	◀▬▬	^elf^ (~elf@unaffiliated/elf) has quit (Ping timeout: 252 seconds)
+2017-02-09 22:32:13	▬▬▶	JeanCarloMachado (~jean@177.79.70.141) has joined ##linux
+2017-02-09 22:32:58	▬▬▶	gugah (~gugah@181.28.97.148) has joined ##linux
+2017-02-09 22:33:12	◀▬▬	webguynow (~webguynow@c-73-22-239-213.hsd1.il.comcast.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:33:22	◀▬▬	snugghash (~chatzilla@riverwalk32-sw2.wintek.com) has quit (Ping timeout: 255 seconds)
+2017-02-09 22:33:41	▬▬▶	webguynow (~webguynow@c-73-22-239-213.hsd1.il.comcast.net) has joined ##linux
+2017-02-09 22:34:02	▬▬▶	Tiberium (~Daniil@128-74-240-64.broadband.corbina.ru) has joined ##linux
+2017-02-09 22:34:07	markasoftware	almost 1000!
+2017-02-09 22:34:11	markasoftware	that's like, what, half the internet???
+2017-02-09 22:34:35	◀▬▬	tbsf (~tbsf@c-73-229-253-224.hsd1.co.comcast.net) has quit (Ping timeout: 276 seconds)
+2017-02-09 22:34:36	▬▬▶	eSVG (~svg@2601:c6:c203:bf0:303a:956e:753c:b27c) has joined ##linux
+2017-02-09 22:34:41	◀▬▬	fengshaun_ (~fengshaun@unaffiliated/fengshaun) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:34:50	▬▬▶	czart_ (~czart@drw148.neoplus.adsl.tpnet.pl) has joined ##linux
+2017-02-09 22:34:56	nuew	Of the top 1M sites too.
+2017-02-09 22:35:11	▬▬▶	Haudegen (~quassel@85-124-51-57.static.upcbusiness.at) has joined ##linux
+2017-02-09 22:35:34	--	Haudegen is now known as Guest97680
+2017-02-09 22:35:37	◀▬▬	d1z (~gt@unaffiliated/grullizzle) has quit (Read error: Connection reset by peer)
+2017-02-09 22:35:39	▬▬▶	reev (~reev@123.63.166.181) has joined ##linux
+2017-02-09 22:35:39	▬▬▶	Jackson_ (~Jackson@dynamic-acs-24-154-52-26.zoominternet.net) has joined ##linux
+2017-02-09 22:35:39	▬▬▶	Jackson (~Jackson@dynamic-acs-24-154-52-26.zoominternet.net) has joined ##linux
+2017-02-09 22:35:59	nuew	Apparently it only affects F5 load balancers that have session tickets enabled.
+2017-02-09 22:36:23	◀▬▬	Kruppt (~Kirk_Krup@74-37-205-81.dr01.aplv.mn.frontiernet.net) has quit (Quit: ChatZilla 0.9.92-rdmsoft [XULRunner 35.0.1/20150122214805])
+2017-02-09 22:36:46	▬▬▶	tbsf (~tbsf@c-73-229-253-224.hsd1.co.comcast.net) has joined ##linux
+2017-02-09 22:37:04	◀▬▬	Jackson (~Jackson@dynamic-acs-24-154-52-26.zoominternet.net) has quit (Remote host closed the connection)
+2017-02-09 22:37:52	◀▬▬	arvut (~nobody@unaffiliated/arvut) has quit (Quit: leaving)
+2017-02-09 22:37:53	▬▬▶	fengshaun (~fengshaun@unaffiliated/fengshaun) has joined ##linux
+2017-02-09 22:38:32	◀▬▬	Chinggis6 (~chinggis@unaffiliated/chinggis6) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:38:49	▬▬▶	HiWEB (~HiWEB@c-71-197-230-219.hsd1.wa.comcast.net) has joined ##linux
+2017-02-09 22:39:08	◀▬▬	czart (~czart@acfa160.neoplus.adsl.tpnet.pl) has quit (Ping timeout: 276 seconds)
+2017-02-09 22:39:10	◀▬▬	Captain_Awesome (d@cpe-66-69-238-176.austin.res.rr.com) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:39:33	◀▬▬	Penthode (~triode@ALyon-655-1-498-158.w90-15.abo.wanadoo.fr) has quit (Quit: Leaving)
+2017-02-09 22:39:44	◀▬▬	kristian_on_linu (~kristian@0170201069.0.fullrate.ninja) has quit (Quit: Leaving)
+2017-02-09 22:39:48	ayecee	thank goodness i don't know what any of those are
+2017-02-09 22:40:02	◀▬▬	rigor789 (rigor789@gateway/shell/layerbnc/x-sgdetaljahfapaim) has quit (Remote host closed the connection)
+2017-02-09 22:40:08	▬▬▶	internauto (~Thunderbi@187.36.216.237) has joined ##linux
+2017-02-09 22:40:09	▬▬▶	Chinggis6 (~chinggis@unaffiliated/chinggis6) has joined ##linux
+2017-02-09 22:40:23	ayecee	(if i knew what they were, i'd probably be responsible for fixing one)
+2017-02-09 22:40:26	◀▬▬	shantorn (~shantorn@97-120-236-210.ptld.qwest.net) has quit (Quit: Leaving)
+2017-02-09 22:40:26	◀▬▬	k_j (~k_jj@151.41.248.79) has quit (Ping timeout: 276 seconds)
+2017-02-09 22:40:51	▬▬▶	revoltingPeasant (~joe@92.235.43.65) has joined ##linux
+2017-02-09 22:41:08	--	Padawan_ is now known as Padawan
+2017-02-09 22:41:55	◀▬▬	IFightForTheUser (~IFightFor@unaffiliated/ifightfortheuser) has quit (Ping timeout: 255 seconds)
+2017-02-09 22:42:04	◀▬▬	Jackson_ (~Jackson@dynamic-acs-24-154-52-26.zoominternet.net) has quit (Quit: Beam me up Scotty!)
+2017-02-09 22:42:09	◀▬▬	pun84 (~pun84@pool-108-24-157-185.cmdnnj.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2017-02-09 22:42:24	◀▬▬	dj_pi (~dj@c-68-43-191-59.hsd1.mi.comcast.net) has quit (Ping timeout: 245 seconds)
+2017-02-09 22:42:49	◀▬▬	beatleboy07 (~beatleboy@2601:602:9901:89c0:78b3:3dd7:7663:80d9) has quit (Ping timeout: 255 seconds)
+2017-02-09 22:43:09	◀▬▬	tbsf (~tbsf@c-73-229-253-224.hsd1.co.comcast.net) has quit (Remote host closed the connection)
+2017-02-09 22:43:20	▬▬▶	Yukiku (~Dhs92@unaffiliated/yukkii) has joined ##linux
+2017-02-09 22:43:34	◀▬▬	mcards55 (~Mike@c-98-234-236-160.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2017-02-09 22:43:42	▬▬▶	fossify (~pvinux@14.195.228.239) has joined ##linux
+2017-02-09 22:43:44	▬▬▶	tbsf (~tbsf@8.37.102.32) has joined ##linux
+2017-02-09 22:44:26	◀▬▬	HiWEB (~HiWEB@c-71-197-230-219.hsd1.wa.comcast.net) has quit (Quit: Sleeping - g33k Mode on idle)
+2017-02-09 22:44:32	aBound	 https://arstechnica.com/security/2016/12/fedora-and-ubuntu-0days-show-that-hacking-desktop-linux-is-now-a-thing/
+2017-02-09 22:44:50	aBound	Old article.
+2017-02-09 22:44:52	▬▬▶	Soaked (~Soaked@unaffiliated/soaked) has joined ##linux
+2017-02-09 22:45:07	◀▬▬	Soaked (~Soaked@unaffiliated/soaked) has quit (Remote host closed the connection)
+2017-02-09 22:45:40	▬▬▶	bau_cikiih (~teusamilu@118.96.206.138) has joined ##linux
+2017-02-09 22:46:05	◀▬▬	JeanCarloMachado (~jean@177.79.70.141) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:46:10	◀▬▬	f4cl3y (~f4cl3y@unaffiliated/f4cl3y) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:46:25	▬▬▶	matias_ (~matias@r167-57-63-187.dialup.adsl.anteldata.net.uy) has joined ##linux
+2017-02-09 22:46:41	toothe	anyone know the way to list your GPG key's full signature?
+2017-02-09 22:47:09	◀▬▬	xxMatiasxx (~matias@r167-56-33-163.dialup.adsl.anteldata.net.uy) has quit (Read error: Connection reset by peer)
+2017-02-09 22:47:12	▬▬▶	JeanCarloMachado (~jean@177.79.70.141) has joined ##linux
+2017-02-09 22:47:29	◀▬▬	enterprisey (~enterpris@wikipedia/enterprisey) has quit (Remote host closed the connection)
+2017-02-09 22:47:57	◀▬▬	SuperficialyLost (~Superfici@120.18.74.161) has quit (Quit: WeeChat 1.7)
+2017-02-09 22:48:16	▬▬▶	pun84 (~pun84@pool-108-24-157-185.cmdnnj.fios.verizon.net) has joined ##linux
+2017-02-09 22:49:06	▬▬▶	govg (~govg@unaffiliated/govg) has joined ##linux
+2017-02-09 22:50:03	◀▬▬	nine_milli (~nine_mill@32.211.52.104) has quit (Quit: nine_milli)
+2017-02-09 22:50:22	◀▬▬	busybox42 (~alan@balerion.evil-admin.com) has quit (Quit: WeeChat 1.7)
+2017-02-09 22:50:30	◀▬▬	goldstar (~chatzilla@217.138.9.21) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:50:41	▬▬▶	bytesaber (~bytesaber@67-60-94-170.cpe.cableone.net) has joined ##linux
+2017-02-09 22:51:00	◀▬▬	S1GSEGV (~S1GSEGV@gateway/tor-sasl/s1gsegv) has quit (Quit: S1GSEGV)
+2017-02-09 22:51:09	▬▬▶	rigor789 (rigor789@gateway/shell/layerbnc/x-zmdmwyophkdvgtoh) has joined ##linux
+2017-02-09 22:51:19	◀▬▬	piggah (~nick@dt0c0n96.tampabay.res.rr.com) has quit (Quit: WeeChat 1.7)
+2017-02-09 22:51:49	▬▬▶	piggah (~nick@dt0c0n96.tampabay.res.rr.com) has joined ##linux
+2017-02-09 22:52:20	aBound	Am to sleepy to know. :P
+2017-02-09 22:52:35	▬▬▶	GreeningGalaxy (~ellie@24-148-40-135.c3-0.grn-ubr1.chi-grn.il.cable.rcn.com) has joined ##linux
+2017-02-09 22:52:52	toothe	ugh
+2017-02-09 22:52:57	toothe	anyohne know the way to list the full PGP key signature?
+2017-02-09 22:53:01	toothe	GPG*
+2017-02-09 22:53:08	◀▬▬	chachasmooth (~chachasmo@unaffiliated/chachasmooth) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:53:13	ayecee	what does a full gpg signature look like?
+2017-02-09 22:53:18	▬▬▶	d1z (~gt@unaffiliated/grullizzle) has joined ##linux
+2017-02-09 22:53:37	◀▬▬	Cybernetic (~Cyberneti@2601:80:c080:2645:80d2:25ce:8307:528d) has quit (Ping timeout: 255 seconds)
+2017-02-09 22:53:40	◀▬▬	Chinggis6 (~chinggis@unaffiliated/chinggis6) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:54:03	▬▬▶	Boohbah (~Boohbah@unaffiliated/boohbah) has joined ##linux
+2017-02-09 22:54:14	Vyrus001	anybody know why im getting Closing Link: 127.0.0.1 (Non-TS server) when trying to connect 2 ratbox-ircd node togeather?
+2017-02-09 22:54:20	toothe	ayecee: I think 16 bits?
+2017-02-09 22:54:27	toothe	err, 64 bits.
+2017-02-09 22:54:32	ayecee	what does 64 bits look like?
+2017-02-09 22:55:11	toothe	you know, I'm using my terms wrong...I know what I want, but forgot how to get it.
+2017-02-09 22:55:15	toothe	i think fingerprint is what I mean.
+2017-02-09 22:55:24	nuew	oh
+2017-02-09 22:55:29	▬▬▶	Chinggis6 (~chinggis@unaffiliated/chinggis6) has joined ##linux
+2017-02-09 22:55:32	◀▬▬	miliarch (~miliarch@unaffiliated/miliarch) has quit (Remote host closed the connection)
+2017-02-09 22:55:33	nuew	use gpg --edit-key <key id>
+2017-02-09 22:55:41	nuew	and type 'fpr'
+2017-02-09 22:55:44	◀▬▬	MageJames (~james@cpe-172-73-69-42.carolina.res.rr.com) has quit (Read error: Connection reset by peer)
+2017-02-09 22:56:00	▬▬▶	miliarch (~miliarch@unaffiliated/miliarch) has joined ##linux
+2017-02-09 22:56:03	toothe	That's it! Thank you.
+2017-02-09 22:56:06	Blendify	I am trying to use gparted but I get this error: libparted erro: end of file while reading /dev/sdb
+2017-02-09 22:56:10	toothe	You know...gpg is really really complicated.
+2017-02-09 22:56:14	toothe	Its frustrating how complicated ti is.
+2017-02-09 22:56:23	▬▬▶	chachasmooth (~chachasmo@unaffiliated/chachasmooth) has joined ##linux
+2017-02-09 22:56:27	toothe	I know a lawyer who is actively undermining Trump and wants to be secure from monitoring.
+2017-02-09 22:56:38	toothe	I suggested PGP to him, and he said it was too complicated.
+2017-02-09 22:56:50	◀▬▬	mqu (~mikkqu@2604:2000:1304:4071:2d4c:66bb:4fb8:472) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2017-02-09 22:57:21	◀▬▬	wurm (~wurm@67-0-103-189.albq.qwest.net) has quit (Remote host closed the connection)
+2017-02-09 22:57:39	GreeningGalaxy	toothe: clearly he doesn't want it that bad.
+2017-02-09 22:57:42	◀▬▬	Guest23954 (~mike@blk-222-160-12.eastlink.ca) has quit (Ping timeout: 260 seconds)
+2017-02-09 22:57:51	ayecee	there i am, minding my own business, and *wham* politics.
+2017-02-09 22:57:53	mryandao	can't he instruct the NSA to pipe all the monitoring of his comm. channels to /dev/null?
+2017-02-09 22:58:00	toothe	GreeningGalaxy: that's certainly one way of looking at it.
+2017-02-09 22:58:17	mryandao	he == trump
+2017-02-09 22:58:32	toothe	hahaha
+2017-02-09 22:59:01	◀▬▬	xerox123 (xerox123@unaffiliated/xerox123) has quit (Ping timeout: 255 seconds)
+2017-02-09 22:59:22	◀▬▬	Tiberium (~Daniil@128-74-240-64.broadband.corbina.ru) has quit (Remote host closed the connection)
+2017-02-09 22:59:40	▬▬▶	wurm (~wurm@67-0-103-189.albq.qwest.net) has joined ##linux
+2017-02-09 23:00:32	GreeningGalaxy	toothe: you should introduce him to one-time pads and tell him to use those for all his communications of any kind
+2017-02-09 23:00:45	toothe	one-time pads?
+2017-02-09 23:00:52	▬▬▶	xerox123 (xerox123@unaffiliated/xerox123) has joined ##linux
+2017-02-09 23:00:56	▬▬▶	oa (~Mutter@2607:fb90:76a:e0d9:9c9e:cdac:dfb2:99e6) has joined ##linux
+2017-02-09 23:00:58	▬▬▶	mayorga (~mayorga@fedora/mayorga) has joined ##linux
+2017-02-09 23:01:12	◀▬▬	G33kGurl (~GeekGurl@modemcable078.207-202-24.mc.videotron.ca) has quit (Ping timeout: 240 seconds)
+2017-02-09 23:01:15	◀▬▬	Dotcra (~Dot@unaffiliated/dotcra) has quit (Quit: leaving)
+2017-02-09 23:01:16	ayecee	i can only imagine that's intended to make pgp simple by comparison.
+2017-02-09 23:01:21	GreeningGalaxy	right.
+2017-02-09 23:01:27	nuew	mathmatically proven perfect encryption, but absolutely impractical
+2017-02-09 23:01:36	toothe	he works in immigration law. I'm sure it sounds easy to just say "well, he should learn the technology", but its something a person dedicated to running a weirdo OS called Linux would think.
+2017-02-09 23:01:43	GreeningGalaxy	One-time pads are very simple, though - you just need a pre-shared key the same size as the file you're sending :P
+2017-02-09 23:01:55	▬▬▶	dashtinsane (dashtinsan@86-41-221-191-dynamic.b-ras2.rtd.sligo.eircom.net) has joined ##linux
+2017-02-09 23:01:57	GreeningGalaxy	toothe: that's fair.
+2017-02-09 23:01:59	toothe	if PGP is to work, it must be easier.
+2017-02-09 23:02:08	◀▬▬	mayorga (~mayorga@fedora/mayorga) has quit (Remote host closed the connection)
+2017-02-09 23:02:10	toothe	terms like "Public Key" should be changed.
+2017-02-09 23:02:10	◀▬▬	Chinggis6 (~chinggis@unaffiliated/chinggis6) has quit (Ping timeout: 240 seconds)
+2017-02-09 23:02:13	◀▬▬	lafleurdubien (uid206563@gateway/web/irccloud.com/x-okjajcymdlxlhhgj) has quit (Quit: Connection closed for inactivity)
+2017-02-09 23:02:23	toothe	"wait, you encrypt with someone else's public key? Not your own private key???"
+2017-02-09 23:02:35	▬▬▶	mayorga (~mayorga@fedora/mayorga) has joined ##linux
+2017-02-09 23:02:35	GreeningGalaxy	I agree, software accessibility is important. My initial remark was needlessly flippant
+2017-02-09 23:02:52	▬▬▶	__dutch__ (~DutchIngr@static-97-66-215-44.earthlinkbusiness.net) has joined ##linux
+2017-02-09 23:03:00	nuew	But the pre-shared key is required to be all genuinely random bits, not stretched, or you inherit the flaws of the stretching algorithm.
+2017-02-09 23:03:12	◀▬▬	SimpleName (~hx@222.93.48.113) has quit (Quit: SimpleName)
+2017-02-09 23:03:28	◀▬▬	mayorga (~mayorga@fedora/mayorga) has quit (Remote host closed the connection)
+2017-02-09 23:03:31	◀▬▬	solenodic (~solenodic@unaffiliated/solenodic) has quit (Ping timeout: 255 seconds)
+2017-02-09 23:03:41	Blendify	can linux not open exfat?
+2017-02-09 23:03:48	GreeningGalaxy	I initially learned about one time pads while reading a debate about /dev/random vs /dev/urandom
+2017-02-09 23:03:49	◀▬▬	lord_daemon (~lord_daem@unaffiliated/lord-daemon/x-3538029) has quit (Read error: Connection reset by peer)
+2017-02-09 23:03:49	▬▬▶	^Mogg^ (~mog@192-198-3-9.dhcp.radiolinkinternet.com) has joined ##linux
+2017-02-09 23:03:53	◀▬▬	^Mog^ (~mog@192-198-3-9.dhcp.radiolinkinternet.com) has quit (Read error: Connection reset by peer)
+2017-02-09 23:03:55	▬▬▶	Chinggis6 (~chinggis@unaffiliated/chinggis6) has joined ##linux
+2017-02-09 23:03:56	spareproject	that doesnt make sense tho if you arent prepared to learn the basics your literally going to weaken other peoples pki you need to understand key signing and key exchange at a minimum
+2017-02-09 23:04:09	◀▬▬	oa (~Mutter@2607:fb90:76a:e0d9:9c9e:cdac:dfb2:99e6) has quit (Client Quit)
+2017-02-09 23:04:13	ayecee	on the bright side, if you do one time pad, you can do the whole "guy with briefcase handcuffed to his wrist" key exchange protocol.
+2017-02-09 23:04:18	ayecee	how cool is that.
+2017-02-09 23:04:25	GreeningGalaxy	this is true.
+2017-02-09 23:05:24	▬▬▶	enterprisey (~enterpris@wikipedia/enterprisey) has joined ##linux
+2017-02-09 23:05:26	--	irc: disconnected from server
+2017-02-09 23:06:37	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined ##linux
+2017-02-09 23:06:37	--	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-02-09 23:06:37	--	Topic set by bocaneri (~bocaneri@about/linux/staff/sauvin) on Sun, 04 Dec 2016 02:21:22
+2017-02-09 23:06:37	--	Channel ##linux: 1723 nicks (0 ops, 0 voices, 1723 normals)
+2017-02-09 23:06:40	FrostyBytes	Blendify: there is a FUSE implementation of exfat
+2017-02-09 23:06:53	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-02-09 23:06:57	◀▬▬	kexmex (~kexmex@unaffiliated/kexmex) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-02-09 23:07:11	Blendify	FUSE?
+2017-02-09 23:07:12	--	poop is now known as wigums
+2017-02-09 23:07:18	nuew	filesystem in userspace
+2017-02-09 23:07:38	nuew	there should be packages in your distro for it
+2017-02-09 23:07:39	◀▬▬	tobsterius (~Tobsteriu@tobsteri.us) has left ##linux ("WeeChat 1.7")
+2017-02-09 23:10:40	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined ##linux
+2017-02-09 23:10:40	--	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-02-09 23:10:40	--	Topic set by bocaneri (~bocaneri@about/linux/staff/sauvin) on Sun, 04 Dec 2016 02:21:22
+2017-02-09 23:10:40	--	Channel ##linux: 1720 nicks (0 ops, 0 voices, 1720 normals)
+2017-02-09 23:10:41	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-02-09 23:10:45	--	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-02-09 23:10:45	--	URL for ##linux: http://linux.chat
+2017-02-09 23:10:51	aBound	I'm off to wonderland.
+2017-02-09 23:10:56	◀▬▬	aBound (~aBound@unaffiliated/abound) has quit (Quit: Bye)
+2017-02-09 23:10:56	◀▬▬	eelstrebor (~eelstrebo@216-75-116-100.res.dyn.allophone.biz) has quit (Remote host closed the connection)
+2017-02-09 23:11:03	GreeningGalaxy	exfat used to be fat, but then it was processed out of fathood
+2017-02-09 23:11:11	◀▬▬	ToBeCloud (uid51591@wikimedia/ToBeFree) has quit (Quit: Connection closed for inactivity)
+2017-02-09 23:11:12	▬▬▶	Suigetsu (~Suigetsu@115.114.81.10) has joined ##linux
+2017-02-09 23:11:20	ayecee	it's still fat, but now it's an ex
+2017-02-09 23:11:26	GreeningGalaxy	now it's cholesterol
+2017-02-09 23:11:39	▬▬▶	lnbf (~lnbf@r180-216-14-221.cpe.vividwireless.net.au) has joined ##linux
+2017-02-09 23:11:52	jim	'fa thooood?
+2017-02-09 23:12:07	ayecee	on
+2017-02-09 23:12:09	ayecee	no
+2017-02-09 23:12:22	◀▬▬	tobsterius (~Tobsteriu@tobsteri.us) has left ##linux
+2017-02-09 23:27:52	▬▬▶	tobsterius (~tobsteriu@tobsteri.us) has joined ##linux
+2017-02-09 23:27:52	--	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-02-09 23:27:52	--	Topic set by bocaneri (~bocaneri@about/linux/staff/sauvin) on Sun, 04 Dec 2016 02:21:22
+2017-02-09 23:27:52	--	Channel ##linux: 1715 nicks (0 ops, 0 voices, 1715 normals)
+2017-02-09 23:27:52	***	Buffer Playback...
+2017-02-09 23:27:52	jim	[23:24:20] when I was trying to do my own mail
+2017-02-09 23:27:52	jim	[23:24:42] later went to gmail, that's been pretty good, I could forget things
+2017-02-09 23:27:52	graps	[23:25:08] Yeah, the outgoing mail seemed easier to configure, but now I'm trying to relay inbound e-mail messages from Yahoo, Gmail, etc.
+2017-02-09 23:27:52	nine_milli	[23:25:09] almost friday
+2017-02-09 23:27:52	 *	markasoftware [23:25:24] waits for nine_milli to say something regarding the cloud
+2017-02-09 23:27:52	nine_milli	[23:25:29] wonder if reisio punk ass will be here tomorrow
+2017-02-09 23:27:52	jim	[23:25:54] "the cloud has water in it"
+2017-02-09 23:27:52	graps	[23:26:13] Heh, and ice and snow and stuff
+2017-02-09 23:27:52	eblip	[23:26:55] with mkfs.ext4 if you dont use the -j option does journalling not happen
+2017-02-09 23:27:52	eblip	[23:27:08] i thought ext4 was auto journalling
+2017-02-09 23:27:52	danieldg	[23:27:30] eblip: there's defaults in /etc/mke2fs.conf that turn it on
+2017-02-09 23:27:52	jim	[23:27:50] nine_milli, b4b, yaknow, I don't get what interest you even have being on a linux channel... and your offhanded on-the-side hostility is starting to piss me off
+2017-02-09 23:27:52	***	Playback Complete.
+2017-02-09 23:27:55	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-02-09 23:28:14	eblip	ah ok....but do i need to run mke2fs to use them
+2017-02-09 23:28:38	eblip	im not sure if mkfs and mke2fs use the same config
+2017-02-09 23:28:56	◀▬▬	Chinggis6 (~chinggis@unaffiliated/chinggis6) has quit (Ping timeout: 252 seconds)
+2017-02-09 23:29:06	jim	if you want to understand something about me, then get -that-
+2017-02-09 23:30:50	▬▬▶	tobsterius (~tobsteriu@tobsteri.us) has joined ##linux
+2017-02-09 23:30:50	--	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-02-09 23:30:50	--	Topic set by bocaneri (~bocaneri@about/linux/staff/sauvin) on Sun, 04 Dec 2016 02:21:22
+2017-02-09 23:30:50	--	Channel ##linux: 1715 nicks (0 ops, 0 voices, 1715 normals)
+2017-02-09 23:30:51	--	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-02-09 23:30:51	--	URL for ##linux: http://linux.chat
+2017-02-09 23:30:52	--	Channel created on Fri, 09 Feb 2001 18:16:24

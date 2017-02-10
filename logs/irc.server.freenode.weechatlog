@@ -15661,4 +15661,1497 @@
 2017-02-09 21:28:10	--	- accept our policies as set out on http://www.freenode.net
 2017-02-09 21:28:10	--	- freenode runs an open proxy scanner. Please join #freenode for
 2017-02-09 21:28:10	--	- any network-related questions or queries, where a number of
-2017-02-09 21:28:10	--	- volunteer staff and helpful users will be happy to assist
+2017-02-09 21:28:10	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 21:28:10	--	-
+2017-02-09 21:28:10	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 21:28:10	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 21:28:10	--	- real-life collaboration.
+2017-02-09 21:28:10	--	-
+2017-02-09 21:28:10	--	- We would like to thank Private Internet Access
+2017-02-09 21:28:10	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 21:28:10	--	- organisations that help keep freenode and our other projects
+2017-02-09 21:28:10	--	- running for their sustained support.
+2017-02-09 21:28:10	--	-
+2017-02-09 21:28:10	--	- In particular we would like to thank the sponsor
+2017-02-09 21:28:10	--	- of this server, details of which can be found above.
+2017-02-09 21:28:10	--	-
+2017-02-09 21:28:10	--	End of /MOTD command.
+2017-02-09 21:28:10	--	User mode [+i] by tobsterius
+2017-02-09 21:28:11	--	nickserve: No such nick/channel
+2017-02-09 21:36:10	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 21:36:10	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 21:36:10	--	gnutls: receiving 1 certificate
+2017-02-09 21:36:10	--	 - certificate[1] info:
+2017-02-09 21:36:10	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 21:36:10	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 21:36:10	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 21:36:10	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 21:36:10	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 21:36:10	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 21:36:10	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 21:36:10	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 21:36:10	--	Welcome to the freenode Internet Relay Chat Network tobsterius
+2017-02-09 21:36:10	--	MSG(nickserv): identify ***********************
+2017-02-09 21:36:10	--	Your host is barjavel.freenode.net[195.154.200.232/6667], running version ircd-seven-1.1.4
+2017-02-09 21:36:10	--	This server was created Sat Jan 7 2017 at 03:00:47 CET
+2017-02-09 21:36:10	--	barjavel.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-02-09 21:36:10	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-02-09 21:36:10	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU WHOX :are supported by this server
+2017-02-09 21:36:10	--	ETRACE CPRIVMSG CNOTICE KNOCK :are supported by this server
+2017-02-09 21:36:10	--	There are 133 users and 89263 invisible on 28 servers
+2017-02-09 21:36:10	--	24 :IRC Operators online
+2017-02-09 21:36:10	--	57135 :channels formed
+2017-02-09 21:36:10	--	I have 5923 clients and 1 servers
+2017-02-09 21:36:10	--	5923 6106 :Current local users 5923, max 6106
+2017-02-09 21:36:10	--	89396 91483 :Current global users 89396, max 91483
+2017-02-09 21:36:10	--	Highest connection count: 6107 (6106 clients) (387180 connections received)
+2017-02-09 21:36:10	--	You are now known as tobsterius
+2017-02-09 21:36:10	--	- barjavel.freenode.net Message of the Day -
+2017-02-09 21:36:10	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2017-02-09 21:36:10	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2017-02-09 21:36:10	--	- this server!
+2017-02-09 21:36:10	--	-
+2017-02-09 21:36:10	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2017-02-09 21:36:10	--	- science-fiction author, a journalist and a critic. He is
+2017-02-09 21:36:10	--	- credited with having written the first novel to introduce
+2017-02-09 21:36:10	--	- the Grandfather Paradox in time travel, in his 1943 work
+2017-02-09 21:36:10	--	- 'Le Voyageur imprudent'.
+2017-02-09 21:36:10	--	-
+2017-02-09 21:36:10	--	- Welcome to freenode - supporting the free and open source
+2017-02-09 21:36:10	--	- software communities since 1998.
+2017-02-09 21:36:10	--	-
+2017-02-09 21:36:10	--	- By connecting to freenode you indicate that you have read and
+2017-02-09 21:36:10	--	- accept our policies as set out on http://www.freenode.net
+2017-02-09 21:36:10	--	- freenode runs an open proxy scanner. Please join #freenode for
+2017-02-09 21:36:10	--	- any network-related questions or queries, where a number of
+2017-02-09 21:36:10	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 21:36:10	--	-
+2017-02-09 21:36:10	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 21:36:10	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 21:36:10	--	- real-life collaboration.
+2017-02-09 21:36:10	--	-
+2017-02-09 21:36:10	--	- We would like to thank Private Internet Access
+2017-02-09 21:36:10	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 21:36:10	--	- organisations that help keep freenode and our other projects
+2017-02-09 21:36:10	--	- running for their sustained support.
+2017-02-09 21:36:10	--	-
+2017-02-09 21:36:10	--	- In particular we would like to thank the sponsor
+2017-02-09 21:36:10	--	- of this server, details of which can be found above.
+2017-02-09 21:36:10	--	-
+2017-02-09 21:36:10	--	End of /MOTD command.
+2017-02-09 21:36:10	--	User mode [+i] by tobsterius
+2017-02-09 21:36:11	--	NickServ (NickServ@services.): You are already logged in as tobsterius.
+2017-02-09 21:48:54	--	MSG(nickserv): identify ***********************
+2017-02-09 21:48:54	--	NickServ (NickServ@services.): You are already logged in as tobsterius.
+2017-02-09 21:48:58	--	MSG(nickserv): identify
+2017-02-09 21:48:58	--	NickServ (NickServ@services.): Insufficient parameters for IDENTIFY.
+2017-02-09 21:48:59	--	NickServ (NickServ@services.): Syntax: IDENTIFY [nick] <password>
+2017-02-09 21:49:03	--	MSG(nickserv): help
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): ***** NickServ Help *****
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): NickServ allows users to 'register' a nickname, and stop
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): others from using that nick. NickServ allows the owner of a
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): nickname to disconnect a user from the network that is using
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): their nickname.
+2017-02-09 21:49:03	--	NickServ (NickServ@services.):  
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): For more information on a command, type:
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): /msg NickServ help <command>
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): For a verbose listing of all commands, type:
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): /msg NickServ help commands
+2017-02-09 21:49:03	--	NickServ (NickServ@services.):  
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): The following commands are available:
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): GHOST           Reclaims use of a nickname.
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): GROUP           Adds a nickname to your account.
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): IDENTIFY        Identifies to services for a nickname.
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): INFO            Displays information on registrations.
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): LISTCHANS       Lists channels that you have access to.
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): REGISTER        Registers a nickname.
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): RELEASE         Releases a services enforcer.
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): SENDPASS        Email registration passwords.
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): SET             Sets various control flags.
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): UNGROUP         Removes a nickname from your account.
+2017-02-09 21:49:03	--	NickServ (NickServ@services.):  
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): Other commands: ACC, ACCESS, CERT, DROP, HELP, LISTLOGINS, 
+2017-02-09 21:49:03	--	NickServ (NickServ@services.):                 LISTOWNMAIL, LOGOUT, REGAIN, SETPASS, STATUS, 
+2017-02-09 21:49:03	--	NickServ (NickServ@services.):                 TAXONOMY, VACATION, VERIFY
+2017-02-09 21:49:03	--	NickServ (NickServ@services.): ***** End of Help *****
+2017-02-09 21:49:21	--	MSG(nickserv): info
+2017-02-09 21:49:21	--	NickServ (NickServ@services.): Information on tobsterius (account tobsterius):
+2017-02-09 21:49:21	--	NickServ (NickServ@services.): Registered : Aug 15 15:08:12 2016 (25w 3d 11h ago)
+2017-02-09 21:49:21	--	NickServ (NickServ@services.): Last addr  : ~Tobsteriu@tobsteri.us
+2017-02-09 21:49:21	--	NickServ (NickServ@services.): Last seen  : now
+2017-02-09 21:49:21	--	NickServ (NickServ@services.): Logins from: tobsterius
+2017-02-09 21:49:21	--	NickServ (NickServ@services.): Nicks      : tobsterius
+2017-02-09 21:49:21	--	NickServ (NickServ@services.): Email      : anthony@tutrone.net (hidden)
+2017-02-09 21:49:21	--	NickServ (NickServ@services.): Flags      : HideMail
+2017-02-09 21:49:21	--	NickServ (NickServ@services.): *** End of Info ***
+2017-02-09 21:54:36	--	MSG(*status): detach *
+2017-02-09 21:55:20	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 21:55:20	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 21:55:20	--	gnutls: receiving 1 certificate
+2017-02-09 21:55:20	--	 - certificate[1] info:
+2017-02-09 21:55:20	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 21:55:20	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 21:55:20	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 21:55:20	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 21:55:20	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 21:55:20	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 21:55:20	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 21:55:20	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 21:55:20	--	Welcome to the freenode Internet Relay Chat Network tobsterius
+2017-02-09 21:55:20	--	MSG(nickserv): identify ***********************
+2017-02-09 21:55:20	--	Your host is barjavel.freenode.net[195.154.200.232/6667], running version ircd-seven-1.1.4
+2017-02-09 21:55:20	--	This server was created Sat Jan 7 2017 at 03:00:47 CET
+2017-02-09 21:55:20	--	barjavel.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-02-09 21:55:20	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-02-09 21:55:20	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU WHOX :are supported by this server
+2017-02-09 21:55:20	--	ETRACE CPRIVMSG CNOTICE KNOCK :are supported by this server
+2017-02-09 21:55:20	--	There are 133 users and 89263 invisible on 28 servers
+2017-02-09 21:55:20	--	24 :IRC Operators online
+2017-02-09 21:55:20	--	57135 :channels formed
+2017-02-09 21:55:20	--	I have 5923 clients and 1 servers
+2017-02-09 21:55:20	--	5923 6106 :Current local users 5923, max 6106
+2017-02-09 21:55:20	--	89396 91483 :Current global users 89396, max 91483
+2017-02-09 21:55:20	--	Highest connection count: 6107 (6106 clients) (387180 connections received)
+2017-02-09 21:55:20	--	You are now known as tobsterius
+2017-02-09 21:55:20	--	- barjavel.freenode.net Message of the Day -
+2017-02-09 21:55:20	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2017-02-09 21:55:20	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2017-02-09 21:55:20	--	- this server!
+2017-02-09 21:55:20	--	-
+2017-02-09 21:55:20	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2017-02-09 21:55:20	--	- science-fiction author, a journalist and a critic. He is
+2017-02-09 21:55:20	--	- credited with having written the first novel to introduce
+2017-02-09 21:55:20	--	- the Grandfather Paradox in time travel, in his 1943 work
+2017-02-09 21:55:20	--	- 'Le Voyageur imprudent'.
+2017-02-09 21:55:20	--	-
+2017-02-09 21:55:20	--	- Welcome to freenode - supporting the free and open source
+2017-02-09 21:55:20	--	- software communities since 1998.
+2017-02-09 21:55:20	--	-
+2017-02-09 21:55:20	--	- By connecting to freenode you indicate that you have read and
+2017-02-09 21:55:20	--	- accept our policies as set out on http://www.freenode.net
+2017-02-09 21:55:20	--	- freenode runs an open proxy scanner. Please join #freenode for
+2017-02-09 21:55:20	--	- any network-related questions or queries, where a number of
+2017-02-09 21:55:20	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 21:55:20	--	-
+2017-02-09 21:55:20	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 21:55:20	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 21:55:20	--	- real-life collaboration.
+2017-02-09 21:55:20	--	-
+2017-02-09 21:55:20	--	- We would like to thank Private Internet Access
+2017-02-09 21:55:20	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 21:55:20	--	- organisations that help keep freenode and our other projects
+2017-02-09 21:55:20	--	- running for their sustained support.
+2017-02-09 21:55:20	--	-
+2017-02-09 21:55:20	--	- In particular we would like to thank the sponsor
+2017-02-09 21:55:20	--	- of this server, details of which can be found above.
+2017-02-09 21:55:20	--	-
+2017-02-09 21:55:20	--	End of /MOTD command.
+2017-02-09 21:55:20	--	User mode [+i] by tobsterius
+2017-02-09 21:55:20	--	NickServ (NickServ@services.): You are already logged in as tobsterius.
+2017-02-09 21:57:59	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 21:57:59	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 21:57:59	--	gnutls: receiving 1 certificate
+2017-02-09 21:57:59	--	 - certificate[1] info:
+2017-02-09 21:57:59	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 21:57:59	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 21:57:59	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 21:57:59	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 21:57:59	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 21:57:59	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 21:57:59	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 21:57:59	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 21:57:59	--	Welcome to the freenode Internet Relay Chat Network tobsterius
+2017-02-09 21:57:59	--	MSG(nickserv): identify ***********************
+2017-02-09 21:57:59	--	Your host is barjavel.freenode.net[195.154.200.232/6667], running version ircd-seven-1.1.4
+2017-02-09 21:57:59	--	This server was created Sat Jan 7 2017 at 03:00:47 CET
+2017-02-09 21:57:59	--	barjavel.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-02-09 21:57:59	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-02-09 21:57:59	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU WHOX :are supported by this server
+2017-02-09 21:57:59	--	ETRACE CPRIVMSG CNOTICE KNOCK :are supported by this server
+2017-02-09 21:57:59	--	There are 133 users and 89263 invisible on 28 servers
+2017-02-09 21:57:59	--	24 :IRC Operators online
+2017-02-09 21:57:59	--	57135 :channels formed
+2017-02-09 21:57:59	--	I have 5923 clients and 1 servers
+2017-02-09 21:57:59	--	5923 6106 :Current local users 5923, max 6106
+2017-02-09 21:57:59	--	89396 91483 :Current global users 89396, max 91483
+2017-02-09 21:57:59	--	Highest connection count: 6107 (6106 clients) (387180 connections received)
+2017-02-09 21:57:59	--	You are now known as tobsterius
+2017-02-09 21:57:59	--	- barjavel.freenode.net Message of the Day -
+2017-02-09 21:57:59	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2017-02-09 21:57:59	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2017-02-09 21:57:59	--	- this server!
+2017-02-09 21:57:59	--	-
+2017-02-09 21:57:59	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2017-02-09 21:57:59	--	- science-fiction author, a journalist and a critic. He is
+2017-02-09 21:57:59	--	- credited with having written the first novel to introduce
+2017-02-09 21:57:59	--	- the Grandfather Paradox in time travel, in his 1943 work
+2017-02-09 21:57:59	--	- 'Le Voyageur imprudent'.
+2017-02-09 21:57:59	--	-
+2017-02-09 21:57:59	--	- Welcome to freenode - supporting the free and open source
+2017-02-09 21:57:59	--	- software communities since 1998.
+2017-02-09 21:57:59	--	-
+2017-02-09 21:57:59	--	- By connecting to freenode you indicate that you have read and
+2017-02-09 21:57:59	--	- accept our policies as set out on http://www.freenode.net
+2017-02-09 21:57:59	--	- freenode runs an open proxy scanner. Please join #freenode for
+2017-02-09 21:57:59	--	- any network-related questions or queries, where a number of
+2017-02-09 21:57:59	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 21:57:59	--	-
+2017-02-09 21:57:59	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 21:57:59	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 21:57:59	--	- real-life collaboration.
+2017-02-09 21:57:59	--	-
+2017-02-09 21:57:59	--	- We would like to thank Private Internet Access
+2017-02-09 21:57:59	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 21:57:59	--	- organisations that help keep freenode and our other projects
+2017-02-09 21:57:59	--	- running for their sustained support.
+2017-02-09 21:57:59	--	-
+2017-02-09 21:57:59	--	- In particular we would like to thank the sponsor
+2017-02-09 21:57:59	--	- of this server, details of which can be found above.
+2017-02-09 21:57:59	--	-
+2017-02-09 21:57:59	--	End of /MOTD command.
+2017-02-09 21:57:59	--	User mode [+i] by tobsterius
+2017-02-09 21:57:59	--	NickServ (NickServ@services.): You are already logged in as tobsterius.
+2017-02-09 22:03:32	--	MSG(*autoattach): list
+2017-02-09 22:04:11	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 22:04:11	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 22:04:11	--	gnutls: receiving 1 certificate
+2017-02-09 22:04:11	--	 - certificate[1] info:
+2017-02-09 22:04:11	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 22:04:11	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 22:04:11	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 22:04:11	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 22:04:11	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 22:04:11	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 22:04:11	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 22:04:11	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 22:04:11	--	Welcome to the freenode Internet Relay Chat Network tobsterius
+2017-02-09 22:04:11	--	MSG(nickserv): identify ***********************
+2017-02-09 22:04:11	--	Your host is barjavel.freenode.net[195.154.200.232/6667], running version ircd-seven-1.1.4
+2017-02-09 22:04:11	--	This server was created Sat Jan 7 2017 at 03:00:47 CET
+2017-02-09 22:04:11	--	barjavel.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-02-09 22:04:11	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-02-09 22:04:11	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU WHOX :are supported by this server
+2017-02-09 22:04:11	--	ETRACE CPRIVMSG CNOTICE KNOCK :are supported by this server
+2017-02-09 22:04:11	--	There are 133 users and 89263 invisible on 28 servers
+2017-02-09 22:04:11	--	24 :IRC Operators online
+2017-02-09 22:04:11	--	57135 :channels formed
+2017-02-09 22:04:11	--	I have 5923 clients and 1 servers
+2017-02-09 22:04:11	--	5923 6106 :Current local users 5923, max 6106
+2017-02-09 22:04:12	--	89396 91483 :Current global users 89396, max 91483
+2017-02-09 22:04:12	--	Highest connection count: 6107 (6106 clients) (387180 connections received)
+2017-02-09 22:04:12	--	You are now known as tobsterius
+2017-02-09 22:04:12	--	- barjavel.freenode.net Message of the Day -
+2017-02-09 22:04:12	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2017-02-09 22:04:12	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2017-02-09 22:04:12	--	- this server!
+2017-02-09 22:04:12	--	-
+2017-02-09 22:04:12	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2017-02-09 22:04:12	--	- science-fiction author, a journalist and a critic. He is
+2017-02-09 22:04:12	--	- credited with having written the first novel to introduce
+2017-02-09 22:04:12	--	- the Grandfather Paradox in time travel, in his 1943 work
+2017-02-09 22:04:12	--	- 'Le Voyageur imprudent'.
+2017-02-09 22:04:12	--	-
+2017-02-09 22:04:12	--	- Welcome to freenode - supporting the free and open source
+2017-02-09 22:04:12	--	- software communities since 1998.
+2017-02-09 22:04:12	--	-
+2017-02-09 22:04:12	--	- By connecting to freenode you indicate that you have read and
+2017-02-09 22:04:12	--	- accept our policies as set out on http://www.freenode.net
+2017-02-09 22:04:12	--	- freenode runs an open proxy scanner. Please join #freenode for
+2017-02-09 22:04:12	--	- any network-related questions or queries, where a number of
+2017-02-09 22:04:12	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 22:04:12	--	-
+2017-02-09 22:04:12	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 22:04:12	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 22:04:12	--	- real-life collaboration.
+2017-02-09 22:04:12	--	-
+2017-02-09 22:04:12	--	- We would like to thank Private Internet Access
+2017-02-09 22:04:12	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 22:04:12	--	- organisations that help keep freenode and our other projects
+2017-02-09 22:04:12	--	- running for their sustained support.
+2017-02-09 22:04:12	--	-
+2017-02-09 22:04:12	--	- In particular we would like to thank the sponsor
+2017-02-09 22:04:12	--	- of this server, details of which can be found above.
+2017-02-09 22:04:12	--	-
+2017-02-09 22:04:12	--	End of /MOTD command.
+2017-02-09 22:04:12	--	User mode [+i] by tobsterius
+2017-02-09 22:04:12	--	You have been marked as being away
+2017-02-09 22:04:12	--	You are no longer marked as being away
+2017-02-09 22:04:12	--	NickServ (NickServ@services.): You are already logged in as tobsterius.
+2017-02-09 22:09:59	--	You have been marked as being away
+2017-02-09 22:10:17	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 22:10:17	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 22:10:17	--	gnutls: receiving 1 certificate
+2017-02-09 22:10:17	--	 - certificate[1] info:
+2017-02-09 22:10:17	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 22:10:17	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 22:10:17	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 22:10:17	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 22:10:17	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 22:10:17	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 22:10:17	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 22:10:17	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 22:10:17	--	Password required
+2017-02-09 22:10:17	--	irc.znc.in: *** You need to send your password. Configure your client to send a server password.
+2017-02-09 22:10:17	--	irc.znc.in: *** To connect now, you can use /quote PASS <username>:<password>, or /quote PASS <username>/<network>:<password> to connect to a specific network.
+2017-02-09 22:10:48	--	*status (znc@znc.in): You have several networks configured, but no network was specified for the connection.
+2017-02-09 22:10:48	--	*status (znc@znc.in): Selecting network [Hashmark]. To see list of all configured networks, use /znc ListNetworks
+2017-02-09 22:10:48	--	*status (znc@znc.in): If you want to choose another network, use /znc JumpNetwork <network>, or connect to ZNC with username tobsterius/<network> (instead of just tobsterius)
+2017-02-09 22:10:48	--	Welcome to the hashmark IRC Network, Lordx_
+2017-02-09 22:10:48	--	MSG(nickserv): identify ***********************
+2017-02-09 22:10:48	--	Your host is irc.hashmark.net, running version u2.10.11.06.GS(32)
+2017-02-09 22:10:48	--	This server was created Mon Jul 6 2009 at 17:29:58 CDT
+2017-02-09 22:10:48	--	irc.hashmark.net u2.10.11.06.GS(32) dioswkgxnI biklmnopstvrczCD bklov
+2017-02-09 22:10:48	--	ANNOUNCE WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE SILENCE=15 MODES=6 MAXCHANNELS=10 MAXBANS=45 NICKLEN=30 MAXNICKLEN=30 :are supported by this server
+2017-02-09 22:10:48	--	TOPICLEN=300 AWAYLEN=200 KICKLEN=300 CHANTYPES=#& PREFIX=(ov)@+ CHANMODES=b,k,l,imnpstrDcC CASEMAPPING=rfc1459 NETWORK=hashmark :are supported by this server
+2017-02-09 22:10:48	--	There are 1 users and 49 invisible on 3 servers
+2017-02-09 22:10:48	--	5 :operator(s) online
+2017-02-09 22:10:48	--	33 :channels formed
+2017-02-09 22:10:48	--	I have 19 clients and 1 servers
+2017-02-09 22:10:48	--	You are now known as Lordx_
+2017-02-09 22:10:48	--	MOTD File is missing
+2017-02-09 22:10:48	--	User mode [+iwx] by Lordx_
+2017-02-09 22:10:50	--	NickServ (NickServ@services.hashmark): You MUST "/msg NickServ@services.hashmark identify" (not just /msg NickServ).
+2017-02-09 22:11:24	--	irc: disconnected from server
+2017-02-09 22:15:51	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 22:15:51	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 22:15:51	--	gnutls: receiving 1 certificate
+2017-02-09 22:15:51	--	 - certificate[1] info:
+2017-02-09 22:15:51	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 22:15:51	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 22:15:51	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 22:15:51	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 22:15:51	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 22:15:51	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 22:15:51	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 22:15:51	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 22:15:51	--	Welcome to the freenode Internet Relay Chat Network tobsterius
+2017-02-09 22:15:51	--	Your host is barjavel.freenode.net[195.154.200.232/6667], running version ircd-seven-1.1.4
+2017-02-09 22:15:51	--	This server was created Sat Jan 7 2017 at 03:00:47 CET
+2017-02-09 22:15:51	--	barjavel.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-02-09 22:15:51	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-02-09 22:15:51	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU WHOX :are supported by this server
+2017-02-09 22:15:51	--	ETRACE CPRIVMSG CNOTICE KNOCK :are supported by this server
+2017-02-09 22:15:52	--	There are 133 users and 89263 invisible on 28 servers
+2017-02-09 22:15:52	--	24 :IRC Operators online
+2017-02-09 22:15:52	--	57135 :channels formed
+2017-02-09 22:15:52	--	I have 5923 clients and 1 servers
+2017-02-09 22:15:52	--	5923 6106 :Current local users 5923, max 6106
+2017-02-09 22:15:52	--	89396 91483 :Current global users 89396, max 91483
+2017-02-09 22:15:52	--	Highest connection count: 6107 (6106 clients) (387180 connections received)
+2017-02-09 22:15:52	--	You are now known as tobsterius
+2017-02-09 22:15:52	--	- barjavel.freenode.net Message of the Day -
+2017-02-09 22:15:52	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2017-02-09 22:15:52	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2017-02-09 22:15:52	--	- this server!
+2017-02-09 22:15:52	--	-
+2017-02-09 22:15:52	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2017-02-09 22:15:52	--	- science-fiction author, a journalist and a critic. He is
+2017-02-09 22:15:52	--	- credited with having written the first novel to introduce
+2017-02-09 22:15:52	--	- the Grandfather Paradox in time travel, in his 1943 work
+2017-02-09 22:15:52	--	- 'Le Voyageur imprudent'.
+2017-02-09 22:15:52	--	-
+2017-02-09 22:15:52	--	- Welcome to freenode - supporting the free and open source
+2017-02-09 22:15:52	--	- software communities since 1998.
+2017-02-09 22:15:52	--	-
+2017-02-09 22:15:52	--	- By connecting to freenode you indicate that you have read and
+2017-02-09 22:15:52	--	- accept our policies as set out on http://www.freenode.net
+2017-02-09 22:15:52	--	- freenode runs an open proxy scanner. Please join #freenode for
+2017-02-09 22:15:52	--	- any network-related questions or queries, where a number of
+2017-02-09 22:15:52	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 22:15:52	--	-
+2017-02-09 22:15:52	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 22:15:52	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 22:15:52	--	- real-life collaboration.
+2017-02-09 22:15:52	--	-
+2017-02-09 22:15:52	--	- We would like to thank Private Internet Access
+2017-02-09 22:15:52	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 22:15:52	--	- organisations that help keep freenode and our other projects
+2017-02-09 22:15:52	--	- running for their sustained support.
+2017-02-09 22:15:52	--	-
+2017-02-09 22:15:52	--	- In particular we would like to thank the sponsor
+2017-02-09 22:15:52	--	- of this server, details of which can be found above.
+2017-02-09 22:15:52	--	-
+2017-02-09 22:15:52	--	End of /MOTD command.
+2017-02-09 22:15:52	--	User mode [+i] by tobsterius
+2017-02-09 22:15:52	--	You have been marked as being away
+2017-02-09 22:15:53	--	You are no longer marked as being away
+2017-02-09 22:15:59	--	You have been marked as being away
+2017-02-09 22:17:00	--	MSG(nickserv): identify ***********************
+2017-02-09 22:17:00	--	You are no longer marked as being away
+2017-02-09 22:17:01	--	NickServ (NickServ@services.): You are already logged in as tobsterius.
+2017-02-09 22:18:26	--	MSG(*nickserv): ViewCommands
+2017-02-09 22:18:40	--	MSG(*nickserv): ViewCommands
+2017-02-09 22:19:37	--	irc: disconnected from server
+2017-02-09 22:19:51	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 22:19:51	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 22:19:51	--	gnutls: receiving 1 certificate
+2017-02-09 22:19:51	--	 - certificate[1] info:
+2017-02-09 22:19:51	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 22:19:51	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 22:19:51	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 22:19:51	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 22:19:51	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 22:19:51	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 22:19:51	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 22:19:51	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 22:19:51	--	Welcome to the freenode Internet Relay Chat Network tobsterius
+2017-02-09 22:19:51	--	Your host is barjavel.freenode.net[195.154.200.232/6667], running version ircd-seven-1.1.4
+2017-02-09 22:19:51	--	This server was created Sat Jan 7 2017 at 03:00:47 CET
+2017-02-09 22:19:51	--	barjavel.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-02-09 22:19:51	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-02-09 22:19:51	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU WHOX :are supported by this server
+2017-02-09 22:19:51	--	ETRACE CPRIVMSG CNOTICE KNOCK :are supported by this server
+2017-02-09 22:19:51	--	There are 133 users and 89263 invisible on 28 servers
+2017-02-09 22:19:51	--	24 :IRC Operators online
+2017-02-09 22:19:51	--	57135 :channels formed
+2017-02-09 22:19:51	--	I have 5923 clients and 1 servers
+2017-02-09 22:19:51	--	5923 6106 :Current local users 5923, max 6106
+2017-02-09 22:19:51	--	89396 91483 :Current global users 89396, max 91483
+2017-02-09 22:19:51	--	Highest connection count: 6107 (6106 clients) (387180 connections received)
+2017-02-09 22:19:51	--	You are now known as tobsterius
+2017-02-09 22:19:51	--	- barjavel.freenode.net Message of the Day -
+2017-02-09 22:19:51	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2017-02-09 22:19:51	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2017-02-09 22:19:51	--	- this server!
+2017-02-09 22:19:51	--	-
+2017-02-09 22:19:51	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2017-02-09 22:19:51	--	- science-fiction author, a journalist and a critic. He is
+2017-02-09 22:19:51	--	- credited with having written the first novel to introduce
+2017-02-09 22:19:51	--	- the Grandfather Paradox in time travel, in his 1943 work
+2017-02-09 22:19:51	--	- 'Le Voyageur imprudent'.
+2017-02-09 22:19:51	--	-
+2017-02-09 22:19:51	--	- Welcome to freenode - supporting the free and open source
+2017-02-09 22:19:51	--	- software communities since 1998.
+2017-02-09 22:19:51	--	-
+2017-02-09 22:19:51	--	- By connecting to freenode you indicate that you have read and
+2017-02-09 22:19:51	--	- accept our policies as set out on http://www.freenode.net
+2017-02-09 22:19:51	--	- freenode runs an open proxy scanner. Please join #freenode for
+2017-02-09 22:19:51	--	- any network-related questions or queries, where a number of
+2017-02-09 22:19:51	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 22:19:51	--	-
+2017-02-09 22:19:51	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 22:19:51	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 22:19:51	--	- real-life collaboration.
+2017-02-09 22:19:51	--	-
+2017-02-09 22:19:51	--	- We would like to thank Private Internet Access
+2017-02-09 22:19:51	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 22:19:51	--	- organisations that help keep freenode and our other projects
+2017-02-09 22:19:51	--	- running for their sustained support.
+2017-02-09 22:19:51	--	-
+2017-02-09 22:19:51	--	- In particular we would like to thank the sponsor
+2017-02-09 22:19:51	--	- of this server, details of which can be found above.
+2017-02-09 22:19:51	--	-
+2017-02-09 22:19:51	--	End of /MOTD command.
+2017-02-09 22:19:51	--	User mode [+i] by tobsterius
+2017-02-09 22:19:51	--	You have been marked as being away
+2017-02-09 22:19:51	--	You are no longer marked as being away
+2017-02-09 22:20:08	--	MSG(nickserv): identify ***********************
+2017-02-09 22:20:09	--	NickServ (NickServ@services.): You are already logged in as tobsterius.
+2017-02-09 22:26:00	--	You have been marked as being away
+2017-02-09 22:26:57	--	MSG(nickserv): identify ***********************
+2017-02-09 22:26:57	--	You are no longer marked as being away
+2017-02-09 22:26:57	--	NickServ (NickServ@services.): You are already logged in as tobsterius.
+2017-02-09 22:28:47	--	irc: disconnected from server
+2017-02-09 22:31:21	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 22:31:21	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 22:31:21	--	gnutls: receiving 1 certificate
+2017-02-09 22:31:21	--	 - certificate[1] info:
+2017-02-09 22:31:21	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 22:31:21	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 22:31:21	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 22:31:21	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 22:31:21	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 22:31:21	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 22:31:21	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 22:31:21	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 22:31:21	--	Welcome to the freenode Internet Relay Chat Network tobsterius
+2017-02-09 22:31:21	--	Your host is barjavel.freenode.net[195.154.200.232/6667], running version ircd-seven-1.1.4
+2017-02-09 22:31:21	--	This server was created Sat Jan 7 2017 at 03:00:47 CET
+2017-02-09 22:31:21	--	barjavel.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-02-09 22:31:21	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-02-09 22:31:21	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU WHOX :are supported by this server
+2017-02-09 22:31:21	--	ETRACE CPRIVMSG CNOTICE KNOCK :are supported by this server
+2017-02-09 22:31:21	--	There are 133 users and 89263 invisible on 28 servers
+2017-02-09 22:31:21	--	24 :IRC Operators online
+2017-02-09 22:31:21	--	57135 :channels formed
+2017-02-09 22:31:21	--	I have 5923 clients and 1 servers
+2017-02-09 22:31:21	--	5923 6106 :Current local users 5923, max 6106
+2017-02-09 22:31:21	--	89396 91483 :Current global users 89396, max 91483
+2017-02-09 22:31:21	--	Highest connection count: 6107 (6106 clients) (387180 connections received)
+2017-02-09 22:31:21	--	You are now known as tobsterius
+2017-02-09 22:31:21	--	- barjavel.freenode.net Message of the Day -
+2017-02-09 22:31:21	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2017-02-09 22:31:21	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2017-02-09 22:31:21	--	- this server!
+2017-02-09 22:31:21	--	-
+2017-02-09 22:31:21	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2017-02-09 22:31:21	--	- science-fiction author, a journalist and a critic. He is
+2017-02-09 22:31:21	--	- credited with having written the first novel to introduce
+2017-02-09 22:31:21	--	- the Grandfather Paradox in time travel, in his 1943 work
+2017-02-09 22:31:21	--	- 'Le Voyageur imprudent'.
+2017-02-09 22:31:21	--	-
+2017-02-09 22:31:21	--	- Welcome to freenode - supporting the free and open source
+2017-02-09 22:31:21	--	- software communities since 1998.
+2017-02-09 22:31:21	--	-
+2017-02-09 22:31:21	--	- By connecting to freenode you indicate that you have read and
+2017-02-09 22:31:21	--	- accept our policies as set out on http://www.freenode.net
+2017-02-09 22:31:21	--	- freenode runs an open proxy scanner. Please join #freenode for
+2017-02-09 22:31:21	--	- any network-related questions or queries, where a number of
+2017-02-09 22:31:21	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 22:31:21	--	-
+2017-02-09 22:31:21	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 22:31:21	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 22:31:21	--	- real-life collaboration.
+2017-02-09 22:31:21	--	-
+2017-02-09 22:31:21	--	- We would like to thank Private Internet Access
+2017-02-09 22:31:21	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 22:31:21	--	- organisations that help keep freenode and our other projects
+2017-02-09 22:31:21	--	- running for their sustained support.
+2017-02-09 22:31:21	--	-
+2017-02-09 22:31:21	--	- In particular we would like to thank the sponsor
+2017-02-09 22:31:21	--	- of this server, details of which can be found above.
+2017-02-09 22:31:21	--	-
+2017-02-09 22:31:21	--	End of /MOTD command.
+2017-02-09 22:31:21	--	User mode [+i] by tobsterius
+2017-02-09 22:31:21	--	You have been marked as being away
+2017-02-09 22:31:22	--	You are no longer marked as being away
+2017-02-09 22:31:50	--	MSG(nickserve): identify !C0rd688twiG
+2017-02-09 22:31:50	--	nickserve: No such nick/channel
+2017-02-09 22:31:54	--	MSG(nickserv): identify ************
+2017-02-09 22:31:55	--	NickServ (NickServ@services.): You are already logged in as tobsterius.
+2017-02-09 22:32:00	--	[tobsterius] (~Tobsteriu@tobsteri.us): Tobsterius
+2017-02-09 22:32:00	--	[tobsterius] #r_netsec #reddit-sysadmin-support #cybersecurity[m] #reddit-sysadmin #docker-network ##networking ##linux #ubuntu #cisco #macosx
+2017-02-09 22:32:00	--	[tobsterius] barjavel.freenode.net (Paris, FR, EU)
+2017-02-09 22:32:00	--	[tobsterius] is connecting from *@tobsteri.us 104.236.24.100
+2017-02-09 22:32:00	--	[tobsterius] idle: 00 hours 00 minutes 06 seconds, signon at: Thu, 09 Feb 2017 15:27:58
+2017-02-09 22:32:00	--	[tobsterius] is logged in as tobsterius
+2017-02-09 22:32:00	--	[tobsterius] End of /WHOIS list.
+2017-02-09 22:32:21	--	MSG(nickserv): help
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): ***** NickServ Help *****
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): NickServ allows users to 'register' a nickname, and stop
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): others from using that nick. NickServ allows the owner of a
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): nickname to disconnect a user from the network that is using
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): their nickname.
+2017-02-09 22:32:21	--	NickServ (NickServ@services.):  
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): For more information on a command, type:
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): /msg NickServ help <command>
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): For a verbose listing of all commands, type:
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): /msg NickServ help commands
+2017-02-09 22:32:21	--	NickServ (NickServ@services.):  
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): The following commands are available:
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): GHOST           Reclaims use of a nickname.
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): GROUP           Adds a nickname to your account.
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): IDENTIFY        Identifies to services for a nickname.
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): INFO            Displays information on registrations.
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): LISTCHANS       Lists channels that you have access to.
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): REGISTER        Registers a nickname.
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): RELEASE         Releases a services enforcer.
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): SENDPASS        Email registration passwords.
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): SET             Sets various control flags.
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): UNGROUP         Removes a nickname from your account.
+2017-02-09 22:32:21	--	NickServ (NickServ@services.):  
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): Other commands: ACC, ACCESS, CERT, DROP, HELP, LISTLOGINS, 
+2017-02-09 22:32:21	--	NickServ (NickServ@services.):                 LISTOWNMAIL, LOGOUT, REGAIN, SETPASS, STATUS, 
+2017-02-09 22:32:21	--	NickServ (NickServ@services.):                 TAXONOMY, VACATION, VERIFY
+2017-02-09 22:32:21	--	NickServ (NickServ@services.): ***** End of Help *****
+2017-02-09 22:32:34	--	MSG(nickserv): listchans
+2017-02-09 22:32:34	--	NickServ (NickServ@services.): No channel access was found for the nickname tobsterius.
+2017-02-09 22:32:43	--	MSG(nickserv): info
+2017-02-09 22:32:43	--	NickServ (NickServ@services.): Information on tobsterius (account tobsterius):
+2017-02-09 22:32:43	--	NickServ (NickServ@services.): Registered : Aug 15 15:08:12 2016 (25w 3d 12h ago)
+2017-02-09 22:32:43	--	NickServ (NickServ@services.): Last addr  : ~Tobsteriu@tobsteri.us
+2017-02-09 22:32:43	--	NickServ (NickServ@services.): Last seen  : now
+2017-02-09 22:32:43	--	NickServ (NickServ@services.): Logins from: tobsterius
+2017-02-09 22:32:43	--	NickServ (NickServ@services.): Nicks      : tobsterius
+2017-02-09 22:32:43	--	NickServ (NickServ@services.): Email      : anthony@tutrone.net (hidden)
+2017-02-09 22:32:43	--	NickServ (NickServ@services.): Flags      : HideMail
+2017-02-09 22:32:43	--	NickServ (NickServ@services.): *** End of Info ***
+2017-02-09 22:33:05	--	MSG(nickserv): logout
+2017-02-09 22:33:05	--	NickServ (NickServ@services.): You have been logged out.
+2017-02-09 22:33:20	--	MSG(nickserv): identify ************
+2017-02-09 22:33:20	--	NickServ (NickServ@services.): Invalid password for tobsterius.
+2017-02-09 22:33:26	--	MSG(nickserv): identify *********
+2017-02-09 22:33:26	--	NickServ (NickServ@services.): Invalid password for tobsterius.
+2017-02-09 22:33:31	--	MSG(nickserv): identify ************
+2017-02-09 22:33:31	--	NickServ (NickServ@services.): You are now identified for tobsterius.
+2017-02-09 22:33:31	--	NickServ (NickServ@services.): 2 failed logins since last login.
+2017-02-09 22:33:31	--	NickServ (NickServ@services.): Last failed attempt from: tobsterius!~Tobsteriu@tobsteri.us on Feb 10 03:33:26 2017.
+2017-02-09 22:34:37	--	MSG(nickserv): verify
+2017-02-09 22:34:37	--	NickServ (NickServ@services.): Insufficient parameters for VERIFY.
+2017-02-09 22:34:37	--	NickServ (NickServ@services.): Syntax: VERIFY <operation> <account> <key>
+2017-02-09 22:34:48	--	MSG(nickserv): help verify
+2017-02-09 22:34:48	--	NickServ (NickServ@services.): ***** NickServ Help *****
+2017-02-09 22:34:48	--	NickServ (NickServ@services.): Help for VERIFY:
+2017-02-09 22:34:48	--	NickServ (NickServ@services.):  
+2017-02-09 22:34:48	--	NickServ (NickServ@services.): VERIFY confirms a change associated with
+2017-02-09 22:34:48	--	NickServ (NickServ@services.): your account registration.
+2017-02-09 22:34:48	--	NickServ (NickServ@services.):  
+2017-02-09 22:34:48	--	NickServ (NickServ@services.): Syntax: VERIFY <operation> <nickname> <key>
+2017-02-09 22:34:48	--	NickServ (NickServ@services.):  
+2017-02-09 22:34:48	--	NickServ (NickServ@services.): Example:
+2017-02-09 22:34:48	--	NickServ (NickServ@services.):     /msg NickServ VERIFY REGISTER jenny 161803399
+2017-02-09 22:34:48	--	NickServ (NickServ@services.):     /msg NickServ VERIFY EMAILCHG Aeriana 271828183
+2017-02-09 22:34:48	--	NickServ (NickServ@services.): ***** End of Help *****
+2017-02-09 22:39:14	--	MSG(nickserv): help
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): ***** NickServ Help *****
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): NickServ allows users to 'register' a nickname, and stop
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): others from using that nick. NickServ allows the owner of a
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): nickname to disconnect a user from the network that is using
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): their nickname.
+2017-02-09 22:39:14	--	NickServ (NickServ@services.):  
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): For more information on a command, type:
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): /msg NickServ help <command>
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): For a verbose listing of all commands, type:
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): /msg NickServ help commands
+2017-02-09 22:39:14	--	NickServ (NickServ@services.):  
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): The following commands are available:
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): GHOST           Reclaims use of a nickname.
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): GROUP           Adds a nickname to your account.
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): IDENTIFY        Identifies to services for a nickname.
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): INFO            Displays information on registrations.
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): LISTCHANS       Lists channels that you have access to.
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): REGISTER        Registers a nickname.
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): RELEASE         Releases a services enforcer.
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): SENDPASS        Email registration passwords.
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): SET             Sets various control flags.
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): UNGROUP         Removes a nickname from your account.
+2017-02-09 22:39:14	--	NickServ (NickServ@services.):  
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): Other commands: ACC, ACCESS, CERT, DROP, HELP, LISTLOGINS, 
+2017-02-09 22:39:14	--	NickServ (NickServ@services.):                 LISTOWNMAIL, LOGOUT, REGAIN, SETPASS, STATUS, 
+2017-02-09 22:39:14	--	NickServ (NickServ@services.):                 TAXONOMY, VACATION, VERIFY
+2017-02-09 22:39:14	--	NickServ (NickServ@services.): ***** End of Help *****
+2017-02-09 22:39:24	--	MSG(nickserv): help set
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): ***** NickServ Help *****
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): Help for SET:
+2017-02-09 22:39:24	--	NickServ (NickServ@services.):  
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): SET allows you to set various control flags
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): for nicknames that change the way certain
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): operations are performed on them.
+2017-02-09 22:39:24	--	NickServ (NickServ@services.):  
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): The following subcommands are available:
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): ACCOUNTNAME     Changes your account name.
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): EMAIL           Changes your e-mail address.
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): EMAILMEMOS      Forwards incoming memos to your e-mail address.
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): ENFORCE         Enables or disables automatic protection of a nickname.
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): HIDEMAIL        Hides your e-mail address.
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): NEVEROP         Prevents you from being added to access lists.
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): NOMEMO          Disables the ability to receive memos.
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): NOOP            Prevents services from setting modes upon you automatically.
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): PASSWORD        Changes the password associated with your account.
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): PRIVATE         Hides information about you from other users.
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): PROPERTY        Manipulates metadata entries associated with an account.
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): PUBKEY          Changes your ECDSA-NIST256p-CHALLENGE public key.
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): QUIETCHG        Allows you to opt-out of channel change messages.
+2017-02-09 22:39:24	--	NickServ (NickServ@services.):  
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): For more information, use /msg NickServ HELP SET command.
+2017-02-09 22:39:24	--	NickServ (NickServ@services.): ***** End of Help *****
+2017-02-09 22:39:42	--	MSG(nickserv): accoutname
+2017-02-09 22:39:42	--	NickServ (NickServ@services.): Invalid command. Use /msg NickServ help for a command listing.
+2017-02-09 22:39:47	--	MSG(nickserv): set accoutname
+2017-02-09 22:39:47	--	NickServ (NickServ@services.): Invalid set command. Use /msg NickServ HELP SET for a command listing.
+2017-02-09 22:39:52	--	MSG(nickserv): set accountname
+2017-02-09 22:39:52	--	NickServ (NickServ@services.): Insufficient parameters for ACCOUNTNAME.
+2017-02-09 22:39:52	--	NickServ (NickServ@services.): Syntax: SET ACCOUNTNAME <nick>
+2017-02-09 22:39:55	--	MSG(nickserv): set accountname tobsterius
+2017-02-09 22:39:55	--	NickServ (NickServ@services.): Your account name is already set to tobsterius.
+2017-02-09 22:40:31	--	MSG(nickserv): status
+2017-02-09 22:40:37	--	MSG(nickserv): access
+2017-02-09 22:40:46	--	NickServ (NickServ@services.): You are logged in as tobsterius.
+2017-02-09 22:40:46	--	NickServ (NickServ@services.): Insufficient parameters for ACCESS.
+2017-02-09 22:40:46	--	NickServ (NickServ@services.): Syntax: ACCESS ADD|DEL|LIST [mask]
+2017-02-09 22:40:54	--	MSG(nickserv): acc
+2017-02-09 22:40:54	--	NickServ (NickServ@services.): tobsterius ACC 3 
+2017-02-09 22:41:00	--	MSG(nickserv): cert
+2017-02-09 22:41:00	--	NickServ (NickServ@services.): Insufficient parameters for CERT.
+2017-02-09 22:41:00	--	NickServ (NickServ@services.): Syntax: CERT ADD|DEL|LIST [fingerprint]
+2017-02-09 22:41:03	--	MSG(nickserv): cert list
+2017-02-09 22:41:03	--	NickServ (NickServ@services.): Fingerprint list for tobsterius:
+2017-02-09 22:41:03	--	NickServ (NickServ@services.): End of tobsterius fingerprint list.
+2017-02-09 22:41:10	--	MSG(nickserv): cert add
+2017-02-09 22:41:10	--	NickServ (NickServ@services.): Insufficient parameters for CERT ADD.
+2017-02-09 22:41:10	--	NickServ (NickServ@services.): Syntax: CERT ADD <fingerprint>
+2017-02-09 22:41:27	--	MSG(nickserv): identify
+2017-02-09 22:41:27	--	NickServ (NickServ@services.): Insufficient parameters for IDENTIFY.
+2017-02-09 22:41:27	--	NickServ (NickServ@services.): Syntax: IDENTIFY [nick] <password>
+2017-02-09 22:47:01	--	You have been marked as being away
+2017-02-09 23:05:26	--	irc: disconnected from server
+2017-02-09 23:05:26	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 23:05:26	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 23:05:27	--	gnutls: receiving 1 certificate
+2017-02-09 23:05:27	--	 - certificate[1] info:
+2017-02-09 23:05:27	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 23:05:27	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 23:05:27	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 23:05:27	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 23:05:27	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 23:05:27	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 23:05:27	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 23:05:27	--	irc: client capability: SASL not supported
+2017-02-09 23:05:27	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 23:05:27	--	Password required
+2017-02-09 23:05:27	--	irc.znc.in: *** You need to send your password. Configure your client to send a server password.
+2017-02-09 23:05:27	--	irc.znc.in: *** To connect now, you can use /quote PASS <username>:<password>, or /quote PASS <username>/<network>:<password> to connect to a specific network.
+2017-02-09 23:06:27	=!=	irc: connection timeout (message 001 not received)
+2017-02-09 23:06:27	--	irc: disconnected from server
+2017-02-09 23:06:27	--	irc: reconnecting to server in 10 seconds
+2017-02-09 23:06:37	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 23:06:37	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 23:06:37	--	gnutls: receiving 1 certificate
+2017-02-09 23:06:37	--	 - certificate[1] info:
+2017-02-09 23:06:37	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 23:06:37	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 23:06:37	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 23:06:37	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 23:06:37	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 23:06:37	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 23:06:37	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 23:06:37	--	irc: client capability: SASL not supported
+2017-02-09 23:06:37	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 23:06:37	--	Welcome to the freenode Internet Relay Chat Network tobsterius
+2017-02-09 23:06:37	--	Your host is barjavel.freenode.net[195.154.200.232/6667], running version ircd-seven-1.1.4
+2017-02-09 23:06:37	--	This server was created Sat Jan 7 2017 at 03:00:47 CET
+2017-02-09 23:06:37	--	barjavel.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-02-09 23:06:37	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-02-09 23:06:37	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU WHOX :are supported by this server
+2017-02-09 23:06:37	--	ETRACE CPRIVMSG CNOTICE KNOCK :are supported by this server
+2017-02-09 23:06:37	--	There are 133 users and 89263 invisible on 28 servers
+2017-02-09 23:06:37	--	24 :IRC Operators online
+2017-02-09 23:06:37	--	57135 :channels formed
+2017-02-09 23:06:37	--	I have 5923 clients and 1 servers
+2017-02-09 23:06:37	--	5923 6106 :Current local users 5923, max 6106
+2017-02-09 23:06:37	--	89396 91483 :Current global users 89396, max 91483
+2017-02-09 23:06:37	--	Highest connection count: 6107 (6106 clients) (387180 connections received)
+2017-02-09 23:06:37	--	- barjavel.freenode.net Message of the Day -
+2017-02-09 23:06:37	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2017-02-09 23:06:37	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2017-02-09 23:06:37	--	- this server!
+2017-02-09 23:06:37	--	-
+2017-02-09 23:06:37	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2017-02-09 23:06:37	--	- science-fiction author, a journalist and a critic. He is
+2017-02-09 23:06:37	--	- credited with having written the first novel to introduce
+2017-02-09 23:06:37	--	- the Grandfather Paradox in time travel, in his 1943 work
+2017-02-09 23:06:37	--	- 'Le Voyageur imprudent'.
+2017-02-09 23:06:37	--	-
+2017-02-09 23:06:37	--	- Welcome to freenode - supporting the free and open source
+2017-02-09 23:06:37	--	- software communities since 1998.
+2017-02-09 23:06:37	--	-
+2017-02-09 23:06:37	--	- By connecting to freenode you indicate that you have read and
+2017-02-09 23:06:37	--	- accept our policies as set out on http://www.freenode.net
+2017-02-09 23:06:37	--	- freenode runs an open proxy scanner. Please join #freenode for
+2017-02-09 23:06:37	--	- any network-related questions or queries, where a number of
+2017-02-09 23:06:37	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 23:06:37	--	-
+2017-02-09 23:06:37	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 23:06:37	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 23:06:37	--	- real-life collaboration.
+2017-02-09 23:06:37	--	-
+2017-02-09 23:06:37	--	- We would like to thank Private Internet Access
+2017-02-09 23:06:37	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 23:06:37	--	- organisations that help keep freenode and our other projects
+2017-02-09 23:06:37	--	- running for their sustained support.
+2017-02-09 23:06:37	--	-
+2017-02-09 23:06:37	--	- In particular we would like to thank the sponsor
+2017-02-09 23:06:37	--	- of this server, details of which can be found above.
+2017-02-09 23:06:37	--	-
+2017-02-09 23:06:37	--	End of /MOTD command.
+2017-02-09 23:06:37	--	User mode [+i] by tobsterius
+2017-02-09 23:06:37	--	You have been marked as being away
+2017-02-09 23:06:38	--	You are no longer marked as being away
+2017-02-09 23:07:02	--	You have been marked as being away
+2017-02-09 23:08:05	--	irc: disconnected from server
+2017-02-09 23:09:14	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 23:09:14	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 23:09:14	--	gnutls: receiving 1 certificate
+2017-02-09 23:09:14	--	 - certificate[1] info:
+2017-02-09 23:09:14	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 23:09:14	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 23:09:14	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 23:09:14	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 23:09:14	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 23:09:14	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 23:09:14	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 23:09:14	--	irc: client capability: SASL not supported
+2017-02-09 23:09:14	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 23:09:14	--	Welcome to the freenode Internet Relay Chat Network tobsterius
+2017-02-09 23:09:14	--	Your host is barjavel.freenode.net[195.154.200.232/6667], running version ircd-seven-1.1.4
+2017-02-09 23:09:14	--	This server was created Sat Jan 7 2017 at 03:00:47 CET
+2017-02-09 23:09:14	--	barjavel.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-02-09 23:09:14	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-02-09 23:09:14	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU WHOX :are supported by this server
+2017-02-09 23:09:14	--	ETRACE CPRIVMSG CNOTICE KNOCK :are supported by this server
+2017-02-09 23:09:14	--	There are 133 users and 89263 invisible on 28 servers
+2017-02-09 23:09:14	--	24 :IRC Operators online
+2017-02-09 23:09:14	--	57135 :channels formed
+2017-02-09 23:09:14	--	I have 5923 clients and 1 servers
+2017-02-09 23:09:14	--	5923 6106 :Current local users 5923, max 6106
+2017-02-09 23:09:14	--	89396 91483 :Current global users 89396, max 91483
+2017-02-09 23:09:14	--	Highest connection count: 6107 (6106 clients) (387180 connections received)
+2017-02-09 23:09:14	--	- barjavel.freenode.net Message of the Day -
+2017-02-09 23:09:14	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2017-02-09 23:09:14	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2017-02-09 23:09:14	--	- this server!
+2017-02-09 23:09:14	--	-
+2017-02-09 23:09:14	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2017-02-09 23:09:14	--	- science-fiction author, a journalist and a critic. He is
+2017-02-09 23:09:14	--	- credited with having written the first novel to introduce
+2017-02-09 23:09:14	--	- the Grandfather Paradox in time travel, in his 1943 work
+2017-02-09 23:09:14	--	- 'Le Voyageur imprudent'.
+2017-02-09 23:09:14	--	-
+2017-02-09 23:09:14	--	- Welcome to freenode - supporting the free and open source
+2017-02-09 23:09:14	--	- software communities since 1998.
+2017-02-09 23:09:14	--	-
+2017-02-09 23:09:14	--	- By connecting to freenode you indicate that you have read and
+2017-02-09 23:09:14	--	- accept our policies as set out on http://www.freenode.net
+2017-02-09 23:09:14	--	- freenode runs an open proxy scanner. Please join #freenode for
+2017-02-09 23:09:14	--	- any network-related questions or queries, where a number of
+2017-02-09 23:09:14	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 23:09:14	--	-
+2017-02-09 23:09:14	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 23:09:14	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 23:09:14	--	- real-life collaboration.
+2017-02-09 23:09:14	--	-
+2017-02-09 23:09:14	--	- We would like to thank Private Internet Access
+2017-02-09 23:09:14	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 23:09:14	--	- organisations that help keep freenode and our other projects
+2017-02-09 23:09:14	--	- running for their sustained support.
+2017-02-09 23:09:14	--	-
+2017-02-09 23:09:14	--	- In particular we would like to thank the sponsor
+2017-02-09 23:09:14	--	- of this server, details of which can be found above.
+2017-02-09 23:09:14	--	-
+2017-02-09 23:09:14	--	End of /MOTD command.
+2017-02-09 23:09:14	--	User mode [+i] by tobsterius
+2017-02-09 23:09:14	--	You have been marked as being away
+2017-02-09 23:09:14	--	You are no longer marked as being away
+2017-02-09 23:10:02	--	You have been marked as being away
+2017-02-09 23:10:36	--	*status (znc@znc.in): Removing channel [#linux]
+2017-02-09 23:11:33	--	#linux: You're not on that channel
+2017-02-09 23:12:22	--	User mode [-i] by tobsterius
+2017-02-09 23:12:22	=!=	irc: reading data on socket: error 0 (connection closed by peer)
+2017-02-09 23:12:22	--	irc: disconnecting from server...
+2017-02-09 23:12:22	--	irc: disconnected from server
+2017-02-09 23:12:22	--	irc: reconnecting to server in 10 seconds
+2017-02-09 23:12:32	--	irc: reconnecting to server...
+2017-02-09 23:12:32	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 23:12:32	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 23:12:32	--	gnutls: receiving 1 certificate
+2017-02-09 23:12:32	--	 - certificate[1] info:
+2017-02-09 23:12:32	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 23:12:32	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 23:12:32	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 23:12:32	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 23:12:32	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 23:12:32	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 23:12:32	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 23:12:32	--	irc: client capability: SASL not supported
+2017-02-09 23:12:32	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 23:12:32	--	- Welcome to ZNC -
+2017-02-09 23:12:50	--	irc: disconnected from server
+2017-02-09 23:16:55	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 23:16:55	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 23:16:55	--	gnutls: receiving 1 certificate
+2017-02-09 23:16:55	--	 - certificate[1] info:
+2017-02-09 23:16:55	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 23:16:55	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 23:16:55	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 23:16:55	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 23:16:55	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 23:16:55	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 23:16:55	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 23:16:55	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 23:16:55	--	- Welcome to ZNC -
+2017-02-09 23:17:40	--	wilhelm.freenode.net: *** Looking up your hostname...
+2017-02-09 23:17:40	--	wilhelm.freenode.net: *** Checking Ident
+2017-02-09 23:17:40	--	wilhelm.freenode.net: *** Found your hostname
+2017-02-09 23:17:46	--	wilhelm.freenode.net: *** No Ident response
+2017-02-09 23:17:46	--	You are now known as tobsterius
+2017-02-09 23:17:46	--	Welcome to the freenode Internet Relay Chat Network tobsterius
+2017-02-09 23:17:46	--	Your host is wilhelm.freenode.net[164.132.77.237/6667], running version ircd-seven-1.1.4
+2017-02-09 23:17:46	--	This server was created Tue Jan 3 2017 at 16:20:15 CET
+2017-02-09 23:17:46	--	wilhelm.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-02-09 23:17:46	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-02-09 23:17:46	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE SAFELIST :are supported by this server
+2017-02-09 23:17:46	--	ELIST=CTU WHOX ETRACE KNOCK :are supported by this server
+2017-02-09 23:17:46	--	There are 128 users and 82606 invisible on 28 servers
+2017-02-09 23:17:46	--	25 :IRC Operators online
+2017-02-09 23:17:46	--	6 :unknown connection(s)
+2017-02-09 23:17:46	--	56609 :channels formed
+2017-02-09 23:17:46	--	I have 7655 clients and 1 servers
+2017-02-09 23:17:46	--	7655 10018 :Current local users 7655, max 10018
+2017-02-09 23:17:46	--	82734 91483 :Current global users 82734, max 91483
+2017-02-09 23:17:46	--	Highest connection count: 10019 (10018 clients) (937418 connections received)
+2017-02-09 23:17:46	--	- wilhelm.freenode.net Message of the Day -
+2017-02-09 23:17:46	--	- Welcome to wilhelm.freenode.net in Strasbourg, France.
+2017-02-09 23:17:46	--	- Thanks to http://digitaltreemedia.co.uk/ for sponsoring
+2017-02-09 23:17:46	--	- this server!
+2017-02-09 23:17:46	--	-
+2017-02-09 23:17:46	--	- Welcome to freenode - supporting the free and open source
+2017-02-09 23:17:46	--	- software communities since 1998.
+2017-02-09 23:17:46	--	-
+2017-02-09 23:17:46	--	- By connecting to freenode you indicate that you have read and
+2017-02-09 23:17:46	--	- accept our policies as set out on http://www.freenode.net
+2017-02-09 23:17:46	--	- freenode runs an open proxy scanner. Please join #freenode for
+2017-02-09 23:17:46	--	- any network-related questions or queries, where a number of
+2017-02-09 23:17:46	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 23:17:47	--	-
+2017-02-09 23:17:47	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 23:17:47	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 23:17:47	--	- real-life collaboration.
+2017-02-09 23:17:47	--	-
+2017-02-09 23:17:47	--	- We would like to thank Private Internet Access
+2017-02-09 23:17:47	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 23:17:47	--	- organisations that help keep freenode and our other projects
+2017-02-09 23:17:47	--	- running for their sustained support.
+2017-02-09 23:17:47	--	-
+2017-02-09 23:17:47	--	- In particular we would like to thank the sponsor
+2017-02-09 23:17:47	--	- of this server, details of which can be found above.
+2017-02-09 23:17:47	--	-
+2017-02-09 23:17:47	--	End of /MOTD command.
+2017-02-09 23:17:47	--	User mode [+i] by tobsterius
+2017-02-09 23:17:47	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2017-02-09 23:17:52	--	[*] tobsterius (~tobsteriu@tobsteri.us) H 0 (tobsterius)
+2017-02-09 23:17:52	--	[tobsterius] End of /WHO list.
+2017-02-09 23:18:21	--	irc: disconnected from server
+2017-02-09 23:18:26	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 23:18:26	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 23:18:26	--	gnutls: receiving 1 certificate
+2017-02-09 23:18:26	--	 - certificate[1] info:
+2017-02-09 23:18:26	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 23:18:26	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 23:18:26	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 23:18:26	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 23:18:26	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 23:18:27	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 23:18:27	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 23:18:27	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 23:18:27	--	Welcome to the freenode Internet Relay Chat Network tobsterius
+2017-02-09 23:18:27	--	Your host is wilhelm.freenode.net[164.132.77.237/6667], running version ircd-seven-1.1.4
+2017-02-09 23:18:27	--	This server was created Tue Jan 3 2017 at 16:20:15 CET
+2017-02-09 23:18:27	--	wilhelm.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-02-09 23:18:27	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-02-09 23:18:27	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE SAFELIST :are supported by this server
+2017-02-09 23:18:27	--	ELIST=CTU WHOX ETRACE KNOCK :are supported by this server
+2017-02-09 23:18:27	--	There are 128 users and 82606 invisible on 28 servers
+2017-02-09 23:18:27	--	25 :IRC Operators online
+2017-02-09 23:18:27	--	56609 :channels formed
+2017-02-09 23:18:27	--	I have 7655 clients and 1 servers
+2017-02-09 23:18:27	--	7655 10018 :Current local users 7655, max 10018
+2017-02-09 23:18:27	--	82734 91483 :Current global users 82734, max 91483
+2017-02-09 23:18:27	--	Highest connection count: 10019 (10018 clients) (937418 connections received)
+2017-02-09 23:18:27	--	You are now known as tobsterius
+2017-02-09 23:18:27	--	- wilhelm.freenode.net Message of the Day -
+2017-02-09 23:18:27	--	- Welcome to wilhelm.freenode.net in Strasbourg, France.
+2017-02-09 23:18:27	--	- Thanks to http://digitaltreemedia.co.uk/ for sponsoring
+2017-02-09 23:18:27	--	- this server!
+2017-02-09 23:18:27	--	-
+2017-02-09 23:18:27	--	- Welcome to freenode - supporting the free and open source
+2017-02-09 23:18:27	--	- software communities since 1998.
+2017-02-09 23:18:27	--	-
+2017-02-09 23:18:27	--	- By connecting to freenode you indicate that you have read and
+2017-02-09 23:18:27	--	- accept our policies as set out on http://www.freenode.net
+2017-02-09 23:18:27	--	- freenode runs an open proxy scanner. Please join #freenode for
+2017-02-09 23:18:27	--	- any network-related questions or queries, where a number of
+2017-02-09 23:18:27	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 23:18:27	--	-
+2017-02-09 23:18:27	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 23:18:27	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 23:18:27	--	- real-life collaboration.
+2017-02-09 23:18:27	--	-
+2017-02-09 23:18:27	--	- We would like to thank Private Internet Access
+2017-02-09 23:18:27	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 23:18:27	--	- organisations that help keep freenode and our other projects
+2017-02-09 23:18:27	--	- running for their sustained support.
+2017-02-09 23:18:27	--	-
+2017-02-09 23:18:27	--	- In particular we would like to thank the sponsor
+2017-02-09 23:18:27	--	- of this server, details of which can be found above.
+2017-02-09 23:18:27	--	-
+2017-02-09 23:18:27	--	End of /MOTD command.
+2017-02-09 23:18:27	--	User mode [+i] by tobsterius
+2017-02-09 23:18:58	--	MSG(nickserv): tobsterius !C0rd688twiG
+2017-02-09 23:18:58	--	NickServ (NickServ@services.): Invalid command. Use /msg NickServ help for a command listing.
+2017-02-09 23:19:07	--	MSG(nickserv): identify ***********************
+2017-02-09 23:19:07	--	NickServ (NickServ@services.): You are now identified for tobsterius.
+2017-02-09 23:21:02	--	irc: disconnected from server
+2017-02-09 23:21:04	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 23:21:04	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 23:21:04	--	gnutls: receiving 1 certificate
+2017-02-09 23:21:04	--	 - certificate[1] info:
+2017-02-09 23:21:04	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 23:21:04	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 23:21:04	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 23:21:04	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 23:21:04	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 23:21:04	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 23:21:04	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 23:21:04	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 23:21:04	--	Welcome to the freenode Internet Relay Chat Network tobsterius
+2017-02-09 23:21:04	--	MSG(nickserv): identify ***********************
+2017-02-09 23:21:04	--	Your host is wilhelm.freenode.net[164.132.77.237/6667], running version ircd-seven-1.1.4
+2017-02-09 23:21:04	--	This server was created Tue Jan 3 2017 at 16:20:15 CET
+2017-02-09 23:21:04	--	wilhelm.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-02-09 23:21:04	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-02-09 23:21:04	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE SAFELIST :are supported by this server
+2017-02-09 23:21:04	--	ELIST=CTU WHOX ETRACE KNOCK :are supported by this server
+2017-02-09 23:21:04	--	There are 128 users and 82606 invisible on 28 servers
+2017-02-09 23:21:04	--	25 :IRC Operators online
+2017-02-09 23:21:04	--	56609 :channels formed
+2017-02-09 23:21:04	--	I have 7655 clients and 1 servers
+2017-02-09 23:21:04	--	7655 10018 :Current local users 7655, max 10018
+2017-02-09 23:21:04	--	82734 91483 :Current global users 82734, max 91483
+2017-02-09 23:21:04	--	Highest connection count: 10019 (10018 clients) (937418 connections received)
+2017-02-09 23:21:04	--	You are now known as tobsterius
+2017-02-09 23:21:04	--	- wilhelm.freenode.net Message of the Day -
+2017-02-09 23:21:04	--	- Welcome to wilhelm.freenode.net in Strasbourg, France.
+2017-02-09 23:21:04	--	- Thanks to http://digitaltreemedia.co.uk/ for sponsoring
+2017-02-09 23:21:04	--	- this server!
+2017-02-09 23:21:04	--	-
+2017-02-09 23:21:04	--	- Welcome to freenode - supporting the free and open source
+2017-02-09 23:21:04	--	- software communities since 1998.
+2017-02-09 23:21:04	--	-
+2017-02-09 23:21:04	--	- By connecting to freenode you indicate that you have read and
+2017-02-09 23:21:04	--	- accept our policies as set out on http://www.freenode.net
+2017-02-09 23:21:04	--	- freenode runs an open proxy scanner. Please join #freenode for
+2017-02-09 23:21:04	--	- any network-related questions or queries, where a number of
+2017-02-09 23:21:04	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 23:21:04	--	-
+2017-02-09 23:21:04	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 23:21:04	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 23:21:04	--	- real-life collaboration.
+2017-02-09 23:21:04	--	-
+2017-02-09 23:21:04	--	- We would like to thank Private Internet Access
+2017-02-09 23:21:04	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 23:21:04	--	- organisations that help keep freenode and our other projects
+2017-02-09 23:21:04	--	- running for their sustained support.
+2017-02-09 23:21:04	--	-
+2017-02-09 23:21:04	--	- In particular we would like to thank the sponsor
+2017-02-09 23:21:04	--	- of this server, details of which can be found above.
+2017-02-09 23:21:04	--	-
+2017-02-09 23:21:04	--	End of /MOTD command.
+2017-02-09 23:21:04	--	User mode [+i] by tobsterius
+2017-02-09 23:21:04	--	NickServ (NickServ@services.): You are already logged in as tobsterius.
+2017-02-09 23:21:18	--	MSG(nickserv): logout
+2017-02-09 23:21:18	--	NickServ (NickServ@services.): You have been logged out.
+2017-02-09 23:21:23	--	irc: disconnected from server
+2017-02-09 23:21:26	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 23:21:27	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 23:21:27	--	gnutls: receiving 1 certificate
+2017-02-09 23:21:27	--	 - certificate[1] info:
+2017-02-09 23:21:27	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 23:21:27	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 23:21:27	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 23:21:27	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 23:21:27	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 23:21:27	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 23:21:27	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 23:21:27	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 23:21:27	--	Welcome to the freenode Internet Relay Chat Network tobsterius
+2017-02-09 23:21:27	--	MSG(nickserv): identify ***********************
+2017-02-09 23:21:27	--	Your host is wilhelm.freenode.net[164.132.77.237/6667], running version ircd-seven-1.1.4
+2017-02-09 23:21:27	--	This server was created Tue Jan 3 2017 at 16:20:15 CET
+2017-02-09 23:21:27	--	wilhelm.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-02-09 23:21:27	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-02-09 23:21:27	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE SAFELIST :are supported by this server
+2017-02-09 23:21:27	--	ELIST=CTU WHOX ETRACE KNOCK :are supported by this server
+2017-02-09 23:21:27	--	There are 128 users and 82606 invisible on 28 servers
+2017-02-09 23:21:27	--	25 :IRC Operators online
+2017-02-09 23:21:27	--	56609 :channels formed
+2017-02-09 23:21:27	--	I have 7655 clients and 1 servers
+2017-02-09 23:21:27	--	7655 10018 :Current local users 7655, max 10018
+2017-02-09 23:21:27	--	82734 91483 :Current global users 82734, max 91483
+2017-02-09 23:21:27	--	Highest connection count: 10019 (10018 clients) (937418 connections received)
+2017-02-09 23:21:27	--	You are now known as tobsterius
+2017-02-09 23:21:27	--	- wilhelm.freenode.net Message of the Day -
+2017-02-09 23:21:27	--	- Welcome to wilhelm.freenode.net in Strasbourg, France.
+2017-02-09 23:21:27	--	- Thanks to http://digitaltreemedia.co.uk/ for sponsoring
+2017-02-09 23:21:27	--	- this server!
+2017-02-09 23:21:27	--	-
+2017-02-09 23:21:27	--	- Welcome to freenode - supporting the free and open source
+2017-02-09 23:21:27	--	- software communities since 1998.
+2017-02-09 23:21:27	--	-
+2017-02-09 23:21:27	--	- By connecting to freenode you indicate that you have read and
+2017-02-09 23:21:27	--	- accept our policies as set out on http://www.freenode.net
+2017-02-09 23:21:27	--	- freenode runs an open proxy scanner. Please join #freenode for
+2017-02-09 23:21:27	--	- any network-related questions or queries, where a number of
+2017-02-09 23:21:27	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 23:21:27	--	-
+2017-02-09 23:21:27	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 23:21:27	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 23:21:27	--	- real-life collaboration.
+2017-02-09 23:21:27	--	-
+2017-02-09 23:21:27	--	- We would like to thank Private Internet Access
+2017-02-09 23:21:27	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 23:21:27	--	- organisations that help keep freenode and our other projects
+2017-02-09 23:21:27	--	- running for their sustained support.
+2017-02-09 23:21:27	--	-
+2017-02-09 23:21:27	--	- In particular we would like to thank the sponsor
+2017-02-09 23:21:27	--	- of this server, details of which can be found above.
+2017-02-09 23:21:27	--	-
+2017-02-09 23:21:27	--	End of /MOTD command.
+2017-02-09 23:21:27	--	User mode [+i] by tobsterius
+2017-02-09 23:21:27	--	NickServ (NickServ@services.): Invalid password for tobsterius.
+2017-02-09 23:21:35	--	irc: disconnected from server
+2017-02-09 23:22:01	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 23:22:01	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 23:22:01	--	gnutls: receiving 1 certificate
+2017-02-09 23:22:01	--	 - certificate[1] info:
+2017-02-09 23:22:01	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 23:22:01	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 23:22:01	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 23:22:01	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 23:22:01	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 23:22:01	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 23:22:01	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 23:22:01	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 23:22:01	--	Welcome to the freenode Internet Relay Chat Network tobsterius
+2017-02-09 23:22:01	--	MSG(nickserv): identify ***********************
+2017-02-09 23:22:01	--	Your host is wilhelm.freenode.net[164.132.77.237/6667], running version ircd-seven-1.1.4
+2017-02-09 23:22:01	--	This server was created Tue Jan 3 2017 at 16:20:15 CET
+2017-02-09 23:22:01	--	wilhelm.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-02-09 23:22:01	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-02-09 23:22:01	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE SAFELIST :are supported by this server
+2017-02-09 23:22:01	--	ELIST=CTU WHOX ETRACE KNOCK :are supported by this server
+2017-02-09 23:22:01	--	There are 128 users and 82606 invisible on 28 servers
+2017-02-09 23:22:01	--	25 :IRC Operators online
+2017-02-09 23:22:01	--	56609 :channels formed
+2017-02-09 23:22:01	--	I have 7655 clients and 1 servers
+2017-02-09 23:22:01	--	7655 10018 :Current local users 7655, max 10018
+2017-02-09 23:22:01	--	82734 91483 :Current global users 82734, max 91483
+2017-02-09 23:22:01	--	Highest connection count: 10019 (10018 clients) (937418 connections received)
+2017-02-09 23:22:01	--	You are now known as tobsterius
+2017-02-09 23:22:01	--	- wilhelm.freenode.net Message of the Day -
+2017-02-09 23:22:01	--	- Welcome to wilhelm.freenode.net in Strasbourg, France.
+2017-02-09 23:22:01	--	- Thanks to http://digitaltreemedia.co.uk/ for sponsoring
+2017-02-09 23:22:01	--	- this server!
+2017-02-09 23:22:01	--	-
+2017-02-09 23:22:01	--	- Welcome to freenode - supporting the free and open source
+2017-02-09 23:22:01	--	- software communities since 1998.
+2017-02-09 23:22:01	--	-
+2017-02-09 23:22:01	--	- By connecting to freenode you indicate that you have read and
+2017-02-09 23:22:01	--	- accept our policies as set out on http://www.freenode.net
+2017-02-09 23:22:01	--	- freenode runs an open proxy scanner. Please join #freenode for
+2017-02-09 23:22:01	--	- any network-related questions or queries, where a number of
+2017-02-09 23:22:01	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 23:22:01	--	-
+2017-02-09 23:22:01	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 23:22:01	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 23:22:01	--	- real-life collaboration.
+2017-02-09 23:22:01	--	-
+2017-02-09 23:22:01	--	- We would like to thank Private Internet Access
+2017-02-09 23:22:01	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 23:22:01	--	- organisations that help keep freenode and our other projects
+2017-02-09 23:22:01	--	- running for their sustained support.
+2017-02-09 23:22:01	--	-
+2017-02-09 23:22:01	--	- In particular we would like to thank the sponsor
+2017-02-09 23:22:01	--	- of this server, details of which can be found above.
+2017-02-09 23:22:01	--	-
+2017-02-09 23:22:01	--	End of /MOTD command.
+2017-02-09 23:22:01	--	User mode [+i] by tobsterius
+2017-02-09 23:22:01	--	NickServ (NickServ@services.): Invalid password for tobsterius.
+2017-02-09 23:22:04	--	irc: disconnected from server
+2017-02-09 23:22:38	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 23:22:38	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 23:22:38	--	gnutls: receiving 1 certificate
+2017-02-09 23:22:38	--	 - certificate[1] info:
+2017-02-09 23:22:38	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 23:22:38	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 23:22:38	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 23:22:38	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 23:22:38	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 23:22:38	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 23:22:38	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 23:22:38	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 23:22:38	--	Welcome to the freenode Internet Relay Chat Network tobsterius
+2017-02-09 23:22:38	--	MSG(nickserv): identify ***********************
+2017-02-09 23:22:38	--	Your host is wilhelm.freenode.net[164.132.77.237/6667], running version ircd-seven-1.1.4
+2017-02-09 23:22:38	--	This server was created Tue Jan 3 2017 at 16:20:15 CET
+2017-02-09 23:22:38	--	wilhelm.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-02-09 23:22:38	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-02-09 23:22:38	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE SAFELIST :are supported by this server
+2017-02-09 23:22:38	--	ELIST=CTU WHOX ETRACE KNOCK :are supported by this server
+2017-02-09 23:22:38	--	There are 128 users and 82606 invisible on 28 servers
+2017-02-09 23:22:38	--	25 :IRC Operators online
+2017-02-09 23:22:38	--	56609 :channels formed
+2017-02-09 23:22:38	--	I have 7655 clients and 1 servers
+2017-02-09 23:22:38	--	7655 10018 :Current local users 7655, max 10018
+2017-02-09 23:22:38	--	82734 91483 :Current global users 82734, max 91483
+2017-02-09 23:22:38	--	Highest connection count: 10019 (10018 clients) (937418 connections received)
+2017-02-09 23:22:38	--	You are now known as tobsterius
+2017-02-09 23:22:38	--	- wilhelm.freenode.net Message of the Day -
+2017-02-09 23:22:38	--	- Welcome to wilhelm.freenode.net in Strasbourg, France.
+2017-02-09 23:22:38	--	- Thanks to http://digitaltreemedia.co.uk/ for sponsoring
+2017-02-09 23:22:38	--	- this server!
+2017-02-09 23:22:38	--	-
+2017-02-09 23:22:38	--	- Welcome to freenode - supporting the free and open source
+2017-02-09 23:22:38	--	- software communities since 1998.
+2017-02-09 23:22:38	--	-
+2017-02-09 23:22:38	--	- By connecting to freenode you indicate that you have read and
+2017-02-09 23:22:38	--	- accept our policies as set out on http://www.freenode.net
+2017-02-09 23:22:38	--	- freenode runs an open proxy scanner. Please join #freenode for
+2017-02-09 23:22:38	--	- any network-related questions or queries, where a number of
+2017-02-09 23:22:38	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 23:22:38	--	-
+2017-02-09 23:22:38	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 23:22:38	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 23:22:38	--	- real-life collaboration.
+2017-02-09 23:22:38	--	-
+2017-02-09 23:22:38	--	- We would like to thank Private Internet Access
+2017-02-09 23:22:38	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 23:22:38	--	- organisations that help keep freenode and our other projects
+2017-02-09 23:22:38	--	- running for their sustained support.
+2017-02-09 23:22:38	--	-
+2017-02-09 23:22:38	--	- In particular we would like to thank the sponsor
+2017-02-09 23:22:38	--	- of this server, details of which can be found above.
+2017-02-09 23:22:38	--	-
+2017-02-09 23:22:38	--	End of /MOTD command.
+2017-02-09 23:22:38	--	User mode [+i] by tobsterius
+2017-02-09 23:22:38	--	NickServ (NickServ@services.): You are now identified for tobsterius.
+2017-02-09 23:22:38	--	NickServ (NickServ@services.): 2 failed logins since last login.
+2017-02-09 23:22:38	--	NickServ (NickServ@services.): Last failed attempt from: tobsterius!~tobsteriu@tobsteri.us on Feb 10 04:22:01 2017.
+2017-02-09 23:23:02	--	MSG(nickserv): logout
+2017-02-09 23:23:02	--	NickServ (NickServ@services.): You have been logged out.
+2017-02-09 23:23:06	--	irc: disconnected from server
+2017-02-09 23:23:09	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 23:23:09	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 23:23:09	--	gnutls: receiving 1 certificate
+2017-02-09 23:23:09	--	 - certificate[1] info:
+2017-02-09 23:23:09	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 23:23:09	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 23:23:09	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 23:23:09	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 23:23:09	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 23:23:09	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 23:23:09	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 23:23:09	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 23:23:09	--	Welcome to the freenode Internet Relay Chat Network tobsterius
+2017-02-09 23:23:09	--	MSG(nickserv): identify ***********************
+2017-02-09 23:23:09	--	Your host is wilhelm.freenode.net[164.132.77.237/6667], running version ircd-seven-1.1.4
+2017-02-09 23:23:09	--	This server was created Tue Jan 3 2017 at 16:20:15 CET
+2017-02-09 23:23:09	--	wilhelm.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-02-09 23:23:09	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-02-09 23:23:09	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE SAFELIST :are supported by this server
+2017-02-09 23:23:09	--	ELIST=CTU WHOX ETRACE KNOCK :are supported by this server
+2017-02-09 23:23:09	--	There are 128 users and 82606 invisible on 28 servers
+2017-02-09 23:23:09	--	25 :IRC Operators online
+2017-02-09 23:23:09	--	56609 :channels formed
+2017-02-09 23:23:09	--	I have 7655 clients and 1 servers
+2017-02-09 23:23:09	--	7655 10018 :Current local users 7655, max 10018
+2017-02-09 23:23:09	--	82734 91483 :Current global users 82734, max 91483
+2017-02-09 23:23:09	--	Highest connection count: 10019 (10018 clients) (937418 connections received)
+2017-02-09 23:23:09	--	You are now known as tobsterius
+2017-02-09 23:23:09	--	- wilhelm.freenode.net Message of the Day -
+2017-02-09 23:23:09	--	- Welcome to wilhelm.freenode.net in Strasbourg, France.
+2017-02-09 23:23:09	--	- Thanks to http://digitaltreemedia.co.uk/ for sponsoring
+2017-02-09 23:23:09	--	- this server!
+2017-02-09 23:23:09	--	-
+2017-02-09 23:23:09	--	- Welcome to freenode - supporting the free and open source
+2017-02-09 23:23:09	--	- software communities since 1998.
+2017-02-09 23:23:09	--	-
+2017-02-09 23:23:09	--	- By connecting to freenode you indicate that you have read and
+2017-02-09 23:23:09	--	- accept our policies as set out on http://www.freenode.net
+2017-02-09 23:23:09	--	- freenode runs an open proxy scanner. Please join #freenode for
+2017-02-09 23:23:09	--	- any network-related questions or queries, where a number of
+2017-02-09 23:23:09	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 23:23:09	--	-
+2017-02-09 23:23:09	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 23:23:09	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 23:23:09	--	- real-life collaboration.
+2017-02-09 23:23:09	--	-
+2017-02-09 23:23:09	--	- We would like to thank Private Internet Access
+2017-02-09 23:23:09	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 23:23:09	--	- organisations that help keep freenode and our other projects
+2017-02-09 23:23:09	--	- running for their sustained support.
+2017-02-09 23:23:09	--	-
+2017-02-09 23:23:09	--	- In particular we would like to thank the sponsor
+2017-02-09 23:23:09	--	- of this server, details of which can be found above.
+2017-02-09 23:23:09	--	-
+2017-02-09 23:23:09	--	End of /MOTD command.
+2017-02-09 23:23:09	--	User mode [+i] by tobsterius
+2017-02-09 23:23:09	--	NickServ (NickServ@services.): You are now identified for tobsterius.
+2017-02-09 23:23:16	--	irc: disconnected from server
+2017-02-09 23:27:51	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 23:27:51	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 23:27:51	--	gnutls: receiving 1 certificate
+2017-02-09 23:27:51	--	 - certificate[1] info:
+2017-02-09 23:27:51	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 23:27:51	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 23:27:51	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 23:27:51	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 23:27:51	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 23:27:51	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 23:27:51	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 23:27:51	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 23:27:51	--	Welcome to the freenode Internet Relay Chat Network tobsterius
+2017-02-09 23:27:51	--	MSG(nickserv): identify ***********************
+2017-02-09 23:27:51	--	Your host is wilhelm.freenode.net[164.132.77.237/6667], running version ircd-seven-1.1.4
+2017-02-09 23:27:51	--	This server was created Tue Jan 3 2017 at 16:20:15 CET
+2017-02-09 23:27:51	--	wilhelm.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-02-09 23:27:51	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-02-09 23:27:51	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE SAFELIST :are supported by this server
+2017-02-09 23:27:51	--	ELIST=CTU WHOX ETRACE KNOCK :are supported by this server
+2017-02-09 23:27:51	--	There are 128 users and 82606 invisible on 28 servers
+2017-02-09 23:27:51	--	25 :IRC Operators online
+2017-02-09 23:27:51	--	56609 :channels formed
+2017-02-09 23:27:51	--	I have 7655 clients and 1 servers
+2017-02-09 23:27:51	--	7655 10018 :Current local users 7655, max 10018
+2017-02-09 23:27:51	--	82734 91483 :Current global users 82734, max 91483
+2017-02-09 23:27:51	--	Highest connection count: 10019 (10018 clients) (937418 connections received)
+2017-02-09 23:27:51	--	You are now known as tobsterius
+2017-02-09 23:27:51	--	- wilhelm.freenode.net Message of the Day -
+2017-02-09 23:27:51	--	- Welcome to wilhelm.freenode.net in Strasbourg, France.
+2017-02-09 23:27:51	--	- Thanks to http://digitaltreemedia.co.uk/ for sponsoring
+2017-02-09 23:27:51	--	- this server!
+2017-02-09 23:27:51	--	-
+2017-02-09 23:27:51	--	- Welcome to freenode - supporting the free and open source
+2017-02-09 23:27:51	--	- software communities since 1998.
+2017-02-09 23:27:51	--	-
+2017-02-09 23:27:51	--	- By connecting to freenode you indicate that you have read and
+2017-02-09 23:27:51	--	- accept our policies as set out on http://www.freenode.net
+2017-02-09 23:27:51	--	- freenode runs an open proxy scanner. Please join #freenode for
+2017-02-09 23:27:51	--	- any network-related questions or queries, where a number of
+2017-02-09 23:27:51	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 23:27:51	--	-
+2017-02-09 23:27:51	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 23:27:51	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 23:27:51	--	- real-life collaboration.
+2017-02-09 23:27:51	--	-
+2017-02-09 23:27:51	--	- We would like to thank Private Internet Access
+2017-02-09 23:27:51	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 23:27:51	--	- organisations that help keep freenode and our other projects
+2017-02-09 23:27:51	--	- running for their sustained support.
+2017-02-09 23:27:51	--	-
+2017-02-09 23:27:51	--	- In particular we would like to thank the sponsor
+2017-02-09 23:27:51	--	- of this server, details of which can be found above.
+2017-02-09 23:27:51	--	-
+2017-02-09 23:27:51	--	End of /MOTD command.
+2017-02-09 23:27:51	--	User mode [+i] by tobsterius
+2017-02-09 23:27:52	--	ChanServ (ChanServ@services.): [23:24:10] [##linux] Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-02-09 23:27:53	--	ChanServ (ChanServ@services.): [23:24:10] [#ubuntu] Welcome to #ubuntu! Please read the channel topic. This channel is logged at irclogs.ubuntu.com. Use of this channel implies acceptance of terms at https://wiki.ubuntu.com/IRC/TermsOfService
+2017-02-09 23:27:53	--	ChanServ (ChanServ@services.): [23:24:10] [#cisco] Welcome to the unofficial Cisco systems help channel
+2017-02-09 23:27:53	--	ChanServ (ChanServ@services.): [23:25:10] [##networking] Introductory text: "Computer Networks" by Andrew Tanenbaum. If asking for help, please fully specify the context of the environment.
+2017-02-09 23:27:53	--	NickServ (NickServ@services.): You are already logged in as tobsterius.
+2017-02-09 23:29:45	--	User mode [-i] by tobsterius
+2017-02-09 23:30:37	--	sinisalo.freenode.net: *** Looking up your hostname...
+2017-02-09 23:30:37	--	sinisalo.freenode.net: *** Checking Ident
+2017-02-09 23:30:37	--	sinisalo.freenode.net: *** Found your hostname
+2017-02-09 23:30:44	--	sinisalo.freenode.net: *** No Ident response
+2017-02-09 23:30:44	--	Welcome to the freenode Internet Relay Chat Network tobsterius
+2017-02-09 23:30:44	--	MSG(nickserv): identify ***********************
+2017-02-09 23:30:44	--	Your host is sinisalo.freenode.net[91.217.189.42/6667], running version ircd-seven-1.1.4
+2017-02-09 23:30:44	--	This server was created Wed Jan 18 2017 at 02:26:19 CET
+2017-02-09 23:30:44	--	sinisalo.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-02-09 23:30:44	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-02-09 23:30:44	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 WHOX KNOCK ETRACE :are supported by this server
+2017-02-09 23:30:44	--	SAFELIST ELIST=CTU CPRIVMSG CNOTICE :are supported by this server
+2017-02-09 23:30:44	--	There are 127 users and 82541 invisible on 28 servers
+2017-02-09 23:30:44	--	25 :IRC Operators online
+2017-02-09 23:30:44	--	9 :unknown connection(s)
+2017-02-09 23:30:44	--	56622 :channels formed
+2017-02-09 23:30:44	--	I have 5112 clients and 1 servers
+2017-02-09 23:30:44	--	5112 5684 :Current local users 5112, max 5684
+2017-02-09 23:30:44	--	82668 91483 :Current global users 82668, max 91483
+2017-02-09 23:30:44	--	Highest connection count: 5685 (5684 clients) (233253 connections received)
+2017-02-09 23:30:44	--	- sinisalo.freenode.net Message of the Day -
+2017-02-09 23:30:44	--	- Welcome to sinisalo.freenode.net in Stockholm, SE.
+2017-02-09 23:30:44	--	- Thanks to http://www.portlane.com/ for sponsoring
+2017-02-09 23:30:44	--	- this server!
+2017-02-09 23:30:44	--	-
+2017-02-09 23:30:44	--	-
+2017-02-09 23:30:44	--	- SINISALO, (ANNA) JOHANNA (1958-), a Finnish science fiction
+2017-02-09 23:30:44	--	- and fantasy novelist and a script writer. Her novel 'Not
+2017-02-09 23:30:44	--	- Before Sundown' (orig. 'Ennen päivänlaskua ei voi'
+2017-02-09 23:30:44	--	- published in Finnish in 2000, when it also won the biggest
+2017-02-09 23:30:44	--	- literature award of Finland) was awarded The James Tiptree
+2017-02-09 23:30:44	--	- Jr. award in 2004.  She was nominated for a Nebula award in
+2017-02-09 23:30:44	--	- 2009 for her short story Baby Doll.  Their most recent work
+2017-02-09 23:30:44	--	- includes screenwriting for the film 'Iron Sky'.
+2017-02-09 23:30:44	--	-
+2017-02-09 23:30:44	--	- Welcome to freenode - supporting the free and open source
+2017-02-09 23:30:44	--	- software communities since 1998.
+2017-02-09 23:30:44	--	-
+2017-02-09 23:30:44	--	- By connecting to freenode you indicate that you have read and
+2017-02-09 23:30:44	--	- accept our policies as set out on http://www.freenode.net
+2017-02-09 23:30:44	--	- freenode runs an open proxy scanner. Please join #freenode for
+2017-02-09 23:30:44	--	- any network-related questions or queries, where a number of
+2017-02-09 23:30:44	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 23:30:44	--	-
+2017-02-09 23:30:44	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 23:30:44	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 23:30:44	--	- real-life collaboration.
+2017-02-09 23:30:44	--	-
+2017-02-09 23:30:44	--	- We would like to thank Private Internet Access
+2017-02-09 23:30:44	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 23:30:44	--	- organisations that help keep freenode and our other projects
+2017-02-09 23:30:44	--	- running for their sustained support.
+2017-02-09 23:30:44	--	-
+2017-02-09 23:30:44	--	- In particular we would like to thank the sponsor
+2017-02-09 23:30:44	--	- of this server, details of which can be found above.
+2017-02-09 23:30:44	--	-
+2017-02-09 23:30:44	--	End of /MOTD command.
+2017-02-09 23:30:44	--	User mode [+i] by tobsterius
+2017-02-09 23:30:44	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2017-02-09 23:30:50	--	[*] tobsterius (~tobsteriu@tobsteri.us) H 0 (tobsterius)
+2017-02-09 23:30:50	--	[tobsterius] End of /WHO list.
+2017-02-09 23:30:51	--	NickServ (NickServ@services.): You are now identified for tobsterius.
+2017-02-09 23:31:22	--	User mode [-i] by tobsterius
+2017-02-09 23:32:00	--	MSG(*nickserv): set !C0rd688twiG
+2017-02-09 23:38:25	--	sinisalo.freenode.net: *** Looking up your hostname...
+2017-02-09 23:38:26	--	sinisalo.freenode.net: *** Checking Ident
+2017-02-09 23:38:26	--	sinisalo.freenode.net: *** Found your hostname
+2017-02-09 23:38:33	--	sinisalo.freenode.net: *** No Ident response
+2017-02-09 23:38:33	--	Welcome to the freenode Internet Relay Chat Network tobsterius
+2017-02-09 23:38:33	--	MSG(nickserv): identify ***********************
+2017-02-09 23:38:33	--	Your host is sinisalo.freenode.net[91.217.189.42/6667], running version ircd-seven-1.1.4
+2017-02-09 23:38:33	--	This server was created Wed Jan 18 2017 at 02:26:19 CET
+2017-02-09 23:38:33	--	sinisalo.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-02-09 23:38:33	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-02-09 23:38:33	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 WHOX KNOCK ETRACE :are supported by this server
+2017-02-09 23:38:33	--	SAFELIST ELIST=CTU CPRIVMSG CNOTICE :are supported by this server
+2017-02-09 23:38:34	--	There are 127 users and 82539 invisible on 28 servers
+2017-02-09 23:38:34	--	25 :IRC Operators online
+2017-02-09 23:38:34	--	12 :unknown connection(s)
+2017-02-09 23:38:34	--	56599 :channels formed
+2017-02-09 23:38:34	--	I have 5104 clients and 1 servers
+2017-02-09 23:38:34	--	5104 5684 :Current local users 5104, max 5684
+2017-02-09 23:38:34	--	82666 91483 :Current global users 82666, max 91483
+2017-02-09 23:38:34	--	Highest connection count: 5685 (5684 clients) (233279 connections received)
+2017-02-09 23:38:34	--	- sinisalo.freenode.net Message of the Day -
+2017-02-09 23:38:34	--	- Welcome to sinisalo.freenode.net in Stockholm, SE.
+2017-02-09 23:38:34	--	- Thanks to http://www.portlane.com/ for sponsoring
+2017-02-09 23:38:34	--	- this server!
+2017-02-09 23:38:34	--	-
+2017-02-09 23:38:34	--	-
+2017-02-09 23:38:34	--	- SINISALO, (ANNA) JOHANNA (1958-), a Finnish science fiction
+2017-02-09 23:38:34	--	- and fantasy novelist and a script writer. Her novel 'Not
+2017-02-09 23:38:34	--	- Before Sundown' (orig. 'Ennen päivänlaskua ei voi'
+2017-02-09 23:38:34	--	- published in Finnish in 2000, when it also won the biggest
+2017-02-09 23:38:34	--	- literature award of Finland) was awarded The James Tiptree
+2017-02-09 23:38:34	--	- Jr. award in 2004.  She was nominated for a Nebula award in
+2017-02-09 23:38:34	--	- 2009 for her short story Baby Doll.  Their most recent work
+2017-02-09 23:38:34	--	- includes screenwriting for the film 'Iron Sky'.
+2017-02-09 23:38:34	--	-
+2017-02-09 23:38:34	--	- Welcome to freenode - supporting the free and open source
+2017-02-09 23:38:34	--	- software communities since 1998.
+2017-02-09 23:38:34	--	-
+2017-02-09 23:38:34	--	- By connecting to freenode you indicate that you have read and
+2017-02-09 23:38:34	--	- accept our policies as set out on http://www.freenode.net
+2017-02-09 23:38:34	--	- freenode runs an open proxy scanner. Please join #freenode for
+2017-02-09 23:38:34	--	- any network-related questions or queries, where a number of
+2017-02-09 23:38:34	--	- volunteer staff and helpful users will be happy to assist you.
+2017-02-09 23:38:34	--	-
+2017-02-09 23:38:34	--	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+2017-02-09 23:38:34	--	- together with like-minded FOSS enthusiasts for talks and
+2017-02-09 23:38:34	--	- real-life collaboration.
+2017-02-09 23:38:34	--	-
+2017-02-09 23:38:34	--	- We would like to thank Private Internet Access
+2017-02-09 23:38:34	--	- (https://www.privateinternetaccess.com/) and the other
+2017-02-09 23:38:34	--	- organisations that help keep freenode and our other projects
+2017-02-09 23:38:34	--	- running for their sustained support.
+2017-02-09 23:38:34	--	-
+2017-02-09 23:38:34	--	- In particular we would like to thank the sponsor
+2017-02-09 23:38:34	--	- of this server, details of which can be found above.
+2017-02-09 23:38:34	--	-
+2017-02-09 23:38:34	--	End of /MOTD command.
+2017-02-09 23:38:34	--	User mode [+i] by tobsterius
+2017-02-09 23:38:34	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2017-02-09 23:38:39	--	[*] tobsterius (~tobsteriu@tobsteri.us) H 0 (tobsterius)
+2017-02-09 23:38:39	--	[tobsterius] End of /WHO list.
+2017-02-09 23:38:39	--	NickServ (NickServ@services.): You are now identified for tobsterius.

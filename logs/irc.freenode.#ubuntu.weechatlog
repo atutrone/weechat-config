@@ -555,3 +555,317 @@
 2017-02-09 21:26:56	◀▬▬	Ilyas (uid43013@gateway/web/irccloud.com/x-zgtrubkvbnubkvzl) has quit (Quit: Connection closed for inactivity)
 2017-02-09 21:27:24	stv	xbunta I have 14.0 and want 16
 2017-02-09 21:27:25	◀▬▬	rocket__ (~rocket__@unaffiliated/rocket--/x-6233973) has quit (Quit: Leaving)
+2017-02-09 21:28:11	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #ubuntu
+2017-02-09 21:28:11	--	Topic for #ubuntu is "Official Ubuntu Support Channel | IRC Guidelines: http://ubottu.com/y/gl | This channel supports: Ubuntu and its official flavors, versions 12.04, 14.04, 16.04, 16.10 | Unofficial derivatives: use your distro's support channel, not here. | IRC info: http://ubottu.com/y/irc | Pastes to http://paste.ubuntu.com/ | Download: http://ubottu.com/y/dl | PM spam? /mode yournickhere +R"
+2017-02-09 21:28:11	--	Topic set by dax (~dax@freenode/staff/dax) on Mon, 09 Jan 2017 16:03:45
+2017-02-09 21:28:11	--	Channel #ubuntu: 1795 nicks (1 op, 0 voices, 1794 normals)
+2017-02-09 21:28:11	***	Buffer Playback...
+2017-02-09 21:28:11	stv	[21:27:51] keeps crashing
+2017-02-09 21:28:11	k1l_	[21:28:06] stv: what keeps crashing?
+2017-02-09 21:28:11	***	Playback Complete.
+2017-02-09 21:28:16	--	Channel created on Sun, 26 Nov 2006 01:42:41
+2017-02-09 21:28:18	stv	upgrade
+2017-02-09 21:28:46	▬▬▶	gelei007 (~gelei007@112.198.69.92) has joined #ubuntu
+2017-02-09 21:29:01	▬▬▶	schundpeter (~schundpet@80.215.203.57) has joined #ubuntu
+2017-02-09 21:29:19	▬▬▶	Zren (~Zren@bas3-guelph22-174-88-82-175.dsl.bell.ca) has joined #ubuntu
+2017-02-09 21:29:19	k1l_	did you use the gui or the do-release-upgrade command? when does it crash?
+2017-02-09 21:29:22	▬▬▶	pitiye (~pitiye@112.134.47.115) has joined #ubuntu
+2017-02-09 21:29:27	stv	yes
+2017-02-09 21:29:39	◀▬▬	Zren_ (~Zren@bas3-guelph22-174-88-82-175.dsl.bell.ca) has quit (Read error: Connection reset by peer)
+2017-02-09 21:29:45	stv	when I say yes
+2017-02-09 21:29:53	stv	to download
+2017-02-09 21:30:24	stv	i386 pc
+2017-02-09 21:30:41	k1l_	did you use "do-release-upgrade" in terminal/console?
+2017-02-09 21:30:49	stv	yes
+2017-02-09 21:30:49	◀▬▬	gelei007 (~gelei007@112.198.69.92) has quit (Remote host closed the connection)
+2017-02-09 21:30:57	k1l_	is this a 32bit only cpu?
+2017-02-09 21:31:01	stv	yes
+2017-02-09 21:31:04	stv	amd
+2017-02-09 21:31:26	stv	sempron
+2017-02-09 21:31:31	stv	acer
+2017-02-09 21:31:40	◀▬▬	vila (~vila@lec67-4-82-230-53-244.fbx.proxad.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:32:15	◀▬▬	andyhuzhill (~Thunderbi@14.23.45.178) has quit (Remote host closed the connection)
+2017-02-09 21:32:19	▬▬▶	vila (~vila@lec67-4-82-230-53-244.fbx.proxad.net) has joined #ubuntu
+2017-02-09 21:32:24	stv	oh well shit happens
+2017-02-09 21:32:31	stv	see ya later
+2017-02-09 21:32:34	▬▬▶	andyhuzhill (~Thunderbi@14.23.45.178) has joined #ubuntu
+2017-02-09 21:32:36	◀▬▬	stv (~stv@HSI-KBW-109-193-039-031.hsi7.kabel-badenwuerttemberg.de) has quit (Quit: Leaving)
+2017-02-09 21:32:44	k1l_	what is the error when it crashes?
+2017-02-09 21:32:47	▬▬▶	wandeson (~wandeson@ded225-1.bbctech.psi.br) has joined #ubuntu
+2017-02-09 21:32:49	k1l_	hmm
+2017-02-09 21:33:05	▬▬▶	souravbadami (~Thunderbi@unaffiliated/souravbadami) has joined #ubuntu
+2017-02-09 21:33:23	◀▬▬	wandeson (~wandeson@ded225-1.bbctech.psi.br) has quit (Client Quit)
+2017-02-09 21:34:08	◀▬▬	Grapes (~greatgrap@gateway/vpn/privateinternetaccess/greatgrapes) has quit (Quit: My MacBook has gone to sleep.)
+2017-02-09 21:34:37	◀▬▬	schundpeter (~schundpet@80.215.203.57) has left #ubuntu
+2017-02-09 21:35:11	sponix	k1l_: Don't you LOVE that.. When they come ask for help and /quit right in the middle of you working with them :P
+2017-02-09 21:36:10	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #ubuntu
+2017-02-09 21:36:10	--	Topic for #ubuntu is "Official Ubuntu Support Channel | IRC Guidelines: http://ubottu.com/y/gl | This channel supports: Ubuntu and its official flavors, versions 12.04, 14.04, 16.04, 16.10 | Unofficial derivatives: use your distro's support channel, not here. | IRC info: http://ubottu.com/y/irc | Pastes to http://paste.ubuntu.com/ | Download: http://ubottu.com/y/dl | PM spam? /mode yournickhere +R"
+2017-02-09 21:36:10	--	Topic set by dax (~dax@freenode/staff/dax) on Mon, 09 Jan 2017 16:03:45
+2017-02-09 21:36:10	--	Channel #ubuntu: 1795 nicks (1 op, 0 voices, 1794 normals)
+2017-02-09 21:36:13	◀▬▬	jnewt1 (~jnewt@136.61.159.189) has quit (Ping timeout: 255 seconds)
+2017-02-09 21:36:16	▬▬▶	gollen (~root@159.226.5.129) has joined #ubuntu
+2017-02-09 21:36:16	--	Channel created on Sun, 26 Nov 2006 01:42:41
+2017-02-09 21:36:28	◀▬▬	manish_ (~manish@27.34.78.163) has quit (Ping timeout: 256 seconds)
+2017-02-09 21:36:33	◀▬▬	princeso (~princeso@177.243.83.165) has quit (Ping timeout: 258 seconds)
+2017-02-09 21:37:02	▬▬▶	Vampire0 (~Vampire@jEdit/Vampire) has joined #ubuntu
+2017-02-09 21:37:31	▬▬▶	danieldu (~u@221.219.238.51) has joined #ubuntu
+2017-02-09 21:39:22	◀▬▬	H0m3YC7au5 (~H0m3YC7au@172.98.78.34) has quit (Ping timeout: 264 seconds)
+2017-02-09 21:39:25	◀▬▬	superlou (~superlou@ool-18bd5e2a.dyn.optonline.net) has quit (Quit: Leaving)
+2017-02-09 21:39:48	◀▬▬	Vampire0_ (~Vampire@jEdit/Vampire) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:40:22	dorkmafia	tomreyn: k1l_ same issues
+2017-02-09 21:40:38	◀▬▬	BlueShark (~BlueShark@april-fools/2014/sixth/BlueShark) has quit (Ping timeout: 276 seconds)
+2017-02-09 21:41:12	◀▬▬	andyhuzhill (~Thunderbi@14.23.45.178) has quit (Remote host closed the connection)
+2017-02-09 21:41:19	◀▬▬	silencecm (188a49e6@gateway/web/freenode/ip.24.138.73.230) has quit (Quit: Page closed)
+2017-02-09 21:41:36	▬▬▶	tbowden (~tim@124-148-224-49.dyn.iinet.net.au) has joined #ubuntu
+2017-02-09 21:42:32	▬▬▶	Jordan_U (~jordan@c-73-41-152-155.hsd1.ca.comcast.net) has joined #ubuntu
+2017-02-09 21:42:59	▬▬▶	H0m3YC7au5 (~H0m3YC7au@70.44.113.158.res-cmts.sefg.ptd.net) has joined #ubuntu
+2017-02-09 21:44:04	dorkmafia	i select "install ubuntu" and then e and change quiet splash to nomodeset I see a log dump the the computer restarts
+2017-02-09 21:44:43	dorkmafia	is there a way to capture the log output?
+2017-02-09 21:44:51	◀▬▬	millerti (~millerti@cpe-66-24-91-119.stny.res.rr.com) has quit (Quit: My Mac has gone to sleep. ZZZzzz…)
+2017-02-09 21:44:56	dorkmafia	k1l_: i used dd to make this usb stick
+2017-02-09 21:47:01	◀▬▬	desti (~desti@dslb-178-001-037-132.178.001.pools.vodafone-ip.de) has quit (Quit: Leaving)
+2017-02-09 21:49:27	◀▬▬	abhishek (~abhigenie@dyn-160-39-40-211.dyn.columbia.edu) has quit (Ping timeout: 260 seconds)
+2017-02-09 21:49:37	▬▬▶	desti (~desti@dslb-178-001-037-132.178.001.pools.vodafone-ip.de) has joined #ubuntu
+2017-02-09 21:50:40	◀▬▬	batteronizer (~abhishek@182.68.229.122) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:51:09	◀▬▬	Frickelpit (~pit@ubuntuusers/serverteam/frickelpit) has quit (Ping timeout: 245 seconds)
+2017-02-09 21:51:39	◀▬▬	mandeep (~mandeep@208.167.254.220) has left #ubuntu ("Leaving")
+2017-02-09 21:51:58	◀▬▬	hongna (~test@116.213.116.2) has quit (Ping timeout: 255 seconds)
+2017-02-09 21:52:13	▬▬▶	princeso (~princeso@177.243.83.165) has joined #ubuntu
+2017-02-09 21:52:34	◀▬▬	fraggle_ (~fraggle@2a02-8429-803d-d401-0227-0eff-fe0f-1727.rev.sfr.net) has quit (Ping timeout: 255 seconds)
+2017-02-09 21:52:51	▬▬▶	socket- (~socket-@ec2-54-166-37-25.compute-1.amazonaws.com) has joined #ubuntu
+2017-02-09 21:53:04	▬▬▶	abhishek (~abhigenie@dyn-160-39-40-211.dyn.columbia.edu) has joined #ubuntu
+2017-02-09 21:53:30	◀▬▬	socket- (~socket-@ec2-54-166-37-25.compute-1.amazonaws.com) has left #ubuntu
+2017-02-09 21:54:36	◀▬▬	tobsterius (~Tobsteriu@tobsteri.us) has left #ubuntu
+2017-02-09 22:15:52	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #ubuntu
+2017-02-09 22:15:52	--	Topic for #ubuntu is "Official Ubuntu Support Channel | IRC Guidelines: http://ubottu.com/y/gl | This channel supports: Ubuntu and its official flavors, versions 12.04, 14.04, 16.04, 16.10 | Unofficial derivatives: use your distro's support channel, not here. | IRC info: http://ubottu.com/y/irc | Pastes to http://paste.ubuntu.com/ | Download: http://ubottu.com/y/dl | PM spam? /mode yournickhere +R"
+2017-02-09 22:15:52	--	Topic set by dax (~dax@freenode/staff/dax) on Mon, 09 Jan 2017 16:03:45
+2017-02-09 22:15:52	--	Channel #ubuntu: 1788 nicks (1 op, 0 voices, 1787 normals)
+2017-02-09 22:15:52	***	Buffer Playback...
+2017-02-09 22:15:52	delphinny	[22:12:25] hey all, I get this message when I try to run my virtual machine in virt-manager "Error starting domain: unsupported configuration: host doesn't support passthrough of host PCI devices" can anyone help?
+2017-02-09 22:15:52	***	Playback Complete.
+2017-02-09 22:15:53	--	Channel created on Sun, 26 Nov 2006 01:42:41
+2017-02-09 22:16:14	▬▬▶	aavrug (~gaurav@117.240.170.130) has joined #ubuntu
+2017-02-09 22:16:16	◀▬▬	H0m3YC7au5 (~H0m3YC7au@70.44.113.158.res-cmts.sefg.ptd.net) has quit (Ping timeout: 255 seconds)
+2017-02-09 22:17:20	▬▬▶	mehmetcan (~mehmetcan@78.169.223.87) has joined #ubuntu
+2017-02-09 22:17:23	▬▬▶	bikram (~bikram@202.63.242.180) has joined #ubuntu
+2017-02-09 22:17:58	▬▬▶	andyhuzhill (~Thunderbi@14.23.45.178) has joined #ubuntu
+2017-02-09 22:17:58	▬▬▶	jnewt1 (~jnewt@136.61.159.189) has joined #ubuntu
+2017-02-09 22:18:04	mehmetcan	hey!
+2017-02-09 22:18:43	◀▬▬	FunnyLookinHat (~funnylook@ubuntu/member/funnylookinhat) has quit
+2017-02-09 22:18:52	◀▬▬	mehmetcan (~mehmetcan@78.169.223.87) has quit (Client Quit)
+2017-02-09 22:19:37	--	irc: disconnected from server
+2017-02-09 22:19:51	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #ubuntu
+2017-02-09 22:19:51	--	Topic for #ubuntu is "Official Ubuntu Support Channel | IRC Guidelines: http://ubottu.com/y/gl | This channel supports: Ubuntu and its official flavors, versions 12.04, 14.04, 16.04, 16.10 | Unofficial derivatives: use your distro's support channel, not here. | IRC info: http://ubottu.com/y/irc | Pastes to http://paste.ubuntu.com/ | Download: http://ubottu.com/y/dl | PM spam? /mode yournickhere +R"
+2017-02-09 22:19:51	--	Topic set by dax (~dax@freenode/staff/dax) on Mon, 09 Jan 2017 16:03:45
+2017-02-09 22:19:51	--	Channel #ubuntu: 1790 nicks (1 op, 0 voices, 1789 normals)
+2017-02-09 22:19:57	--	Channel created on Sun, 26 Nov 2006 01:42:41
+2017-02-09 22:20:10	◀▬▬	netlar (~lwells@ip68-5-189-4.oc.oc.cox.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:20:11	delphinny	and kvm-ok is saying "INFO: Your CPU does not support KVM extensions"  .. but I have an Intel i7-4790K and I thought those supported it? I enabled intel VT-d in my bios...shouldn't that work?
+2017-02-09 22:21:58	◀▬▬	Frickelpit (~pit@ubuntuusers/serverteam/frickelpit) has quit (Ping timeout: 264 seconds)
+2017-02-09 22:22:04	▬▬▶	netlar (~lwells@ip68-5-189-4.oc.oc.cox.net) has joined #ubuntu
+2017-02-09 22:22:23	◀▬▬	evade (~quassel@c-73-65-238-158.hsd1.ut.comcast.net) has quit (Ping timeout: 252 seconds)
+2017-02-09 22:22:43	▬▬▶	KCha (~kenneycha@114.110.38.54) has joined #ubuntu
+2017-02-09 22:22:44	▬▬▶	te_lanus (~te_lanus@154.66.195.97) has joined #ubuntu
+2017-02-09 22:23:30	◀▬▬	tbowden (~tim@124-148-224-49.dyn.iinet.net.au) has quit (Ping timeout: 256 seconds)
+2017-02-09 22:23:34	▬▬▶	Curry (~argraeg@c-73-160-197-178.hsd1.nj.comcast.net) has joined #ubuntu
+2017-02-09 22:23:42	▬▬▶	Frickelpit (~pit@ubuntuusers/serverteam/frickelpit) has joined #ubuntu
+2017-02-09 22:24:17	▬▬▶	gueriLLaPunK|MBP (~yourmom@cpe-107-184-103-92.socal.res.rr.com) has joined #ubuntu
+2017-02-09 22:24:54	▬▬▶	gueriLLaPunK (~hi@168.235.95.28) has joined #ubuntu
+2017-02-09 22:25:24	▬▬▶	rsapp01 (~smuxi@mo-184-5-194-235.dhcp.embarqhsd.net) has joined #ubuntu
+2017-02-09 22:25:26	▬▬▶	adhocadhoc_ (~adhocadho@unaffiliated/adhocadhoc) has joined #ubuntu
+2017-02-09 22:25:47	▬▬▶	neildugan (~neil@123.185.168.125.sta.wbroadband.net.au) has joined #ubuntu
+2017-02-09 22:26:05	◀▬▬	rsapp01 (~smuxi@mo-184-5-194-235.dhcp.embarqhsd.net) has quit (Remote host closed the connection)
+2017-02-09 22:26:17	▬▬▶	jimsio (~jimsio@p20030048090D8100583F270A3B9D9C4F.dip0.t-ipconnect.de) has joined #ubuntu
+2017-02-09 22:26:51	▬▬▶	somsip (~somsip@node-1d8l.pool-118-173.dynamic.totbb.net) has joined #ubuntu
+2017-02-09 22:26:52	▬▬▶	msmith (~msmith@c-73-249-245-231.hsd1.nh.comcast.net) has joined #ubuntu
+2017-02-09 22:27:10	▬▬▶	manish_ (~manish@110.44.124.107) has joined #ubuntu
+2017-02-09 22:28:05	◀▬▬	kamdard (~kamdard@47.187.195.142) has quit (Ping timeout: 276 seconds)
+2017-02-09 22:28:07	◀▬▬	jpmh (~jpmh@129.82.198.37) has quit (Remote host closed the connection)
+2017-02-09 22:28:18	◀▬▬	cahoots_ (~J@rrcs-108-178-177-210.west.biz.rr.com) has quit (Ping timeout: 258 seconds)
+2017-02-09 22:28:38	▬▬▶	gogeta (~gogeta@h163.197.28.71.dynamic.ip.windstream.net) has joined #ubuntu
+2017-02-09 22:28:46	◀▬▬	gerald_cb (~gerald@175.41.48.77) has quit (Quit: Ex-Chat)
+2017-02-09 22:28:47	--	irc: disconnected from server
+2017-02-09 22:31:21	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #ubuntu
+2017-02-09 22:31:21	--	Topic for #ubuntu is "Official Ubuntu Support Channel | IRC Guidelines: http://ubottu.com/y/gl | This channel supports: Ubuntu and its official flavors, versions 12.04, 14.04, 16.04, 16.10 | Unofficial derivatives: use your distro's support channel, not here. | IRC info: http://ubottu.com/y/irc | Pastes to http://paste.ubuntu.com/ | Download: http://ubottu.com/y/dl | PM spam? /mode yournickhere +R"
+2017-02-09 22:31:21	--	Topic set by dax (~dax@freenode/staff/dax) on Mon, 09 Jan 2017 16:03:45
+2017-02-09 22:31:21	--	Channel #ubuntu: 1796 nicks (1 op, 0 voices, 1795 normals)
+2017-02-09 22:31:23	--	Channel created on Sun, 26 Nov 2006 01:42:41
+2017-02-09 22:31:31	▬▬▶	ledeni (~ledeni@c49-177-40-65.dandn3.vic.optusnet.com.au) has joined #ubuntu
+2017-02-09 22:31:35	◀▬▬	hoagies (~michael@unaffiliated/hoagies) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:31:39	▬▬▶	kbob (~bob@unaffiliated/bobkamau) has joined #ubuntu
+2017-02-09 22:31:44	◀▬▬	sak (~sak@188.29.164.195.threembb.co.uk) has quit (Client Quit)
+2017-02-09 22:32:31	▬▬▶	shredding (~shredding@p5DDB9623.dip0.t-ipconnect.de) has joined #ubuntu
+2017-02-09 22:32:38	◀▬▬	TrentP (~trent@c-24-20-192-103.hsd1.or.comcast.net) has quit (Ping timeout: 255 seconds)
+2017-02-09 22:32:59	▬▬▶	countingdaisies (~TkNkGtWY@2601:602:c205:ac40:a15d:5d58:5be7:3738) has joined #ubuntu
+2017-02-09 22:33:02	◀▬▬	msmith (~msmith@c-73-249-245-231.hsd1.nh.comcast.net) has quit (Remote host closed the connection)
+2017-02-09 22:33:15	▬▬▶	msmith (~msmith@c-73-249-245-231.hsd1.nh.comcast.net) has joined #ubuntu
+2017-02-09 22:33:18	◀▬▬	msmith (~msmith@c-73-249-245-231.hsd1.nh.comcast.net) has quit (Remote host closed the connection)
+2017-02-09 22:33:47	◀▬▬	tobsterius (~Tobsteriu@tobsteri.us) has left #ubuntu ("WeeChat 1.7")
+2017-02-09 22:34:04	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #ubuntu
+2017-02-09 22:34:04	--	Topic for #ubuntu is "Official Ubuntu Support Channel | IRC Guidelines: http://ubottu.com/y/gl | This channel supports: Ubuntu and its official flavors, versions 12.04, 14.04, 16.04, 16.10 | Unofficial derivatives: use your distro's support channel, not here. | IRC info: http://ubottu.com/y/irc | Pastes to http://paste.ubuntu.com/ | Download: http://ubottu.com/y/dl | PM spam? /mode yournickhere +R"
+2017-02-09 22:34:04	--	Topic set by dax (~dax@freenode/staff/dax) on Mon, 09 Jan 2017 16:03:45
+2017-02-09 22:34:04	--	Channel #ubuntu: 1796 nicks (1 op, 0 voices, 1795 normals)
+2017-02-09 22:34:04	--	PvNotice(ChanServ): Welcome to #ubuntu! Please read the channel topic. This channel is logged at irclogs.ubuntu.com. Use of this channel implies acceptance of terms at https://wiki.ubuntu.com/IRC/TermsOfService
+2017-02-09 22:34:04	--	URL for #ubuntu: http://www.ubuntu.com
+2017-02-09 22:34:05	--	Channel created on Sun, 26 Nov 2006 01:42:41
+2017-02-09 22:34:35	◀▬▬	mks-rom (~mks-rom@103.242.15.202) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:34:37	▬▬▶	mpalumbo (~mpalumbo@cpe-173-91-217-231.neo.res.rr.com) has joined #ubuntu
+2017-02-09 22:36:18	◀▬▬	trism (~jconti@unaffiliated/trism) has quit (Quit: leaving)
+2017-02-09 22:36:23	◀▬▬	Kruppt (~Kirk_Krup@74-37-205-81.dr01.aplv.mn.frontiernet.net) has quit (Quit: ChatZilla 0.9.92-rdmsoft [XULRunner 35.0.1/20150122214805])
+2017-02-09 22:36:26	▬▬▶	mks-rom (~mks-rom@103.242.15.202) has joined #ubuntu
+2017-02-09 22:37:01	▬▬▶	LooCfur_ (~zoo@173-243-78-110.pppoe.customer.softcom.net) has joined #ubuntu
+2017-02-09 22:37:07	◀▬▬	shredding (~shredding@p5DDB9623.dip0.t-ipconnect.de) has quit (Ping timeout: 258 seconds)
+2017-02-09 22:37:27	▬▬▶	da7niel (~daniel@c220-239-164-47.randw3.nsw.optusnet.com.au) has joined #ubuntu
+2017-02-09 22:37:29	◀▬▬	LooCfur (~zoo@173-243-78-110.pppoe.customer.softcom.net) has quit (Read error: Connection reset by peer)
+2017-02-09 22:37:51	◀▬▬	andyhuzhill (~Thunderbi@14.23.45.178) has quit (Remote host closed the connection)
+2017-02-09 22:38:02	◀▬▬	littlebearz__ (~littlebea@CPE1cabc00e3113-CM1cabc00e3110.cpe.net.cable.rogers.com) has quit (Read error: Connection reset by peer)
+2017-02-09 22:38:16	▬▬▶	evade (~quassel@c-73-65-238-158.hsd1.ut.comcast.net) has joined #ubuntu
+2017-02-09 22:38:55	da7niel	just installed ubuntu the other day and am now trying to install python-pip via terminal but it's stuck at 86% [Waiting for headers] -- i've tried restarting and all that. Does anyone know what to do?
+2017-02-09 22:39:10	▬▬▶	manish__ (~manish@110.44.124.118) has joined #ubuntu
+2017-02-09 22:39:23	▬▬▶	littlebear (littlebear@2607:fea8:a220:7e3:c9d4:5a:149:1a4e) has joined #ubuntu
+2017-02-09 22:39:25	▬▬▶	fraggle_ (~fraggle@2a02-8429-803d-d401-0227-0eff-fe0f-1727.rev.sfr.net) has joined #ubuntu
+2017-02-09 22:39:48	▬▬▶	TrentP (~trent@c-24-20-192-103.hsd1.or.comcast.net) has joined #ubuntu
+2017-02-09 22:40:02	◀▬▬	N3LRX (n3lrx@fedora/N3LRX) has quit (Remote host closed the connection)
+2017-02-09 22:40:02	◀▬▬	pacbard (pacbard@gateway/shell/layerbnc/x-jmqzdykjfuhedktm) has quit (Remote host closed the connection)
+2017-02-09 22:40:11	▬▬▶	g3 (~geethree@c-73-158-70-194.hsd1.ca.comcast.net) has joined #ubuntu
+2017-02-09 22:41:16	▬▬▶	jackyu (~jackyu@117.136.89.73) has joined #ubuntu
+2017-02-09 22:41:18	Bashing-om	!info python-pip xenial
+2017-02-09 22:41:20	ubottu	python-pip (source: python-pip): alternative Python package installer. In component universe, is optional. Version 8.1.1-2ubuntu0.4 (xenial), package size 140 kB, installed size 620 kB
+2017-02-09 22:41:25	catbeard	so for anyone wondering why uBlock Origin all of a sudden is blank and the logger/dashboard for it no longer works, remove the ubuntu firefox modifications addon
+2017-02-09 22:41:27	catbeard	*sigh*
+2017-02-09 22:42:22	da7niel	i just got an error telling me the connection failed so it's now trying to get another package which also isn't working
+2017-02-09 22:42:22	◀▬▬	gogeta (~gogeta@h163.197.28.71.dynamic.ip.windstream.net) has quit (Quit: Leaving)
+2017-02-09 22:42:30	◀▬▬	mukluks (~hunter42@199.43.233.220.static.exetel.com.au) has quit (Quit: Leaving.)
+2017-02-09 22:42:45	◀▬▬	nomic (~nomic4@host31-50-143-3.range31-50.btcentralplus.com) has quit (Quit: Leaving)
+2017-02-09 22:42:46	◀▬▬	manish_ (~manish@110.44.124.107) has quit (Ping timeout: 256 seconds)
+2017-02-09 22:43:34	◀▬▬	mcards55 (~Mike@c-98-234-236-160.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2017-02-09 22:43:52	▬▬▶	tbowden (~tim@124-148-224-49.dyn.iinet.net.au) has joined #ubuntu
+2017-02-09 22:45:02	◀▬▬	Curry (~argraeg@c-73-160-197-178.hsd1.nj.comcast.net) has quit (Ping timeout: 256 seconds)
+2017-02-09 22:45:14	Bashing-om	da7niel: ' sudo apt update ' sudo apt upgrade ' complete ?
+2017-02-09 22:45:20	◀▬▬	Dragnadh (~Dragnadh@2001:981:b17:1:c9e5:c78f:c5fb:6c7c) has quit (Quit: Leaving)
+2017-02-09 22:45:38	◀▬▬	Barones (~Barones@2804:7f3:8981:73f1::3) has quit (Remote host closed the connection)
+2017-02-09 22:45:38	▬▬▶	bau_cikiih (~teusamilu@118.96.206.138) has joined #ubuntu
+2017-02-09 22:45:58	▬▬▶	Barones (~Barones@2804:7f3:8981:73f1::3) has joined #ubuntu
+2017-02-09 22:45:59	▬▬▶	cahoots (~J@47.153.178.149) has joined #ubuntu
+2017-02-09 22:45:59	▬▬▶	mike_ (~mike@47.197.184.60) has joined #ubuntu
+2017-02-09 22:45:59	◀▬▬	mike_ (~mike@47.197.184.60) has quit (Client Quit)
+2017-02-09 22:46:05	▬▬▶	Curry (~argraeg@c-73-160-197-178.hsd1.nj.comcast.net) has joined #ubuntu
+2017-02-09 22:46:22	da7niel	Bashing-om: I'm new to this, what do you mean complete?
+2017-02-09 22:46:56	◀▬▬	mandje (~mandje@2001:985:8762:1:6105:95b9:456e:e3b) has quit (Ping timeout: 276 seconds)
+2017-02-09 22:47:44	da7niel	Bashing-om: everything is up to date/upgraded
+2017-02-09 22:48:14	◀▬▬	jackmcbarn (~jackmcbar@wikipedia/jackmcbarn) has quit (Ping timeout: 252 seconds)
+2017-02-09 22:48:36	Bashing-om	da7niel: What I mean is do both run clean showing no errors ?
+2017-02-09 22:48:45	OerHeks	da7niel, sudo apt install -a # might fix this
+2017-02-09 22:48:49	◀▬▬	Guest6 (~textual@162-223-221-68.cpe.ngl.ninja) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-02-09 22:49:07	da7niel	Bashing-om: ah yes, no errors
+2017-02-09 22:49:28	mpalumbo	what is the exact error you are getting? and you paste it into pastebin and toss me the link?
+2017-02-09 22:49:34	◀▬▬	plgos (~androirc@2601:201:200:ad44:9893:aaff:f7b2:1813) has quit (Ping timeout: 255 seconds)
+2017-02-09 22:49:36	mpalumbo	oh not getting a error ok
+2017-02-09 22:49:57	▬▬▶	jackmcbarn (~jackmcbar@wikipedia/jackmcbarn) has joined #ubuntu
+2017-02-09 22:50:01	▬▬▶	N3LRX (n3lrx@fedora/N3LRX) has joined #ubuntu
+2017-02-09 22:50:03	da7niel	I'm now trying to install python3-pip and it's now stuck on 83% -_-
+2017-02-09 22:50:42	▬▬▶	bytesaber (~bytesaber@67-60-94-170.cpe.cableone.net) has joined #ubuntu
+2017-02-09 22:50:44	da7niel	sure I'll get an error in a moment and send it
+2017-02-09 22:50:49	▬▬▶	pacbard (pacbard@gateway/shell/layerbnc/x-bmdgohaqoblotmft) has joined #ubuntu
+2017-02-09 22:50:54	mpalumbo	da7niel: ok
+2017-02-09 22:51:00	◀▬▬	S1GSEGV (~S1GSEGV@gateway/tor-sasl/s1gsegv) has quit (Quit: S1GSEGV)
+2017-02-09 22:52:05	◀▬▬	Curry (~argraeg@c-73-160-197-178.hsd1.nj.comcast.net) has quit (Ping timeout: 252 seconds)
+2017-02-09 22:52:47	◀▬▬	laza (~laza@b2b-130-180-1-210.unitymedia.biz) has quit (Ping timeout: 276 seconds)
+2017-02-09 22:53:08	◀▬▬	chachasmooth (~chachasmo@unaffiliated/chachasmooth) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:53:11	▬▬▶	Sekreta (~Thunderbi@12.216.73.116) has joined #ubuntu
+2017-02-09 22:53:19	mpalumbo	da7niel: pm me with the link, i will brb
+2017-02-09 22:53:42	▬▬▶	Underworld (~spectrowa@122.174.241.161) has joined #ubuntu
+2017-02-09 22:53:42	◀▬▬	TrentP (~trent@c-24-20-192-103.hsd1.or.comcast.net) has quit (Read error: Connection reset by peer)
+2017-02-09 22:54:14	◀▬▬	Underworld (~spectrowa@122.174.241.161) has quit (Client Quit)
+2017-02-09 22:54:25	▬▬▶	TrentP (~trent@c-24-20-192-103.hsd1.or.comcast.net) has joined #ubuntu
+2017-02-09 22:54:32	▬▬▶	Nicky (~spectrowa@122.174.241.161) has joined #ubuntu
+2017-02-09 22:54:50	Nicky	Hi anyone there?
+2017-02-09 22:54:55	▬▬▶	laza (~laza@b2b-130-180-1-210.unitymedia.biz) has joined #ubuntu
+2017-02-09 22:55:12	Nicky	I have a problem
+2017-02-09 22:55:30	Bashing-om	!ask | Nicky
+2017-02-09 22:55:30	ubottu	Nicky: Please don't ask to ask a question, simply ask the question (all on ONE line and in the channel, so that others can read and follow it easily). If anyone knows the answer they will most likely reply. :-) See also !patience
+2017-02-09 22:55:35	◀▬▬	jackyu (~jackyu@117.136.89.73) has quit (Ping timeout: 255 seconds)
+2017-02-09 22:55:52	◀▬▬	surveyor (~surveyor@104.223.94.66) has quit (Quit: like a fart in the wind)
+2017-02-09 22:56:20	◀▬▬	ben_r (~Thunderbi@2601:42:c103:5775:2f7:225:7b67:65bd) has quit (Quit: ben_r)
+2017-02-09 22:56:21	▬▬▶	gloriach (~gloriach@175.41.48.77) has joined #ubuntu
+2017-02-09 22:56:24	▬▬▶	chachasmooth (~chachasmo@unaffiliated/chachasmooth) has joined #ubuntu
+2017-02-09 22:56:25	Nicky	When i am trying to install something through my terminal i got the message like this every time "E: The package ttf-mscorefonts-installer needs to be reinstalled, but I can't find an archive for it.
+2017-02-09 22:56:25	Nicky	"
+2017-02-09 22:57:00	◀▬▬	gloriach (~gloriach@175.41.48.77) has quit (Client Quit)
+2017-02-09 22:57:26	Nicky	And i have tried many times to solve this problem by the command "sudo apt-get install --reinstall ttf-mscorefonts-installer"
+2017-02-09 22:57:44	Bashing-om	Nicky: https://ubuntuforums.org/showthread.php?t=2351957 <- fix: The script that the the package runs to download the fonts from sourceforge is pointing at the wrong location.
+2017-02-09 22:58:03	Nicky	But every time i get the same message .. How can i solve this problem... can anyone help me ?
+2017-02-09 22:58:52	◀▬▬	WeiJunLi (~weijunli@154.0.79.65) has quit (Ping timeout: 240 seconds)
+2017-02-09 23:00:22	◀▬▬	sparklyballs (~sparklyba@unaffiliated/sparklyballs) has quit (Quit: I'M MELTING !!!!!!!!!!!!!!)
+2017-02-09 23:01:43	◀▬▬	KCha (~kenneycha@114.110.38.54) has quit (Quit: Ex-Chat)
+2017-02-09 23:01:49	▬▬▶	dougl (~doug@S0106a42b8c684791.wp.shawcable.net) has joined #ubuntu
+2017-02-09 23:02:13	◀▬▬	lafleurdubien (uid206563@gateway/web/irccloud.com/x-okjajcymdlxlhhgj) has quit (Quit: Connection closed for inactivity)
+2017-02-09 23:02:23	▬▬▶	NightHawk_ (~James@208.68.101.13) has joined #ubuntu
+2017-02-09 23:02:33	▬▬▶	sparklyballs (~sparklyba@unaffiliated/sparklyballs) has joined #ubuntu
+2017-02-09 23:03:10	Nicky	Bashing-om , again i get the same message
+2017-02-09 23:03:31	◀▬▬	solenodic (~solenodic@unaffiliated/solenodic) has quit (Ping timeout: 255 seconds)
+2017-02-09 23:03:41	◀▬▬	delphinny (~delphinny@cpe-172-91-227-6.socal.res.rr.com) has quit (Ping timeout: 255 seconds)
+2017-02-09 23:03:49	◀▬▬	lord_daemon (~lord_daem@unaffiliated/lord-daemon/x-3538029) has quit (Read error: Connection reset by peer)
+2017-02-09 23:04:41	◀▬▬	xangua (uid19036@gateway/web/irccloud.com/x-dvqfsgauwnqouauw) has quit (Quit: Connection closed for inactivity)
+2017-02-09 23:05:26	--	irc: disconnected from server
+2017-02-09 23:06:37	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #ubuntu
+2017-02-09 23:06:37	--	Topic for #ubuntu is "Official Ubuntu Support Channel | IRC Guidelines: http://ubottu.com/y/gl | This channel supports: Ubuntu and its official flavors, versions 12.04, 14.04, 16.04, 16.10 | Unofficial derivatives: use your distro's support channel, not here. | IRC info: http://ubottu.com/y/irc | Pastes to http://paste.ubuntu.com/ | Download: http://ubottu.com/y/dl | PM spam? /mode yournickhere +R"
+2017-02-09 23:06:37	--	Topic set by dax (~dax@freenode/staff/dax) on Mon, 09 Jan 2017 16:03:45
+2017-02-09 23:06:38	--	Channel #ubuntu: 1790 nicks (1 op, 0 voices, 1789 normals)
+2017-02-09 23:06:47	▬▬▶	mizu_no_oto (~textual@c-73-38-199-168.hsd1.ma.comcast.net) has joined #ubuntu
+2017-02-09 23:07:03	--	Channel created on Sun, 26 Nov 2006 01:42:41
+2017-02-09 23:07:58	◀▬▬	tobsterius (~Tobsteriu@tobsteri.us) has left #ubuntu ("WeeChat 1.7")
+2017-02-09 23:27:52	▬▬▶	tobsterius (~tobsteriu@tobsteri.us) has joined #ubuntu
+2017-02-09 23:27:52	--	Topic for #ubuntu is "Official Ubuntu Support Channel | IRC Guidelines: http://ubottu.com/y/gl | This channel supports: Ubuntu and its official flavors, versions 12.04, 14.04, 16.04, 16.10 | Unofficial derivatives: use your distro's support channel, not here. | IRC info: http://ubottu.com/y/irc | Pastes to http://paste.ubuntu.com/ | Download: http://ubottu.com/y/dl | PM spam? /mode yournickhere +R"
+2017-02-09 23:27:52	--	Topic set by dax (~dax@freenode/staff/dax) on Mon, 09 Jan 2017 16:03:44
+2017-02-09 23:27:52	--	Channel #ubuntu: 1785 nicks (1 op, 0 voices, 1784 normals)
+2017-02-09 23:27:52	***	Buffer Playback...
+2017-02-09 23:27:52	Nicky	[23:25:28] mpalumbo , i get this message when i tried that commmand " E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
+2017-02-09 23:27:52	Nicky	[23:25:28] E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
+2017-02-09 23:27:52	Nicky	[23:25:28] "
+2017-02-09 23:27:52	catbeard	[23:25:58] type !! and hit enter
+2017-02-09 23:27:52	Nicky	[23:26:48] Again the same message catbeard
+2017-02-09 23:27:52	catbeard	[23:26:56] err sorry
+2017-02-09 23:27:52	catbeard	[23:27:05] sudo !!
+2017-02-09 23:27:52	Nicky	[23:27:42] yup tried but it shows
+2017-02-09 23:27:52	Nicky	[23:27:45] sudo apt-get install -f
+2017-02-09 23:27:52	Nicky	[23:27:45] Reading package lists... Done
+2017-02-09 23:27:52	Nicky	[23:27:45] Building dependency tree
+2017-02-09 23:27:52	Nicky	[23:27:45] Reading state information... Done
+2017-02-09 23:27:52	Nicky	[23:27:45] E: The package ttf-mscorefonts-installer needs to be reinstalled, but I can't find an archive for it.
+2017-02-09 23:27:52	***	Playback Complete.
+2017-02-09 23:27:57	--	Channel created on Sun, 26 Nov 2006 01:42:41
+2017-02-09 23:27:58	catbeard	sudo apt-get update
+2017-02-09 23:28:08	catbeard	then sudo apt-get install -f
+2017-02-09 23:28:44	catbeard	there's also this little gem, teaches one to be complacent though: https://github.com/nvbn/thefuck
+2017-02-09 23:28:48	--	Mode #ubuntu [-q *!*@122.174.241.161] by Drone`
+2017-02-09 23:28:51	Bashing-om	Nicky: ^^ post #5 . did upu touch and purge ? I have seen several dvisories to install the 3.6 version of ttf-mscorefonts .
+2017-02-09 23:28:57	Bashing-om	you*
+2017-02-09 23:29:01	▬▬▶	doomlord (~textual@host86-148-102-241.range86-148.btcentralplus.com) has joined #ubuntu
+2017-02-09 23:29:02	◀▬▬	ChadTaljaardt (~textual@cpc105072-sgyl40-2-0-cust729.18-2.cable.virginm.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2017-02-09 23:29:10	◀▬▬	mpalumbo (~mpalumbo@cpe-173-91-217-231.neo.res.rr.com) has quit (Ping timeout: 255 seconds)
+2017-02-09 23:29:11	▬▬▶	manish__ (~manish@110.44.124.118) has joined #ubuntu
+2017-02-09 23:29:12	Nicky	catbeard , sudo apt-get update
+2017-02-09 23:29:12	Nicky	Reading package lists... Done
+2017-02-09 23:29:20	◀▬▬	Barones (~Barones@2804:7f3:8981:73f1::3) has quit (Ping timeout: 255 seconds)
+2017-02-09 23:29:26	Nicky	then sudo apt-get install -f
+2017-02-09 23:29:26	Nicky	Reading package lists... Done
+2017-02-09 23:29:26	Nicky	Building dependency tree
+2017-02-09 23:29:26	Nicky	Reading state information... Done
+2017-02-09 23:29:26	Nicky	E: The package ttf-mscorefonts-installer needs to be reinstalled, but I can't find an archive for it.
+2017-02-09 23:30:50	▬▬▶	tobsterius (~tobsteriu@tobsteri.us) has joined #ubuntu
+2017-02-09 23:30:50	--	Topic for #ubuntu is "Official Ubuntu Support Channel | IRC Guidelines: http://ubottu.com/y/gl | This channel supports: Ubuntu and its official flavors, versions 12.04, 14.04, 16.04, 16.10 | Unofficial derivatives: use your distro's support channel, not here. | IRC info: http://ubottu.com/y/irc | Pastes to http://paste.ubuntu.com/ | Download: http://ubottu.com/y/dl | PM spam? /mode yournickhere +R"
+2017-02-09 23:30:50	--	Topic set by dax (~dax@freenode/staff/dax) on Mon, 09 Jan 2017 16:03:47
+2017-02-09 23:30:51	--	Channel #ubuntu: 1784 nicks (1 op, 0 voices, 1783 normals)
+2017-02-09 23:30:51	--	PvNotice(ChanServ): Welcome to #ubuntu! Please read the channel topic. This channel is logged at irclogs.ubuntu.com. Use of this channel implies acceptance of terms at https://wiki.ubuntu.com/IRC/TermsOfService
+2017-02-09 23:30:51	--	URL for #ubuntu: http://www.ubuntu.com
+2017-02-09 23:30:54	--	Channel created on Sun, 26 Nov 2006 01:42:41
+2017-02-09 23:30:55	▬▬▶	mpalumbo (~mpalumbo@cpe-173-91-217-231.neo.res.rr.com) has joined #ubuntu
+2017-02-09 23:31:17	◀▬▬	techrat (~TechratLT@c-73-182-183-95.hsd1.ct.comcast.net) has quit (Quit: Leaving)
+2017-02-09 23:39:05	▬▬▶	tobsterius (~tobsteriu@tobsteri.us) has joined #ubuntu
+2017-02-09 23:39:05	--	Topic for #ubuntu is "Official Ubuntu Support Channel | IRC Guidelines: http://ubottu.com/y/gl | This channel supports: Ubuntu and its official flavors, versions 12.04, 14.04, 16.04, 16.10 | Unofficial derivatives: use your distro's support channel, not here. | IRC info: http://ubottu.com/y/irc | Pastes to http://paste.ubuntu.com/ | Download: http://ubottu.com/y/dl | PM spam? /mode yournickhere +R"
+2017-02-09 23:39:05	--	Topic set by dax (~dax@freenode/staff/dax) on Mon, 09 Jan 2017 16:03:47
+2017-02-09 23:39:05	--	Channel #ubuntu: 1783 nicks (1 op, 0 voices, 1782 normals)
+2017-02-09 23:39:05	--	PvNotice(ChanServ): Welcome to #ubuntu! Please read the channel topic. This channel is logged at irclogs.ubuntu.com. Use of this channel implies acceptance of terms at https://wiki.ubuntu.com/IRC/TermsOfService
+2017-02-09 23:39:05	--	URL for #ubuntu: http://www.ubuntu.com
+2017-02-09 23:39:07	--	Channel created on Sun, 26 Nov 2006 01:42:41

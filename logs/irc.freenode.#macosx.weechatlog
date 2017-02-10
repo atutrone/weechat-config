@@ -81,3 +81,151 @@
 2017-02-09 21:21:40	--	chenuki is now known as chen
 2017-02-09 21:21:40	◀▬▬	yqrashawn (~textual@45.78.62.230.16clouds.com) has quit (Remote host closed the connection)
 2017-02-09 21:27:18	▬▬▶	yqrashawn (~yqrashawn@1.180.235.243) has joined #macosx
+2017-02-09 21:28:10	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #macosx
+2017-02-09 21:28:10	--	Topic for #macosx is " macOS Sierra 10.12.3/10.11.6/10.10.5 | Rules: http://osxwiki.net/mr | Type ~ops to alert ops | Can't chat? /MSG CoreInfo cant_chat | Security Updates: http://support.apple.com/kb/HT1222 | 2016-10-27: Apple event, new MBPs: http://www.apple.com/apple-events/october-2016/ | 2016-12-04: Getting spam priv. messages? /MODE your_nick +R"
+2017-02-09 21:28:10	--	Topic set by MacinMan (~macinman@142-197-68-1.res.bhn.net) on Mon, 23 Jan 2017 13:17:55
+2017-02-09 21:28:11	--	Channel #macosx: 503 nicks (6 ops, 1 voice, 496 normals)
+2017-02-09 21:28:12	--	Channel created on Sun, 26 Nov 2006 01:42:42
+2017-02-09 21:33:15	▬▬▶	guyFromWeb (62e140e4@gateway/web/freenode/ip.98.225.64.228) has joined #macosx
+2017-02-09 21:33:26	guyFromWeb	who here uses vim?
+2017-02-09 21:33:29	▬▬▶	skinkitten (~joses.sou@c-50-154-250-59.hsd1.fl.comcast.net) has joined #macosx
+2017-02-09 21:34:08	◀▬▬	Grapes (~greatgrap@gateway/vpn/privateinternetaccess/greatgrapes) has quit (Quit: My MacBook has gone to sleep.)
+2017-02-09 21:34:29	DLSteve	I kinda do
+2017-02-09 21:35:22	guyFromWeb	where is the source code of vim for mac??
+2017-02-09 21:35:23	◀▬▬	Maxine (~Maxine@fb8.f.serverhost.name) has quit (Read error: Connection reset by peer)
+2017-02-09 21:35:38	DLSteve	you mean the binary?
+2017-02-09 21:35:43	guyFromWeb	oh i found it
+2017-02-09 21:35:46	guyFromWeb	macvim.org lol
+2017-02-09 21:36:10	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #macosx
+2017-02-09 21:36:10	--	Topic for #macosx is " macOS Sierra 10.12.3/10.11.6/10.10.5 | Rules: http://osxwiki.net/mr | Type ~ops to alert ops | Can't chat? /MSG CoreInfo cant_chat | Security Updates: http://support.apple.com/kb/HT1222 | 2016-10-27: Apple event, new MBPs: http://www.apple.com/apple-events/october-2016/ | 2016-12-04: Getting spam priv. messages? /MODE your_nick +R"
+2017-02-09 21:36:10	--	Topic set by MacinMan (~macinman@142-197-68-1.res.bhn.net) on Mon, 23 Jan 2017 13:17:55
+2017-02-09 21:36:10	--	Channel #macosx: 503 nicks (6 ops, 1 voice, 496 normals)
+2017-02-09 21:36:12	▬▬▶	Maxine (~Maxine@fb8.f.serverhost.name) has joined #macosx
+2017-02-09 21:36:12	--	Channel created on Sun, 26 Nov 2006 01:42:42
+2017-02-09 21:36:41	DLSteve	thats not the actual vim, thats a GUI version of it.
+2017-02-09 21:36:51	kode54	or vimr
+2017-02-09 21:37:10	kode54	which uses an actual vim binary
+2017-02-09 21:37:23	guyFromWeb	oh
+2017-02-09 21:37:28	guyFromWeb	where is the official then??
+2017-02-09 21:37:47	DLSteve	  /usr/bin/vim
+2017-02-09 21:37:55	kode54	unless the source that apple uses themselves is part of opendarwin, it's safe and secret at their headquarters
+2017-02-09 21:38:00	guyFromWeb	how do you update it to latest version?
+2017-02-09 21:38:11	guyFromWeb	that's really my question
+2017-02-09 21:38:12	DLSteve	Homebrew maybe
+2017-02-09 21:38:13	guyFromWeb	:D
+2017-02-09 21:38:22	kode54	you either install your own version in /usr/local/bin, or upgrade your macOS and hope they updated it
+2017-02-09 21:38:29	guyFromWeb	oh
+2017-02-09 21:38:31	guyFromWeb	mkay
+2017-02-09 21:38:35	guyFromWeb	thanks guys
+2017-02-09 21:38:43	◀▬▬	guyFromWeb (62e140e4@gateway/web/freenode/ip.98.225.64.228) has quit (Quit: Page closed)
+2017-02-09 21:39:42	uxfi	good evening
+2017-02-09 21:40:05	▬▬▶	skinkitten_ (~joses.sou@c-50-154-250-59.hsd1.fl.comcast.net) has joined #macosx
+2017-02-09 21:40:08	DLSteve	could also try building it from source.
+2017-02-09 21:40:12	DLSteve	https://github.com/vim/vim
+2017-02-09 21:45:45	◀▬▬	skinkitten_ (~joses.sou@c-50-154-250-59.hsd1.fl.comcast.net) has quit (Remote host closed the connection)
+2017-02-09 21:45:46	◀▬▬	skinkitten (~joses.sou@c-50-154-250-59.hsd1.fl.comcast.net) has quit (Read error: Connection reset by peer)
+2017-02-09 21:46:36	▬▬▶	skinkitten (~joses.sou@c-50-154-250-59.hsd1.fl.comcast.net) has joined #macosx
+2017-02-09 21:52:25	▬▬▶	paul__ (~paul@c-73-21-205-200.hsd1.fl.comcast.net) has joined #macosx
+2017-02-09 21:53:14	▬▬▶	Noldorin (~noldorin@unaffiliated/noldorin) has joined #macosx
+2017-02-09 21:53:29	◀▬▬	yqrashawn (~yqrashawn@1.180.235.243) has quit (Ping timeout: 255 seconds)
+2017-02-09 21:54:36	◀▬▬	tobsterius (~Tobsteriu@tobsteri.us) has left #macosx
+2017-02-09 22:21:31	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #macosx
+2017-02-09 22:21:31	--	Topic for #macosx is " macOS Sierra 10.12.3/10.11.6/10.10.5 | Rules: http://osxwiki.net/mr | Type ~ops to alert ops | Can't chat? /MSG CoreInfo cant_chat | Security Updates: http://support.apple.com/kb/HT1222 | 2016-10-27: Apple event, new MBPs: http://www.apple.com/apple-events/october-2016/ | 2016-12-04: Getting spam priv. messages? /MODE your_nick +R"
+2017-02-09 22:21:32	--	Topic set by MacinMan (~macinman@142-197-68-1.res.bhn.net) on Mon, 23 Jan 2017 13:17:55
+2017-02-09 22:21:32	--	Channel #macosx: 509 nicks (6 ops, 1 voice, 502 normals)
+2017-02-09 22:21:33	--	Channel created on Sun, 26 Nov 2006 01:42:42
+2017-02-09 22:22:26	◀▬▬	MistahDarcy (~MistahDar@fsf/member/MistahDarcy) has quit (Quit: Leaving)
+2017-02-09 22:28:45	kode54	DLSteve: he already left before you said that
+2017-02-09 22:28:47	--	irc: disconnected from server
+2017-02-09 22:31:21	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #macosx
+2017-02-09 22:31:21	--	Topic for #macosx is " macOS Sierra 10.12.3/10.11.6/10.10.5 | Rules: http://osxwiki.net/mr | Type ~ops to alert ops | Can't chat? /MSG CoreInfo cant_chat | Security Updates: http://support.apple.com/kb/HT1222 | 2016-10-27: Apple event, new MBPs: http://www.apple.com/apple-events/october-2016/ | 2016-12-04: Getting spam priv. messages? /MODE your_nick +R"
+2017-02-09 22:31:21	--	Topic set by MacinMan (~macinman@142-197-68-1.res.bhn.net) on Mon, 23 Jan 2017 13:17:55
+2017-02-09 22:31:21	--	Channel #macosx: 508 nicks (6 ops, 1 voice, 501 normals)
+2017-02-09 22:31:22	--	Channel created on Sun, 26 Nov 2006 01:42:42
+2017-02-09 22:33:12	◀▬▬	webguynow (~webguynow@c-73-22-239-213.hsd1.il.comcast.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:33:42	▬▬▶	webguynow (~webguynow@c-73-22-239-213.hsd1.il.comcast.net) has joined #macosx
+2017-02-09 22:35:07	◀▬▬	logalvatron (~textual@2601:2c6:4800:4a10:d5bd:2c02:702d:e12f) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-02-09 22:36:08	◀▬▬	blackmesa (~blackmesa@aftr-37-201-227-31.unity-media.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:37:00	▬▬▶	logalvatron (~textual@c-50-171-105-48.hsd1.tx.comcast.net) has joined #macosx
+2017-02-09 22:37:23	▬▬▶	pur3eval (~pur3eval@104-245-225-211.dyn.novuscom.net) has joined #macosx
+2017-02-09 22:37:56	◀▬▬	Dirhael (~This_is_m@ti0272a430-0893.bb.online.no) has quit (Quit: WeeChat 1.7)
+2017-02-09 22:38:59	◀▬▬	ycon_ (~ycon_@cpe-74-71-53-244.nyc.res.rr.com) has quit (Remote host closed the connection)
+2017-02-09 22:40:01	◀▬▬	Guest73986 (ruurd@gateway/shell/layerbnc/x-yctdaeofywlbiepq) has quit (Remote host closed the connection)
+2017-02-09 22:40:47	◀▬▬	electro33 (uid613@gateway/web/irccloud.com/x-kdgdvmfyvlbwyajb) has quit (Quit: Connection closed for inactivity)
+2017-02-09 22:41:08	--	Padawan_ is now known as Padawan
+2017-02-09 22:41:55	◀▬▬	pur3eval (~pur3eval@104-245-225-211.dyn.novuscom.net) has quit (Ping timeout: 255 seconds)
+2017-02-09 22:42:39	◀▬▬	skylite (~skylite@5402F5C1.dsl.pool.telekom.hu) has quit (Read error: Connection reset by peer)
+2017-02-09 22:43:50	▬▬▶	skylite (~skylite@5402F5C1.dsl.pool.telekom.hu) has joined #macosx
+2017-02-09 22:47:31	▬▬▶	grahamperrin (~grahamper@79-66-136-168.dynamic.dsl.as9105.com) has joined #macosx
+2017-02-09 22:48:25	◀▬▬	QoQOoO (~qoqooo@223-140-211-12.EMOME-IP.hinet.net) has quit (Remote host closed the connection)
+2017-02-09 22:48:49	◀▬▬	Guest6 (~textual@162-223-221-68.cpe.ngl.ninja) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-02-09 22:49:51	▬▬▶	RedSector (~RedSector@unaffiliated/redsector) has joined #macosx
+2017-02-09 22:50:07	RedSector	hello mac-a-teers
+2017-02-09 22:50:56	◀▬▬	Throdne (~Throdne@66.109.213.211) has quit (Read error: Connection reset by peer)
+2017-02-09 22:51:33	▬▬▶	ruurd (ruurd@gateway/shell/layerbnc/x-itnwanmqozfinmdn) has joined #macosx
+2017-02-09 22:51:41	--	ruurd is now known as Guest72384
+2017-02-09 22:53:08	◀▬▬	chachasmooth (~chachasmo@unaffiliated/chachasmooth) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:56:24	▬▬▶	chachasmooth (~chachasmo@unaffiliated/chachasmooth) has joined #macosx
+2017-02-09 22:58:22	Anrky	RedSector: it's been a quiet night
+2017-02-09 22:58:57	RedSector	whats up?
+2017-02-09 22:59:04	Anrky	nuthing
+2017-02-09 22:59:34	Anrky	Watched Legion
+2017-02-09 23:01:03	RedSector	ah, I thought you had an issue or something with your machine. lol
+2017-02-09 23:01:29	Anrky	No... you started the conversation :-)
+2017-02-09 23:02:00	Anrky	Nothing but lurkers here... or for a change people have a life
+2017-02-09 23:02:02	RedSector	true.
+2017-02-09 23:03:35	RedSector	thats life, in the form of IRC, : )
+2017-02-09 23:04:41	RedSector	did you watch the show legion ?
+2017-02-09 23:05:26	--	irc: disconnected from server
+2017-02-09 23:06:37	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #macosx
+2017-02-09 23:06:37	--	Topic for #macosx is " macOS Sierra 10.12.3/10.11.6/10.10.5 | Rules: http://osxwiki.net/mr | Type ~ops to alert ops | Can't chat? /MSG CoreInfo cant_chat | Security Updates: http://support.apple.com/kb/HT1222 | 2016-10-27: Apple event, new MBPs: http://www.apple.com/apple-events/october-2016/ | 2016-12-04: Getting spam priv. messages? /MODE your_nick +R"
+2017-02-09 23:06:37	--	Topic set by MacinMan (~macinman@142-197-68-1.res.bhn.net) on Mon, 23 Jan 2017 13:17:55
+2017-02-09 23:06:37	--	Channel #macosx: 504 nicks (6 ops, 1 voice, 497 normals)
+2017-02-09 23:06:37	***	Buffer Playback...
+2017-02-09 23:06:37	Anrky	[23:05:33] I liked it a lot... first time a Fox/Marvel Universe was interesting
+2017-02-09 23:06:37	Anrky	[23:05:55] No idea where it's going, which is great
+2017-02-09 23:06:37	RedSector	[23:06:15] I haven't had the chance to check it out
+2017-02-09 23:06:37	***	Playback Complete.
+2017-02-09 23:06:48	◀▬▬	logalvatron (~textual@c-50-171-105-48.hsd1.tx.comcast.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-02-09 23:06:51	--	Channel created on Sun, 26 Nov 2006 01:42:42
+2017-02-09 23:06:57	◀▬▬	kexmex (~kexmex@unaffiliated/kexmex) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-02-09 23:07:42	◀▬▬	tobsterius (~Tobsteriu@tobsteri.us) has left #macosx ("WeeChat 1.7")
+2017-02-09 23:27:51	▬▬▶	tobsterius (~tobsteriu@tobsteri.us) has joined #macosx
+2017-02-09 23:27:51	--	Topic for #macosx is " macOS Sierra 10.12.3/10.11.6/10.10.5 | Rules: http://osxwiki.net/mr | Type ~ops to alert ops | Can't chat? /MSG CoreInfo cant_chat | Security Updates: http://support.apple.com/kb/HT1222 | 2016-10-27: Apple event, new MBPs: http://www.apple.com/apple-events/october-2016/ | 2016-12-04: Getting spam priv. messages? /MODE your_nick +R"
+2017-02-09 23:27:51	--	Topic set by MacinMan (~macinman@142-197-68-1.res.bhn.net) on Mon, 23 Jan 2017 13:17:51
+2017-02-09 23:27:51	--	Channel #macosx: 499 nicks (6 ops, 1 voice, 492 normals)
+2017-02-09 23:27:51	***	Buffer Playback...
+2017-02-09 23:27:51	Anrky	[23:24:07] Yeah, I'm behind on sleep this week so it doesn't help much
+2017-02-09 23:27:51	RedSector	[23:24:36] lol, how do you get behind on sleep? 
+2017-02-09 23:27:51	Anrky	[23:25:01] By not being able to sleep...
+2017-02-09 23:27:51	kzismeh	[23:25:19] Just the simple reboot fixed it...I tried that at work and it didn't solve it, so thats why I didn't initially do it in this isntance 
+2017-02-09 23:27:51	Anrky	[23:25:21] All work and no sleep make Anrky something, something
+2017-02-09 23:27:51	RedSector	[23:25:56] kzismeh: it didnt fix it at work because it kept trying to reconnect. When you get to work tommorow it will do the same thing probubly
+2017-02-09 23:27:51	tehStickMan	[23:26:00] kzismeh: no one has said the problem of that message: DHCP has failed. Since you dont control the network, not much you can try here apart from trying again
+2017-02-09 23:27:51	RedSector	[23:26:45] there are ways to get around the issues at work, however they aren't recommended 
+2017-02-09 23:27:51	Anrky	[23:27:05] Suck up to IT
+2017-02-09 23:27:51	kzismeh	[23:27:15] I am in IT 
+2017-02-09 23:27:51	RedSector	[23:27:15] or just bypass them
+2017-02-09 23:27:51	RedSector	[23:27:25] you in IT lol
+2017-02-09 23:27:51	tehStickMan	[23:27:29] lolwut
+2017-02-09 23:27:52	Anrky	[23:27:31] Suck up to your network admin
+2017-02-09 23:27:52	RedSector	[23:27:35] and you cant fic the issue
+2017-02-09 23:27:52	RedSector	[23:27:39] *fix
+2017-02-09 23:27:52	tehStickMan	[23:27:42] so did you know about DHCP or just weren't familiar with OSX error message?
+2017-02-09 23:27:52	***	Playback Complete.
+2017-02-09 23:27:53	--	Channel created on Sun, 26 Nov 2006 01:42:42
+2017-02-09 23:28:06	kzismeh	Not familiar with OSX error message in general - I've never had wifi not work on my mac 
+2017-02-09 23:28:16	kzismeh	It isn't my work machine either 
+2017-02-09 23:29:06	tehStickMan	get used to wifi not working on mac
+2017-02-09 23:29:21	tehStickMan	it happens
+2017-02-09 23:29:33	tehStickMan	usually it works but sometiems it gets superfucked
+2017-02-09 23:29:38	kzismeh	Strange
+2017-02-09 23:30:50	▬▬▶	tobsterius (~tobsteriu@tobsteri.us) has joined #macosx
+2017-02-09 23:30:50	--	Topic for #macosx is " macOS Sierra 10.12.3/10.11.6/10.10.5 | Rules: http://osxwiki.net/mr | Type ~ops to alert ops | Can't chat? /MSG CoreInfo cant_chat | Security Updates: http://support.apple.com/kb/HT1222 | 2016-10-27: Apple event, new MBPs: http://www.apple.com/apple-events/october-2016/ | 2016-12-04: Getting spam priv. messages? /MODE your_nick +R"
+2017-02-09 23:30:50	--	Topic set by MacinMan (~macinman@142-197-68-1.res.bhn.net) on Mon, 23 Jan 2017 13:17:55
+2017-02-09 23:30:50	--	Channel #macosx: 499 nicks (6 ops, 1 voice, 492 normals)
+2017-02-09 23:30:51	--	URL for #MacOSX: http://www.osxwiki.net/
+2017-02-09 23:30:51	--	Channel created on Sun, 26 Nov 2006 01:42:42
+2017-02-09 23:30:55	▬▬▶	splendor (~splendor@2605:a601:1100:7100:e149:e7ce:6eda:43b5) has joined #macosx
+2017-02-09 23:30:58	◀▬▬	Gsham (~textual@pool-100-33-121-112.nycmny.fios.verizon.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-02-09 23:31:14	◀▬▬	brokaw (~textual@216-188-254-66.dyn.grandenetworks.net) has quit (Client Quit)

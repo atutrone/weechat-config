@@ -164,3 +164,229 @@
 2017-02-09 21:26:22	▬▬▶	goldstar (~chatzilla@192.71.244.42) has joined ##networking
 2017-02-09 21:27:02	▬▬▶	k3y (~k3y@unaffiliated/k3y) has joined ##networking
 2017-02-09 21:27:06	◀▬▬	SwiftMatt (~Objective@162.242.95.136) has quit (Client Quit)
+2017-02-09 21:28:11	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined ##networking
+2017-02-09 21:28:11	--	Topic for ##networking is "Computer Networking | If you have a question, ask it! | If you want to paste use http://paste.debian.net | Vendor Help = #$vendor | Please be friendly to and respectful of others. Please do not go off topic while other people discuss on topic matters. Please refrain from harassing or offensive comments."
+2017-02-09 21:28:11	--	Topic set by daemonkeeper (~arno@debian/developer/arno) on Fri, 12 Aug 2016 04:29:48
+2017-02-09 21:28:11	--	Channel ##networking: 1158 nicks (0 ops, 7 voices, 1151 normals)
+2017-02-09 21:28:20	--	Channel created on Sun, 26 Nov 2006 01:42:47
+2017-02-09 21:28:30	◀▬▬	goldstar__ (~chatzilla@217.138.9.21) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:31:00	▬▬▶	xxzz (~xxzz@freebsd/contributor/xxzz) has joined ##networking
+2017-02-09 21:31:11	◀▬▬	alecov (~control@unaffiliated/control) has quit (Ping timeout: 258 seconds)
+2017-02-09 21:31:55	◀▬▬	Dus10 (~quassel@c-98-222-185-237.hsd1.in.comcast.net) has quit (Quit: No Ping reply in 180 seconds.)
+2017-02-09 21:33:02	jge_	zapotah: trying to picture a flow of how would that even work, lets say is a web app that needs to talk to a backend database, the app connects to the database over port 3306, so by having a firewall then I would only allow connections coming from front end server to backend on that port, everything else deny. something like that?
+2017-02-09 21:33:19	▬▬▶	Dus10 (~quassel@c-98-222-185-237.hsd1.in.comcast.net) has joined ##networking
+2017-02-09 21:33:21	jge_	genec That sound complicated :P
+2017-02-09 21:33:28	jge_	s
+2017-02-09 21:34:20	▬▬▶	Bhakimi (~textual@208.78.137.2) has joined ##networking
+2017-02-09 21:34:27	◀▬▬	Gustavo6046 (~Gustavo60@unaffiliated/gustavo6046) has quit (Quit: Tomorrow next, tomorrow best.)
+2017-02-09 21:35:01	◀▬▬	Joanna2 (~Joanna345@ip68-111-72-145.oc.oc.cox.net) has quit (Ping timeout: 255 seconds)
+2017-02-09 21:35:06	rjsalts	jge_: It's turtles all the way down
+2017-02-09 21:36:10	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined ##networking
+2017-02-09 21:36:10	--	Topic for ##networking is "Computer Networking | If you have a question, ask it! | If you want to paste use http://paste.debian.net | Vendor Help = #$vendor | Please be friendly to and respectful of others. Please do not go off topic while other people discuss on topic matters. Please refrain from harassing or offensive comments."
+2017-02-09 21:36:10	--	Topic set by daemonkeeper (~arno@debian/developer/arno) on Fri, 12 Aug 2016 04:29:48
+2017-02-09 21:36:11	--	Channel ##networking: 1156 nicks (0 ops, 7 voices, 1149 normals)
+2017-02-09 21:36:11	***	Buffer Playback...
+2017-02-09 21:36:11	jge_	[21:36:08] eh?
+2017-02-09 21:36:11	***	Playback Complete.
+2017-02-09 21:36:16	jge_	i like turtles
+2017-02-09 21:36:20	--	Channel created on Sun, 26 Nov 2006 01:42:47
+2017-02-09 21:36:37	◀▬▬	y3k (~y3k@unaffiliated/y3k) has quit (Ping timeout: 260 seconds)
+2017-02-09 21:37:30	mybigsweatyballs	where can i use a test server for wordpress sites with my own domain?
+2017-02-09 21:37:38	mybigsweatyballs	i would like to use a .tk domain
+2017-02-09 21:37:39	rjsalts	jge_: computing is complex, at pretty much any abstraction level you want to examine it at
+2017-02-09 21:38:28	zapotah	jge_: yes
+2017-02-09 21:39:40	zapotah	jge_: you have policies for client connections from the internet (or where-ever the clients are connecting from) to the frontend network, then policies from the frontend network to the backend network.
+2017-02-09 21:40:07	▬▬▶	skinkitten_ (~joses.sou@c-50-154-250-59.hsd1.fl.comcast.net) has joined ##networking
+2017-02-09 21:40:08	genec	jge_: that's the point.
+2017-02-09 21:40:36	▬▬▶	sandal_maker_ (~sandal_ma@118.136.151.238) has joined ##networking
+2017-02-09 21:40:39	zapotah	jge_: and what genec described is not complicated. its the very minimum.
+2017-02-09 21:41:39	zapotah	jge_: in practice, the firewall is the same one, but theres just policy to control traffic from different networks to others
+2017-02-09 21:41:50	zapotah	so its firewalled "twice"
+2017-02-09 21:41:59	genec	jge_: if someone owns your server, they will use it as a jump box.  PERIOD.  you'll find most will suggest for the multi-zone firewall approach
+2017-02-09 21:43:16	◀▬▬	PCLine__ (~PCLine_@98.29.181.95) has quit (Quit: Leaving)
+2017-02-09 21:43:36	genec	jge_: and if you think you want to run deep packet inspection/IDS/IPS on the outside.  bad news: you need to run it inside too
+2017-02-09 21:45:34	zapotah	well, depending on things, running it from the internet to the frontend _might_ be enough :P
+2017-02-09 21:45:40	jge_	can something like pfsense get me this type of security or go with any other firewall
+2017-02-09 21:45:45	◀▬▬	skinkitten_ (~joses.sou@c-50-154-250-59.hsd1.fl.comcast.net) has quit (Remote host closed the connection)
+2017-02-09 21:45:53	zapotah	jge_: it will be a pita with pfsense
+2017-02-09 21:46:00	zapotah	because it doesnt do zones
+2017-02-09 21:46:11	jge_	hmm, i see
+2017-02-09 21:46:14	zapotah	jge_: if your infra is tiny, sure, it will do the trick
+2017-02-09 21:46:21	jge_	about 8 servers
+2017-02-09 21:46:22	zapotah	but dont expect scaling
+2017-02-09 21:46:36	zapotah	yeah, thats tiny :)
+2017-02-09 21:46:41	genec	IOW, it might match the target scale :D
+2017-02-09 21:46:42	◀▬▬	mybigsweatyballs (~chatzilla@c-50-140-195-159.hsd1.fl.comcast.net) has quit (K-Lined)
+2017-02-09 21:46:54	jge_	maybe an SRX after?
+2017-02-09 21:47:06	zapotah	heh, if you just want a packet filter, sure
+2017-02-09 21:47:37	zapotah	why does the bloody debian lxc template have smbd installed by default
+2017-02-09 21:47:40	zapotah	-.-
+2017-02-09 21:48:14	genec	I could see smbfs but smbd?  WTF?
+2017-02-09 21:48:21	zapotah	yeah
+2017-02-09 21:48:45	genec	zapotah: did you see what I said 6 hours ago?
+2017-02-09 21:48:49	zapotah	errr
+2017-02-09 21:48:57	jge_	ok so what I got is to not have a second interface and basically separate traffic by using firewall zones and having policies in place for front end and backend networks
+2017-02-09 21:48:59	zapotah	been busy playing electrician :D
+2017-02-09 21:49:12	▬▬▶	cmj (~c@c-24-21-106-131.hsd1.or.comcast.net) has joined ##networking
+2017-02-09 21:49:54	k2gremlin	Hello all. Trying to setup a QoS lab. Setup is Win Server VM with Ostinato to TAP Bridge into GNS3 IOU Lab. When I push a stream to the first router in the network, I can see the traffic on the interface. However, If I try to run a UDP stream to the second router, I get nothing on that router or the interface that the TAP is connected to. Thoughts?
+2017-02-09 21:49:57	jge_	what are some good firewalls for a tiny infra, if not pfsense
+2017-02-09 21:52:09	zapotah	jge_: well, pfsense and vyos are really your only sane options
+2017-02-09 21:52:57	◀▬▬	somis (~somis@149.56.153.179) has quit (Quit: WeeChat 1.7)
+2017-02-09 21:53:12	◀▬▬	altab (~altab@unaffiliated/altab) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:53:21	▬▬▶	glspi (~glspi@71-14-78-241.dhcp.stls.mo.charter.com) has joined ##networking
+2017-02-09 21:53:44	▬▬▶	Noldorin (~noldorin@unaffiliated/noldorin) has joined ##networking
+2017-02-09 21:54:36	◀▬▬	tobsterius (~Tobsteriu@tobsteri.us) has left ##networking
+2017-02-09 22:06:00	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined ##networking
+2017-02-09 22:06:00	--	Topic for ##networking is "Computer Networking | If you have a question, ask it! | If you want to paste use http://paste.debian.net | Vendor Help = #$vendor | Please be friendly to and respectful of others. Please do not go off topic while other people discuss on topic matters. Please refrain from harassing or offensive comments."
+2017-02-09 22:06:00	--	Topic set by daemonkeeper (~arno@debian/developer/arno) on Fri, 12 Aug 2016 04:29:48
+2017-02-09 22:06:00	--	Channel ##networking: 1157 nicks (0 ops, 7 voices, 1150 normals)
+2017-02-09 22:06:00	***	Buffer Playback...
+2017-02-09 22:06:00	jge_	[21:56:06] k, thanks zapotah and genec
+2017-02-09 22:06:00	zapotah	[21:56:18] jge_: ill send the bill afterwards
+2017-02-09 22:06:00	zapotah	[21:57:11] hnnh, this is only in the oldest template deployed
+2017-02-09 22:06:00	zapotah	[21:57:27] and i cant remember for the life of me if something used it..
+2017-02-09 22:06:00	zapotah	[21:57:37] propably not
+2017-02-09 22:06:00	k2gremlin	[21:57:39] http://imgur.com/a/mQyiI can flood udp from VM Host1 to e0/2 and see it. If I flood either the PC1 or the e0/0 IOU2 interface, I can't see it either at the device or even at e0/2 on IOU1.
+2017-02-09 22:06:00	jge_	[21:57:40] zapotah wish I could send a beer your way, not even sure you like'em
+2017-02-09 22:06:00	zapotah	[21:57:53] jge_: as long as its not a stout
+2017-02-09 22:06:00	jge_	[21:58:03] :)
+2017-02-09 22:06:00	k2gremlin	[21:58:42] VM Host can ping all the way across the routers and even across the serial so I know my routing is working :/
+2017-02-09 22:06:00	zapotah	[22:01:52] hehe, just removed it
+2017-02-09 22:06:00	AndrewMock	[22:01:56] Turns out, as a non-profit, I can get free IP Transit in Seattle. I am across the state. Is is worth checking how much a tunnel to Seattle would cost?
+2017-02-09 22:06:00	zapotah	[22:01:56] nothing broke 8D
+2017-02-09 22:06:00	AndrewMock	[22:02:12] or is it more costly than straight transit
+2017-02-09 22:06:00	k2gremlin	[22:03:41] Anyone here ever setup a QoS lab in GNS?
+2017-02-09 22:06:00	k2gremlin	[22:03:49] or GNS IOU
+2017-02-09 22:06:00	+pppingme	[22:03:54] PtP circuits long distance aren't cheap..  and the people doing transit may only work with certain people, but its always worth asking
+2017-02-09 22:06:00	***	Playback Complete.
+2017-02-09 22:06:00	genec	AndrewMock: also, being a non-profit, sometimes people give other discounts too.
+2017-02-09 22:06:00	--	Channel created on Sun, 26 Nov 2006 01:42:47
+2017-02-09 22:06:17	AndrewMock	That's what I was thinking.
+2017-02-09 22:06:51	▬▬▶	miliarch (~miliarch@unaffiliated/miliarch) has joined ##networking
+2017-02-09 22:07:00	AndrewMock	I'm just gonna all long haul links in/out of this small town, and call them up.
+2017-02-09 22:07:04	◀▬▬	reveredge (~reveredge@111.125.209.69) has quit (Ping timeout: 256 seconds)
+2017-02-09 22:07:06	◀▬▬	Colti (Miramar-FL@unaffiliated/colti) has quit (Excess Flood)
+2017-02-09 22:07:29	◀▬▬	jeordie (~jeordie@73.98.161.220) has quit (Remote host closed the connection)
+2017-02-09 22:08:09	▬▬▶	Colti (Miramar-FL@unaffiliated/colti) has joined ##networking
+2017-02-09 22:08:41	AndrewMock	find*
+2017-02-09 22:09:18	◀▬▬	skinkitten (~joses.sou@c-50-154-250-59.hsd1.fl.comcast.net) has quit (Remote host closed the connection)
+2017-02-09 22:09:39	◀▬▬	qinvi_ (~qinvi@unaffiliated/qinvi) has quit (Quit: Leaving)
+2017-02-09 22:09:59	genec	AndrewMock: ask not only about the PtP but access.  also verify you can actually get the transit in Seattle first.
+2017-02-09 22:10:01	▬▬▶	skinkitten (~joses.sou@c-50-154-250-59.hsd1.fl.comcast.net) has joined ##networking
+2017-02-09 22:15:53	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined ##networking
+2017-02-09 22:15:53	--	Topic for ##networking is "Computer Networking | If you have a question, ask it! | If you want to paste use http://paste.debian.net | Vendor Help = #$vendor | Please be friendly to and respectful of others. Please do not go off topic while other people discuss on topic matters. Please refrain from harassing or offensive comments."
+2017-02-09 22:15:53	--	Topic set by daemonkeeper (~arno@debian/developer/arno) on Fri, 12 Aug 2016 04:29:48
+2017-02-09 22:15:53	--	Channel ##networking: 1156 nicks (0 ops, 7 voices, 1149 normals)
+2017-02-09 22:15:53	***	Buffer Playback...
+2017-02-09 22:15:53	AndrewMock	[22:10:23] of course.
+2017-02-09 22:15:53	+pppingme	[22:10:25] also worth asking if they can do transit from other locations outside of seattle
+2017-02-09 22:15:53	AndrewMock	[22:10:48] if it is true IP transit, I would have to pay for setting up an ASN too
+2017-02-09 22:15:53	AndrewMock	[22:11:13] but Gig transit here is >4k, so might be worth it
+2017-02-09 22:15:53	***	Playback Complete.
+2017-02-09 22:15:56	--	Channel created on Sun, 26 Nov 2006 01:42:47
+2017-02-09 22:17:01	◀▬▬	random_numbers (~random@unaffiliated/random-numbers/x-2839473) has left ##networking ("Leaving channel")
+2017-02-09 22:17:14	◀▬▬	glspi (~glspi@71-14-78-241.dhcp.stls.mo.charter.com) has quit
+2017-02-09 22:17:30	◀▬▬	NullableTruth (~JSharpe@104.238.169.4) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:19:11	▬▬▶	jameser (~textual@122.14.44.253) has joined ##networking
+2017-02-09 22:19:11	genec	AndrewMock: Gig PtP for 50-100 miles can run you that much
+2017-02-09 22:19:28	AndrewMock	yeah which sucks
+2017-02-09 22:19:37	--	irc: disconnected from server
+2017-02-09 22:19:51	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined ##networking
+2017-02-09 22:19:51	--	Topic for ##networking is "Computer Networking | If you have a question, ask it! | If you want to paste use http://paste.debian.net | Vendor Help = #$vendor | Please be friendly to and respectful of others. Please do not go off topic while other people discuss on topic matters. Please refrain from harassing or offensive comments."
+2017-02-09 22:19:51	--	Topic set by daemonkeeper (~arno@debian/developer/arno) on Fri, 12 Aug 2016 04:29:48
+2017-02-09 22:19:51	--	Channel ##networking: 1154 nicks (0 ops, 7 voices, 1147 normals)
+2017-02-09 22:19:51	***	Buffer Playback...
+2017-02-09 22:19:51	AndrewMock	[22:19:43] i am 300 miles lol
+2017-02-09 22:19:51	***	Playback Complete.
+2017-02-09 22:20:01	--	Channel created on Sun, 26 Nov 2006 01:42:47
+2017-02-09 22:21:03	▬▬▶	NullableTruth (~JSharpe@31.205.112.57) has joined ##networking
+2017-02-09 22:22:01	▬▬▶	goldstar_ (~chatzilla@217.138.9.21) has joined ##networking
+2017-02-09 22:22:16	genec	AndrewMock: 300 miles?  yeah.  that's a haul
+2017-02-09 22:23:12	▬▬▶	goldstar__ (~chatzilla@192.71.244.42) has joined ##networking
+2017-02-09 22:23:15	▬▬▶	new2ip (~Jerry@2602:306:bdc0:8e00:219:dbff:feae:e019) has joined ##networking
+2017-02-09 22:23:30	◀▬▬	goldstar (~chatzilla@192.71.244.42) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:23:46	◀▬▬	AndrewMock (~AndrewMoc@unaffiliated/andrewmock) has left ##networking
+2017-02-09 22:24:35	▬▬▶	hyphenated (~hyphenate@103.26.17.55) has joined ##networking
+2017-02-09 22:24:59	▬▬▶	phinxy (~tehhhd@unaffiliated/phinxy) has joined ##networking
+2017-02-09 22:25:15	◀▬▬	yuta (~ippan@PPPa125.e3.eacc.dti.ne.jp) has quit (Quit: Leaving.)
+2017-02-09 22:25:26	▬▬▶	adhocadhoc_ (~adhocadho@unaffiliated/adhocadhoc) has joined ##networking
+2017-02-09 22:26:02	▬▬▶	safe (~safe@unaffiliated/safe) has joined ##networking
+2017-02-09 22:26:09	▬▬▶	monsterco (~monsterco@toroon474aw-lp130-02-70-50-209-133.dsl.bell.ca) has joined ##networking
+2017-02-09 22:26:30	◀▬▬	goldstar_ (~chatzilla@217.138.9.21) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:27:05	▬▬▶	goldstar (~chatzilla@217.138.9.21) has joined ##networking
+2017-02-09 22:28:00	◀▬▬	goldstar__ (~chatzilla@192.71.244.42) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:28:47	--	irc: disconnected from server
+2017-02-09 22:31:22	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined ##networking
+2017-02-09 22:31:22	--	Topic for ##networking is "Computer Networking | If you have a question, ask it! | If you want to paste use http://paste.debian.net | Vendor Help = #$vendor | Please be friendly to and respectful of others. Please do not go off topic while other people discuss on topic matters. Please refrain from harassing or offensive comments."
+2017-02-09 22:31:22	--	Topic set by daemonkeeper (~arno@debian/developer/arno) on Fri, 12 Aug 2016 04:29:48
+2017-02-09 22:31:22	--	Channel ##networking: 1156 nicks (0 ops, 7 voices, 1149 normals)
+2017-02-09 22:31:27	--	Channel created on Sun, 26 Nov 2006 01:42:47
+2017-02-09 22:32:30	◀▬▬	pmercado (~pmercado@186-104-182-34.baf.movistar.cl) has quit (Quit: Konversation terminated!)
+2017-02-09 22:33:22	◀▬▬	snugghash (~chatzilla@riverwalk32-sw2.wintek.com) has quit (Ping timeout: 255 seconds)
+2017-02-09 22:35:37	◀▬▬	d1z (~gt@unaffiliated/grullizzle) has quit (Read error: Connection reset by peer)
+2017-02-09 22:35:39	▬▬▶	reev (~reev@123.63.166.181) has joined ##networking
+2017-02-09 22:36:23	◀▬▬	Kruppt (~Kirk_Krup@74-37-205-81.dr01.aplv.mn.frontiernet.net) has quit (Quit: ChatZilla 0.9.92-rdmsoft [XULRunner 35.0.1/20150122214805])
+2017-02-09 22:36:31	▬▬▶	iwasneverhere (~iwasnever@104.131.106.189) has joined ##networking
+2017-02-09 22:36:40	▬▬▶	Kol (Kol@S0106bcd1656621da.vc.shawcable.net) has joined ##networking
+2017-02-09 22:37:09	▬▬▶	navidr (uid112413@gateway/web/irccloud.com/x-pejjcvyfcweowkjm) has joined ##networking
+2017-02-09 22:38:32	▬▬▶	RickR0SS (~8adboyKAS@37.0.122.232) has joined ##networking
+2017-02-09 22:39:10	◀▬▬	Captain_Awesome (d@cpe-66-69-238-176.austin.res.rr.com) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:40:26	◀▬▬	kuahara (~kuahara@196-21.201-68.bham.res.rr.com) has quit (Ping timeout: 276 seconds)
+2017-02-09 22:41:05	▬▬▶	hey2 (~hey2@static-50-43-41-32.bvtn.or.frontiernet.net) has joined ##networking
+2017-02-09 22:41:37	hey2	Hey - I am trying to learn more about cryptography, and the algorithms used... does anyone have any suggestions for books, or general reading, on the topic?
+2017-02-09 22:42:09	◀▬▬	pun84 (~pun84@pool-108-24-157-185.cmdnnj.fios.verizon.net) has quit (Read error: Connection reset by peer)
+2017-02-09 22:43:23	▬▬▶	XLV (~XLV@adsl-115.79.107.171.tellas.gr) has joined ##networking
+2017-02-09 22:43:23	◀▬▬	XLV (~XLV@adsl-115.79.107.171.tellas.gr) has quit (Changing host)
+2017-02-09 22:43:24	▬▬▶	XLV (~XLV@unaffiliated/xlv) has joined ##networking
+2017-02-09 22:44:55	◀▬▬	magic_ninja (~sparie1@unaffiliated/magic-ninja/x-4708782) has quit (Read error: Connection reset by peer)
+2017-02-09 22:45:38	◀▬▬	Barones (~Barones@2804:7f3:8981:73f1::3) has quit (Remote host closed the connection)
+2017-02-09 22:45:58	▬▬▶	Barones (~Barones@2804:7f3:8981:73f1::3) has joined ##networking
+2017-02-09 22:46:03	◀▬▬	GeekNerd_PC1 (~GeekNerd@unaffiliated/geeknerd/x-7777777) has quit (Read error: Connection reset by peer)
+2017-02-09 22:46:37	▬▬▶	GeekNerd_PC1 (~GeekNerd@unaffiliated/geeknerd/x-7777777) has joined ##networking
+2017-02-09 22:48:10	▬▬▶	magic_ninja (~sparie1@unaffiliated/magic-ninja/x-4708782) has joined ##networking
+2017-02-09 22:48:16	▬▬▶	pun84 (~pun84@pool-108-24-157-185.cmdnnj.fios.verizon.net) has joined ##networking
+2017-02-09 22:48:25	◀▬▬	QoQOoO (~qoqooo@223-140-211-12.EMOME-IP.hinet.net) has quit (Remote host closed the connection)
+2017-02-09 22:48:47	◀▬▬	jameser (~textual@122.14.44.253) has quit (Read error: Connection reset by peer)
+2017-02-09 22:49:02	▬▬▶	govg (~govg@unaffiliated/govg) has joined ##networking
+2017-02-09 22:49:11	▬▬▶	yuta (~ippan@PPPa125.e3.eacc.dti.ne.jp) has joined ##networking
+2017-02-09 22:50:06	▬▬▶	links (~links@125.16.97.127) has joined ##networking
+2017-02-09 22:50:30	◀▬▬	goldstar (~chatzilla@217.138.9.21) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:50:42	▬▬▶	bytesaber (~bytesaber@67-60-94-170.cpe.cableone.net) has joined ##networking
+2017-02-09 22:52:32	▬▬▶	eatingthenight (~eatingthe@pool-108-17-70-149.pitbpa.fios.verizon.net) has joined ##networking
+2017-02-09 22:53:08	◀▬▬	chachasmooth (~chachasmo@unaffiliated/chachasmooth) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:53:24	▬▬▶	d1z (~gt@unaffiliated/grullizzle) has joined ##networking
+2017-02-09 22:53:44	eatingthenight	hello, looks for some help/advice on how to automate the allocation of IP based off of the LLDP information that a machine can find on startup.
+2017-02-09 22:54:17	eatingthenight	this is a Datacenter like environment with a top of rack switch
+2017-02-09 22:54:44	eatingthenight	I was thinking possibly using vlan id as a way to determine where the computer is located in a datacenter
+2017-02-09 22:55:09	eatingthenight	but am not sure how sound this is as i just started thinking through it
+2017-02-09 22:55:32	◀▬▬	miliarch (~miliarch@unaffiliated/miliarch) has quit (Remote host closed the connection)
+2017-02-09 22:55:52	◀▬▬	surveyor (~surveyor@104.223.94.66) has quit (Quit: like a fart in the wind)
+2017-02-09 22:56:01	▬▬▶	miliarch (~miliarch@unaffiliated/miliarch) has joined ##networking
+2017-02-09 22:56:22	◀▬▬	monsterco (~monsterco@toroon474aw-lp130-02-70-50-209-133.dsl.bell.ca) has quit (Quit: Going offline, see ya! (www.adiirc.com))
+2017-02-09 22:56:24	▬▬▶	chachasmooth (~chachasmo@unaffiliated/chachasmooth) has joined ##networking
+2017-02-09 22:57:21	◀▬▬	wurm (~wurm@67-0-103-189.albq.qwest.net) has quit (Remote host closed the connection)
+2017-02-09 23:01:03	◀▬▬	Bhakimi (~textual@208.78.137.2) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-02-09 23:05:26	--	irc: disconnected from server
+2017-02-09 23:06:37	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined ##networking
+2017-02-09 23:06:37	--	Topic for ##networking is "Computer Networking | If you have a question, ask it! | If you want to paste use http://paste.debian.net | Vendor Help = #$vendor | Please be friendly to and respectful of others. Please do not go off topic while other people discuss on topic matters. Please refrain from harassing or offensive comments."
+2017-02-09 23:06:37	--	Topic set by daemonkeeper (~arno@debian/developer/arno) on Fri, 12 Aug 2016 04:29:48
+2017-02-09 23:06:37	--	Channel ##networking: 1156 nicks (0 ops, 7 voices, 1149 normals)
+2017-02-09 23:06:55	--	Channel created on Sun, 26 Nov 2006 01:42:47
+2017-02-09 23:06:57	◀▬▬	kexmex (~kexmex@unaffiliated/kexmex) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-02-09 23:07:45	◀▬▬	tobsterius (~Tobsteriu@tobsteri.us) has left ##networking ("WeeChat 1.7")
+2017-02-09 23:27:52	▬▬▶	tobsterius (~tobsteriu@tobsteri.us) has joined ##networking
+2017-02-09 23:27:52	--	Topic for ##networking is "Computer Networking | If you have a question, ask it! | If you want to paste use http://paste.debian.net | Vendor Help = #$vendor | Please be friendly to and respectful of others. Please do not go off topic while other people discuss on topic matters. Please refrain from harassing or offensive comments."
+2017-02-09 23:27:52	--	Topic set by daemonkeeper (~arno@debian/developer/arno) on Fri, 12 Aug 2016 04:29:48
+2017-02-09 23:27:52	--	Channel ##networking: 1154 nicks (0 ops, 7 voices, 1147 normals)
+2017-02-09 23:28:05	--	Channel created on Sun, 26 Nov 2006 01:42:47
+2017-02-09 23:28:17	◀▬▬	parityDrive (~parityDri@unaffiliated/dashvapes-luca) has quit (Quit: ZNC 1.7.x-nightly-20170122-14e68299 - http://znc.in)
+2017-02-09 23:29:20	◀▬▬	Barones (~Barones@2804:7f3:8981:73f1::3) has quit (Ping timeout: 255 seconds)
+2017-02-09 23:29:31	◀▬▬	arescorpio (~arescorpi@184-205-17-190.fibertel.com.ar) has quit (Quit: Leaving.)
+2017-02-09 23:30:51	▬▬▶	tobsterius (~tobsteriu@tobsteri.us) has joined ##networking
+2017-02-09 23:30:51	--	Topic for ##networking is "Computer Networking | If you have a question, ask it! | If you want to paste use http://paste.debian.net | Vendor Help = #$vendor | Please be friendly to and respectful of others. Please do not go off topic while other people discuss on topic matters. Please refrain from harassing or offensive comments."
+2017-02-09 23:30:51	--	Topic set by daemonkeeper (~arno@debian/developer/arno) on Fri, 12 Aug 2016 04:29:48
+2017-02-09 23:30:51	--	Channel ##networking: 1151 nicks (0 ops, 7 voices, 1144 normals)
+2017-02-09 23:30:51	--	PvNotice(ChanServ): Introductory text: "Computer Networks" by Andrew Tanenbaum. If asking for help, please fully specify the context of the environment.
+2017-02-09 23:30:51	--	URL for ##networking: http://intercom.nanoSouffle.net/networking
+2017-02-09 23:30:56	--	Channel created on Sun, 26 Nov 2006 01:42:47
+2017-02-09 23:30:58	◀▬▬	Gsham (~textual@pool-100-33-121-112.nycmny.fios.verizon.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)

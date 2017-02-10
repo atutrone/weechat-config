@@ -259,3 +259,243 @@
 2017-02-09 21:25:24	nmide	first of all it comes as an RPM package - ok fine no big deal i can use rpm2cpio to extract it
 2017-02-09 21:25:38	nmide	but then the "installer" is a shell script that depends on several utilties that are missing from esx
 2017-02-09 21:25:52	nmide	gg hp
+2017-02-09 21:28:11	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #reddit-sysadmin
+2017-02-09 21:28:11	--	Topic for #reddit-sysadmin is "Home of r/sysadmin - No Trolling | New? Try #reddit-sysadmin-support | /r/sysadmingaming | http://quotes.rsysadmin.net/ submit your quotes. | Keep the discussions Safe For Work. Please, leave anything else at the firewall."
+2017-02-09 21:28:11	--	Topic set by cryptic1 (~cryptic1@unaffiliated/cryptic1) on Sat, 07 Jan 2017 16:30:21
+2017-02-09 21:28:11	--	Channel #reddit-sysadmin: 766 nicks (12 ops, 18 voices, 736 normals)
+2017-02-09 21:28:24	--	Channel created on Thu, 29 Dec 2011 13:56:36
+2017-02-09 21:28:59	 *	spstarr is proud of his work
+2017-02-09 21:29:13	aleph-	spstarr: Don't be.
+2017-02-09 21:29:17	spstarr	eh?
+2017-02-09 21:29:28	aleph-	Just a joke. :P
+2017-02-09 21:29:32	spstarr	:D
+2017-02-09 21:29:33	▬▬▶	jfla (~jfla@63-158-208-237.dia.static.qwest.net) has joined #reddit-sysadmin
+2017-02-09 21:33:35	◀▬▬	jfla (~jfla@63-158-208-237.dia.static.qwest.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:33:57	▬▬▶	really34293 (~really342@217.27.253.117) has joined #reddit-sysadmin
+2017-02-09 21:34:08	◀▬▬	Grapes (~greatgrap@gateway/vpn/privateinternetaccess/greatgrapes) has quit (Quit: My MacBook has gone to sleep.)
+2017-02-09 21:35:06	▬▬▶	jfla (~jfla@63-158-208-237.dia.static.qwest.net) has joined #reddit-sysadmin
+2017-02-09 21:36:11	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #reddit-sysadmin
+2017-02-09 21:36:11	--	Topic for #reddit-sysadmin is "Home of r/sysadmin - No Trolling | New? Try #reddit-sysadmin-support | /r/sysadmingaming | http://quotes.rsysadmin.net/ submit your quotes. | Keep the discussions Safe For Work. Please, leave anything else at the firewall."
+2017-02-09 21:36:11	--	Topic set by cryptic1 (~cryptic1@unaffiliated/cryptic1) on Sat, 07 Jan 2017 16:30:21
+2017-02-09 21:36:11	--	Channel #reddit-sysadmin: 767 nicks (12 ops, 18 voices, 737 normals)
+2017-02-09 21:36:24	--	Channel created on Thu, 29 Dec 2011 13:56:36
+2017-02-09 21:38:10	◀▬▬	really34293 (~really342@217.27.253.117) has quit (Ping timeout: 240 seconds)
+2017-02-09 21:39:29	◀▬▬	jfla (~jfla@63-158-208-237.dia.static.qwest.net) has quit (Ping timeout: 245 seconds)
+2017-02-09 21:40:37	▬▬▶	jfla (~jfla@63-158-208-237.dia.static.qwest.net) has joined #reddit-sysadmin
+2017-02-09 21:44:03	alazare619	welp instead of the x-23 comics i picked up x-23 complete collection + the wolverine goes to hell and death of wolverine hardbacks
+2017-02-09 21:44:54	betrayed	I bought a laptop
+2017-02-09 21:45:34	@cryptic1	alazare619, lol
+2017-02-09 21:45:57	alazare619	betrayed:  cool
+2017-02-09 21:46:04	alazare619	my comics will give more enjoyment then your laptop
+2017-02-09 21:46:09	betrayed	probably
+2017-02-09 21:46:10	alazare619	unless we are talking porn
+2017-02-09 21:46:21	betrayed	but I didn't pay for mine, so in the end I am happier
+2017-02-09 21:47:33	betrayed	office gave me x dollars to buy office equipment, I snuck this machine in for my personal use. :)
+2017-02-09 21:50:23	◀▬▬	jfla (~jfla@63-158-208-237.dia.static.qwest.net) has quit (Ping timeout: 276 seconds)
+2017-02-09 21:54:21	@cryptic1	betrayed, reported
+2017-02-09 21:54:26	@cryptic1	HR knows
+2017-02-09 21:54:34	▬▬▶	akshat_ (~akshat@unaffiliated/akshat) has joined #reddit-sysadmin
+2017-02-09 21:54:36	◀▬▬	tobsterius (~Tobsteriu@tobsteri.us) has left #reddit-sysadmin
+2017-02-09 22:36:07	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #reddit-sysadmin
+2017-02-09 22:36:07	--	Topic for #reddit-sysadmin is "Home of r/sysadmin - No Trolling | New? Try #reddit-sysadmin-support | /r/sysadmingaming | http://quotes.rsysadmin.net/ submit your quotes. | Keep the discussions Safe For Work. Please, leave anything else at the firewall."
+2017-02-09 22:36:07	--	Topic set by cryptic1 (~cryptic1@unaffiliated/cryptic1) on Sat, 07 Jan 2017 16:30:21
+2017-02-09 22:36:07	--	Channel #reddit-sysadmin: 766 nicks (12 ops, 18 voices, 736 normals)
+2017-02-09 22:36:07	***	Buffer Playback...
+2017-02-09 22:36:07	+kbni	[21:55:00] sup cryptic1
+2017-02-09 22:36:07	@cryptic1	[21:55:10] hey kbni :)
+2017-02-09 22:36:07	betrayed	[21:56:21] cryptic1: I hope they do. :)
+2017-02-09 22:36:07	***	Playback Complete.
+2017-02-09 22:36:07	BoredDeveloper_	Hello
+2017-02-09 22:36:07	--	Channel created on Thu, 29 Dec 2011 13:56:36
+2017-02-09 22:36:18	@JollyRgrs	are you bored?
+2017-02-09 22:36:19	▬▬▶	jfla (~jfla@63-158-208-237.dia.static.qwest.net) has joined #reddit-sysadmin
+2017-02-09 22:36:27	@JollyRgrs	 are you tired of those late night infomercials?
+2017-02-09 22:36:37	@JollyRgrs	YOU'RE IN LUCK! WE CAN GET RID OF ALL OF THAT FOR YOU!
+2017-02-09 22:36:43	@JollyRgrs	just stick a pencil in your eye
+2017-02-09 22:36:59	BoredDeveloper_	lol
+2017-02-09 22:37:28	BoredDeveloper_	-puts on some lipstick- WANNA SEE A MAGIC TRICK???
+2017-02-09 22:37:37	catbeard	her name bubbles
+2017-02-09 22:39:45	◀▬▬	mce9 (~mce9@cpe-70-95-187-56.san.res.rr.com) has quit (Changing host)
+2017-02-09 22:39:45	▬▬▶	mce9 (~mce9@unaffiliated/mce9) has joined #reddit-sysadmin
+2017-02-09 22:40:47	◀▬▬	jfla (~jfla@63-158-208-237.dia.static.qwest.net) has quit (Ping timeout: 260 seconds)
+2017-02-09 22:42:06	▬▬▶	jfla (~jfla@63-158-208-237.dia.static.qwest.net) has joined #reddit-sysadmin
+2017-02-09 22:43:15	BoredDeveloper_	So, general question, but how does one make sure they get a tech job that DOESNT suck
+2017-02-09 22:43:18	BoredDeveloper_	?
+2017-02-09 22:43:32	catbeard	prepare a list of your own interview questions
+2017-02-09 22:43:33	BoredDeveloper_	Cause itys been 7 months at my current job now and im pretty sure i fucked it up
+2017-02-09 22:43:36	catbeard	even the playing field
+2017-02-09 22:44:04	BoredDeveloper_	catbeard: Yeah i REALLY should have done that
+2017-02-09 22:44:54	BoredDeveloper_	Any other general advice though?
+2017-02-09 22:45:03	@JollyRgrs	they all don't suck
+2017-02-09 22:45:08	@JollyRgrs	YOU are the one that has to suck to get the good job
+2017-02-09 22:45:44	BoredDeveloper_	JollyRgrs: at this job i kinda got excited about a raise and probably didnt do all of my homework
+2017-02-09 22:45:54	catbeard	let them ask their questions and respond professionally but play hard to get, but not too hard, highlight your skills and give them examples of your work, ask where they want the company to be in a year's time, and how you can help them achieve that goal
+2017-02-09 22:45:59	catbeard	what resources do they lack
+2017-02-09 22:45:59	◀▬▬	GeekNerd_home (~GeekNerd@unaffiliated/geeknerd/x-7777777) has quit (Read error: Connection reset by peer)
+2017-02-09 22:46:03	◀▬▬	GeekNerd_PC1 (~GeekNerd@unaffiliated/geeknerd/x-7777777) has quit (Read error: Connection reset by peer)
+2017-02-09 22:46:10	catbeard	what's the problems with their infrastructure
+2017-02-09 22:46:19	catbeard	what's the change control like
+2017-02-09 22:46:19	▬▬▶	GeekNerd_home (~GeekNerd@unaffiliated/geeknerd/x-7777777) has joined #reddit-sysadmin
+2017-02-09 22:46:37	▬▬▶	GeekNerd_PC1 (~GeekNerd@unaffiliated/geeknerd/x-7777777) has joined #reddit-sysadmin
+2017-02-09 22:46:38	BoredDeveloper_	catbeard: well it was supposed to be a dveloper job, but theres not really that much work to do and most of what i end up doing is like... procedure monkey admin work....
+2017-02-09 22:46:44	◀▬▬	jfla (~jfla@63-158-208-237.dia.static.qwest.net) has quit (Ping timeout: 256 seconds)
+2017-02-09 22:47:01	catbeard	you mean you didn't write unit tests
+2017-02-09 22:47:08	catbeard	:)
+2017-02-09 22:47:12	catbeard	there's always work to be done
+2017-02-09 22:47:18	@JollyRgrs	change control is a good Q
+2017-02-09 22:47:28	@JollyRgrs	i didn't have to ask b/c i was already told they were HEAVY ITIL followers
+2017-02-09 22:47:44	catbeard	the key is to give yourself enough work to where if anyone questions it, they back off immediately when they see your queue
+2017-02-09 22:47:44	@JollyRgrs	but no change control can = chaos and utter hate of life
+2017-02-09 22:47:46	▬▬▶	jfla (~jfla@63-158-208-237.dia.static.qwest.net) has joined #reddit-sysadmin
+2017-02-09 22:47:51	@JollyRgrs	and too tight can make it almost just as bad
+2017-02-09 22:48:08	BoredDeveloper_	catbeard: well... they dont wanna let me use change control because the sysadmin is against putting stuff in the cloud
+2017-02-09 22:48:17	BoredDeveloper_	and i have no freaking clue how to write unit tests for access
+2017-02-09 22:48:21	catbeard	gantt charts are good too, what do they use for PM and whatnot
+2017-02-09 22:48:43	catbeard	you don't need it in the cloud, git works perfectly fine in-house, even gitlab
+2017-02-09 22:49:05	catbeard	access would just be ssh keys and gitlab roles
+2017-02-09 22:49:13	@JollyRgrs	change control is also going to mgmt before pushing to prod
+2017-02-09 22:49:24	BoredDeveloper_	catbeard: no i mean, Access the microsoft database
+2017-02-09 22:49:33	catbeard	or just requiring signoffs or verified commits
+2017-02-09 22:49:49	BoredDeveloper_	catbeard: Can you version control/ unit test that? I seriously didnt think you could
+2017-02-09 22:50:18	catbeard	you could authorize mssql via laravel wrappers
+2017-02-09 22:50:26	catbeard	and middleware classes
+2017-02-09 22:50:59	catbeard	not direct but access control is access control, sure there's probably better microsofty ways of doing it
+2017-02-09 22:51:20	▬▬▶	hpardis (~ubuntu@ec2-52-40-236-14.us-west-2.compute.amazonaws.com) has joined #reddit-sysadmin
+2017-02-09 22:51:40	BoredDeveloper_	No i mean like
+2017-02-09 22:51:50	BoredDeveloper_	writing unit tests for vba code in microsoft access
+2017-02-09 22:51:53	BoredDeveloper_	can you do that?
+2017-02-09 22:52:00	◀▬▬	jfla (~jfla@63-158-208-237.dia.static.qwest.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:52:19	catbeard	personally? no.  do i know if it's possible, no.  not a windows person
+2017-02-09 22:53:31	▬▬▶	jfla (~jfla@63-158-208-237.dia.static.qwest.net) has joined #reddit-sysadmin
+2017-02-09 22:53:39	@cryptic1	stop using access
+2017-02-09 22:53:57	BoredDeveloper_	cryptic1: they won't let me T.T
+2017-02-09 22:53:59	catbeard	i'd probably use laravel to eloquent the shit out of it remotely over mssql
+2017-02-09 22:54:16	@cryptic1	its not a db
+2017-02-09 22:54:27	catbeard	it can be migrated to one
+2017-02-09 22:54:33	@cryptic1	no just don't
+2017-02-09 22:54:35	MillerBoss	Its not a tuma
+2017-02-09 22:54:36	@cryptic1	use a DB
+2017-02-09 22:54:41	catbeard	well ya
+2017-02-09 22:54:44	@cryptic1	stop coding shit
+2017-02-09 22:54:47	catbeard	no
+2017-02-09 22:54:53	catbeard	:)
+2017-02-09 22:54:56	@cryptic1	:>
+2017-02-09 22:54:56	MillerBoss	Code horse shit instead of cow shit
+2017-02-09 22:55:14	BoredDeveloper_	unfortunately I inherited a bunch of undocumented shit
+2017-02-09 22:55:21	@cryptic1	every time i hear someone mention using access i cringe so bad
+2017-02-09 22:55:23	@JollyRgrs	BoredDeveloper_: oh!
+2017-02-09 22:55:25	BoredDeveloper_	reason my first question was about how to not fuck up looking for jobs haha
+2017-02-09 22:55:26	@JollyRgrs	those are illegal shits
+2017-02-09 22:55:32	@JollyRgrs	deport that crap
+2017-02-09 22:55:38	 *	kbni sends spotifyplay.exe to entire company
+2017-02-09 22:55:40	+kbni	GET LOW
+2017-02-09 22:55:48	BoredDeveloper_	Its a 10 year old multi user access database
+2017-02-09 22:55:53	catbeard	BUS A BUS
+2017-02-09 22:55:55	BoredDeveloper_	and the backend is on a windows 2003 server
+2017-02-09 22:56:02	BoredDeveloper_	AND THEY WONDER WHY ITS SLOW
+2017-02-09 22:56:07	@cryptic1	but access is single user
+2017-02-09 22:56:09	 *	MillerBoss is listening to Ying Yang Twins - Get Low from the album Kings Of Crunk on Spotify.
+2017-02-09 22:56:10	@cryptic1	thats so wrong
+2017-02-09 22:56:11	catbeard	probably sa
+2017-02-09 22:56:13	@cryptic1	SO WRONG
+2017-02-09 22:56:27	BoredDeveloper_	cryptic1: if you split the front end and backend you can make it multi user
+2017-02-09 22:56:32	BoredDeveloper_	its hideously slow though
+2017-02-09 22:56:33	@cryptic1	no thats garbage
+2017-02-09 22:56:45	catbeard	make a real db
+2017-02-09 22:56:52	@cryptic1	thats something someone in finance would come up with
+2017-02-09 22:56:53	▬▬▶	L3gacy (~L3gacy@2601:8d:502:4345:51cd:f274:f036:8bdb) has joined #reddit-sysadmin
+2017-02-09 22:57:13	catbeard	with proper column typing, sane defaults, and efficient indexes
+2017-02-09 22:57:14	BoredDeveloper_	management doesnt want to migrate to a real db cause the existing one works T.T
+2017-02-09 22:57:31	MillerBoss	Lie to them
+2017-02-09 22:57:32	BoredDeveloper_	Atleast someone agrees with me that its shit though
+2017-02-09 22:57:37	catbeard	not even if it amplifies the speed by orders of magnitude?
+2017-02-09 22:57:39	@cryptic1	BoredDeveloper_, you need to present why its bad
+2017-02-09 22:57:45	@cryptic1	convince them how bad it is
+2017-02-09 22:57:52	◀▬▬	adgud (~adgud@staticline4507.toya.net.pl) has quit (Ping timeout: 240 seconds)
+2017-02-09 22:58:03	catbeard	compared to a real dbms it's shit
+2017-02-09 22:58:15	@cryptic1	^
+2017-02-09 22:58:19	BoredDeveloper_	^
+2017-02-09 22:58:24	@cryptic1	haha
+2017-02-09 22:58:41	@cryptic1	and now somehow its yours
+2017-02-09 22:58:42	catbeard	at least with innodb you have row locking and i think atomic writes now with mariadb
+2017-02-09 22:58:46	BoredDeveloper_	no one wants to let me rewrite it and im dobious as if im going to even be around after rewriting it tbh
+2017-02-09 22:58:52	Alternity	ok boys
+2017-02-09 22:58:56	Alternity	i'm upgrading to windows 10
+2017-02-09 22:59:00	catbeard	write your own and start your own company
+2017-02-09 22:59:02	MillerBoss	:(
+2017-02-09 22:59:04	catbeard	js
+2017-02-09 22:59:12	MillerBoss	Just because of the Chrome and Firefox issue?
+2017-02-09 22:59:22	Alternity	windows is also crashing
+2017-02-09 22:59:24	Alternity	every few hours
+2017-02-09 22:59:39	MillerBoss	Do you have a copy of PC Check?
+2017-02-09 22:59:56	Alternity	yes i keep it right next to my copy of PC Doctor
+2017-02-09 22:59:56	MillerBoss	I'd run that
+2017-02-09 22:59:59	BoredDeveloper_	Also, when looking for a new job, how does one hide that the technical practices of their last job made them want to cry?
+2017-02-09 23:00:18	@cryptic1	BoredDeveloper_, you do not mention it
+2017-02-09 23:00:24	catbeard	ever
+2017-02-09 23:00:40	Alternity	BoredDeveloper_: always mention previous employeers in a positive light
+2017-02-09 23:00:51	Alternity	tell how you improved a process
+2017-02-09 23:00:53	@cryptic1	let the alcohol wipe the memories away
+2017-02-09 23:00:58	BoredDeveloper_	Just tell the new job something like, "I was looking for a more challenging position with more room to grow?"
+2017-02-09 23:01:03	@cryptic1	Alternity, exactly
+2017-02-09 23:01:05	Alternity	but talk about the improvements you made, not how shitty it was originally
+2017-02-09 23:01:09	@cryptic1	promote yourself
+2017-02-09 23:01:10	Alternity	this isn't rockect science
+2017-02-09 23:01:13	@cryptic1	always promote yourself
+2017-02-09 23:01:17	BoredDeveloper_	Yeah i did improve some stuff
+2017-02-09 23:01:22	catbeard	you can allude to it, like say "it wasn't as great as i hoped it would be, but i learned a lot there otherwise, and made them lots of money"
+2017-02-09 23:01:23	Alternity	would you wanna hire some guy talking shit about his old employeer?
+2017-02-09 23:01:32	Alternity	50/50 chance its just that the guy doesn't get along with people
+2017-02-09 23:01:45	Alternity	if you think everyone around you is an asshole, you're probably an asshole
+2017-02-09 23:02:06	catbeard	that only works if you work at a place where everyone's not an asshole though
+2017-02-09 23:02:09	BoredDeveloper_	Alternity: actually everyone is pretty nice, the place just screams technical debt
+2017-02-09 23:02:22	catbeard	in reality, "i'm surrounded by assholes"
+2017-02-09 23:02:30	catbeard	KEEP FIRING, ASSHOLES!
+2017-02-09 23:02:45	Alternity	BoredDeveloper_: just remember job interview is a performance for both parties
+2017-02-09 23:02:52	Alternity	this isn't your therapist
+2017-02-09 23:02:55	@JollyRgrs	BoredDeveloper_: don't talk bad about old company
+2017-02-09 23:02:57	Alternity	sell the best version of you
+2017-02-09 23:03:03	@JollyRgrs	b/c then you'll talk bad about new company, too
+2017-02-09 23:03:08	Alternity	who rocked that place and improved x, y and z
+2017-02-09 23:03:11	◀▬▬	wxr (~wxr@unaffiliated/wxr) has quit (Ping timeout: 258 seconds)
+2017-02-09 23:03:11	◀▬▬	jfla (~jfla@63-158-208-237.dia.static.qwest.net) has quit (Ping timeout: 276 seconds)
+2017-02-09 23:03:30	catbeard	ask probing questions that probably wouldn't get answered in public domain
+2017-02-09 23:03:42	catbeard	like what kinds of technical issues do you guys face?
+2017-02-09 23:03:45	Alternity	ok win10 install is starting, at some point my irc will die
+2017-02-09 23:03:52	Alternity	:(
+2017-02-09 23:04:03	@JollyRgrs	lol
+2017-02-09 23:04:07	Alternity	rip alternity
+2017-02-09 23:04:12	catbeard	do they SCRUM?
+2017-02-09 23:04:24	BoredDeveloper_	catbeard: yeah if i had probed on the technical issues i probably would have realized theres not much process
+2017-02-09 23:04:39	BoredDeveloper_	and management isint too knowedgeable about technical things
+2017-02-09 23:04:52	BoredDeveloper_	I'm chalking that up to lessons learned
+2017-02-09 23:04:54	catbeard	well, the act of asking questions indicates your interest
+2017-02-09 23:04:57	@cryptic1	catbeard, http://dilbert.com/strip/2017-02-06
+2017-02-09 23:05:08	Alternity	catbeard: if you are legitimately surrounded by only unpleasant people you should find another job
+2017-02-09 23:05:17	▬▬▶	jfla (~jfla@63-158-208-237.dia.static.qwest.net) has joined #reddit-sysadmin
+2017-02-09 23:05:26	--	irc: disconnected from server
+2017-02-09 23:06:37	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #reddit-sysadmin
+2017-02-09 23:06:37	--	Topic for #reddit-sysadmin is "Home of r/sysadmin - No Trolling | New? Try #reddit-sysadmin-support | /r/sysadmingaming | http://quotes.rsysadmin.net/ submit your quotes. | Keep the discussions Safe For Work. Please, leave anything else at the firewall."
+2017-02-09 23:06:37	--	Topic set by cryptic1 (~cryptic1@unaffiliated/cryptic1) on Sat, 07 Jan 2017 16:30:21
+2017-02-09 23:06:37	--	Channel #reddit-sysadmin: 767 nicks (12 ops, 18 voices, 737 normals)
+2017-02-09 23:06:37	***	Buffer Playback...
+2017-02-09 23:06:37	catbeard	[23:05:28] Alternity: i'm not i was just saying that to get to the spaceballs quote
+2017-02-09 23:06:37	 *	MillerBoss [23:06:04] is listening to Lipps Inc. - Funky Town from the album Paradas Continuas on Spotify.
+2017-02-09 23:06:37	BoredDeveloper_	[23:06:05] Also, is working with dated technology for a bit that bad for your career or not really?
+2017-02-09 23:06:37	Alternity	[23:06:10] catbeard is old :P
+2017-02-09 23:06:37	catbeard	[23:06:14] actually i cherish my coworkers, they're pretty high grade
+2017-02-09 23:06:37	catbeard	[23:06:23] Alternity: not *that* old
+2017-02-09 23:06:37	Alternity	[23:06:35] thats good, as i grow older myself i realize how important work environment is
+2017-02-09 23:06:37	***	Playback Complete.
+2017-02-09 23:06:41	catbeard	but old enough to where that's one of my favorite films
+2017-02-09 23:06:47	Alternity	if you have to spend 40 hours somewhere every week
+2017-02-09 23:06:48	◀▬▬	Fongy888 (~Luke@124-168-84-81.dyn.iinet.net.au) has quit (Read error: Connection reset by peer)
+2017-02-09 23:06:55	catbeard	the job is as much about you as it is the work
+2017-02-09 23:06:57	--	Channel created on Thu, 29 Dec 2011 13:56:36
+2017-02-09 23:07:05	catbeard	that's why there's HR
+2017-02-09 23:07:27	Alternity	pretty sure HR is there to protect the company
+2017-02-09 23:07:37	BoredDeveloper_	we dont even really have hr
+2017-02-09 23:07:38	catbeard	HR can be your best friend or your worst enemy
+2017-02-09 23:07:46	Alternity	HR is never your best friend
+2017-02-09 23:07:47	catbeard	it depends what you tell them
+2017-02-09 23:07:51	◀▬▬	tobsterius (~Tobsteriu@tobsteri.us) has left #reddit-sysadmin ("WeeChat 1.7")

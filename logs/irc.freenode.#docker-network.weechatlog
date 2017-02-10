@@ -10,3 +10,25 @@
 2017-02-09 20:46:36	▬▬▶	mattupst_ (~mattupsta@ec2-52-7-99-73.compute-1.amazonaws.com) has joined #docker-network
 2017-02-09 20:47:29	◀▬▬	mattupstate (~mattupsta@ool-2f14f4e1.dyn.optonline.net) has quit (Ping timeout: 258 seconds)
 2017-02-09 21:15:15	◀▬▬	schikin (~schikin@ppp158-255-175-85.pppoe.spdop.ru) has quit (Remote host closed the connection)
+2017-02-09 21:28:11	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #docker-network
+2017-02-09 21:28:11	--	Topic for #docker-network is "Networking and Plugin-related discussion for Docker | https://botbot.me/freenode/docker-network/ | https://github.com/docker/libnetwork"
+2017-02-09 21:28:11	--	Topic set by madhu on Thu, 30 Jul 2015 14:53:05
+2017-02-09 21:28:11	--	Channel #docker-network: 69 nicks (0 ops, 6 voices, 63 normals)
+2017-02-09 21:28:22	--	Channel created on Wed, 10 Dec 2014 04:46:29
+2017-02-09 21:36:11	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #docker-network
+2017-02-09 21:36:11	--	Topic for #docker-network is "Networking and Plugin-related discussion for Docker | https://botbot.me/freenode/docker-network/ | https://github.com/docker/libnetwork"
+2017-02-09 21:36:11	--	Topic set by madhu on Thu, 30 Jul 2015 14:53:05
+2017-02-09 21:36:11	--	Channel #docker-network: 69 nicks (0 ops, 6 voices, 63 normals)
+2017-02-09 21:36:22	--	Channel created on Wed, 10 Dec 2014 04:46:29
+2017-02-09 21:49:47	◀▬▬	s3wong (~s3wong@50-206-28-66-static.hfc.comcastbusiness.net) has quit (Quit: Leaving)
+2017-02-09 21:54:36	◀▬▬	tobsterius (~Tobsteriu@tobsteri.us) has left #docker-network
+2017-02-09 23:27:52	▬▬▶	tobsterius (~tobsteriu@tobsteri.us) has joined #docker-network
+2017-02-09 23:27:52	--	Topic for #docker-network is "Networking and Plugin-related discussion for Docker | https://botbot.me/freenode/docker-network/ | https://github.com/docker/libnetwork"
+2017-02-09 23:27:52	--	Topic set by madhu on Thu, 30 Jul 2015 14:53:05
+2017-02-09 23:27:52	--	Channel #docker-network: 68 nicks (0 ops, 6 voices, 62 normals)
+2017-02-09 23:28:07	--	Channel created on Wed, 10 Dec 2014 04:46:29
+2017-02-09 23:30:51	▬▬▶	tobsterius (~tobsteriu@tobsteri.us) has joined #docker-network
+2017-02-09 23:30:51	--	Topic for #docker-network is "Networking and Plugin-related discussion for Docker | https://botbot.me/freenode/docker-network/ | https://github.com/docker/libnetwork"
+2017-02-09 23:30:51	--	Topic set by madhu on Thu, 30 Jul 2015 14:53:05
+2017-02-09 23:30:51	--	Channel #docker-network: 68 nicks (0 ops, 6 voices, 62 normals)
+2017-02-09 23:31:00	--	Channel created on Wed, 10 Dec 2014 04:46:29

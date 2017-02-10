@@ -1,1 +1,76 @@
 2017-02-09 20:06:13	*status	Channel [#networking] is linked to another channel and was thus disabled.
+2017-02-09 21:54:36	*status	There were [12] channels matching [*]
+2017-02-09 21:54:36	*status	Detached [12] channels
+2017-02-09 22:01:25	*status	Hello. How may I help you?
+2017-02-09 22:01:37	tobsterius	attach
+2017-02-09 22:01:37	*status	Unknown command [attach] try 'Help'
+2017-02-09 22:01:42	tobsterius	autoattach
+2017-02-09 22:01:42	*status	Unknown command [autoattach] try 'Help'
+2017-02-09 22:01:59	tobsterius	loadmod awaystore -time 600 !Brlafr8u
+2017-02-09 22:01:59	*status	Loaded module [awaystore] [/usr/local/lib/znc/awaystore.so]
+2017-02-09 22:03:17	tobsterius	loadmod autoattach
+2017-02-09 22:03:17	*status	Module [autoattach] already loaded.
+2017-02-09 22:18:26	*status	No such module [nickserv]
+2017-02-09 22:18:36	tobsterius	loadmod nickserv
+2017-02-09 22:18:36	*status	Loaded module [nickserv] [/usr/local/lib/znc/nickserv.so]
+2017-02-09 22:19:37	--	irc: disconnected from server
+2017-02-09 22:28:47	--	irc: disconnected from server
+2017-02-09 23:12:22	*status	Disconnected from IRC. Reconnecting...
+2017-02-09 23:12:22	--	irc: disconnected from server
+2017-02-09 23:12:32	*status	Network (Freenode) doesn't exist.
+2017-02-09 23:12:50	--	irc: disconnected from server
+2017-02-09 23:17:10	*status	Cannot connect to IRC (Invalid argument). Retrying...
+2017-02-09 23:17:46	*status	Connected!
+2017-02-09 23:18:21	--	irc: disconnected from server
+2017-02-09 23:21:02	--	irc: disconnected from server
+2017-02-09 23:21:23	--	irc: disconnected from server
+2017-02-09 23:21:35	--	irc: disconnected from server
+2017-02-09 23:22:04	--	irc: disconnected from server
+2017-02-09 23:23:06	--	irc: disconnected from server
+2017-02-09 23:23:16	--	irc: disconnected from server
+2017-02-09 23:29:09	*status	Hello. How may I help you?
+2017-02-09 23:29:20	*status	+==============+=========================================+
+2017-02-09 23:29:20	*status	| Command      | Description                             |
+2017-02-09 23:29:20	*status	+==============+=========================================+
+2017-02-09 23:29:20	*status	| ListServers  | List all servers of current IRC network |
+2017-02-09 23:29:20	*status	+==============+=========================================+
+2017-02-09 23:29:21	tobsterius	ListServers 
+2017-02-09 23:29:22	*status	+====================+======+=====+======+
+2017-02-09 23:29:22	*status	| Host               | Port | SSL | Pass |
+2017-02-09 23:29:22	*status	+====================+======+=====+======+
+2017-02-09 23:29:22	*status	| chat.freenode.net* | 6667 |     |      |
+2017-02-09 23:29:22	*status	+====================+======+=====+======+
+2017-02-09 23:29:43	*status	+======================+=====================+
+2017-02-09 23:29:43	*status	| Command              | Description         |
+2017-02-09 23:29:43	*status	+======================+=====================+
+2017-02-09 23:29:43	*status	| Disconnect [message] | Disconnect from IRC |
+2017-02-09 23:29:43	*status	+======================+=====================+
+2017-02-09 23:29:45	tobsterius	Disconnect 
+2017-02-09 23:29:45	*status	Disconnected from IRC. Use 'connect' to reconnect.
+2017-02-09 23:30:06	tobsterius	connect
+2017-02-09 23:30:06	*status	Connecting...
+2017-02-09 23:30:06	*status	Cannot connect to IRC (Invalid argument). Retrying...
+2017-02-09 23:30:44	*status	Connected!
+2017-02-09 23:31:22	tobsterius	disconnect
+2017-02-09 23:31:22	*status	Disconnected from IRC. Use 'connect' to reconnect.
+2017-02-09 23:31:28	*status	Loaded module [nickserv] [/usr/local/lib/znc/nickserv.so]
+2017-02-09 23:36:14	tobsterius	connect
+2017-02-09 23:36:14	*status	Connecting...
+2017-02-09 23:36:14	*status	Cannot connect to IRC (Invalid argument). Retrying...
+2017-02-09 23:36:44	*status	Cannot connect to IRC (Invalid argument). Retrying...
+2017-02-09 23:36:54	tobsterius	disconnect
+2017-02-09 23:36:54	*status	Disconnected from IRC. Use 'connect' to reconnect.
+2017-02-09 23:36:58	tobsterius	help connect
+2017-02-09 23:36:58	*status	+==========+==================+
+2017-02-09 23:36:58	*status	| Command  | Description      |
+2017-02-09 23:36:58	*status	+==========+==================+
+2017-02-09 23:36:58	*status	| Connect  | Reconnect to IRC |
+2017-02-09 23:36:58	*status	+==========+==================+
+2017-02-09 23:37:08	--	*status: Removing channel [#cisco]
+2017-02-09 23:37:21	--	*status: Removing channel [#docker-network]
+2017-02-09 23:37:31	--	*status: Removing channel [##linux]
+2017-02-09 23:37:39	--	*status: Removing channel [#macosx]
+2017-02-09 23:37:43	--	*status: Removing channel [##networking]
+2017-02-09 23:37:47	--	*status: Removing channel [#ubuntu]
+2017-02-09 23:37:55	*status	Cannot connect to IRC (Invalid argument). Retrying...
+2017-02-09 23:38:33	*status	Connected!

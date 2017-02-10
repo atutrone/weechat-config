@@ -2802,3 +2802,373 @@
 2017-02-09 21:27:47		python: scripts unloaded
 2017-02-09 21:27:47		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
 2017-02-09 21:27:47		perl: scripts unloaded
+2017-02-09 21:28:09		perl scripts loaded: beep, buffers, highmon, iset, perlexec, pushover
+2017-02-09 21:28:10		URL server listening on ('10.20.22.181', 3300)
+2017-02-09 21:28:10		python scripts loaded: autosort, bitlbee_completion, bitlbee_typing_notice, buffer_autoset, grep, text_item, urlbuf, urlgrab, urlserver
+2017-02-09 21:28:10		script: 331 scripts for WeeChat 1.7
+2017-02-09 21:28:10		Plugins loaded: alias, aspell, charset, exec, irc, logger, perl, python, relay, script, trigger
+2017-02-09 21:29:11		All servers:
+2017-02-09 21:29:11		 * Tobsteri.us [connected], 0 channels, 1 pv
+2017-02-09 21:29:11		 * Bitlbee [connected], 2 channels, 0 pv
+2017-02-09 21:29:11		 * hashmark [connected], 1 channel, 0 pv
+2017-02-09 21:29:11		 * freenode [connected], 10 channels, 0 pv
+2017-02-09 21:29:23		irc: server Tobsteri.us has been deleted
+2017-02-09 21:31:01		All servers:
+2017-02-09 21:31:01		 * Bitlbee [connected], 2 channels, 0 pv
+2017-02-09 21:31:01		 * hashmark [connected], 1 channel, 0 pv
+2017-02-09 21:31:01		 * freenode [connected], 10 channels, 0 pv
+2017-02-09 21:35:21		[server] (irc.conf)
+2017-02-09 21:35:21		  irc.server.freenode.command = "/msg nickserve identify tobsterius:${sec.data.freenodepass}"  (default if null: "")
+2017-02-09 21:35:21		1 option (matching with "irc.server.freenode.command")
+2017-02-09 21:35:28		[server] (irc.conf)
+2017-02-09 21:35:28		  irc.server.freenode.command = "/msg nickserve identify tobsterius:${sec.data.freenodepass}"  (default if null: "")
+2017-02-09 21:35:28		1 option (matching with "irc.server.freenode.command")
+2017-02-09 21:35:30		Option changed: irc.server.freenode.command = ""  (default if null: "")
+2017-02-09 21:35:59		Option changed: irc.server.freenode.command = "/msg nickserv identify tobsterius:${sec.data.freenodepass}"  (default if null: "")
+2017-02-09 21:36:02		Options saved to sec.conf
+2017-02-09 21:36:02		Options saved to weechat.conf
+2017-02-09 21:36:02		Options saved to plugins.conf
+2017-02-09 21:36:02		Options saved to charset.conf
+2017-02-09 21:36:02		Options saved to logger.conf
+2017-02-09 21:36:02		Options saved to exec.conf
+2017-02-09 21:36:02		Options saved to trigger.conf
+2017-02-09 21:36:02		Options saved to aspell.conf
+2017-02-09 21:36:02		Options saved to alias.conf
+2017-02-09 21:36:02		Options saved to irc.conf
+2017-02-09 21:36:02		Options saved to relay.conf
+2017-02-09 21:36:02		Options saved to buffers.conf
+2017-02-09 21:36:02		Options saved to iset.conf
+2017-02-09 21:36:02		Options saved to autosort.conf
+2017-02-09 21:36:02		Options saved to buffer_autoset.conf
+2017-02-09 21:36:02		Options saved to urlgrab.conf
+2017-02-09 21:36:02		Options saved to script.conf
+2017-02-09 21:36:04		python: stdout/stderr: TypeError: urlbuf_close_cb() takes exactly 2 arguments (0 given)
+2017-02-09 21:36:04	=!=	python: error in function "urlbuf_close_cb"
+2017-02-09 21:36:04		URL server stopped
+2017-02-09 21:36:04		python: scripts unloaded
+2017-02-09 21:36:04		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2017-02-09 21:36:04		perl: scripts unloaded
+2017-02-09 21:36:09		perl scripts loaded: beep, buffers, highmon, iset, perlexec, pushover
+2017-02-09 21:36:10		URL server listening on ('10.20.22.181', 3300)
+2017-02-09 21:36:10		python scripts loaded: autosort, bitlbee_completion, bitlbee_typing_notice, buffer_autoset, grep, text_item, urlbuf, urlgrab, urlserver
+2017-02-09 21:36:10		script: 331 scripts for WeeChat 1.7
+2017-02-09 21:36:10		Plugins loaded: alias, aspell, charset, exec, irc, logger, perl, python, relay, script, trigger
+2017-02-09 21:55:13		python: stdout/stderr: TypeError: urlbuf_close_cb() takes exactly 2 arguments (0 given)
+2017-02-09 21:55:13	=!=	python: error in function "urlbuf_close_cb"
+2017-02-09 21:55:13		URL server stopped
+2017-02-09 21:55:13		python: scripts unloaded
+2017-02-09 21:55:13		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2017-02-09 21:55:13		perl: scripts unloaded
+2017-02-09 21:55:19		perl scripts loaded: beep, buffers, highmon, iset, perlexec, pushover
+2017-02-09 21:55:19		URL server listening on ('10.20.22.181', 3300)
+2017-02-09 21:55:19		python scripts loaded: autosort, bitlbee_completion, bitlbee_typing_notice, buffer_autoset, grep, text_item, urlbuf, urlgrab, urlserver
+2017-02-09 21:55:19		script: 331 scripts for WeeChat 1.7
+2017-02-09 21:55:19		Plugins loaded: alias, aspell, charset, exec, irc, logger, perl, python, relay, script, trigger
+2017-02-09 21:56:05	=!=	Too few arguments for command "/msg" (help on command: /help msg)
+2017-02-09 21:57:52		python: stdout/stderr: TypeError: urlbuf_close_cb() takes exactly 2 arguments (0 given)
+2017-02-09 21:57:52	=!=	python: error in function "urlbuf_close_cb"
+2017-02-09 21:57:52		URL server stopped
+2017-02-09 21:57:52		python: scripts unloaded
+2017-02-09 21:57:52		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2017-02-09 21:57:52		perl: scripts unloaded
+2017-02-09 21:57:58		perl scripts loaded: beep, buffers, highmon, iset, perlexec, pushover
+2017-02-09 21:57:59		URL server listening on ('10.20.22.181', 3300)
+2017-02-09 21:57:59		python scripts loaded: autosort, bitlbee_completion, bitlbee_typing_notice, buffer_autoset, grep, text_item, urlbuf, urlgrab, urlserver
+2017-02-09 21:57:59		script: 331 scripts for WeeChat 1.7
+2017-02-09 21:57:59		Plugins loaded: alias, aspell, charset, exec, irc, logger, perl, python, relay, script, trigger
+2017-02-09 22:02:00		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2017-02-09 22:03:33		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2017-02-09 22:03:56		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2017-02-09 22:04:04		Options saved to sec.conf
+2017-02-09 22:04:04		Options saved to weechat.conf
+2017-02-09 22:04:04		Options saved to plugins.conf
+2017-02-09 22:04:04		Options saved to charset.conf
+2017-02-09 22:04:04		Options saved to logger.conf
+2017-02-09 22:04:04		Options saved to exec.conf
+2017-02-09 22:04:04		Options saved to trigger.conf
+2017-02-09 22:04:04		Options saved to aspell.conf
+2017-02-09 22:04:04		Options saved to alias.conf
+2017-02-09 22:04:04		Options saved to irc.conf
+2017-02-09 22:04:04		Options saved to relay.conf
+2017-02-09 22:04:04		Options saved to buffers.conf
+2017-02-09 22:04:04		Options saved to iset.conf
+2017-02-09 22:04:04		Options saved to autosort.conf
+2017-02-09 22:04:04		Options saved to buffer_autoset.conf
+2017-02-09 22:04:04		Options saved to urlgrab.conf
+2017-02-09 22:04:04		Options saved to script.conf
+2017-02-09 22:04:06		python: stdout/stderr: TypeError: urlbuf_close_cb() takes exactly 2 arguments (0 given)
+2017-02-09 22:04:06	=!=	python: error in function "urlbuf_close_cb"
+2017-02-09 22:04:06		URL server stopped
+2017-02-09 22:04:06		python: scripts unloaded
+2017-02-09 22:04:06		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2017-02-09 22:04:06		perl: scripts unloaded
+2017-02-09 22:04:11		perl scripts loaded: beep, buffers, highmon, iset, perlexec, pushover
+2017-02-09 22:04:11		URL server listening on ('10.20.22.181', 3300)
+2017-02-09 22:04:11		python scripts loaded: autosort, bitlbee_completion, bitlbee_typing_notice, buffer_autoset, grep, text_item, urlbuf, urlgrab, urlserver
+2017-02-09 22:04:11		script: 331 scripts for WeeChat 1.7
+2017-02-09 22:04:11		Plugins loaded: alias, aspell, charset, exec, irc, logger, perl, python, relay, script, trigger
+2017-02-09 22:04:44	=!=	Too few arguments for command "/msg" (help on command: /help msg)
+2017-02-09 22:05:00		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2017-02-09 22:08:15		[server] (irc.conf)
+2017-02-09 22:08:15		  irc.server.freenode.addresses = "tobsteri.us/65534"  (default if null: "")
+2017-02-09 22:08:15		  irc.server.freenode.anti_flood_prio_high = 2  (default if null: 2)
+2017-02-09 22:08:15		  irc.server.freenode.anti_flood_prio_low = null -> 2
+2017-02-09 22:08:15		  irc.server.freenode.autoconnect = on  (default if null: off)
+2017-02-09 22:08:15		  irc.server.freenode.autojoin = null -> ""
+2017-02-09 22:08:15		  irc.server.freenode.autoreconnect = null -> on
+2017-02-09 22:08:15		  irc.server.freenode.autoreconnect_delay = null -> 10
+2017-02-09 22:08:15		  irc.server.freenode.autorejoin = null -> off
+2017-02-09 22:08:15		  irc.server.freenode.autorejoin_delay = null -> 30
+2017-02-09 22:08:15		  irc.server.freenode.away_check = null -> 5
+2017-02-09 22:08:15		  irc.server.freenode.away_check_max_nicks = null -> 25
+2017-02-09 22:08:15		  irc.server.freenode.capabilities = null -> "account-notify,away-notify,cap-notify,multi-prefix,server-time,znc.in/self-message"
+2017-02-09 22:08:15		  irc.server.freenode.command = "/msg nickserv identify tobsterius:${sec.data.freenodepass}"  (default if null: "")
+2017-02-09 22:08:15		  irc.server.freenode.command_delay = null -> 0
+2017-02-09 22:08:15		  irc.server.freenode.connection_timeout = null -> 60
+2017-02-09 22:08:15		  irc.server.freenode.ipv6 = null -> on
+2017-02-09 22:08:15		  irc.server.freenode.local_hostname = null -> ""
+2017-02-09 22:08:15		  irc.server.freenode.msg_kick = null -> ""
+2017-02-09 22:08:15		  irc.server.freenode.msg_part = null -> "WeeChat ${info:version}"
+2017-02-09 22:08:15		  irc.server.freenode.msg_quit = null -> "WeeChat ${info:version}"
+2017-02-09 22:08:15		  irc.server.freenode.nicks = null -> "Lordx_"
+2017-02-09 22:08:15		  irc.server.freenode.nicks_alternate = null -> on
+2017-02-09 22:08:15		  irc.server.freenode.notify = null -> ""
+2017-02-09 22:08:15		  irc.server.freenode.password = "tobsterius/freenode:${sec.data.zncpass}"  (default if null: "")
+2017-02-09 22:08:15		  irc.server.freenode.proxy = null -> ""
+2017-02-09 22:08:15		  irc.server.freenode.realname = null -> ""
+2017-02-09 22:08:15		  irc.server.freenode.sasl_fail = null -> continue
+2017-02-09 22:08:15		  irc.server.freenode.sasl_key = null -> ""
+2017-02-09 22:08:15		  irc.server.freenode.sasl_mechanism = null -> plain
+2017-02-09 22:08:15		  irc.server.freenode.sasl_password = null -> ""
+2017-02-09 22:08:15		  irc.server.freenode.sasl_timeout = null -> 15
+2017-02-09 22:08:15		  irc.server.freenode.sasl_username = null -> ""
+2017-02-09 22:08:15		  irc.server.freenode.ssl = on  (default if null: off)
+2017-02-09 22:08:15		  irc.server.freenode.ssl_cert = null -> ""
+2017-02-09 22:08:15		  irc.server.freenode.ssl_dhkey_size = null -> 2048
+2017-02-09 22:08:15		  irc.server.freenode.ssl_fingerprint = null -> ""
+2017-02-09 22:08:15		  irc.server.freenode.ssl_priorities = null -> "NORMAL:-VERS-SSL3.0"
+2017-02-09 22:08:15		  irc.server.freenode.ssl_verify = null -> off
+2017-02-09 22:08:15		  irc.server.freenode.usermode = null -> ""
+2017-02-09 22:08:15		  irc.server.freenode.username = null -> "toby"
+2017-02-09 22:08:15		40 options (matching with "irc.server.freenode.*")
+2017-02-09 22:09:03		Option changed: irc.server.freenode.nicks = "tobsterius"  (default if null: "Lordx_")
+2017-02-09 22:09:15		Option changed: irc.server.freenode.username = "tobsterius"  (default if null: "toby")
+2017-02-09 22:10:04		Option changed: irc.server.freenode.password = ""  (default if null: "")
+2017-02-09 22:10:09		Options saved to sec.conf
+2017-02-09 22:10:09		Options saved to weechat.conf
+2017-02-09 22:10:09		Options saved to plugins.conf
+2017-02-09 22:10:09		Options saved to charset.conf
+2017-02-09 22:10:09		Options saved to logger.conf
+2017-02-09 22:10:09		Options saved to exec.conf
+2017-02-09 22:10:09		Options saved to trigger.conf
+2017-02-09 22:10:09		Options saved to aspell.conf
+2017-02-09 22:10:09		Options saved to alias.conf
+2017-02-09 22:10:09		Options saved to irc.conf
+2017-02-09 22:10:09		Options saved to relay.conf
+2017-02-09 22:10:09		Options saved to buffers.conf
+2017-02-09 22:10:09		Options saved to iset.conf
+2017-02-09 22:10:09		Options saved to autosort.conf
+2017-02-09 22:10:09		Options saved to buffer_autoset.conf
+2017-02-09 22:10:09		Options saved to urlgrab.conf
+2017-02-09 22:10:09		Options saved to script.conf
+2017-02-09 22:10:10		python: stdout/stderr: TypeError: urlbuf_close_cb() takes exactly 2 arguments (0 given)
+2017-02-09 22:10:10	=!=	python: error in function "urlbuf_close_cb"
+2017-02-09 22:10:10		URL server stopped
+2017-02-09 22:10:10		python: scripts unloaded
+2017-02-09 22:10:10		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2017-02-09 22:10:10		perl: scripts unloaded
+2017-02-09 22:10:16		perl scripts loaded: beep, buffers, highmon, iset, perlexec, pushover
+2017-02-09 22:10:17		URL server listening on ('10.20.22.181', 3300)
+2017-02-09 22:10:17		python scripts loaded: autosort, bitlbee_completion, bitlbee_typing_notice, buffer_autoset, grep, text_item, urlbuf, urlgrab, urlserver
+2017-02-09 22:10:17		script: 331 scripts for WeeChat 1.7
+2017-02-09 22:10:17		Plugins loaded: alias, aspell, charset, exec, irc, logger, perl, python, relay, script, trigger
+2017-02-09 22:10:51		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2017-02-09 22:11:29		irc: server freenode has been deleted
+2017-02-09 22:12:44		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2017-02-09 22:12:50		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2017-02-09 22:13:03	=!=	Error with command "/server /whois Lordx_" (help on command: /help server)
+2017-02-09 22:14:06		irc: server freenote added
+2017-02-09 22:14:33	=!=	Error: option "irc.server.freenode.password" not found
+2017-02-09 22:15:18	=!=	Error: option "irc.server.freenode.password" not found
+2017-02-09 22:15:25	=!=	Option "irc.server.freenode.*" not found (tip: you can use wildcard "*" in option to see a sublist)
+2017-02-09 22:15:36		irc: server freenote has been deleted
+2017-02-09 22:15:42		irc: server freenode added
+2017-02-09 22:15:45		Option changed: irc.server.freenode.password = "tobsterius/freenode:${sec.data.zncpass}"  (default if null: "")
+2017-02-09 22:18:40		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2017-02-09 22:19:30		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2017-02-09 22:19:47		Options saved to sec.conf
+2017-02-09 22:19:47		Options saved to weechat.conf
+2017-02-09 22:19:47		Options saved to plugins.conf
+2017-02-09 22:19:47		Options saved to charset.conf
+2017-02-09 22:19:47		Options saved to logger.conf
+2017-02-09 22:19:47		Options saved to exec.conf
+2017-02-09 22:19:47		Options saved to trigger.conf
+2017-02-09 22:19:47		Options saved to aspell.conf
+2017-02-09 22:19:47		Options saved to alias.conf
+2017-02-09 22:19:47		Options saved to irc.conf
+2017-02-09 22:19:47		Options saved to relay.conf
+2017-02-09 22:19:47		Options saved to buffers.conf
+2017-02-09 22:19:47		Options saved to iset.conf
+2017-02-09 22:19:47		Options saved to autosort.conf
+2017-02-09 22:19:47		Options saved to buffer_autoset.conf
+2017-02-09 22:19:47		Options saved to urlgrab.conf
+2017-02-09 22:19:47		Options saved to script.conf
+2017-02-09 22:28:51		irc: server freenode has been deleted
+2017-02-09 22:30:37		irc: server freenode added
+2017-02-09 22:31:04		Option changed: irc.server.freenode.password = "tobsterius/freenode:${sec.data.zncpass}"  (default if null: "")
+2017-02-09 23:03:07		All servers:
+2017-02-09 23:03:07		 * Bitlbee [connected], 2 channels, 0 pv
+2017-02-09 23:03:07		 * hashmark [connected], 1 channel, 1 pv
+2017-02-09 23:03:07		 * freenode [connected], 7 channels, 0 pv
+2017-02-09 23:03:31		Option changed: irc.server.freenode.password = ""  (default if null: "")
+2017-02-09 23:03:49		[server] (irc.conf)
+2017-02-09 23:03:49		  irc.server.freenode.addresses = "tobsteri.us/65534"  (default if null: "")
+2017-02-09 23:03:49		  irc.server.freenode.anti_flood_prio_high = null -> 2
+2017-02-09 23:03:49		  irc.server.freenode.anti_flood_prio_low = null -> 2
+2017-02-09 23:03:49		  irc.server.freenode.autoconnect = on  (default if null: off)
+2017-02-09 23:03:49		  irc.server.freenode.autojoin = null -> ""
+2017-02-09 23:03:49		  irc.server.freenode.autoreconnect = null -> on
+2017-02-09 23:03:49		  irc.server.freenode.autoreconnect_delay = null -> 10
+2017-02-09 23:03:49		  irc.server.freenode.autorejoin = null -> off
+2017-02-09 23:03:49		  irc.server.freenode.autorejoin_delay = null -> 30
+2017-02-09 23:03:49		  irc.server.freenode.away_check = null -> 5
+2017-02-09 23:03:49		  irc.server.freenode.away_check_max_nicks = null -> 25
+2017-02-09 23:03:49		  irc.server.freenode.capabilities = null -> "account-notify,away-notify,cap-notify,multi-prefix,server-time,znc.in/self-message"
+2017-02-09 23:03:49		  irc.server.freenode.command = null -> ""
+2017-02-09 23:03:49		  irc.server.freenode.command_delay = null -> 0
+2017-02-09 23:03:49		  irc.server.freenode.connection_timeout = null -> 60
+2017-02-09 23:03:49		  irc.server.freenode.ipv6 = null -> on
+2017-02-09 23:03:49		  irc.server.freenode.local_hostname = null -> ""
+2017-02-09 23:03:49		  irc.server.freenode.msg_kick = null -> ""
+2017-02-09 23:03:49		  irc.server.freenode.msg_part = null -> "WeeChat ${info:version}"
+2017-02-09 23:03:49		  irc.server.freenode.msg_quit = null -> "WeeChat ${info:version}"
+2017-02-09 23:03:49		  irc.server.freenode.nicks = null -> "Lordx_"
+2017-02-09 23:03:49		  irc.server.freenode.nicks_alternate = null -> on
+2017-02-09 23:03:49		  irc.server.freenode.notify = null -> ""
+2017-02-09 23:03:49		  irc.server.freenode.password = ""  (default if null: "")
+2017-02-09 23:03:49		  irc.server.freenode.proxy = null -> ""
+2017-02-09 23:03:49		  irc.server.freenode.realname = null -> ""
+2017-02-09 23:03:49		  irc.server.freenode.sasl_fail = null -> continue
+2017-02-09 23:03:49		  irc.server.freenode.sasl_key = null -> ""
+2017-02-09 23:03:49		  irc.server.freenode.sasl_mechanism = null -> plain
+2017-02-09 23:03:49		  irc.server.freenode.sasl_password = null -> ""
+2017-02-09 23:03:49		  irc.server.freenode.sasl_timeout = null -> 15
+2017-02-09 23:03:49		  irc.server.freenode.sasl_username = null -> ""
+2017-02-09 23:03:49		  irc.server.freenode.ssl = on  (default if null: off)
+2017-02-09 23:03:49		  irc.server.freenode.ssl_cert = null -> ""
+2017-02-09 23:03:49		  irc.server.freenode.ssl_dhkey_size = null -> 2048
+2017-02-09 23:03:49		  irc.server.freenode.ssl_fingerprint = null -> ""
+2017-02-09 23:03:49		  irc.server.freenode.ssl_priorities = null -> "NORMAL:-VERS-SSL3.0"
+2017-02-09 23:03:49		  irc.server.freenode.ssl_verify = null -> off
+2017-02-09 23:03:49		  irc.server.freenode.usermode = null -> ""
+2017-02-09 23:03:49		  irc.server.freenode.username = null -> "toby"
+2017-02-09 23:03:49		40 options (matching with "irc.server.freenode.*")
+2017-02-09 23:04:11		Option changed: irc.server.freenode.username = "tobsterius"  (default if null: "toby")
+2017-02-09 23:04:32		Option changed: irc.server.freenode.nicks = "tobsterius"  (default if null: "Lordx_")
+2017-02-09 23:05:08		Option changed: irc.server.freenode.sasl_password = "!C0rd688twiG"  (default if null: "")
+2017-02-09 23:05:15		Option changed: irc.server.freenode.sasl_username = "tobsterius"  (default if null: "")
+2017-02-09 23:06:32		Option changed: irc.server.freenode.password = "tobsterius/freenode:${sec.data.zncpass}"  (default if null: "")
+2017-02-09 23:08:55		Option changed: irc.server.freenode.password = "tobsterius/Freenode:${sec.data.zncpass}"  (default if null: "")
+2017-02-09 23:09:04		python: stdout/stderr: TypeError: urlbuf_close_cb() takes exactly 2 arguments (0 given)
+2017-02-09 23:09:04	=!=	python: error in function "urlbuf_close_cb"
+2017-02-09 23:09:04		URL server stopped
+2017-02-09 23:09:04		python: scripts unloaded
+2017-02-09 23:09:04		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2017-02-09 23:09:04		perl: scripts unloaded
+2017-02-09 23:09:13		perl scripts loaded: beep, buffers, highmon, iset, perlexec, pushover
+2017-02-09 23:09:14		URL server listening on ('10.20.22.181', 3300)
+2017-02-09 23:09:14		python scripts loaded: autosort, bitlbee_completion, bitlbee_typing_notice, buffer_autoset, grep, text_item, urlbuf, urlgrab, urlserver
+2017-02-09 23:09:14		script: 331 scripts for WeeChat 1.7
+2017-02-09 23:09:14		Plugins loaded: alias, aspell, charset, exec, irc, logger, perl, python, relay, script, trigger
+2017-02-09 23:12:55		irc: server freenode has been deleted
+2017-02-09 23:15:47		irc: server freenode added
+2017-02-09 23:15:59		Option changed: irc.server.freenode.password = "tobsterius/freenode:${sec.data.zncpass}"  (default if null: "")
+2017-02-09 23:20:41		Option changed: irc.server.freenode.command = "/msg nickserv identify tobsterius:${sec.data.zncpass}"  (default if null: "")
+2017-02-09 23:20:49		Options saved to sec.conf
+2017-02-09 23:20:49		Options saved to weechat.conf
+2017-02-09 23:20:49		Options saved to plugins.conf
+2017-02-09 23:20:49		Options saved to charset.conf
+2017-02-09 23:20:49		Options saved to logger.conf
+2017-02-09 23:20:49		Options saved to exec.conf
+2017-02-09 23:20:49		Options saved to trigger.conf
+2017-02-09 23:20:49		Options saved to aspell.conf
+2017-02-09 23:20:49		Options saved to alias.conf
+2017-02-09 23:20:49		Options saved to irc.conf
+2017-02-09 23:20:49		Options saved to relay.conf
+2017-02-09 23:20:49		Options saved to buffers.conf
+2017-02-09 23:20:49		Options saved to iset.conf
+2017-02-09 23:20:49		Options saved to autosort.conf
+2017-02-09 23:20:49		Options saved to buffer_autoset.conf
+2017-02-09 23:20:49		Options saved to urlgrab.conf
+2017-02-09 23:20:49		Options saved to script.conf
+2017-02-09 23:20:57	=!=	irc: already connected to server "freenode"!
+2017-02-09 23:21:58		Option changed: irc.server.freenode.command = "/msg nickserv identify tobsterius:${sec.data.freenodepass}"  (default if null: "")
+2017-02-09 23:22:36		Option changed: irc.server.freenode.command = "/msg nickserv identify tobsterius ${sec.data.zncpass}"  (default if null: "")
+2017-02-09 23:23:14		Options saved to sec.conf
+2017-02-09 23:23:14		Options saved to weechat.conf
+2017-02-09 23:23:14		Options saved to plugins.conf
+2017-02-09 23:23:14		Options saved to charset.conf
+2017-02-09 23:23:14		Options saved to logger.conf
+2017-02-09 23:23:14		Options saved to exec.conf
+2017-02-09 23:23:14		Options saved to trigger.conf
+2017-02-09 23:23:14		Options saved to aspell.conf
+2017-02-09 23:23:14		Options saved to alias.conf
+2017-02-09 23:23:14		Options saved to irc.conf
+2017-02-09 23:23:14		Options saved to relay.conf
+2017-02-09 23:23:14		Options saved to buffers.conf
+2017-02-09 23:23:14		Options saved to iset.conf
+2017-02-09 23:23:14		Options saved to autosort.conf
+2017-02-09 23:23:14		Options saved to buffer_autoset.conf
+2017-02-09 23:23:14		Options saved to urlgrab.conf
+2017-02-09 23:23:14		Options saved to script.conf
+2017-02-09 23:27:43		[server] (irc.conf)
+2017-02-09 23:27:43		  irc.server.freenode.command = "/msg nickserv identify tobsterius ${sec.data.zncpass}"  (default if null: "")
+2017-02-09 23:27:43		1 option (matching with "irc.server.freenode.command")
+2017-02-09 23:31:36	=!=	Too few arguments for command "/msg" (help on command: /help msg)
+2017-02-09 23:31:43	=!=	Too few arguments for command "/msg" (help on command: /help msg)
+2017-02-09 23:32:00		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2017-02-09 23:32:16		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2017-02-09 23:33:02		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2017-02-09 23:33:38		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2017-02-09 23:35:40		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2017-02-09 23:35:43		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2017-02-09 23:35:58		[pushover] Error: API call failed. (Most likely the service is having trouble.)
+2017-02-09 23:36:02		Options saved to sec.conf
+2017-02-09 23:36:02		Options saved to weechat.conf
+2017-02-09 23:36:02		Options saved to plugins.conf
+2017-02-09 23:36:02		Options saved to charset.conf
+2017-02-09 23:36:02		Options saved to logger.conf
+2017-02-09 23:36:02		Options saved to exec.conf
+2017-02-09 23:36:02		Options saved to trigger.conf
+2017-02-09 23:36:02		Options saved to aspell.conf
+2017-02-09 23:36:02		Options saved to alias.conf
+2017-02-09 23:36:02		Options saved to irc.conf
+2017-02-09 23:36:02		Options saved to relay.conf
+2017-02-09 23:36:02		Options saved to buffers.conf
+2017-02-09 23:36:02		Options saved to iset.conf
+2017-02-09 23:36:02		Options saved to autosort.conf
+2017-02-09 23:36:02		Options saved to buffer_autoset.conf
+2017-02-09 23:36:02		Options saved to urlgrab.conf
+2017-02-09 23:36:02		Options saved to script.conf
+2017-02-09 23:37:36		Buffers list:
+2017-02-09 23:37:36		  [1] core.weechat (notify: all)
+2017-02-09 23:37:36		  [2] exec.exec.conky (notify: all)
+2017-02-09 23:37:36		  [3] perl.highmon (notify: all)
+2017-02-09 23:37:36		  [4] python.urlbuf (notify: none)
+2017-02-09 23:37:36		  [5] irc.server.Bitlbee (notify: all)
+2017-02-09 23:37:36		  [6] irc.Bitlbee.&bitlbee (notify: all)
+2017-02-09 23:37:36		  [7] irc.Bitlbee.&hangouts (notify: all)
+2017-02-09 23:37:36		  [8] irc.server.freenode (notify: all)
+2017-02-09 23:37:36		  [9] irc.freenode.#macosx (notify: all)
+2017-02-09 23:37:36		  [10] irc.freenode.##networking (notify: all)
+2017-02-09 23:37:36		  [11] irc.freenode.#ubuntu (notify: all)
+2017-02-09 23:37:36		  [12] irc.freenode.*status (notify: none)
+2017-02-09 23:37:36		  [13] irc.freenode.*nickserv (notify: all)
+2017-02-09 23:37:36		  [14] irc.server.hashmark (notify: all)
+2017-02-09 23:37:36		  [15] irc.hashmark.#macnn (notify: all)
+2017-02-09 23:39:20		python: stdout/stderr: TypeError: urlbuf_close_cb() takes exactly 2 arguments (0 given)
+2017-02-09 23:39:20	=!=	python: error in function "urlbuf_close_cb"
+2017-02-09 23:39:20		URL server stopped
+2017-02-09 23:39:20		python: scripts unloaded
+2017-02-09 23:39:20		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2017-02-09 23:39:20		perl: scripts unloaded
