@@ -203,3 +203,15 @@
 2017-02-09 19:46:43		URL server stopped
 2017-02-09 19:46:43		URL server listening on ('10.20.22.181', 3300)
 2017-02-09 19:47:17		Option changed: plugins.var.python.urlserver.http_fg_color = "white"
+2017-02-09 20:04:00		python: stdout/stderr: TypeError: urlbuf_close_cb() takes exactly 2 arguments (0 given)
+2017-02-09 20:04:00	=!=	python: error in function "urlbuf_close_cb"
+2017-02-09 20:04:00		URL server stopped
+2017-02-09 20:04:00		python: scripts unloaded
+2017-02-09 20:04:00		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2017-02-09 20:04:00		perl: scripts unloaded
+2017-02-09 20:04:08		perl scripts loaded: beep, buffers, highmon, iset, perlexec, pushover
+2017-02-09 20:04:08		URL server listening on ('10.20.22.181', 3300)
+2017-02-09 20:04:08		python scripts loaded: autosort, bitlbee_completion, bitlbee_typing_notice, buffer_autoset, grep, text_item, urlbuf, urlgrab, urlserver
+2017-02-09 20:04:08		script: 331 scripts for WeeChat 1.7
+2017-02-09 20:04:08		Plugins loaded: alias, aspell, charset, exec, irc, logger, perl, python, relay, script, trigger
+2017-02-09 20:05:04		URL server listening on ('10.20.22.181', 3300)

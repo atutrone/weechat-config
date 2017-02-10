@@ -9,3 +9,14 @@
 2017-02-09 19:30:20	--	irc: client capability, requesting: multi-prefix znc.in/self-message
 2017-02-09 19:30:20	--	irc: client capability, enabled: multi-prefix znc.in/self-message
 2017-02-09 19:30:20	--	- Welcome to ZNC -
+2017-02-09 20:04:08	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 20:04:08	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 20:04:08	--	gnutls: receiving 1 certificate
+2017-02-09 20:04:08	--	 - certificate[1] info:
+2017-02-09 20:04:08	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 20:04:08	--	gnutls: certificate fingerprint matches
+2017-02-09 20:04:08	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 20:04:08	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 20:04:08	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 20:04:08	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 20:04:08	--	- Welcome to ZNC -

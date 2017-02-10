@@ -92,3 +92,150 @@
 2017-02-09 19:51:49	◀▬▬	plgos (~androirc@2601:201:200:ad44:9ea:5ae0:66d6:ddf7) has quit (Ping timeout: 255 seconds)
 2017-02-09 19:51:49	▬▬▶	pauljw (~pauljw@104.200.154.35) has joined #ubuntu
 2017-02-09 19:52:18	Bashing-om	dorkmafia: No, that is the means to get to the boot options screen in the installer and set ' nomodeset' ( or some other boot options ) .
+2017-02-09 19:52:30	◀▬▬	daker_znc (~daker@105.132.191.105) has quit (Ping timeout: 240 seconds)
+2017-02-09 19:53:17	◀▬▬	SpeccyMan (~nick@94.197.121.101.threembb.co.uk) has quit (Quit: 'Goodbye')
+2017-02-09 19:53:43	dorkmafia	i'm at the gnu grub menu
+2017-02-09 19:53:49	▬▬▶	Frickelpit (~pit@ubuntuusers/serverteam/frickelpit) has joined #ubuntu
+2017-02-09 19:54:11	dorkmafia	press enter to boot the selected OS, `e' to edit the commands before booting or `c' for command line
+2017-02-09 19:54:17	dorkmafia	esct o return to previous menu
+2017-02-09 19:54:36	Fudster	I found a security problem on my ubuntu server. all files are +read on everyone by default How do I change this?
+2017-02-09 19:54:54	k1l_	press e when highlighting ubuntu. then add "nomodeset" to the line starting with linux
+2017-02-09 19:54:55	Bashing-om	dorkmafia: That suggest that this is not the installer ... but an installed system . How one sets nomodeset depends on the use case here .
+2017-02-09 19:55:02	◀▬▬	dave0x6d (uid190567@gateway/web/irccloud.com/x-jhlbudsjlrvodxly) has quit (Quit: Connection closed for inactivity)
+2017-02-09 19:55:13	k1l_	!nomodeset | dorkmafia this is a good howto for grub and live cd.
+2017-02-09 19:55:13	ubottu	dorkmafia this is a good howto for grub and live cd.: A common kernel (boot)parameter is nomodeset, which is needed for some graphic cards that otherwise boot into a black screen or show corrupted splash screen. See http://ubuntuforums.org/showthread.php?t=1613132 on how to use this parameter
+2017-02-09 19:56:03	▬▬▶	hspcd (~hspcd@cpe-173-95-187-19.nc.res.rr.com) has joined #ubuntu
+2017-02-09 19:56:16	◀▬▬	kingmanor (~kingmanor@207-38-180-192.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2017-02-09 19:56:25	▬▬▶	TheMariuz (~Th3Marius@c1AD85BC1.dhcp.as2116.net) has joined #ubuntu
+2017-02-09 19:56:27	▬▬▶	Stuttergart (~nrvale0@162-231-244-100.lightspeed.sntcca.sbcglobal.net) has joined #ubuntu
+2017-02-09 19:56:30	▬▬▶	ilfantomas (~chatzilla@ool-457a3c53.dyn.optonline.net) has joined #ubuntu
+2017-02-09 19:56:48	◀▬▬	neildugan (~neil@123.185.168.125.sta.wbroadband.net.au) has quit (Ping timeout: 240 seconds)
+2017-02-09 19:57:11	dorkmafia	i want to wipe whatever is on the ssd and install a clean ubuntu..
+2017-02-09 19:57:16	▬▬▶	dnb_ (48b66d1d@gateway/web/freenode/ip.72.182.109.29) has joined #ubuntu
+2017-02-09 19:57:40	k1l_	is this a nvme ssd?
+2017-02-09 19:57:43	◀▬▬	zaffy (~zaffy@host182-17-dynamic.5-87-r.retail.telecomitalia.it) has quit (Quit: Leaving)
+2017-02-09 19:57:52	◀▬▬	tami_ (~smuxi@96-39-186-91.dhcp.mdfd.or.charter.com) has quit (Ping timeout: 256 seconds)
+2017-02-09 19:58:35	◀▬▬	mhenrixon (~mhenrixon@2001:16b8:4214:1c00:89d3:427d:f4cf:216b) has quit (Ping timeout: 276 seconds)
+2017-02-09 19:59:03	ced_	I managed to login via sudo snap login after the apt update etc. I'll reiterate that I think it should straight out work from the get go
+2017-02-09 19:59:05	◀▬▬	GodFather (~rcc@2600:1006:b045:7ce2:c9:b45a:59cb:ea17) has quit (Read error: Connection reset by peer)
+2017-02-09 19:59:21	dnb_	Hey guys, long time running (2 years) samba config decided to stop working properly today, and unsure what to check. [remote] smbtree shows the samba server but hangs until timeout when querying... turns out, smbtree -d3 shows that it's trying to resolve to the wrong IP.  I know I've had issues (and lived with) not being able to ping/curl by hostname, and it resolves to THIS ip; however samba runs on the netbios (right???) protocol n th
+2017-02-09 19:59:28	◀▬▬	knob (~knob@209.91.217.115) has quit (Quit: Leaving)
+2017-02-09 19:59:29	▬▬▶	guyFromWeb (62e140e4@gateway/web/freenode/ip.98.225.64.228) has joined #ubuntu
+2017-02-09 19:59:32	dorkmafia	i pressed e on the install ubuntu option then added nomodeset after quiet
+2017-02-09 19:59:35	◀▬▬	macskay (~macskay@luna232.startdedicated.de) has quit (Ping timeout: 240 seconds)
+2017-02-09 19:59:35	◀▬▬	Geronimo2 (~Geronimo@207.7.101.154) has quit (Ping timeout: 240 seconds)
+2017-02-09 19:59:40	◀▬▬	zuiss1 (~zuiss1@gateway/vpn/privateinternetaccess/zuiss1) has quit (Quit: Leaving)
+2017-02-09 20:00:05	◀▬▬	ltrager (~nuke@64.187.168.174) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:00:05	◀▬▬	Defiance_ (~Def@cblmdm72-240-195-218.buckeyecom.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:00:10	◀▬▬	philipballew (~philip@ubuntu/member/philipballew) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:00:12	dnb_	testparm output: http://pastebin.com/QEvPv7Bv
+2017-02-09 20:00:59	guyFromWeb	can you make a DNS to a site instead of IP?
+2017-02-09 20:01:03	dorkmafia	can i delete the quiet and the splash?
+2017-02-09 20:01:18	k1l_	dorkmafia: yes
+2017-02-09 20:01:22	tgm4883	guyFromWeb: like a CNAME?
+2017-02-09 20:01:23	dorkmafia	well i deleted the quiet and the splash put nomodeset and it dumped a bunch of text before rebooting
+2017-02-09 20:01:25	◀▬▬	de-facto (~de-facto@gateway/tor-sasl/de-facto) has quit (Quit: See you around.)
+2017-02-09 20:01:27	Bashing-om	dorkmafia: Key combo ctl+x to comtinue the boot process .
+2017-02-09 20:01:43	◀▬▬	vitimiti (~vitimiti@unaffiliated/vitimiti) has quit (Remote host closed the connection)
+2017-02-09 20:01:44	dorkmafia	you'd think they would have a vi mode ;)
+2017-02-09 20:01:51	dnb_	@guyFromWeb, yeah CNAME is what you want: https://en.wikipedia.org/wiki/CNAME_record
+2017-02-09 20:01:52	◀▬▬	pandabearit_ (~pandabear@2601:280:4700:84f0:f060:8816:8142:e1cf) has quit (Ping timeout: 258 seconds)
+2017-02-09 20:01:59	dorkmafia	is there a way to capture the dump?
+2017-02-09 20:02:00	▬▬▶	mukluks (~hunter42@199.43.233.220.static.exetel.com.au) has joined #ubuntu
+2017-02-09 20:02:01	▬▬▶	chasingl- (~chasinglo@198.199.121.239) has joined #ubuntu
+2017-02-09 20:02:05	▬▬▶	de-facto (~de-facto@gateway/tor-sasl/de-facto) has joined #ubuntu
+2017-02-09 20:02:10	◀▬▬	pandbearit (~pandabear@c-73-229-212-108.hsd1.co.comcast.net) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:02:15	dorkmafia	pretty useless dump if it happens within a nanosecond
+2017-02-09 20:02:18	dorkmafia	:(
+2017-02-09 20:02:21	◀▬▬	aruns (~suresh@176.24.38.154) has quit (Quit: leaving)
+2017-02-09 20:02:32	dnb_	@dorkmafia should be in /var/log/boot.log
+2017-02-09 20:02:36	◀▬▬	node9 (~node9@CPE0c473dd24701-CM0c473dd24700.cpe.net.cable.rogers.com) has quit (Remote host closed the connection)
+2017-02-09 20:02:39	▬▬▶	plgos (~androirc@2601:201:200:ad44:9893:aaff:f7b2:1813) has joined #ubuntu
+2017-02-09 20:02:42	▬▬▶	pandbearit (~pandabear@c-73-229-212-108.hsd1.co.comcast.net) has joined #ubuntu
+2017-02-09 20:02:44	▬▬▶	macskay (~macskay@luna232.startdedicated.de) has joined #ubuntu
+2017-02-09 20:02:54	dorkmafia	oooh on usb stick?? <3?
+2017-02-09 20:02:55	▬▬▶	pandabearit_ (~pandabear@2601:280:4700:84f0:806d:77d2:41e2:c5fc) has joined #ubuntu
+2017-02-09 20:03:04	dnb_	or /var/log/dmesg or dmesg
+2017-02-09 20:03:20	◀▬▬	jje (~quassel@unaffiliated/jje) has quit (Remote host closed the connection)
+2017-02-09 20:03:26	dnb_	can pipe all that to less
+2017-02-09 20:03:37	▬▬▶	yes (~yes@79-101-156-154.dynamic.isp.telekom.rs) has joined #ubuntu
+2017-02-09 20:03:39	◀▬▬	yes (~yes@79-101-156-154.dynamic.isp.telekom.rs) has quit (Client Quit)
+2017-02-09 20:03:47	◀▬▬	joeytwiddle_ (~joeytwidd@162.243.115.31) has quit (Quit: ZNC - http://znc.in)
+2017-02-09 20:04:09	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #ubuntu
+2017-02-09 20:04:09	--	Topic for #ubuntu is "Official Ubuntu Support Channel | IRC Guidelines: http://ubottu.com/y/gl | This channel supports: Ubuntu and its official flavors, versions 12.04, 14.04, 16.04, 16.10 | Unofficial derivatives: use your distro's support channel, not here. | IRC info: http://ubottu.com/y/irc | Pastes to http://paste.ubuntu.com/ | Download: http://ubottu.com/y/dl | PM spam? /mode yournickhere +R"
+2017-02-09 20:04:09	--	Topic set by dax (~dax@freenode/staff/dax) on Mon, 09 Jan 2017 16:03:45
+2017-02-09 20:04:09	--	Channel #ubuntu: 1790 nicks (1 op, 0 voices, 1789 normals)
+2017-02-09 20:04:13	--	Channel created on Sun, 26 Nov 2006 01:42:41
+2017-02-09 20:04:26	▬▬▶	joeytwiddle (~joeytwidd@162.243.115.31) has joined #ubuntu
+2017-02-09 20:04:26	guyFromWeb	nvm
+2017-02-09 20:04:27	guyFromWeb	lol
+2017-02-09 20:04:30	guyFromWeb	thanks tho
+2017-02-09 20:04:32	◀▬▬	guyFromWeb (62e140e4@gateway/web/freenode/ip.98.225.64.228) has quit (Quit: Page closed)
+2017-02-09 20:04:35	◀▬▬	theoceaniscool (~theoceani@121.red-83-44-222.dynamicip.rima-tde.net) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:04:40	▬▬▶	nihao (~panzhipen@118.187.25.26) has joined #ubuntu
+2017-02-09 20:04:42	◀▬▬	nihao (~panzhipen@118.187.25.26) has quit (Client Quit)
+2017-02-09 20:05:00	◀▬▬	wlie (~wlie@53563897.cm-6-7a.dynamic.ziggo.nl) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:05:01	▬▬▶	Geronimo2 (~Geronimo@207.7.101.154) has joined #ubuntu
+2017-02-09 20:05:03	ced_	I still can't connect in the Ubuntu software.. invalid password and email
+2017-02-09 20:05:09	ced_	I've run this : sudo snap install krita
+2017-02-09 20:05:16	▬▬▶	Defiance_ (~Def@cblmdm72-240-195-218.buckeyecom.net) has joined #ubuntu
+2017-02-09 20:05:43	▬▬▶	ltrager (~nuke@64.187.168.174) has joined #ubuntu
+2017-02-09 20:06:19	ced_	how can this be shipped
+2017-02-09 20:06:39	▬▬▶	lord_daemon (~lord_daem@unaffiliated/lord-daemon/x-3538029) has joined #ubuntu
+2017-02-09 20:06:40	◀▬▬	comgot (~Icedove@58.78.228.206) has quit (Quit: comgot)
+2017-02-09 20:06:41	▬▬▶	xrandr_laptop (~steve@unaffiliated/xrandr) has joined #ubuntu
+2017-02-09 20:06:45	lord_daemon	How to clone hd with dd command with the size of the image being the size of the files instead of the whole hd
+2017-02-09 20:06:48	lord_daemon	?
+2017-02-09 20:06:54	dorkmafia	dnb_: there is no log file on the usb stick
+2017-02-09 20:07:03	dorkmafia	find . -name \*.log
+2017-02-09 20:07:10	dorkmafia	let me check the dmesg
+2017-02-09 20:07:14	▬▬▶	superlou (~superlou@ool-18bd5e2a.dyn.optonline.net) has joined #ubuntu
+2017-02-09 20:07:14	▬▬▶	comgot (~Icedove@58.78.228.206) has joined #ubuntu
+2017-02-09 20:07:16	◀▬▬	chachasmooth (~chachasmo@unaffiliated/chachasmooth) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:07:34	k1l_	lord_daemon: if you clone with dd it will be the exact copy of the full hd.
+2017-02-09 20:07:37	dnb_	in /var/log??
+2017-02-09 20:07:49	k1l_	lord_daemon: what files are you talking about?
+2017-02-09 20:07:49	◀▬▬	Guest56308 (~unix_axwe@89.137.176.124) has quit (Read error: Connection reset by peer)
+2017-02-09 20:08:06	OerHeks	filezilla can compress or shrink to the actual data
+2017-02-09 20:08:14	▬▬▶	kb2tfa (~ron@pool-71-185-183-147.phlapa.fios.verizon.net) has joined #ubuntu
+2017-02-09 20:08:27	▬▬▶	kingmanor (~kingmanor@207-38-180-192.c3-0.wsd-ubr1.qens-wsd.ny.cable.rcn.com) has joined #ubuntu
+2017-02-09 20:08:31	◀▬▬	Jan\ (kvirc@198.13.198.26) has quit (Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/)
+2017-02-09 20:08:35	lord_daemon	I want to clone my pfsense (freebsd)
+2017-02-09 20:08:38	◀▬▬	pandabearit_ (~pandabear@2601:280:4700:84f0:806d:77d2:41e2:c5fc) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:08:38	◀▬▬	blaisebool (~blaiseboo@octavia.celestia.licorn.eu) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:08:41	lord_daemon	k1l_ You know how I can do this, is there another tool?
+2017-02-09 20:08:47	▬▬▶	pandabearit_ (~pandabear@c-73-229-212-108.hsd1.co.comcast.net) has joined #ubuntu
+2017-02-09 20:09:35	◀▬▬	macskay (~macskay@luna232.startdedicated.de) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:09:36	▬▬▶	hwang4 (~hwang4@114.253.254.102) has joined #ubuntu
+2017-02-09 20:09:37	▬▬▶	chachasmooth (~chachasmo@unaffiliated/chachasmooth) has joined #ubuntu
+2017-02-09 20:10:01	k1l_	if you want to clone the full hdd with dd then its the size of the hdd
+2017-02-09 20:10:16	◀▬▬	TheMariuz (~Th3Marius@c1AD85BC1.dhcp.as2116.net) has quit (Read error: Connection reset by peer)
+2017-02-09 20:10:25	▬▬▶	jarkom (~jarkom@118.97.23.179) has joined #ubuntu
+2017-02-09 20:10:38	k1l_	lord_daemon: https://help.ubuntu.com/community/DriveImaging
+2017-02-09 20:10:40	▬▬▶	TheMariuz (~Th3Marius@c1AD85BC1.dhcp.as2116.net) has joined #ubuntu
+2017-02-09 20:10:52	▬▬▶	fcanela_ (~fcanela@unaffiliated/fcanela) has joined #ubuntu
+2017-02-09 20:10:52	◀▬▬	fcanela (~fcanela@unaffiliated/fcanela) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:11:07	dorkmafia	dnb_: there is no /var on the usb install stick
+2017-02-09 20:11:18	▬▬▶	xrandr_work (~steve@ool-6894c5d9.dyn.optonline.net) has joined #ubuntu
+2017-02-09 20:11:34	k1l_	lord_daemon: if backup size matters you might want to backup only the files that you need after you have reinstalled the OS.
+2017-02-09 20:11:46	k1l_	dorkmafia: dnb_ there is no logs on usb
+2017-02-09 20:11:49	▬▬▶	blaisebool (~blaiseboo@octavia.celestia.licorn.eu) has joined #ubuntu
+2017-02-09 20:12:05	◀▬▬	raj (~raj@unaffiliated/cypha) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:12:08	dnb_	my bad, been a minute since i booted on live iso
+2017-02-09 20:12:17	dorkmafia	yup
+2017-02-09 20:12:23	dorkmafia	no worries
+2017-02-09 20:12:28	OerHeks	lord_daemon, same answer as your crosspost in #linux
+2017-02-09 20:12:35	dorkmafia	so what are my next steps?
+2017-02-09 20:12:37	▬▬▶	kk4ewt (~notfred2@fedora/Southern-Gentleman) has joined #ubuntu
+2017-02-09 20:12:40	▬▬▶	raj (~raj@unaffiliated/cypha) has joined #ubuntu
+2017-02-09 20:12:51	k1l_	dorkmafia: is that a nvme ssd?
+2017-02-09 20:12:56	dorkmafia	i'm about to use this thing as a boat anchor
+2017-02-09 20:13:10	◀▬▬	xrandr_laptop (~steve@unaffiliated/xrandr) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:13:19	dnb_	http://askubuntu.com/a/821801
+2017-02-09 20:13:19	dorkmafia	crucial m500
+2017-02-09 20:13:47	◀▬▬	xrandr_work (~steve@ool-6894c5d9.dyn.optonline.net) has quit (Changing host)
+2017-02-09 20:13:47	▬▬▶	xrandr_work (~steve@unaffiliated/xrandr) has joined #ubuntu
+2017-02-09 20:13:52	k1l_	dnb_: that only works when the system would not reboot asap.
+2017-02-09 20:13:54	▬▬▶	blob (~aj@aj-reitin.kortex.jyu.fi) has joined #ubuntu
+2017-02-09 20:14:06	▬▬▶	neildugan (~neil@123.185.168.125.sta.wbroadband.net.au) has joined #ubuntu
+2017-02-09 20:14:07	k1l_	dorkmafia: is that a known issue for that laptop?

@@ -118,3 +118,173 @@
 2017-02-09 19:51:48	◀▬▬	kb2tfa (~ron@pool-71-185-183-147.phlapa.fios.verizon.net) has quit (Client Quit)
 2017-02-09 19:51:48	tammy_	Walex: none, sda1 is vfat and sda3 is swap
 2017-02-09 19:52:11	▬▬▶	greatwhitehat3 (~greatwhit@ua-85-226-111-2.cust.bredbandsbolaget.se) has joined ##linux
+2017-02-09 19:52:23	Walex	then it is done. Presumably you have a hw problem with your system but your flash SSD drive is fine.
+2017-02-09 19:52:32	▬▬▶	Fliegenpilzmann (~thomas@ip-109-47-2-42.web.vodafone.de) has joined ##linux
+2017-02-09 19:52:36	tammy_	mega bummer
+2017-02-09 19:52:50	Walex	zBrute: 'man watch' says: "This means that flags after command don't get interpreted by watch itself"
+2017-02-09 19:52:56	tammy_	this is a fairly new mobo
+2017-02-09 19:53:08	Walex	tammy_: if you had a boot issue probably there is some hw issue.
+2017-02-09 19:53:28	Walex	tammy_: it could be the power supply, overheating, vibration, ...
+2017-02-09 19:53:44	quickquestion	Walex, i've also tried xargs like so , to no avail: find . -type f -print0 | xargs -0 -I {} echo cp {} $TRN/$(echo {} | sed -e 's#en#TEST#g' )
+2017-02-09 19:54:00	◀▬▬	publio (~publio@unaffiliated/publio) has quit (Ping timeout: 240 seconds)
+2017-02-09 19:54:00	▬▬▶	cdown_ (~cdown@31.73.211.9) has joined ##linux
+2017-02-09 19:54:01	tammy_	it does have 12 disks in it... and just a 650w(I think) psu...
+2017-02-09 19:54:21	tammy_	god I hope my array is safe.
+2017-02-09 19:54:43	Walex	quickquestion: bad quoting and structure. Just use the '| while read F; do ...; done' form
+2017-02-09 19:54:53	bls	quickquestion: 1) don't use xargs 2) you need to quote the shell code
+2017-02-09 19:55:02	◀▬▬	dave0x6d (uid190567@gateway/web/irccloud.com/x-jhlbudsjlrvodxly) has quit (Quit: Connection closed for inactivity)
+2017-02-09 19:55:24	quickquestion	bls should i use -exec instead?
+2017-02-09 19:55:42	◀▬▬	greatwhitehat2 (~greatwhit@ua-85-226-111-2.cust.bredbandsbolaget.se) has quit (Ping timeout: 260 seconds)
+2017-02-09 19:55:48	Walex	tammy_: 12 disks don't draw that much, except at startup, and then the question of the 650W what's the 12V rail capacity
+2017-02-09 19:55:48	bls	quickquestion: yes, you'll avoid all issues with pipes and filenames
+2017-02-09 19:56:12	tammy_	beats me, how would one even know that?
+2017-02-09 19:56:34	Walex	tammy_: what you can do is to tell the disks in the array to spin up only on request.
+2017-02-09 19:56:40	bls	quickquestion: is TRN defined in your current shell?
+2017-02-09 19:56:51	tammy_	PSU sticker is classically against the roof of the case. Would have to take apart.
+2017-02-09 19:56:52	◀▬▬	cdown (~cdown@199.201.66.3) has quit (Ping timeout: 260 seconds)
+2017-02-09 19:56:53	--	cdown_ is now known as cdown
+2017-02-09 19:57:08	tammy_	Walex: I think they do that already by default in the zfs filesystem
+2017-02-09 19:57:19	quickquestion	TRN is defined, i've tried both of these: find . -type f -exec echo cp {} $TRN/"$(echo {} | sed -e 's#en#TEST#g')" \;   (ANDDDDD) find . -type f -exec echo cp {} $TRN/$("echo {} | sed -e 's#en#TEST#g'") \;
+2017-02-09 19:57:29	quickquestion	what did you mean by 'quote the shell' bls?
+2017-02-09 19:57:37	--	HeathHayleiOS6 is now known as iOS6
+2017-02-09 19:57:39	Walex	tammy_: it is also a hardware feature.
+2017-02-09 19:57:55	bls	quickquestion: find can't interpret shell code like pipes, so you need to give that to a shell to evaluate
+2017-02-09 19:58:05	◀▬▬	AndrewAlexMac (~andrewale@185.21.218.136) has quit (Ping timeout: 240 seconds)
+2017-02-09 19:58:12	tammy_	Walex: sometimes I check the temps with hddtemp /dev/sd[b-j] and I hear them spooling and waiting on each to produce the temp output 1 at a time
+2017-02-09 19:58:14	Walex	tammy_: anyhow start it and then look immediately at the BIOS sensors page
+2017-02-09 19:58:22	quickquestion	bls, i thought thats what the $(...) did, create a subshell?
+2017-02-09 19:58:34	Walex	tammy_: that's the disk sleeping *after* boot
+2017-02-09 19:58:45	bls	quickquestion: find . -type f -exec sh -c "echo cp {} $TRN/\$(echo {}|sed -e 's#en#TEST#g')" \;
+2017-02-09 19:58:48	Walex	tammy_: I am talking spinup at poweerup time.
+2017-02-09 19:59:11	bls	quickquestion: it does, but the subshell gets evaluated before find, not after
+2017-02-09 19:59:13	quickquestion	oh damn i should have thought of that. nice ill try that
+2017-02-09 19:59:26	Walex	but even so a 650W PSU should have a pretty robust 12V rail, so unlikely it is the 12 disks.
+2017-02-09 19:59:28	◀▬▬	knob (~knob@209.91.217.115) has quit (Quit: Leaving)
+2017-02-09 19:59:33	▬▬▶	fev3r101 (~fev3r101@5.134.116.205) has joined ##linux
+2017-02-09 19:59:35	◀▬▬	nando293921 (~Nando15@64.189.57.226) has quit (Ping timeout: 240 seconds)
+2017-02-09 19:59:35	◀▬▬	murfjr (~ayy@185.21.216.185) has quit (Ping timeout: 240 seconds)
+2017-02-09 19:59:35	◀▬▬	macskay (~macskay@luna232.startdedicated.de) has quit (Ping timeout: 240 seconds)
+2017-02-09 19:59:40	◀▬▬	zuiss1 (~zuiss1@gateway/vpn/privateinternetaccess/zuiss1) has quit (Quit: Leaving)
+2017-02-09 20:00:05	◀▬▬	ltrager (~nuke@64.187.168.174) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:00:05	◀▬▬	Ulver (~someIdent@69.30.253.222) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:00:10	tammy_	Walex: it's also corsair, they are _normally_ decent PSU's
+2017-02-09 20:00:28	▬▬▶	comjf_ (~comjf@c-69-251-179-173.hsd1.md.comcast.net) has joined ##linux
+2017-02-09 20:00:41	Walex	check the motherboard error message list and also the Linux log for signs of hardware proiblem
+2017-02-09 20:00:58	Walex	tammy_: I have too a 650W Corsair and 6 disks.
+2017-02-09 20:01:01	▬▬▶	Dotcra (~Dot@unaffiliated/dotcra) has joined ##linux
+2017-02-09 20:01:04	quickquestion	bls, thanks so much, i didnt know subshell evaled before find... thanks so much
+2017-02-09 20:01:07	tammy_	BIOS hardware monitor show 'system/12v' bar at around 90% ish? 12.192V
+2017-02-09 20:01:21	Walex	tammy_: looks good
+2017-02-09 20:01:25	▬▬▶	nando293921 (~Nando15@64.189.57.226) has joined ##linux
+2017-02-09 20:01:50	◀▬▬	miliarch (~miliarch@unaffiliated/miliarch) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:01:50	◀▬▬	zBrute (~D2@63.249.94.142) has quit (Remote host closed the connection)
+2017-02-09 20:01:52	◀▬▬	pandabearit_ (~pandabear@2601:280:4700:84f0:f060:8816:8142:e1cf) has quit (Ping timeout: 258 seconds)
+2017-02-09 20:01:56	◀▬▬	lexton (lexton@gateway/shell/xshellz/x-hgibvnctbqwxlbbd) has quit (Quit: Lost terminal)
+2017-02-09 20:02:10	◀▬▬	pandbearit (~pandabear@c-73-229-212-108.hsd1.co.comcast.net) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:02:21	◀▬▬	aruns (~suresh@176.24.38.154) has quit (Quit: leaving)
+2017-02-09 20:02:30	◀▬▬	robink (~quassel@unaffilated/robink) has quit (Remote host closed the connection)
+2017-02-09 20:02:30	tammy_	I feel like I should unplug those disks still... If I lose 50TB I'm going to be PISSED.
+2017-02-09 20:02:43	▬▬▶	pandbearit (~pandabear@c-73-229-212-108.hsd1.co.comcast.net) has joined ##linux
+2017-02-09 20:02:43	▬▬▶	AndrewAlexMac (~andrewale@185.21.218.136) has joined ##linux
+2017-02-09 20:02:44	▬▬▶	macskay (~macskay@luna232.startdedicated.de) has joined ##linux
+2017-02-09 20:02:47	Walex	tammy_: backups? :-)
+2017-02-09 20:02:55	▬▬▶	pandabearit_ (~pandabear@2601:280:4700:84f0:806d:77d2:41e2:c5fc) has joined ##linux
+2017-02-09 20:02:57	▬▬▶	robinak (~quassel@unaffilated/robink) has joined ##linux
+2017-02-09 20:03:06	▬▬▶	codcodog (~even@119.139.196.102) has joined ##linux
+2017-02-09 20:03:07	▬▬▶	shdeng (~shaohui@220.249.11.58) has joined ##linux
+2017-02-09 20:03:20	tammy_	Walex: yes, but that would be annoying as hell still
+2017-02-09 20:03:21	▬▬▶	murfjr (~ayy@185.21.216.185) has joined ##linux
+2017-02-09 20:03:27	bls	quickquestion: a trick is to always think about the shell doing a pass right-to-left, expanding $s *before* the left-to-right command+arg execution
+2017-02-09 20:03:41	◀▬▬	Lennyy25 (~Lennyy@dslb-088-067-095-057.088.067.pools.vodafone-ip.de) has quit (Read error: Connection reset by peer)
+2017-02-09 20:03:42	Walex	tammy_: admittedly reloading 50TB would take a while
+2017-02-09 20:03:48	tammy_	the backups are all scattered across many disks.
+2017-02-09 20:03:58	tammy_	just built this OS for this new array
+2017-02-09 20:04:09	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined ##linux
+2017-02-09 20:04:09	--	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-02-09 20:04:09	--	Topic set by bocaneri (~bocaneri@about/linux/staff/sauvin) on Sun, 04 Dec 2016 02:21:22
+2017-02-09 20:04:09	--	Channel ##linux: 1763 nicks (0 ops, 0 voices, 1763 normals)
+2017-02-09 20:04:11	tammy_	yuh
+2017-02-09 20:04:15	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-02-09 20:04:18	▬▬▶	redj2 (~redj2@rrcs-67-78-97-71.sw.biz.rr.com) has joined ##linux
+2017-02-09 20:04:19	quickquestion	bls, so what you mean is to look for all unquoted $s and assume that the terminal/commandline wants to expand that first
+2017-02-09 20:04:28	▬▬▶	gkdeb__ (~gkdeb@r186-54-144-134.dialup.adsl.anteldata.net.uy) has joined ##linux
+2017-02-09 20:04:40	D-rex	running fedora 25 using plank.  when i try to sort the plank launchers by drag and drop it doesn't always work.  I get this error when trying to drag and drop
+2017-02-09 20:04:41	▬▬▶	stivo (~steven@p54B9952D.dip0.t-ipconnect.de) has joined ##linux
+2017-02-09 20:04:45	bls	quickquestion: correct
+2017-02-09 20:04:48	D-rex	"plank_application_dock_item_real_can_accept_drop: assertion 'uris != NULL' failed"
+2017-02-09 20:04:54	▬▬▶	lord_daemon (~lord_daem@unaffiliated/lord-daemon/x-3538029) has joined ##linux
+2017-02-09 20:04:58	◀▬▬	gkdeb (~gkdeb@r179-24-251-12.dialup.adsl.anteldata.net.uy) has quit (Read error: Connection reset by peer)
+2017-02-09 20:05:00	◀▬▬	comjf_ (~comjf@c-69-251-179-173.hsd1.md.comcast.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:05:00	◀▬▬	wlie (~wlie@53563897.cm-6-7a.dynamic.ziggo.nl) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:05:16	quickquestion	bls, appreciate, thanks
+2017-02-09 20:05:39	◀▬▬	Jahm (aafb3045@gateway/web/freenode/ip.170.251.48.69) has left ##linux
+2017-02-09 20:05:42	▬▬▶	ServChan (403cc612@gateway/web/cgi-irc/kiwiirc.com/ip.64.60.198.18) has joined ##linux
+2017-02-09 20:05:43	▬▬▶	ltrager (~nuke@64.187.168.174) has joined ##linux
+2017-02-09 20:05:45	tammy_	Walex: so the odds that re-installing GRUB from the recovery disk would work are pretty nill? would it hurt me in anyway to try?
+2017-02-09 20:06:00	bls	quickquestion: and then any command like find that's going to execute repetitively, needs to be given a shell and quoted variables/pipes/etc if you want to evaluate those things every invocation
+2017-02-09 20:06:11	▬▬▶	cdown_ (~cdown@82-132-227-151.dab.02.net) has joined ##linux
+2017-02-09 20:06:14	Walex	tammy_: what makes you think that you have a GRUB boot problem?
+2017-02-09 20:06:15	tammy_	should I try to fix this grom the grub console? I just know nothing about grub :(
+2017-02-09 20:06:26	lord_daemon	How to clone hd with dd command with the size of the image being the size of the files instead of the whole hd?
+2017-02-09 20:06:34	tammy_	when I boot normally I get plopped at a grub console
+2017-02-09 20:06:40	◀▬▬	comgot (~Icedove@58.78.228.206) has quit (Quit: comgot)
+2017-02-09 20:06:51	bls	lord_daemon: you don't. dd has no ideas about filesystems
+2017-02-09 20:06:53	▬▬▶	markasoftware (~markasoft@2601:601:8c00:f808::c02e) has joined ##linux
+2017-02-09 20:07:01	Walex	tammy_: that is weird
+2017-02-09 20:07:14	▬▬▶	comgot (~Icedove@58.78.228.206) has joined ##linux
+2017-02-09 20:07:16	◀▬▬	chachasmooth (~chachasmo@unaffiliated/chachasmooth) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:07:22	◀▬▬	stiivo (~steven@p54B994B4.dip0.t-ipconnect.de) has quit (Ping timeout: 260 seconds)
+2017-02-09 20:07:26	lord_daemon	I'm having trouble cloning my freebsd =(
+2017-02-09 20:07:27	Walex	tammy_: that means GRUB works but cannot find '/boot/grub/grub.cfg'
+2017-02-09 20:07:33	▬▬▶	Ulver (~someIdent@69.30.253.222) has joined ##linux
+2017-02-09 20:07:38	◀▬▬	fev3r101 (~fev3r101@5.134.116.205) has quit (Ping timeout: 252 seconds)
+2017-02-09 20:07:45	◀▬▬	kb2tfa2 (~yaaic@pool-71-185-183-147.phlapa.fios.verizon.net) has quit (Quit: Yaaic - Yet another Android IRC client - http://www.yaaic.org)
+2017-02-09 20:07:51	--	iOS6 is now known as p0sixspwn
+2017-02-09 20:08:00	◀▬▬	Taoki (~MirceaKit@93.113.162.37) has quit (Ping timeout: 258 seconds)
+2017-02-09 20:08:01	lord_daemon	bls You know how I can do this, is there another tool?
+2017-02-09 20:08:06	Walex	tammy_: which means that it may be trying to find it on the wrong drive.
+2017-02-09 20:08:14	▬▬▶	kb2tfa (~ron@pool-71-185-183-147.phlapa.fios.verizon.net) has joined ##linux
+2017-02-09 20:08:19	bls	lord_daemon: just use rsync to copy your irreplacable/important files
+2017-02-09 20:08:38	◀▬▬	pandabearit_ (~pandabear@2601:280:4700:84f0:806d:77d2:41e2:c5fc) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:08:38	◀▬▬	blaisebool (~blaiseboo@octavia.celestia.licorn.eu) has quit (Ping timeout: 256 seconds)
+2017-02-09 20:08:40	◀▬▬	cdown (~cdown@31.73.211.9) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:08:41	--	cdown_ is now known as cdown
+2017-02-09 20:08:47	▬▬▶	pandabearit_ (~pandabear@c-73-229-212-108.hsd1.co.comcast.net) has joined ##linux
+2017-02-09 20:08:50	bls	otherwise, you're stuck with a dumb byte-for-byte copy, empty space and all
+2017-02-09 20:09:14	Walex	tammy_: that can happen if the mapping of the drives in EFI is different from the mapping in LInux.
+2017-02-09 20:09:23	◀▬▬	HiWEB (~HiWEB@c-71-197-230-219.hsd1.wa.comcast.net) has quit (Quit: Sleeping - g33k Mode on idle)
+2017-02-09 20:09:29	◀▬▬	lowin (~lowin@209.58.178.246) has quit (Ping timeout: 245 seconds)
+2017-02-09 20:09:35	◀▬▬	macskay (~macskay@luna232.startdedicated.de) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:09:36	▬▬▶	_w1n64 (~user@92.127.155.54) has joined ##linux
+2017-02-09 20:09:37	▬▬▶	chachasmooth (~chachasmo@unaffiliated/chachasmooth) has joined ##linux
+2017-02-09 20:09:41	◀▬▬	georgi-zen (~georgi-ze@109.199.225.7) has quit (Quit: Leaving)
+2017-02-09 20:09:48	lord_daemon	bls If I use a live cd will I be able to clone my system (freebsd) with rsync?
+2017-02-09 20:09:53	K1rk	Hey guys.  I'm trying to troubleshoot some problems I am having with the OOM killer.  I've got a particularly large Java program running on a server.  It seems to be getting OOM killed frequently although the server has 10's of gigabytes of free RAM.  I am trying to understand why this is happening so I can fix it...
+2017-02-09 20:10:00	◀▬▬	victoroux (~victoroux@c-68-49-145-235.hsd1.mi.comcast.net) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:10:09	Walex	lord_daemon: use a ready-made cloner CD/DVD
+2017-02-09 20:10:12	▬▬▶	l2ory (~l2ory@unaffiliated/l2ory) has joined ##linux
+2017-02-09 20:10:17	markasoftware	K1rk: you probably already know this but you can pass options to the jvm to allocate more memory
+2017-02-09 20:10:21	markasoftware	have you tried that?
+2017-02-09 20:10:31	bls	lord_daemon: no, there's no point in cloning systems like that. just install it like normal and copy your settings and personal files over
+2017-02-09 20:10:34	markasoftware	Xms and Xmx or something
+2017-02-09 20:11:00	ErkiDerLoony	K1rk: The problem is probably too little memory for the JVM. Try "java -Xmx20g ... " or similar.
+2017-02-09 20:11:07	K1rk	markasoftware, the issue is not with the JVM.  The issue is the Linux kernel OOM killer is killing java.
+2017-02-09 20:11:19	K1rk	Feb  9 19:34:31 solr kernel: java invoked oom-killer: gfp_mask=0xd0, order=0, oom_score_adj=0
+2017-02-09 20:11:20	tammy_	Walex: should I dink around in the grub console (keep in mind I'd be doing heavy research cause I know very little about grub) or should I do the recovery re-install of grub?
+2017-02-09 20:11:20	markasoftware	oh ok, don't really know too much about that stuff
+2017-02-09 20:11:41	lord_daemon	bls I was going to do the pure installation of the same system that I was going to clone and then I would replace / with rsync
+2017-02-09 20:11:49	▬▬▶	blaisebool (~blaiseboo@octavia.celestia.licorn.eu) has joined ##linux
+2017-02-09 20:11:54	K1rk	markasoftware, I could be mistaken?  But this looks like a kernel memory issue not a java issue:  http://pastebin.com/raw/HrC2FZDV
+2017-02-09 20:12:05	◀▬▬	raj (~raj@unaffiliated/cypha) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:12:05	◀▬▬	Synergiance (~syn@lsv1.synerfiles.info) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:12:07	◀▬▬	gkdeb__ (~gkdeb@r186-54-144-134.dialup.adsl.anteldata.net.uy) has quit (Remote host closed the connection)
+2017-02-09 20:12:11	Walex	tammy_: the GRUB console has device/filename completion, and when you press TAB it lists possible alternatives.
+2017-02-09 20:12:21	markasoftware	K1rk: i have no idea
+2017-02-09 20:12:27	Walex	tammy_: try 'configfile <TAB>'
+2017-02-09 20:12:35	◀▬▬	mfranzwa_ (116bba74@gateway/web/freenode/ip.17.107.186.116) has quit (Ping timeout: 260 seconds)
+2017-02-09 20:12:40	▬▬▶	raj (~raj@unaffiliated/cypha) has joined ##linux
+2017-02-09 20:12:41	◀▬▬	I2ory (~l2ory@unaffiliated/l2ory) has quit (Ping timeout: 255 seconds)
+2017-02-09 20:12:41	bls	why though? that's a lot of redundant inspecting/copying
+2017-02-09 20:13:02	▬▬▶	Synergiance (~syn@lsv1.synerfiles.info) has joined ##linux
+2017-02-09 20:13:32	tammy_	Walex: I just adds more spaces after configfile
+2017-02-09 20:13:44	◀▬▬	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has quit

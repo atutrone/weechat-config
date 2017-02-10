@@ -15,3 +15,23 @@
 2017-02-09 19:42:04	◀▬▬	leprechau (tsopzxq5eh@c-67-187-127-110.hsd1.tn.comcast.net) has quit (Ping timeout: 255 seconds)
 2017-02-09 19:46:46	MadClown	ping dnf check?
 2017-02-09 19:47:05	▬▬▶	leprechau (e6bwhstbd9@c-67-187-127-110.hsd1.tn.comcast.net) has joined #cisco
+2017-02-09 19:54:45	bmoraca_work	it's not up yet
+2017-02-09 19:55:18	▬▬▶	Brandon (~textual@2a00:23c4:3e64:e300:44e6:30d9:b1d4:4faf) has joined #cisco
+2017-02-09 19:56:53	◀▬▬	bellis-w (341940b2@gateway/web/cgi-irc/kiwiirc.com/ip.52.25.64.178) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2017-02-09 19:57:50	◀▬▬	bmoraca_work (341940b2@gateway/web/freenode/ip.52.25.64.178) has quit (Quit: Page closed)
+2017-02-09 19:59:01	MadClown	ah
+2017-02-09 19:59:07	MadClown	hence the question
+2017-02-09 19:59:17	◀▬▬	J_P (~J_P@87.252.56.136) has quit (Quit: Computer has gone to sleep.)
+2017-02-09 19:59:35	◀▬▬	nando293921 (~Nando15@64.189.57.226) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:01:24	▬▬▶	nando293921 (~Nando15@64.189.57.226) has joined #cisco
+2017-02-09 20:04:09	▬▬▶	tobsterius (~Tobsteriu@tobsteri.us) has joined #cisco
+2017-02-09 20:04:09	--	Topic for #cisco is "|.:.|.:.| #Cisco |.:.|.:.| Unofficial support/general discussion for Cisco stuff - Wireless, nexus, storage, ucs, voip, routers, switches, come by and chat! +v to CCIEs (#cciestudy plug)"
+2017-02-09 20:04:09	--	Topic set by CuriosTiger (~stian@terex.bigrig.org) on Sat, 21 Jan 2017 14:06:11
+2017-02-09 20:04:09	--	Channel #cisco: 691 nicks (2 ops, 16 voices, 673 normals)
+2017-02-09 20:04:11	--	Channel created on Sun, 26 Nov 2006 01:42:42
+2017-02-09 20:04:26	▬▬▶	ServChan (403cc612@gateway/web/cgi-irc/kiwiirc.com/ip.64.60.198.18) has joined #cisco
+2017-02-09 20:05:00	◀▬▬	wlie (~wlie@53563897.cm-6-7a.dynamic.ziggo.nl) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:06:43	▬▬▶	_caseih (caseih@LFbn-1-7942-109.w90-112.abo.wanadoo.fr) has joined #cisco
+2017-02-09 20:06:53	◀▬▬	BH_Anonymous (~textual@93.188.192.122) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-02-09 20:07:00	◀▬▬	caseih (caseih@LFbn-1-7942-109.w90-112.abo.wanadoo.fr) has quit (Ping timeout: 240 seconds)
+2017-02-09 20:10:07	▬▬▶	nighty (~nighty@d246113.ppp.asahi-net.or.jp) has joined #cisco

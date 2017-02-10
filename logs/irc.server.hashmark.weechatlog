@@ -86,3 +86,55 @@
 2017-02-09 19:30:20	--	I have 19 clients and 1 servers
 2017-02-09 19:30:20	--	MOTD File is missing
 2017-02-09 19:30:20	--	User mode [+iwx] by Lordx_
+2017-02-09 20:00:00	--	[#macnn] FairyFae (FaeRocker@24-107-210-237.dhcp.stls.mo.charter.com) H 1 (That Damned Fairy)
+2017-02-09 20:00:00	--	[#macnn] Lordx_ (rex@tobsteri.us) H 0 (Banner")
+2017-02-09 20:00:00	--	[#macnn] DasFamiliar (DF@cpe-74-130-82-232.kya.res.rr.com) H 0 (DF)
+2017-02-09 20:00:00	--	[#macnn] SherwoodSpirit (OutlawOak@24-107-210-237.dhcp.stls.mo.charter.com) H 1 (Arboreal Entity)
+2017-02-09 20:00:00	--	[#macnn] PaulFranz (pfranz@c-174-60-59-251.hsd1.pa.comcast.net) H 0 (Paul P Franz)
+2017-02-09 20:00:00	--	[#macnn] steevak (steevak@104.131.237.161) H 0 (Steve Barnett)
+2017-02-09 20:00:00	--	[#macnn] Eviltwin [Eviltwin] (eviltwin@Eviltwin.hashmark) H@x 0 (Eviltwin)
+2017-02-09 20:00:00	--	[#macnn] yodog [services] (pzich@pz.ai) G@ 0 (Peter Zich)
+2017-02-09 20:00:00	--	[#macnn] ChanServ (ChanServ@services.hashmark) H*@ 2 (Channel Services)
+2017-02-09 20:00:00	--	[#macnn] gzl [gzl] (gzl@104.131.237.161) H@ 1 (gzl)
+2017-02-09 20:00:00	--	[#macnn] LoganCale [LoganCale] (LoganCale@LoganCale.hashmark) H@x 1 (Logan Cale)
+2017-02-09 20:00:00	--	[#macnn] hawken (hawken@198.199.115.41) H 1 (hawken)
+2017-02-09 20:00:00	--	[#macnn] lasvegasgamer (MULE@162.243.240.66) H 1 (Mobile Utility Lunar Excavator)
+2017-02-09 20:00:00	--	[#macnn] End of /WHO list.
+2017-02-09 20:00:02	--	[#macnn] FairyFae (FaeRocker@24-107-210-237.dhcp.stls.mo.charter.com) H 1 (That Damned Fairy)
+2017-02-09 20:00:02	--	[#macnn] Lordx_ (rex@tobsteri.us) H 0 (Banner")
+2017-02-09 20:00:02	--	[#macnn] DasFamiliar (DF@cpe-74-130-82-232.kya.res.rr.com) H 0 (DF)
+2017-02-09 20:00:02	--	[#macnn] SherwoodSpirit (OutlawOak@24-107-210-237.dhcp.stls.mo.charter.com) H 1 (Arboreal Entity)
+2017-02-09 20:00:02	--	[#macnn] PaulFranz (pfranz@c-174-60-59-251.hsd1.pa.comcast.net) H 0 (Paul P Franz)
+2017-02-09 20:00:02	--	[#macnn] steevak (steevak@104.131.237.161) H 0 (Steve Barnett)
+2017-02-09 20:00:02	--	[#macnn] Eviltwin [Eviltwin] (eviltwin@Eviltwin.hashmark) H@x 0 (Eviltwin)
+2017-02-09 20:00:02	--	[#macnn] yodog [services] (pzich@pz.ai) G@ 0 (Peter Zich)
+2017-02-09 20:00:02	--	[#macnn] ChanServ (ChanServ@services.hashmark) H*@ 2 (Channel Services)
+2017-02-09 20:00:02	--	[#macnn] gzl [gzl] (gzl@104.131.237.161) H@ 1 (gzl)
+2017-02-09 20:00:02	--	[#macnn] LoganCale [LoganCale] (LoganCale@LoganCale.hashmark) H@x 1 (Logan Cale)
+2017-02-09 20:00:02	--	[#macnn] hawken (hawken@198.199.115.41) H 1 (hawken)
+2017-02-09 20:00:02	--	[#macnn] lasvegasgamer (MULE@162.243.240.66) H 1 (Mobile Utility Lunar Excavator)
+2017-02-09 20:00:02	--	[#macnn] End of /WHO list.
+2017-02-09 20:04:08	--	irc: connecting to server tobsteri.us/65534 (SSL)...
+2017-02-09 20:04:08	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-02-09 20:04:08	--	gnutls: receiving 1 certificate
+2017-02-09 20:04:08	--	 - certificate[1] info:
+2017-02-09 20:04:08	--	   - subject `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', issuer `EMAIL=toby@host.unknown,CN=host.unknown,OU=toby', serial 0x0fdc, RSA key 2048 bits, signed using RSA-SHA256, activated `2017-02-05 03:20:20 UTC', expires `2027-02-03 03:20:20 UTC', key-ID `sha256:f4e6e7356bd7d01f6cf7da2584b7850a078d62a788ea17adcc87f05aa4d5df25'
+2017-02-09 20:04:08	=!=	gnutls: the hostname in the certificate does NOT match "tobsteri.us"
+2017-02-09 20:04:08	=!=	gnutls: peer's certificate is NOT trusted
+2017-02-09 20:04:08	=!=	gnutls: peer's certificate issuer is unknown
+2017-02-09 20:04:08	--	irc: connected to tobsteri.us/65534 (104.236.24.100)
+2017-02-09 20:04:08	--	irc: client capability, server supports: userhost-in-names multi-prefix znc.in/server-time-iso znc.in/batch znc.in/self-message
+2017-02-09 20:04:08	--	irc: client capability, requesting: multi-prefix znc.in/self-message
+2017-02-09 20:04:08	--	irc: client capability, enabled: multi-prefix znc.in/self-message
+2017-02-09 20:04:08	--	Welcome to the hashmark IRC Network, Lordx_
+2017-02-09 20:04:08	--	Your host is irc.hashmark.net, running version u2.10.11.06.GS(32)
+2017-02-09 20:04:08	--	This server was created Mon Jul 6 2009 at 17:29:58 CDT
+2017-02-09 20:04:08	--	irc.hashmark.net u2.10.11.06.GS(32) dioswkgxnI biklmnopstvrczCD bklov
+2017-02-09 20:04:08	--	ANNOUNCE WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE SILENCE=15 MODES=6 MAXCHANNELS=10 MAXBANS=45 NICKLEN=30 MAXNICKLEN=30 :are supported by this server
+2017-02-09 20:04:08	--	TOPICLEN=300 AWAYLEN=200 KICKLEN=300 CHANTYPES=#& PREFIX=(ov)@+ CHANMODES=b,k,l,imnpstrDcC CASEMAPPING=rfc1459 NETWORK=hashmark :are supported by this server
+2017-02-09 20:04:08	--	There are 1 users and 49 invisible on 3 servers
+2017-02-09 20:04:08	--	5 :operator(s) online
+2017-02-09 20:04:08	--	33 :channels formed
+2017-02-09 20:04:08	--	I have 19 clients and 1 servers
+2017-02-09 20:04:08	--	MOTD File is missing
+2017-02-09 20:04:08	--	User mode [+iwx] by Lordx_
